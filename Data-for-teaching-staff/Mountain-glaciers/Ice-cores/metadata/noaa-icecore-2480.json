@@ -1,0 +1,253 @@
+{
+  "xmlId" : "1279",
+  "NOAAStudyId" : "2480",
+  "studyName" : "Dunde Ice Cap, Guliya Ice Cap, Dasuopu Glacier - Decadally Averaged Oxygen Isotope Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Thompson, L.G.; Mosley-Thompson, E.; Davis, M.D.; Lin, P-N.; Henderson, K.A.; Mashiotta, T.A.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/2480",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-2480.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-2480.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2003-07-01",
+  "entryId" : "noaa-icecore-2480",
+  "earliestYearBP" : 950,
+  "mostRecentYearBP" : -47,
+  "earliestYearCE" : 1000,
+  "mostRecentYearCE" : 1997,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2003,
+    "title" : "Tropical glacier and ice core evidence of climate change on annual to millennial time scales",
+    "journal" : "Climatic Change",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Thompson, L.G., E. Mosley-Thompson, M.E. Davis, P.-N. Lin, K. Henderson, and T.A. Mashiotta. 2003. Tropical glacier and ice core evidence of climate change on annual to millennial time scales. Climatic Change 59:137-155.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "20007",
+    "siteName" : "Dunde Ice Cap",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "38.1", "96.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "38.1",
+        "northernmostLatitude" : "38.1",
+        "westernmostLongitude" : "96.4",
+        "easternmostLongitude" : "96.4",
+        "minElevationMeters" : "5325",
+        "maxElevationMeters" : "5325"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Dunde Ice Cap Core 1",
+      "NOAADataTableId" : "2635",
+      "earliestYear" : 1000,
+      "mostRecentYear" : 1987,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 950,
+      "mostRecentYearBP" : -37,
+      "earliestYearCE" : 1000,
+      "mostRecentYearCE" : 1987,
+      "coreLengthMeters" : 139,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dunde/dunde-d18o.txt",
+        "urlDescription" : "Data",
+        "linkText" : "dunde-d18o.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "20008",
+    "siteName" : "Guliya Ice Cap",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "35.28", "81.48" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "35.28",
+        "northernmostLatitude" : "35.28",
+        "westernmostLongitude" : "81.48",
+        "easternmostLongitude" : "81.48",
+        "minElevationMeters" : "6200",
+        "maxElevationMeters" : "6200"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Guliya Ice Cap Core 1",
+      "NOAADataTableId" : "2636",
+      "earliestYear" : 1000,
+      "mostRecentYear" : 1990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 950,
+      "mostRecentYearBP" : -40,
+      "earliestYearCE" : 1000,
+      "mostRecentYearCE" : 1990,
+      "coreLengthMeters" : 308,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya-d18o.txt",
+        "urlDescription" : "Data",
+        "linkText" : "guliya-d18o.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "20009",
+    "siteName" : "Dasuopu Glacier",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "28.38", "85.72" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "28.38",
+        "northernmostLatitude" : "28.38",
+        "westernmostLongitude" : "85.72",
+        "easternmostLongitude" : "85.72",
+        "minElevationMeters" : "7200",
+        "maxElevationMeters" : "7200"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Dasuopu Glacier Core 1",
+      "NOAADataTableId" : "2637",
+      "earliestYear" : 1000,
+      "mostRecentYear" : 1997,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 950,
+      "mostRecentYearBP" : -47,
+      "earliestYearCE" : 1000,
+      "mostRecentYearCE" : 1997,
+      "coreLengthMeters" : 167,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu-d18o.txt",
+        "urlDescription" : "Data",
+        "linkText" : "dasuopu-d18o.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

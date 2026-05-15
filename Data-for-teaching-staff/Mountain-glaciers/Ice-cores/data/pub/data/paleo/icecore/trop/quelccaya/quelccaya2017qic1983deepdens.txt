@@ -1,0 +1,156 @@
+# Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22251 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983deepdens.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: oxygen isotopes, geochemistry, physical properties 
+#--------------------
+# Contribution_Date
+#	Date: 2017-09-07
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2017-09-07
+#--------------------
+# Title
+#	Study_Name: Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#--------------------
+# Investigators
+#	Investigators: Thompson, L.G.; Davis, M.E.; Mosley-Thompson, E.; Beaudon, E.; Porter, S.E.; Kutuzov, S.; Lin, P.-N.; Mikhalenko, V.N.; Mountain, K.R.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Ice core and snow pit oxygen isotope (d18O) data, at sub-annual resolution for recent decades, from two ice core locations in tropical Peru 
+#	(Quelccaya and Huascarán), plus ice density and geochemical measurements made on some samples. 
+#	Individual data sets are as follows: 
+#	
+#	Figure 2 data:
+#	Individual d18O sample values for Quelccaya (QIC) summit dome cores drilled in 1976, 1979, 1983, 1991, 2003, 2016, plotted by depth to 16 meter maximum
+#	Individual d18O sample values for Huascarán (HS) col cores drilled in 1991, 1993, 2016, plotted by depth to 16 meter maximum
+#	
+#	Figure 3 data:
+#	Individual d18O sample values from the 2003 QIC Summit deep core (top ~60 meters)
+#	Individual d18O sample values from the 1983 QIC Summit deep core (4.46 to 60 meters)
+#	Individual d18O sample values from 1983 QIC Summit pit (0 to 2.5 meters) and shallow core (2.6 to 4.5 meters) drilled at bottom of pit
+#	Discrete density values from the 1983 QIC Summit cores (0-32 meters)
+#	Discrete density values from the 2003 QIC Summit core (0-~40 meters)
+#	QIC 2003 d18O time series (thermal years) from 1900 to 2003
+#	QIC 1983 d18O time series (thermal years) from 1900 to 1984 (includes the 1984 pit)
+#	
+#	Figure 4 QIC data:
+#	Individual sample d18O values for each TY1 in the QIC summit between 1973/74 and 2015/16
+#	TY1 annual d18O, layer thicknesses, densities, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O for pits, cores and averages of multiple data sets where applicable
+#	
+#	Figure 4 HS data
+#	Individual sample d18O values for each TY in HS col from 1973/74 to 1992/93 (from the 1993 deep core) and 2012/13 to 2015/2016 (from the 2016 shallow core)
+#	TY annual averages of d18O, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O
+#	
+#	Figure S1 data
+#	Individual d18O values from pit and core samples from the summit of the QIC between TY1973/74 to TY2015/16, plotted by depth to a maximum of 16 meters
+#	
+#	Figure S2 data
+#	2016 QIC summit dome core and Huascarán col shallow core data
+#	Individual d18O sample values, and insoluble dust and nitrate concentrations (3-sample running means)
+#	
+#	Figure S4 data
+#	Density  (kg/m3) of each 2016 QIC summit dome pit sample 
+#	
+#--------------------
+# Publication 
+#	Authors: Thompson, L.G. M.E, Davis, E. Mosley-Thompson, E. Beaudon, S.E. Porter, S. Kutuzov, P-N. Lin, V.N. Mikhalenko, K.R. Mountain
+#	Published_Date_or_Year: 2017 in press 
+#	Published_Title: Impacts of recent warming and the 2015/16 El Nino on tropical Peruvian ice fields
+#	Journal_Name: Journal of Geophysical Research Atmospheres
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 
+#	Online_Resource: 
+#	Full_Citation: 
+#	Abstract: 
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: 
+#	Grant: 
+#------------------
+# Site_Information 
+#       Site_Name: Quelccaya 
+#       Location: South America>Peru
+#	Country: Peru
+#	Northernmost_Latitude: -13.93
+# 	Southernmost_Latitude: -13.93
+# 	Easternmost_Longitude: -70.83
+# 	Westernmost_Longitude: -70.83
+# 	Elevation: 5670 m 
+#------------------
+# Data_Collection   
+#	Collection_Name: QIC1983deepDens
+#	Earliest_Year: 1905
+#	Most_Recent_Year: 2013
+#	Time_Unit: AD
+#	Core_Length: 
+#	Notes: Upper two measurements from pit (0.0 and 2.0m depths)
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## depth_m	depth, , , m, , , , ,N,
+## dens	density, ice, , kg m-3, ,ice core, , ,N, 
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values: NA
+#
+depth_m	dens
+0.00	538
+2.00	563
+4.73	593
+7.00	652
+8.92	668
+10.81	681
+13.12	703
+14.62	717
+15.90	710
+17.81	785
+19.17	806
+20.25	766
+21.86	898
+24.23	872
+25.15	865
+26.05	858
+26.74	859
+28.34	904
+28.78	920
+29.30	920
+31.04	920
+32.00	920

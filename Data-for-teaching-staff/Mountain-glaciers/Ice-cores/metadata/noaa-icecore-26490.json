@@ -1,0 +1,156 @@
+{
+  "xmlId" : "65554",
+  "NOAAStudyId" : "26490",
+  "studyName" : "Illimani, Bolivia Holocene Ice Core Black Carbon Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Osmont, D.; Sigl, M.; Eichler, A.; Jenk, T.M.; Schwikowski, M.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "Swiss National Science Foundation",
+    "fundingGrant" : "Sinergia 154450"
+  } ],
+  "studyNotes" : "Refractory black carbon (rBC) record obtained from the Illimani 1999 ice core spanning 11000 BCE-1999 CE. Dating uncertainties are +/- 5 years for the time period 1800-1999 CE (+/- 2 year in the vicinity of reference horizons), +/- 20 years for the time period 1250-1800 CE and +/- 110 years at the youngest 14C age (1060-1280 BP).",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/26490",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-26490.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-26490.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2019-03-28",
+  "entryId" : "noaa-icecore-26490",
+  "earliestYearBP" : 13000,
+  "mostRecentYearBP" : -49,
+  "earliestYearCE" : -11050,
+  "mostRecentYearCE" : 1999,
+  "publication" : [ {
+    "author" : {
+      "name" : "Dimitri Osmont, Michael Sigl, Anja Eichler, Theo M. Jenk, Margit Schwikowski"
+    },
+    "pubYear" : 2019,
+    "title" : "A Holocene black carbon ice-core record of biomass burning in the Amazon Basin from Illimani, Bolivia",
+    "journal" : "Climate of the Past",
+    "volume" : "15",
+    "edition" : null,
+    "issue" : null,
+    "pages" : " 579-592",
+    "reportNumber" : null,
+    "citation" : "Dimitri Osmont, Michael Sigl, Anja Eichler, Theo M. Jenk, Margit Schwikowski. 2019. A Holocene black carbon ice-core record of biomass burning in the Amazon Basin from Illimani, Bolivia. Climate of the Past, 15,  579-592. doi: 10.5194/cp-15-579-2019",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.5194/cp-15-579-2019",
+      "url" : "http://dx.doi.org/10.5194/cp-15-579-2019"
+    },
+    "abstract" : "The Amazon Basin is one of the major contributors to global biomass burning emissions. However, regional paleofire trends remain particularly unknown. Due to their proximity to the Amazon Basin, Andean ice cores are suitable to reconstruct paleofire trends in South America and improve our understanding of the complex linkages between fires, climate and humans. Here we present the first refractory black carbon (rBC) ice-core record from the Andes as a proxy for biomass burning emissions in the Amazon Basin, derived from an ice core drilled at 6300 m.a.s.l. from the Illimani glacier in the Bolivian Andes and spanning the entire Holocene back to the last deglaciation 13 000 years ago. The Illimani rBC record displays a strong seasonality with low values during the wet season and high values during the dry season due to the combination of enhanced biomass burning emissions in the Amazon Basin and less precipitation at the Illimani site. Significant positive (negative) correlations were found with reanalyzed temperature (precipitation) data for regions in eastern Bolivia and western Brazil characterized by substantial fire activity. rBC long-term trends indirectly reflect regional climatic variations through changing biomass burning emissions as they show higher (lower) concentrations during warm-dry (cold-wet) periods, in line with climate variations such as the Younger Dryas, the 8.2 ka event, the Holocene Climatic Optimum, the Medieval Warm Period and the Little Ice Age. The highest rBC concentrations of the entire record occurred during the Holocene Climatic Optimum between 7000 and 3000 BCE, suggesting that this exceptionally warm and dry period caused high levels of biomass burning activity, unprecedented in the context of the past 13 000 years. Recent rBC levels, rising since 1730 CE in the context of increasing temperatures and deforestation, are similar to those of the Medieval Warm Period. No decrease in fire activity was observed in the 20th century, in contradiction to global biomass burning reconstructions based on charcoal data.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "56472",
+    "siteName" : "Illimani",
+    "mappable" : "Y",
+    "locationName" : "Continent>South America>Bolivia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-16.6167", "-67.7667" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-16.6167",
+        "northernmostLatitude" : "-16.6167",
+        "westernmostLongitude" : "-67.7667",
+        "easternmostLongitude" : "-67.7667",
+        "minElevationMeters" : "6300",
+        "maxElevationMeters" : "6300"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Illimani1999rBC",
+      "NOAADataTableId" : "38873",
+      "earliestYear" : -11050,
+      "mostRecentYear" : 1999,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 13000,
+      "mostRecentYearBP" : -49,
+      "earliestYearCE" : -11050,
+      "mostRecentYearCE" : 1999,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2019rbc.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Illimani Holocene Ice Core Black Carbon Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth>depth at sample end",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Depth at sample end",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth>depth at sample end",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Depth at sample end (meter water equivalent)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Ice age at sample end (year Common Era)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "biological material>bulk biological material>black carbon",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mass fraction unit>nanogram per gram",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Single Particle Soot Photometer",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry" ]
+      } ]
+    } ]
+  } ]
+}

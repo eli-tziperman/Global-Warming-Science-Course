@@ -1,0 +1,171 @@
+# Papua, Indonesia 50 Year Ice Core Isotope and Chemistry Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/24351
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019d1-3h.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Core
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: oxygen isotopes, hydrogen isotopes, chemistry
+#--------------------
+# Contribution_Date
+#	Date: 2019-12-09
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2019-12-09
+#--------------------
+# Title
+#	Study_Name: Papua, Indonesia 50 Year Ice Core Isotope and Chemistry Data
+#--------------------
+# Investigators
+#	Investigators: Permana, D.S.; Thompson, L.G.; Mosley-Thompson, E.; Davis, M.E.; Lin, P.-N.; Nicolas, J.P.; Bolzan, J.F.; Bird, B.W.; Mikhalenko, V.N.; Gabrielli, P.; Zagorodnov, V.; Mountain, K.R.; Schotterer, U.; Hanggoro, W.; Habibie, M.N.; Kaize, Y.; Gunawan, D.; Setyadi, G.; Susanto, R.D.; Fernández, A.; Mark, B.G.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Papua, Indonesia ice core isotope (d18O, dD, tritium) and chemistry (chloride, potassium) data for the past 50 years, plus calculated Nino3 SST. 
+#	Data from 3 ice cores drilled in 2010 by the Ohio State University's Byrd Polar and Climate Reseach Center's Ice Core Paleoclimate Research Group.
+#
+#--------------------
+# Publication 
+#	Authors: Donaldi S. Permana, Lonnie G. Thompson, Ellen Mosley-Thompson, Mary E. Davis, Ping-Nan Lin, Julien P. Nicolas, John F. Bolzan, Broxton W. Bird, Vladimir N. Mikhalenko, Paolo Gabrielli, Victor Zagorodnov, Keith R. Mountain, Ulrich Schotterer, Wido Hanggoro, Muhammad N. Habibie, Yohanes Kaize, Dodo Gunawan, Gesang Setyadi, Raden D. Susanto, Alfonso Fernández, Bryan G. Mark
+#	Published_Date_or_Year: 2019-12-09     
+#	Published_Title: Disappearance of the last tropical glaciers in the Western Pacific Warm Pool (Papua, Indonesia) appears imminent
+#	Journal_Name: Proceedings of the National Academy of Sciences
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 0.1073/pnas.1822037116 
+#	Online_Resource: https://www.pnas.org/content/early/2019/12/03/1822037116
+#	Full_Citation: 
+#	Abstract: The glaciers near Puncak Jaya in Papua, Indonesia, the highest peak between the Himalayas and the Andes, are the last remaining tropical glaciers in the West Pacific Warm Pool (WPWP). Here, we report the recent, rapid retreat of the glaciers near Puncak Jaya by quantifying the loss of ice coverage and reduction of ice thickness over the last 8 y. Photographs and measurements of a 30-m accumulation stake anchored to bedrock on the summit of one of these glaciers document a rapid pace in the loss of ice cover and a ~5.4-fold increase in the thinning rate, which was augmented by the strong 2015-2016 El Nino. At the current rate of ice loss, these glaciers will likely disappear within the next decade. To further understand the mechanisms driving the observed retreat of these glaciers, 2 ~32-m-long ice cores to bedrock recovered in mid-2010 are used to reconstruct the tropical Pacific climate variability over approximately the past half-century on a quasi-interannual timescale. The ice core oxygen isotopic ratios show a significant positive linear trend since 1964 CE (0.018 ± 0.008 permil per year; P < 0.03) and also suggest that the glaciers' retreat is augmented by El Nino-Southern Oscillation processes, such as convection and warming of the atmosphere and sea surface. These Papua glaciers provide the only tropical records of ice core-derived climate variability for the WPWP.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: ATM-0823586
+#------------------
+# Site_Information 
+#	Site_Name: Puncak Jaya
+#	Location: Ocean>Indian Ocean>Indonesia
+#	Country: Indonesia
+#	Northernmost_Latitude: -4.083 
+# 	Southernmost_Latitude: -4.083 
+# 	Easternmost_Longitude: 137.167
+# 	Westernmost_Longitude: 137.167
+# 	Elevation: 4884
+#------------------
+# Data_Collection   
+#	Collection_Name: Papua2019D1-3H
+#	Earliest_Year: 1964
+#	Most_Recent_Year: 2010
+#	Time_Unit: Year CE
+#	Core_Length: 31.87
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## depth_m	depth, , , meter, , ice core, , ,N,
+## Tritium	3H, ice, , Tritium Unit, ,ice core,,,N, 
+## TritiumErr	3H, ice, , Tritium Unit, ,ice core,,,N, Tritium Error
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+depth_m	Tritium	TritiumErr
+0.500	1.57	0.41
+0.990	1.12	0.45
+1.470	0.86	0.44
+1.940	0.86	0.44
+2.430	1.21	0.43
+2.910	1.21	0.43
+3.390	1.10	0.51
+3.870	1.24	0.43
+4.380	1.10	0.48
+4.880	0.86	0.44
+5.370	1.41	0.48
+5.860	1.10	0.45
+6.310	0.76	0.48
+6.760	0.71	0.44
+7.210	0.85	0.45
+7.660	1.31	0.42
+8.150	0.86	0.50
+8.630	0.99	0.44
+9.130	1.61	0.49
+9.620	0.77	0.45
+10.040	1.09	0.50
+10.450	0.95	0.45
+10.900	1.07	0.47
+11.340	0.89	0.45
+11.780	1.07	0.55
+12.220	1.23	0.46
+12.670	1.11	0.64
+13.110	0.96	0.45
+13.590	1.20	0.54
+14.060	1.42	0.48
+14.510	1.26	0.45
+14.960	1.18	0.35
+15.460	0.81	0.51
+15.960	1.29	0.39
+16.380	1.32	0.45
+16.790	1.54	0.32
+17.300	1.38	0.45
+17.810	0.72	0.33
+18.310	1.30	0.44
+18.810	0.67	0.34
+19.310	0.85	0.47
+19.800	0.53	0.35
+20.280	0.95	0.42
+20.750	1.19	0.42
+21.250	0.93	0.54
+21.740	1.72	0.36
+22.230	1.48	0.35
+22.710	2.44	0.40
+23.210	2.28	0.42
+23.570	2.98	0.42
+23.700	2.19	0.43
+24.200	2.46	0.44
+24.700	2.40	0.42
+25.210	1.46	0.42
+25.720	1.99	0.52
+26.150	0.55	0.47
+26.570	0.62	0.32
+27.090	-0.22	0.47
+27.600	0.31	0.32
+28.060	-0.03	0.44
+28.510	0.25	0.33
+29.020	-0.23	0.44
+29.520	0.30	0.33
+29.950	0.24	0.44
+30.370	0.39	0.34
+30.840	-0.28	0.40
+31.300	-0.08	0.32
+31.870	-0.07	0.33

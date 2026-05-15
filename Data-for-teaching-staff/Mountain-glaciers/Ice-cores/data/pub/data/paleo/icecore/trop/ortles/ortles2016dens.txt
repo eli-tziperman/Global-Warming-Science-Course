@@ -1,0 +1,461 @@
+﻿# Alto dell'Ortles Glacier Ice Core Age Models
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 2.0
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/20367 
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016dens.txt
+#
+# Original_Source_URL: 
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#
+# Parameter_Keywords: age control 
+#--------------------
+# Contribution_Date
+#	Date: 2016-11-17
+#--------------------
+# Title
+#	Study_Name: Alto dell'Ortles Glacier Ice Core Age Models
+#--------------------
+# Investigators
+# 	Investigators: Gabrielli, P. 
+#--------------------
+# Description_and_Notes
+#	Description: Age Models and supporting information for the Alto dell'Ortles ice cores in the Tyrolean Alps, Italy. 
+#
+#--------------------
+# Publication 
+#	Authors: Paolo Gabrielli, Carlo Barbante, Giuliano Bertagna, Michele Bertó, Daniel Binder, Alberto Carton, Luca Carturan, Federico Cazorzi, Giulio Cozzi, Giancarlo Dalla Fontana, Mary Davis, Fabrizio De Blasi, Roberto Dinale, Gianfranco Dragà, Giuliano Dreossi, Daniela Festi, Massimo Frezzotti, Jacopo Gabrieli, Stephan P. Galos, Patrick Ginot, Petra Heidenwolf, Theo M. Jenk, Natalie Kehrwald, Donald Kenny, Olivier Magand, Volkmar Mair, Vladimir Mikhalenko, Ping Nan Lin, Klaus Oeggl, Gianni Piffer, Mirko Rinaldi, Ulrich Schotterer, Margit Schwikowski, Roberto Seppi, Andrea Spolaor, Barbara Stenni, David Tonidandel, Chiara Uglietti, Victor Zagorodnov, Thomas Zanoner, and Piero Zennaro 
+#	Published_Date_or_Year: 2016-11-17
+#	Published_Title: Age of the Mt. Ortles ice cores, the Tyrolean Iceman and glaciation of the highest summit of South Tyrol since the Northern Hemisphere Climatic Optimum 
+#	Journal_Name: The Cryosphere 
+#	Volume: 10
+#	Edition: 
+#	Issue: 6
+#	Pages: 2779-2797
+#	Report_Number: 
+#	DOI: 10.5194/tc-10-2779-2016
+#	Online_Resource: http://www.the-cryosphere.net/10/2779/2016/
+#	Full_Citation:  
+#	Abstract: In 2011 four ice cores were extracted from the summit of Alto dell'Ortles (3859 m), the highest glacier of South Tyrol in the Italian Alps. This drilling site is located only 37 km southwest from where the Tyrolean Iceman, ~5.3 kyrs old, was discovered emerging from the ablating ice field of Tisenjoch (3210 m, near the Italian-Austrian border) in 1991. The excellent preservation of this mummy suggested that the Tyrolean Iceman was continuously embedded in prehistoric ice and that additional ancient ice was likely preserved elsewhere in South Tyrol. Dating of the ice cores from Alto dell'Ortles based on 210Pb, tritium, beta activity and 14C determinations, combined with an empirical model (COPRA), provides evidence for a chronologically ordered ice stratigraphy from the modern glacier surface down to the bottom ice layers with an age of ~7 kyrs, which confirms the hypothesis. Our results indicate that the drilling site has continuously been glaciated on frozen bedrock since ~7 kyrs BP. Absence of older ice on the highest glacier of South Tyrol is consistent with the removal of basal ice from bedrock during the Northern Hemisphere Climatic Optimum (6-9 kyrs BP), the warmest interval in the European Alps during the Holocene. Borehole inclinometric measurements of the current glacier flow combined with surface ground penetration radar (GPR) measurements indicate that, due to the sustained atmospheric warming since the 1980s, an acceleration of the glacier Alto dell'Ortles flow has just recently begun. Given the stratigraphic-chronological continuity of the Mt. Ortles cores over millennia, it can be argued that this behaviour has been unprecedented at this location since the Northern Hemisphere Climatic Optimum.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: 1060115, 1461422
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Ripartizione Protezione antincendi e civile of the autonomous province of Bolzano
+#	Grant: 
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Ripartizione Opere idrauliche e Ripartizione Foreste of the autonomous province of Bolzano and the Stelvio National Park
+#	Grant: 
+#------------------
+# Site_Information 
+#	Site_Name: Alto dell'Ortles
+#	Location: Europe>Southern Europe>Italy
+#	Country: Italy
+#	Northernmost_Latitude: 46.5089
+#	Southernmost_Latitude: 46.5089
+#	Easternmost_Longitude: 10.545
+#	Westernmost_Longitude: 10.545
+#	Elevation: 3859 m  
+#------------------
+# Data_Collection   
+#	Collection_Name: Ortles2016Dens
+#	Earliest_Year: 16895
+#	Most_Recent_Year: 0
+#	Time_Unit: Cal. Year BP
+#	Core_Length: m
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	 	
+# Tie Points:
+# Ortles core #1	Ortles core #2
+# Depth (m)	Depth (m)
+# 0.40	0.80
+# 2.74	3.13
+# 6.73	7.24
+# 11.89	12.61
+# 14.55	15.37
+# 25.70	25.17
+# 30.77	31.45
+# 37.90	38.70
+# 46.94	47.53
+# 51.02	51.92
+# 53.42	54.24
+# 55.23	55.98
+# 58.36	59.12
+# 64.26	64.32
+# 67.78	67.42
+# 72.03	71.70
+# 73.53	73.53
+# 	
+# Ortles core #3	Ortles Core #2
+# Depth (m)	Depth (m)
+# 0.80	0.80
+# 3.13	3.13
+# 7.08	7.26
+# 9.72	10.71
+# 11.68	12.60
+# 14.15	15.40
+# 17.80	19.21
+# 25.84	25.16
+# 35.63	35.95
+# 42.20	41.14
+# 52.79	53.87
+# 57.80	58.80
+# 63.59	64.32
+# 74.83	74.87
+#
+#----------------
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  Variables list, one per line, shortname-tab-longname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data) 
+#
+## core	Ortles core number, , , , , , , ,C
+## depth_m	depth, , , m, , , , ,N
+## dens	density, , , kg/m3, , , , ,N
+## denscorr	density ice-corrected, , , kg/m3, , , , ,N
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+# Figure 7d Density Ortles Cores 1,2,3
+#
+core	depth_m	dens	denscorr
+Core1	0.720	462	462
+Core1	1.400	489	489
+Core1	2.090	463	463
+Core1	2.765	497	497
+Core1	3.455	521	521
+Core1	4.175	498	498
+Core1	4.855	499	499
+Core1	5.570	581	581
+Core1	6.275	563	563
+Core1	6.995	526	526
+Core1	7.700	539	539
+Core1	8.405	590	590
+Core1	9.105	572	572
+Core1	9.820	633	633
+Core1	10.525	661	661
+Core1	11.240	718	718
+Core1	11.940	771	771
+Core1	12.670	693	693
+Core1	13.385	669	669
+Core1	14.085	772	772
+Core1	14.785	673	673
+Core1	15.525	711	711
+Core1	16.235	639	639
+Core1	16.940	656	656
+Core1	17.650	725	725
+Core1	18.360	727	727
+Core1	19.060	701	701
+Core1	19.765	758	758
+Core1	20.485	730	730
+Core1	21.185	731	731
+Core1	21.900	766	766
+Core1	22.605	793	793
+Core1	23.320	785	785
+Core1	24.035	823	823
+Core1	24.715	853	853
+Core1	25.425	812	812
+Core1	26.135	854	854
+Core1	26.845	823	823
+Core1	27.535	870	870
+Core1	28.235	860	860
+Core1	28.945	844	844
+Core1	29.645	853	853
+Core1	30.345	873	873
+Core1	31.020	871	871
+Core1	31.750	873	873
+Core1	32.450	855	855
+Core1	33.155	889	889
+Core1	33.860	869	869
+Core1	34.560	870	917
+Core1	35.235	875	917
+Core1	35.950	882	917
+Core1	36.670	873	917
+Core1	37.375	876	917
+Core1	38.090	874	917
+Core1	38.795	887	917
+Core1	39.520	901	917
+Core1	40.240	874	917
+Core1	40.950	867	917
+Core1	41.665	851	917
+Core1	42.380	870	917
+Core1	43.080	888	917
+Core1	43.775	867	917
+Core1	44.500	876	917
+Core1	45.200	910	917
+Core1	45.895	868	917
+Core1	46.585	881	917
+Core1	47.290	903	917
+Core1	48.005	894	917
+Core1	48.715	886	917
+Core1	49.425	898	917
+Core1	50.125	882	917
+Core1	50.735	897	917
+Core1	51.415	885	917
+Core1	52.075	878	917
+Core1	52.780	887	917
+Core1	53.490	887	917
+Core1	54.200	894	917
+Core1	54.910	888	917
+Core1	55.605	868	917
+Core1	56.315	893	917
+Core1	57.020	857	917
+Core1	57.705	880	917
+Core1	58.405	884	917
+Core1	59.110	886	917
+Core1	59.810	888	917
+Core1	60.505	890	917
+Core1	61.205	874	917
+Core1	61.905	885	917
+Core1	62.605	909	917
+Core1	63.310	885	917
+Core1	64.015	893	917
+Core1	64.720	908	917
+Core1	65.425	892	917
+Core1	66.130	880	917
+Core1	66.835	892	917
+Core1	67.540	890	917
+Core1	68.255	894	917
+Core1	68.960	878	917
+Core1	69.660	863	917
+Core1	70.365	887	917
+Core1	71.065	860	917
+Core1	71.770	886	917
+Core1	72.475	915	917
+Core1	73.185	879	917
+Core1	73.530	885	917
+Core2	0.65	404	404
+Core2	1.35	506	506
+Core2	2.05	588	588
+Core2	2.75	621	621
+Core2	3.47	592	592
+Core2	4.16	550	550
+Core2	4.86	528	528
+Core2	5.56	550	550
+Core2	6.22	673	673
+Core2	6.91	581	581
+Core2	7.61	510	510
+Core2	8.31	620	620
+Core2	9.01	612	612
+Core2	9.71	523	523
+Core2	10.39	559	559
+Core2	11.09	705	705
+Core2	11.75	582	582
+Core2	12.45	632	632
+Core2	13.15	670	670
+Core2	13.85	647	647
+Core2	14.55	656	656
+Core2	15.25	654	654
+Core2	15.94	657	657
+Core2	16.64	628	628
+Core2	17.34	641	641
+Core2	18.04	693	693
+Core2	18.74	728	728
+Core2	19.44	730	730
+Core2	20.14	773	773
+Core2	20.85	745	745
+Core2	21.55	708	708
+Core2	22.25	730	730
+Core2	22.95	768	768
+Core2	23.65	809	809
+Core2	24.352	834	834
+Core2	25.052	842	842
+Core2	25.782	827	827
+Core2	26.447	808	808
+Core2	27.189	829	829
+Core2	27.879	830	830
+Core2	28.584	838	838
+Core2	29.289	861	861
+Core2	29.984	825	825
+Core2	30.684	828	828
+Core2	31.386	842	842
+Core2	32.081	820	820
+Core2	32.787	821	821
+Core2	33.52	849	849
+Core2	34.245	876	917
+Core2	34.95	887	917
+Core2	35.651	880	917
+Core2	36.343	855	917
+Core2	37.041	866	917
+Core2	37.741	886	917
+Core2	38.45	849	917
+Core2	39.153	876	917
+Core2	39.873	852	917
+Core2	40.575	872	917
+Core2	41.27	865	917
+Core2	41.92	870	917
+Core2	42.63	878	917
+Core2	43.333	880	917
+Core2	44.038	867	917
+Core2	44.738	900	917
+Core2	45.417	906	917
+Core2	46.117	906	917
+Core2	46.817	863	917
+Core2	47.477	887	917
+Core2	48.18	877	917
+Core2	48.88	862	917
+Core2	49.56	882	917
+Core2	50.27	862	917
+Core2	50.975	868	917
+Core2	51.675	884	917
+Core2	52.365	892	917
+Core2	53.07	892	917
+Core2	53.77	890	917
+Core2	54.475	905	917
+Core2	55.18	885	917
+Core2	55.882	887	917
+Core2	56.582	898	917
+Core2	57.272	896	917
+Core2	57.967	875	917
+Core2	58.672	877	917
+Core2	59.376	858	917
+Core2	60.111	905	917
+Core2	60.811	902	917
+Core2	61.526	794	917
+Core2	62.206	847	917
+Core2	62.746	1005	917
+Core2	63.446	809	917
+Core2	64.161	863	917
+Core2	64.841	874	917
+Core2	65.551	853	917
+Core2	66.261	845	917
+Core2	66.961	841	917
+Core2	67.641	827	917
+Core2	68.326	757	917
+Core2	69.001	898	917
+Core2	69.676	860	917
+Core2	70.386	886	917
+Core2	71.091	873	917
+Core2	71.781	903	917
+Core2	72.446	857	917
+Core2	73.146	789	917
+Core2	73.856	854	917
+Core2	74.566	862	917
+Core2	74.876	787	917
+Core3	0.675	470	470
+Core3	1.375	512	512
+Core3	2.050	520	520
+Core3	2.735	530	530
+Core3	3.430	518	518
+Core3	4.130	601	601
+Core3	4.810	531	531
+Core3	5.530	511	511
+Core3	6.235	564	564
+Core3	6.920	566	566
+Core3	7.615	604	604
+Core3	8.315	648	648
+Core3	9.045	558	558
+Core3	9.750	561	561
+Core3	10.450	744	744
+Core3	11.145	726	726
+Core3	11.840	707	707
+Core3	12.510	656	656
+Core3	13.220	776	776
+Core3	13.885	676	676
+Core3	14.585	792	792
+Core3	15.290	711	711
+Core3	15.995	644	644
+Core3	16.705	675	675
+Core3	17.425	784	784
+Core3	18.115	765	765
+Core3	18.815	706	706
+Core3	19.485	741	741
+Core3	20.185	777	777
+Core3	20.890	765	765
+Core3	21.590	745	745
+Core3	22.290	768	768
+Core3	22.985	788	788
+Core3	23.685	831	831
+Core3	24.385	838	838
+Core3	25.095	838	838
+Core3	25.795	846	846
+Core3	26.495	863	863
+Core3	27.205	861	861
+Core3	27.915	881	881
+Core3	28.615	897	897
+Core3	29.285	897	897
+Core3	29.955	902	902
+Core3	30.665	874	874
+Core3	31.365	865	865
+Core3	32.055	853	853
+Core3	32.745	883	883
+Core3	33.445	883	883
+Core3	34.145	886	917
+Core3	34.855	871	917
+Core3	35.555	856	917
+Core3	36.265	876	917
+Core3	36.965	891	917
+Core3	37.695	901	917
+Core3	38.395	890	917
+Core3	39.085	913	917
+Core3	39.795	891	917
+Core3	40.495	890	917
+Core3	41.195	890	917
+Core3	41.900	888	917
+Core3	42.600	870	917
+Core3	43.295	885	917
+Core3	43.995	877	917
+Core3	44.695	939	917
+Core3	45.405	899	917
+Core3	46.110	901	917
+Core3	46.830	897	917
+Core3	47.545	889	917
+Core3	48.250	890	917
+Core3	48.955	899	917
+Core3	49.655	894	917
+Core3	50.425	901	917
+Core3	51.135	909	917
+Core3	51.840	899	917
+Core3	52.545	909	917
+Core3	53.255	911	917
+Core3	53.955	891	917
+Core3	54.650	890	917
+Core3	55.315	893	917
+Core3	56.015	891	917
+Core3	56.720	894	917
+Core3	57.420	904	917
+Core3	58.130	899	917
+Core3	58.840	924	917
+Core3	59.540	931	917
+Core3	60.250	890	917
+Core3	60.950	896	917
+Core3	61.650	904	917
+Core3	62.370	935	917
+Core3	63.070	917	917
+Core3	63.775	890	917
+Core3	64.510	916	917
+Core3	65.220	934	917
+Core3	65.920	907	917
+Core3	66.620	911	917
+Core3	67.320	936	917
+Core3	68.025	898	917
+Core3	68.730	907	917
+Core3	69.460	885	917
+Core3	70.160	899	917
+Core3	70.865	914	917
+Core3	71.565	913	917
+Core3	72.275	915	917
+Core3	73.015	910	917
+Core3	73.725	901	917
+Core3	74.470	918	917
+Core3	74.830	876	917

@@ -1,0 +1,134 @@
+# Eastern Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data from 1956-1996 CE
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/23231
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_09-PAGESAnt2k-DML_Fimbulisen_S20.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# Title
+#    Study_Name: Eastern Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data from 1956-1996 CE
+#---------------------------------------
+# Investigators
+#      Investigators: Isaksson, Elisabeth;van den Broeke, Michiel R.;Winther, Jan-Gunnar;Karlöf, Lars;Pinglot, Jean Francis;Gundestrup, Niels
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project. Average annual snow accumulation rate for site L89 over the 1965-1996 period was 41 kg/m2/yr.
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors: Isaksson, E., Van den Broeke, M., Winther, J., Karlöf, L., Francis Pinglot, J., and Gundestrup, N.
+# Published_Date_or_Year: 1999
+# Published_Title: Accumulation and proxy-temperature variability in Dronning Maud Land, Antarctica, determined from shallow firn cores
+# Journal_Name: Annals of Glaciology
+# Volume: 29
+# Edition: 
+# Issue: 1
+# Pages: 17-22
+# Report Number: 
+# DOI: 10.3189/172756499781821445
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: During 1996-97 a European Project for Ice Goring in Antarctica (EPIGA) pre-site surveying traverse worked in the area between 70° S, 5° E and 75° S, 15° E in Dronning Maud Land. We present data obtained from 10 and 20 m deep firn cores drilled between the coast and 600 km inland (to 3450 m a.s.l.). The cores were analyzed for electrical conductivity measurements and total β activity to obtain accumulation data between known time horizons. In addition, some of the cores were analyzed for oxygen isotopes. Annual accumulation varies from 271 mm we. at Fimbulisen to 24 mm we at 2840 m a.s.l. Accumulation at core sites 2400-3000 m a.s.l. has increased by 16-48% since 1965 compared to the 1955-65 period. However, the core sites above 3250 m a.s.l. and one core location on the ice shelf show a decrease during the same period. Furthermore, no change can be detected at the most inland site for the period 1815-1996. In all the cores the last few years seem to have been some of the warmest in these records.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: European Science Foundation/European Commission
+#    Grant: ENV4-CT95-0074
+#---------------------------------------
+# Site Information
+# Site_Name: S20 Dronning Maud Land Fimbulisen
+# Location: Antarctica
+# Country: 
+# Northernmost_Latitude: -70.2472
+# Southernmost_Latitude: -70.2472
+# Easternmost_Longitude: 4.8183
+# Westernmost_Longitude: 4.8183
+# Elevation: 63
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: S20 accum Isaksson1999
+#   First_Year: 1956
+#   Last_Year: 1996
+#   Time_Unit: AD
+#   Core_Length: 10
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age,,,years CE,,ice core,,,N,annual counting by dO18, electrical conductivity
+## accum	accumulation rate,snow,,kg/m2/yr,,ice core,,,N,calculated from annual dating from dO18 stratigraphy
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+year	accum
+1996	359.4	
+1995	350	
+1994	328	
+1993	273	
+1992	412	
+1991	105	
+1990	332	
+1989	58	
+1988	158	
+1987	165	
+1986	262	
+1985	202	
+1984	266	
+1983	178	
+1982	125	
+1981	247	
+1980	354	
+1979	310	
+1978	197	
+1977	490	
+1976	349	
+1975	285	
+1974	439	
+1973	158	
+1972	457	
+1971	314	
+1970	298	
+1969	96	
+1968	291	
+1967	110	
+1966	263	
+1965	263	
+1964	147	
+1963	329	
+1962	176	
+1961	264	
+1960	224	
+1959	387	
+1958	435	
+1957	427	
+1956	231	

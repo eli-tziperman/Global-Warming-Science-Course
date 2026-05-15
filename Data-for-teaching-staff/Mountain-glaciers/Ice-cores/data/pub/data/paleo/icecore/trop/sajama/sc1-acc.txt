@@ -1,0 +1,203 @@
+Sajama Ice Core Data: Readme file
+---------------------------------------------------------------------
+              World Data Center for Paleoclimatology, Boulder
+                                and
+                   NOAA Paleoclimatology Program
+---------------------------------------------------------------------
+NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Sajama Ice Core Data
+LAST UPDATE: 1/2001 (Original receipt by WDC Paleo)
+
+CONTRIBUTOR: Lonnie G. Thompson,
+Byrd Polar Research Center of The Ohio State University
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2001-009
+
+SUGGESTED DATA CITATION: Thompson, L.G., 2001,
+Sajama Ice Core Data,
+IGBP PAGES/World Data Center A for Paleoclimatology
+Data Contribution Series #2001-009.
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
+
+ORIGINAL REFERENCE:  Thompson, L.G., M.E.Davis, E.M.Thompson,
+T.A.Sowers, K.A.Henderson, V.S.Zagorodnov, P.N.Lin, V.N. Mikhalenko,
+R.K.Campen, J.F.Bolzan, J.Cole-Dai and B.Francou. 1998.
+A 25,000 year tropical climate history from Bolivian ice cores.
+Science, 282(5295), 1858-1864.
+
+Thompson et al., Science, v. 282, 1998, p. 1858-1864
+
+
+GEOGRAPHIC REGION: South America, Bolivian Altiplano
+
+PERIOD OF RECORD: 25 KYrBP-Present
+
+LIST OF FILES: Readme_Sajama.txt (this file),
+ASCII text data files:
+s1-dates.txt    Core 1 dating scheme
+sc12-5m.txt     5m/3m/.5m averages
+d18oatm.txt     Sowers' d18Oatm data
+sc1-100a.txt    All Core 1 100-yr averages
+sc1-acc.txt     Accumulation reconstruction
+
+
+DESCRIPTION:
+General Information about the Sajama Ice Cores
+
+Site Description and Analysis
+        In June-July 1997, two ice cores to bedrock were recovered from the summit of
+the extinct Sajama volcano, Bolivia (18ø9ølevation 6540 m) and were
+subsequently transported back in a frozen state to the cold room facility at the Byrd Polar
+Research Center (BPRC).  Core 1 (SjC1, 132.4 m) was sectioned in the BPRC laboratory
+into 5063 samples decreasing in thickness from ~15 cm at the top to ~1-2 cm at the base.
+Core 2 (SjC2, 132.8 m), drilled just 3m from the SjC1 site, was sampled more coarsely, only
+803 samples collected from its length.  Borehole temperatures ranged from -11.3 to -9.5ød indicate that the glacier remains frozen to the bed.
+        Each ice sample from SjC1 and SjC2 were prepared in a Class 100 clean room
+environment, and analyzed for major anion concentrations (Cl-, NO3-, and SO42-) on a
+Dionex DX-500 ion chromatograph, d18O on a Finnigan Mat mass spectrometer (Craig,
+Geochim. Cosmochim. Acta, v. 12, 1957, p. 133-149), and for particulate concentration
+and size distribution using a Coulter TA-II particle counter (Thompson, OSU IPS Report
+46, 1973).
+        For display purposes, variable averaging on the core depth scale was utilized to
+show the major large-scale events in the record without the confusion of the large annual
+variations superimposed upon the upper portion.  Hence, for SjC1, 5-m integrated
+averages were calculated for between the surface and 75 meters depth and then 3-m
+averages were generated between 75 and 105 meters, and finally 50-cm averages were
+generated between 105 m and the bottom.  The identical scheme was used for SjC2, and
+all of these data are included in sc12-5m.txt in this data archive, and the graph can be
+seen in Thompson et al., Science, v. 282, 1998, p. 1858-1864 (Fig. 3).  This figure is
+included in this archive as fig3.jpg.
+
+Development of the time/depth relationship
+        As for the Huascará Peru ice cores, the upper section of the Sajama cores
+contain an annually-resolved portion that can be accurately layer-counted.  For
+developing the full-core age-depth scale, 100 years of accumulation was fixed according
+to the annual layer-counting.  Measurements of tritium in SjC1 detected a strong peak at
+~25.2 m depth, and confirmed the counting of 33 layers at 1964 A.D.  The strength of the
+annual oscillations in nitrate, dust, and d18O are shown in Fig. 2 (Thompson et al, 1998)
+for the relevant period.  This figure is archived here as fig2.jpg.
+        The Sajama ice cores contain intact insects, insect fragments, and polylepis bark
+with a sufficient mass for 14C dating.  An abundance of plant material at 130.8 min SjC1
+was split into two samples and independently dated by two AMS facilities (20,400 and
+21,200 14C yrs. BP).  Additional stratigraphic information for the lower portion of the
+Sajama cores was obtained by measuring the 18O/16O ratio of paleoatmospheric O2
+(d18Oatm) trapped in the bubbles.  31 samples between 56 and 130 m depth were measured
+and compared to results for the GISP 2 ice core (Sowers and Bender, Science, v. 269,
+1995, p. 210).  Anomalous results were generally coincident with elevated dAr/N2 values,
+that indicate some post-depositional alteration.  The d18Oatm results are depicted in
+fig4.jpg in this archive, the data included in d18oatm.txt.  In each, the regions of
+anomalous gases are indicated.
+        Additionally, a single ash horizon was identified in SjC1 that yielded one more
+absolute date.  The identification of Huaynaputina 1600 A.D. ash  in SjC1 at 64.85 m,
+was further confirmed by the nearby 14C date of 354 yrs. BP (1596 A.D.) at 67.0 m.  ICP-
+OES analysis of the major elements from the dust layer in SjC1 corresponded very well
+with the simultaneous analysis of the ash collected from the Huaynaputina eruption from
+the Cerro Trapiche archeological site (Thompson et al., 1998).
+        A summary of all age information determined from SjC1 is tabulated in s1-
+dates.txt.  From seven important age markers (tabulated in s1-dates.txt), including the
+layer counts, tritium measurements, d18Oatm measurements, and Huaynatputina, a single
+exponential-polynomial expression was determined for age control over the uppermost
+9.7 kyr BP.  For glacial stage ice, the AnalySeries 1.0a program (D. Palliard et al., EOS,
+v. 77, 1996, p. 379) was used to transfer the depth-based Sajama geochemical records to
+the GISP 2-based time scale. Constant layer-thicknesses were assumed between the 14
+d18Oice matching points, given in s1-dates.txt file in this archive.  Constant layers were
+also assumed between the earliest GISP 2 matchpoint and the final 14C-dated layer, just
+above the bed.  An average of the two corrected dates (24,485 yrs. BP) was used as an
+absolute time marker for this depth (130.8 m).
+        Using the AnalySeries New Sampling feature, 100-year averages of all major ice
+core parameters were generated, archived here in the file sc1-100a.txt.  Fig. 6 in
+Thompson et al., 1998 shows all of these data for the entire 25,000 year length of record,
+and is archived here as fig6.jpg.  The d18O profile is further compared to five other
+important glacial-stage ice core records in Fig. 7, archived as fig7.jpg.  A subset of the
+100-yr. averages in Fig. 6 was shown in the PAGES volume of Quat. Sci. Rev. (v. 19, 2000,
+p. 29) for 20 kyr BP, to compare with a similar figure for Huascará  This is archived
+here as pages14.jpg.
+
+Accumulation reconstruction
+
+       Establishing dated horizons in SjC1 enables us to estimate an accumulation
+history.  The observed depth-age profile suggests that annual layers thin much more
+rapidly in the upper part of the ice cap than predicted by simple laminar flow or by
+numerical modeling of ice divide deformation.  The observed thinning is similar to that
+seen in ice caps at Dunde (Thompson et al., Science, v. 246, 1989, p. 474) and Guliya
+(Thompson et al., Science, v. 276, 1997, p. 1821).  In the absence of the appropriate data
+(the vertical strain rate), we assume that the vertical velocity profile is similar to that
+inferred from the Dunde and Guliya ice cores.  If changes in ice thickness are ignored, the
+average accumulation rate a(ij) between the dated depth horizons zi and zj (where i, and j,
+are any two dated horizons) is given by:
+          Aij = {1/dt(ij)} * (Integral from zi to zj) (1 - z/H)^-p dz
+where H is the ice thickness, z is the ice-equivalent depth, p is a constant, and dt(ij) is the
+number of years between zi and zj.  Reconstructed accumulation values (in terms of standard
+deviation, since absolutes are difficult to estimate) from these relationships are tabulated
+in sc1-acc.txt and are shown in fig6.jpg.
+
+Sajama Core 1 (1997)           3rd order exp
+          Core     Initial Age Model Age   Coeff. for 3rd order
+          Depth, z kyr BP '50  kyr BP '50  exponential age model
+Tritium      25.20   -0.014   -0.014          (kyr BP '97)
+Layer Counts 41.50    0.053    0.050     b[0] =    -2.4116
+Huaynaputina 64.80    0.350    0.360     b[1] =     0.0452
+C-14*        78.30    0.970    0.997     b[2] =  -3.85E-04
+C-14         92.10    3.390    3.292     b[3] =  2.616E-06
+d18Oatm     101.20    9.100    8.359
+
+Model Age = 10^(b[0]+b[1]z+b[2]z^2+b[3]z^3)-.047
+valid to:   102.56    9.726
+
+From here down, dates are treated as "absolute,"
+with linear interpolation used in between
+
+d18Oatm     103.80   10.300
+
+GISP II d18Oice matchpoints
+        1   105.45   11.575
+        2   106.95   11.925
+        3   108.45   12.575
+        4   109.05   12.775
+        5   109.85   13.125
+        6   111.05   14.075
+        7   113.05   14.725
+        8   114.15   15.125
+        9   114.55   15.475
+       10   115.65   16.025
+       11   116.45   16.525
+       12   117.85   17.025
+       13   118.75   17.975
+       14   123.25   21.625
+ 
+C-14*       130.80   24.487
+Bottom      132.35   25.075
+ 
+* used average of two dates
+
+Sajama C1 accumulation  Acc (std dev.)
+Top Age kyrBP Avg of p= 1.5 & 2.0
+   0.000          1.265
+   0.500          0.210
+   1.000         -0.501
+   2.000         -0.680
+   3.000         -0.776
+   4.000         -0.820
+   5.000         -0.850
+   6.000         -0.867
+   7.001         -0.881
+   8.000         -0.891
+   8.999         -0.900
+   9.500         -0.906
+  11.623         -0.768
+  11.972          0.126
+  12.621         -0.301
+  12.820          0.042
+  13.171         -0.149
+  14.123         -0.501
+  14.771          0.671
+  15.175          0.910
+  15.522         -0.175
+  16.070          0.688
+  16.573          0.570
+  17.072          2.497
+  18.019          0.396
+  21.670          2.590
+  24.534
+

@@ -1,0 +1,321 @@
+{
+  "xmlId" : "1291",
+  "NOAAStudyId" : "2435",
+  "studyName" : "Quelccaya Ice Cap - Particle, d18O, and Accumulation Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Thompson, L.G.; Mosley-Thompson, E.; Grootes, P.M.; Pourchet, M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Additional References:\nThompson, L.G., E. Mosley-Thompson and Benjamin Morales Arnao. 1984. Major El Nino/Southern Oscillation events recorded in stratigraphy of the tropical Quelccaya Ice Cap. Science, 226 (4670), 50-52.\n\nThompson, L. G., E. Mosley-Thompson, J. F. Bolzan and B. R. Koci. 1985. A 1500 year record of tropical precipitation recorded in ice cores from the Quelccaya Ice Cap, Peru. Science, 229(4717), 971-973",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/2435",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-2435.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-2435.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES LOTRED SA2k", "PAGES 2k Network" ],
+  "reconstruction" : "N",
+  "contributionDate" : "1993-12-09",
+  "entryId" : "noaa-icecore-2435",
+  "earliestYearBP" : 1480,
+  "mostRecentYearBP" : -34,
+  "earliestYearCE" : 470,
+  "mostRecentYearCE" : 1984,
+  "publication" : [ {
+    "author" : {
+      "name" : "L. G. Thompson, E. Mosley-Thompson, P. M. Grootes, M. Pourchet, S. Hastenrath"
+    },
+    "pubYear" : 1984,
+    "title" : "Tropical glaciers: Potential for ice core paleoclimatic reconstructions",
+    "journal" : "Journal of Geophysical Research: Atmospheres",
+    "volume" : "89",
+    "edition" : null,
+    "issue" : "D3",
+    "pages" : "4638-4646",
+    "reportNumber" : null,
+    "citation" : "L. G. Thompson, E. Mosley-Thompson, P. M. Grootes, M. Pourchet, S. Hastenrath. 1984. Tropical glaciers: Potential for ice core paleoclimatic reconstructions. Journal of Geophysical Research: Atmospheres, 89(D3), 4638-4646. doi: 10.1029/JD089iD03p04638",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/JD089iD03p04638",
+      "url" : "http://dx.doi.org/10.1029/JD089iD03p04638"
+    },
+    "abstract" : "The objective of this work is to evaluate the potential of tropical glaciers and ice caps for the reconstruction of past climatic conditions by the analysis of firn and ice cores. Samples were collected in pits and from cores retrieved on three snow fields in the South American Andes: Quelccaya Ice Cap and Huascarán in Peru and Chimborazo in Ecuador. These are compared with results from west Africa and Indonesia. Measurements include the microparticle concentration, oxygen isotopic abundance ratios, and total beta radioactivity, which in polar regions often exhibit seasonal depositional cycles. Annual variations in these three parameters are fairly well defined on Quelccaya and Huascarán and are apparently absent on Chimborazo. The Quelccaya Ice Cap contains the best preserved annual signal for all three parameters and, although in some instances the annual cycle is difficult to distinguish, the measurement of more than one stratigraphic parameter aids in the interpretation of the firn core records. The relatively flat bottom topography under Quelccaya suggests a simple ice flow regime, and depth-age calculations indicate that an ice core to bedrock should contain a record of 600 to 1300 years. This inference was confirmed by drilling to bedrock in 1983. This investigation of tropical glaciers indicates that the Quelccaya Ice Cap on the eastern edge of the Peruvian Andes has excellent potential to contain a lengthy and interpretable record of climatic conditions within the tropics of South America.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "19993",
+    "siteName" : "Quelccaya Ice Cap",
+    "mappable" : "Y",
+    "locationName" : "Continent>South America>Peru",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-13.93", "-70.83" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-13.93",
+        "northernmostLatitude" : "-13.93",
+        "westernmostLongitude" : "-70.83",
+        "easternmostLongitude" : "-70.83",
+        "minElevationMeters" : "5670",
+        "maxElevationMeters" : "5670"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "QuelccayaCore1",
+      "NOAADataTableId" : "22419",
+      "earliestYear" : 470,
+      "mostRecentYear" : 1984,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 1480,
+      "mostRecentYearBP" : -34,
+      "earliestYearCE" : 470,
+      "mostRecentYearCE" : 1984,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/q83cor1.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Quelccaya Core 1 Particles, d18O, Conductivity, and Accumulation Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : "0.63-0.80 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : ">0.63 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : ">1.59 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "electrical property>electrical conductivity",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "electromagnetic unit>electrical conductivity unit>microsiemens per centimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "rate unit>length per time unit>meter per year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mathematical unit>standard deviation unit",
+          "cvSeasonality" : null,
+          "cvDetail" : "normalized",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>oxygen isotopes", "earth science>paleoclimate>ice core>accumulation" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/q83summ.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Quelccaya Summit Core Particles, d18O, Conductivity, and Accumulation Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : ">0.63 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : ">1.59 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "electrical property>electrical conductivity",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "electromagnetic unit>electrical conductivity unit>microsiemens per centimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mathematical unit>standard deviation unit",
+          "cvSeasonality" : null,
+          "cvDetail" : "normalized",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>particles",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>particle size analysis>electric sensing particle size analysis",
+          "cvAdditionalInfo" : "0.63-0.80 micrometers",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "rate unit>length per time unit>meter per year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>accumulation", "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/readme_quelccaya.txt",
+        "urlDescription" : "More Information",
+        "linkText" : "Quelccaya Data Readme File",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>oxygen isotopes", "earth science>paleoclimate>ice core>accumulation", "earth science>paleoclimate>ice core>mineralogy" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/fieldcon.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Conductivity Data",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>mineralogy" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya1992.xls",
+        "urlDescription" : "Excel Data File",
+        "linkText" : "Quelccaya Particles, d18O, Conductivity, and Accumulation Data",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>accumulation", "earth science>paleoclimate>ice core>oxygen isotopes", "earth science>paleoclimate>ice core>mineralogy" ]
+      } ]
+    } ]
+  } ]
+}

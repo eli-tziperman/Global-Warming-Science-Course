@@ -1,0 +1,296 @@
+{
+  "xmlId" : "23274",
+  "NOAAStudyId" : "25130",
+  "studyName" : "Guliya Ice Cap Ice Thickness Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Kutuzov, S.; Thompson, L.G.; Lavrentiev, I.; Tian, L.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "1502919"
+  }, {
+    "fundingAgency" : "Chinese Academy of Sciences",
+    "fundingGrant" : null
+  } ],
+  "studyNotes" : "Ground-penetrating radar (GPR) ice thickness measurements for two areas (Plateau and Summit) of the Guliya Ice Cap, Tibetan Plateau, China",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/25130",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-25130.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-25130.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2018-11-15",
+  "entryId" : "noaa-icecore-25130",
+  "earliestYearBP" : -65,
+  "mostRecentYearBP" : -65,
+  "earliestYearCE" : 2015,
+  "mostRecentYearCE" : 2015,
+  "publication" : [ {
+    "author" : {
+      "name" : "Stanislav Kutuzov, Lonnie G. Thompson, Ivan Lavrentiev, and Lide Tian"
+    },
+    "pubYear" : 2018,
+    "title" : "Ice thickness measurements of Guliya ice cap, western Kunlun Mountains (Tibetan Plateau), China",
+    "journal" : "Journal of Glaciology",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Stanislav Kutuzov, Lonnie G. Thompson, Ivan Lavrentiev, and Lide Tian. 2018. Ice thickness measurements of Guliya ice cap, western Kunlun Mountains (Tibetan Plateau), China. Journal of Glaciology. . doi: 10.1017/jog.2018.91 ",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1017/jog.2018.91 ",
+      "url" : "http://dx.doi.org/10.1017/jog.2018.91 "
+    },
+    "abstract" : "Despite their high value and importance for various glaciological applications, detailed ice thickness measurements of alpine glaciers are still very limited. Knowledge of bedrock topography is essential for paleoglaciological studies. The Guliya ice cap located on the Tibetan Plateau is one of the highest and largest ice caps in mid-low latitude regions. A detailed ground-penetrating radar (GPR) survey was conducted on the Guliya ice cap in 2015 using 20 and 40 MHz frequency antennas. An empirical Bayesian kriging method was used for ice thickness interpolation and uncertainty assessment. GPR measurements revealed complex basal topography of the Guliya glacier with a maximum thickness of 371.12 ± 13 m. The internal reflections caused by changes in the dielectric properties were registered on the 40 MHz radargrams at the summit and were attributed to density variations. As a result of this fieldwork, one of the largest ice thickness datasets in High Mountain Asia was obtained. Guliya glacier elevation changes were assessed by differencing digital elevation models. The glacier gained mass from 2000 to 2015 with an average rate of 0.270 ± 0.11 m w.e. a-1 at the summit and 0.279 ± 0.11 m w.e. a-1 at the lower elevations.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "57759",
+    "siteName" : "Guliya Summit",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "35.2896", "81.4955" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "35.2896",
+        "northernmostLatitude" : "35.2896",
+        "westernmostLongitude" : "81.4955",
+        "easternmostLongitude" : "81.4955",
+        "minElevationMeters" : "6650",
+        "maxElevationMeters" : "6650"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "GS2018thick",
+      "NOAADataTableId" : "37593",
+      "earliestYear" : 2015,
+      "mostRecentYear" : 2015,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -65,
+      "mostRecentYearBP" : -65,
+      "earliestYearCE" : 2015,
+      "mostRecentYearCE" : 2015,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018summit-thickness.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Guliya Summit Ice Thickness Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>sample identification",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : null,
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>latitude",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "angle unit>degree>degree north",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>longitude",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "angle unit>degree>degree east",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>collection elevation",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Elevation_HMA8 m filled by DEM_SRTM_X; meter above sea level",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : "unspecified error>unspecified margin of error",
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "error estimation (Kutuzov et al. 2018) egpr(m)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>physical properties" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "57760",
+    "siteName" : "Guliya Plateau",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "35.233", "81.4683" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "35.233",
+        "northernmostLatitude" : "35.233",
+        "westernmostLongitude" : "81.4683",
+        "easternmostLongitude" : "81.4683",
+        "minElevationMeters" : "6050",
+        "maxElevationMeters" : "6050"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "GP2018thick",
+      "NOAADataTableId" : "37594",
+      "earliestYear" : 2015,
+      "mostRecentYear" : 2015,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -65,
+      "mostRecentYearBP" : -65,
+      "earliestYearCE" : 2015,
+      "mostRecentYearCE" : 2015,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018plateau-thickness.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Guliya Plateau Ice Thickness Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>sample identification",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : null,
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>latitude",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "angle unit>degree>degree north",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>longitude",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "angle unit>degree>degree east",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "sampling metadata>collection elevation",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Elevation_HMA8 m filled by DEM_SRTM_X; meter above sea level",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : "unspecified error>unspecified margin of error",
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "error estimation (Kutuzov et al. 2018) egpr(m)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>physical properties" ]
+      } ]
+    } ]
+  } ]
+}

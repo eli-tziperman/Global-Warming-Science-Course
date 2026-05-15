@@ -1,0 +1,3698 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "name": "fog",
+  "title": "Fluctuations of Glaciers (FoG) Database",
+  "description": "Internationally collected, standardized dataset on glacier state and change (length, area, elevation, mass) based on in-situ measurements, remote sensing, and reconstructions.",
+  "version": "2025-02b",
+  "created": "2025-02-28T00:00:00Z",
+  "id": "https://doi.org/10.5904/wgms-fog-2025-02b",
+  "homepage": "https://wgms.ch/data_databaseversions",
+  "publisher": "World Glacier Monitoring Service (WGMS)",
+  "spatialCoverage": "Global",
+  "temporalCoverage": "1127/2024",
+  "usageTerms": "Open access under the requirement of correct citation",
+  "citation": "WGMS (2025): Fluctuations of Glaciers (FoG) Database. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-fog-2025-02b",
+  "publications": "WGMS (2023): Global Glacier Change Bulletin No. 5 (2020-2021). Michael Zemp, Isabelle Gärtner-Roer, Samuel U. Nussbaumer, Ethan Z. Welty, Inés Dussaillant, and Jacqueline Bannwart (eds.), ISC (WDS) / IUGG (IACS) / UNEP / UNESCO / WMO, World Glacier Monitoring Service, Zurich, Switzerland, 134 pp. Based on database version https://doi.org/10.5904/wgms-fog-2023-09.\n\nWGMS (2013): Glacier Mass Balance Bulletin No. 12 (2010-2011). Michael Zemp, Samuel U. Nussbaumer, Kathrin Naegeli, Isabelle Gärtner-Roer, Frank Paul, Martin Hoelzle, and Wilfried Haeberli (eds.), ICSU (WDS) / IUGG (IACS) / UNEP / UNESCO / WMO, World Glacier Monitoring Service, Zurich, Switzerland, 106 pp. Based on database version https://doi.org/10.5904/wgms-fog-2013-11.\n\nWGMS (2012): Fluctuations of Glaciers 2005-2010 (Vol. X): Michael Zemp, Holger Frey, Isabelle Gärtner-Roer, Samuel U. Nussbaumer, Martin Hoelzle, Frank Paul, and Wilfried Haeberli (eds.), ICSU (WDS) / IUGG (IACS) / UNEP / UNESCO / WMO, World Glacier Monitoring Service, Zurich, Switzerland. Based on database version https://doi.org/10.5904/wgms-fog-2012-11.\n\n... and earlier issues (https://wgms.ch/literature_published_by_wgms)",
+  "collaborators": "WGMS scientific collaboration network of national correspondents and principal investigators as listed in the data (`investigators` and `agencies` columns) and related publications.",
+  "disclaimer": "The data may contain errors and inaccuracies. Hence, we strongly suggest performing data quality checks and, in case of ambiguities, to contact us as well as the investigators and agencies listed in the data (`investigators` and `agencies` columns) and related publications.",
+  "languages": [
+    "en"
+  ],
+  "resources": [
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "glacier",
+      "title": "Glacier",
+      "description": "General information about each glacier.",
+      "path": "data/glacier.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "parent_glacier_id"
+            ],
+            "reference": {
+              "fields": [
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "submission": true,
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "short_name",
+            "type": "string",
+            "submission": "extended",
+            "title": "Glacier short name",
+            "description": "The short name only contains characters A-Z, 0-9, - (dash), . (period), : (colon), () (parentheses), / (forward slash), ' (apostrophe), and (space). Non-Latin characters are transliterated, and if the Latin name contains accents, the following rules are typically applied: Å → AA, Æ → AE, Ä → AE, ð → D, Ø → OE, œ → OE, Ö → OE, ß → SS, þ → TH, Ü → UE (neglecting any remaining accents).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true,
+              "pattern": "^[0-9A-Z\\-\\.:\\(\\)/\\'\\+&,\\*=_]+( [0-9A-Z\\-\\.:\\(\\)/\\'\\+&,\\*=_]+)*$"
+            }
+          },
+          {
+            "name": "names",
+            "title": "Glacier full names",
+            "description": "Full names (in English and/or local languages) as a pipe-delimited list.",
+            "type": "string",
+            "example": "Findelegletscher | Findelengletscher",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "id",
+            "title": "Identifier",
+            "example": "389",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database.",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "maximum": 999999
+            }
+          },
+          {
+            "name": "latitude",
+            "title": "Latitude",
+            "units": "degrees",
+            "example": "45.9926",
+            "description": "Latitude (EPSG:4326). Positive values indicate the northern hemisphere and negative values indicate the southern hemisphere. The point (`latitude`, `longitude`) should be in the main channel in the upper part of the glacier ablation area.",
+            "type": "number",
+            "constraints": {
+              "required": true,
+              "minimum": -90,
+              "maximum": 90
+            }
+          },
+          {
+            "name": "longitude",
+            "title": "Longitude",
+            "units": "degrees",
+            "example": "7.8803",
+            "description": "Longitude (EPSG:4326). Positive values indicate east of the zero meridian and negative values indicate west of the zero meridian. The point (`latitude`, `longitude`) should be in the main channel in the upper part of the glacier ablation area.",
+            "type": "number",
+            "constraints": {
+              "required": true,
+              "minimum": -180,
+              "maximum": 180
+            }
+          },
+          {
+            "name": "gtng_region",
+            "title": "GTN-G region",
+            "description": "Global Terrestrial Network for Glaciers (GTN-G) 2023 code (https://10.5904/gtng-glacreg-2023-07) of the region in which the glacier is located.",
+            "type": "string",
+            "example": "11_central_europe",
+            "constraints": {
+              "enum": [
+                "01_alaska",
+                "02_western_canada_usa",
+                "03_arctic_canada_north",
+                "04_arctic_canada_south",
+                "05_greenland_periphery",
+                "06_iceland",
+                "07_svalbard_jan_mayen",
+                "08_scandinavia",
+                "09_russian_arctic",
+                "10_north_asia",
+                "11_central_europe",
+                "12_caucasus_middle_east",
+                "13_central_asia",
+                "14_south_asia_west",
+                "15_south_asia_east",
+                "16_low_latitudes",
+                "17_southern_andes",
+                "18_new_zealand",
+                "19_subantarctic_antarctic_islands",
+                "20_antarctic_mainland"
+              ]
+            }
+          },
+          {
+            "name": "glims_id",
+            "title": "Global Land Ice Measurements from Space (GLIMS) identifier",
+            "example": "G007880E45990N",
+            "description": "Glacier identifier (`glac_id`) in the Global Land Ice Measurements from Space database (https://www.glims.org). It has the format `GxxxxxxEyyyyyΘ`, where `xxxxxx` is longitude east of the zero meridian in millidegrees, `yyyyy` is north or south latitude in millidegrees, and `Θ` is N or S depending on the hemisphere.",
+            "type": "string",
+            "constraints": {
+              "minLength": 14,
+              "maxLength": 14,
+              "pattern": "G[0-9]{6}E[0-9]{5}[NS]"
+            }
+          },
+          {
+            "name": "rgi50_ids",
+            "title": "Randolph Glacier Inventory (RGI) 5.0 identifiers",
+            "description": "Glacier identifiers (`RGIId`), as a pipe-delimited list, from the Randolph Glacier Inventory 5.0 (https://nsidc.org/data/nsidc-0770/versions/5). These have format `RGI50-rr.nnnnn`, where `rr` is the first-order region (zero-padded) and `nnnnn` is an arbitrary numeric code.",
+            "type": "string",
+            "example": "RGI50-11.02789",
+            "constraints": {
+              "pattern": "RGI50-[0-1][0-9]\\.[0-9]{5}( \\| RGI50-[0-1][0-9]\\.[0-9]{5})*"
+            }
+          },
+          {
+            "name": "rgi60_ids",
+            "title": "Randolph Glacier Inventory (RGI) 6.0 identifiers",
+            "description": "Glacier identifiers (`RGIId`), as a pipe-delimited list, from the Randolph Glacier Inventory 6.0 (https://nsidc.org/data/nsidc-0770/versions/6). These have format `RGI60-rr.nnnnn`, where `rr` is the first-order region (zero-padded) and `nnnnn` is an arbitrary numeric code.",
+            "type": "string",
+            "example": "RGI60-11.02773",
+            "constraints": {
+              "pattern": "RGI60-[0-1][0-9]\\.[0-9]{5}( \\| RGI60-[0-1][0-9]\\.[0-9]{5})*"
+            }
+          },
+          {
+            "name": "rgi70_ids",
+            "title": "Randolph Glacier Inventory (RGI) 7.0 identifiers",
+            "description": "Glacier or glacier complex identifiers (`rgi_id`), as a pipe-delimited list, from the Randolph Glacier Inventory 7.0 (https://nsidc.org/data/nsidc-0770/versions/7). These have format `RGI2000-v7.0-p-rr-nnnnn`, where `p` is the product code (G: glacier or C: complex), `rr` is the first-order region (zero-padded), and `nnnnn` is an arbitrary numeric code.",
+            "type": "string",
+            "example": "RGI2000-v7.0-G-11-02773",
+            "constraints": {
+              "pattern": "RGI2000-v7\\.0-[CG]-[0-1][0-9]-[0-9]{5}( \\| RGI2000-v7\\.0-[CG]-[0-1][0-9]-[0-9]{5})*"
+            }
+          },
+          {
+            "name": "wgi_id",
+            "title": "World Glacier Inventory (WGI) identifier",
+            "example": "CH4N01356003",
+            "description": "Glacier identifier (`wgi_glacier_id`) in the World Glacier Inventory (https://nsidc.org/data/g01130/versions/1). It is constructed from the following elements:\n\n- 2-character political unit\n- 1-character continent code\n- 4-character drainage code\n- 2-character free position code\n- 3-character local glacier code",
+            "type": "string",
+            "constraints": {
+              "minLength": 12,
+              "maxLength": 12,
+              "pattern": "[A-Z]{2}[1-7][0-9A-Z]{9}"
+            }
+          },
+          {
+            "name": "parent_glacier_id",
+            "title": "Parent glacier identifier",
+            "example": "789",
+            "description": "Identifier (`id`) of the (present or former) parent glacier.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "state",
+      "title": "Glacier state",
+      "description": "Measurements of glacier state – length, area, elevation, and terminus type.",
+      "path": "data/state.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "outline_id",
+            "title": "Glacier outline identifier",
+            "example": "glims:754359",
+            "description": "Glacier outline used to derive the reported measurement(s), as either a GLIMS (https://www.glims.org) analysis id prefixed with 'glims:', RGI (https://www.glims.org/RGI) id, or integer id of a custom outline (available upon request).",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "title": "State identifier",
+            "example": "1",
+            "description": "Integer identifying the glacier state.",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Date",
+            "description": "Date of the reported measurements.",
+            "example": "2020-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "highest_elevation",
+            "type": "integer",
+            "title": "Highest glacier elevation",
+            "units": "m",
+            "description": "Highest elevation on the glacier.",
+            "example": "3370",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 9000
+            }
+          },
+          {
+            "name": "lowest_elevation",
+            "type": "integer",
+            "title": "Lowest glacier elevation",
+            "units": "m",
+            "description": "Lowest elevation on the glacier.",
+            "example": "2370",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9000
+            }
+          },
+          {
+            "name": "mean_elevation",
+            "type": "integer",
+            "title": "Mean glacier elevation",
+            "units": "m",
+            "description": "Mean glacier elevation.",
+            "example": "2920",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 9000
+            }
+          },
+          {
+            "name": "elevation_unc",
+            "type": "integer",
+            "title": "Elevation uncertainty",
+            "units": "m",
+            "description": "Estimated random error of reported elevations.",
+            "example": "10",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Glacier area",
+            "units": "m²",
+            "description": "Glacier area.",
+            "example": "2550000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "area_unc",
+            "type": "integer",
+            "title": "Area uncertainty",
+            "units": "m²",
+            "description": "Estimated random error of `area`.",
+            "example": "10000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "length",
+            "type": "integer",
+            "title": "Glacier length",
+            "units": "m",
+            "description": "Glacier length measured along the main flowline.",
+            "example": "6200",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "length_unc",
+            "type": "integer",
+            "title": "Length uncertainty",
+            "units": "m",
+            "description": "Estimated random error of `length`.",
+            "example": "5",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "terminus_type",
+            "title": "Terminus type",
+            "example": "land",
+            "description": "Condition at the terminus.\n- land: Dry land\n- cliff: Very steep dry land (subject to dry calving)\n- lake: Lake (freshwater)\n- marine: Sea or ocean (saltwater)\n- shelf: Ice shelf (which itself terminates in the ocean)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "land",
+                "cliff",
+                "lake",
+                "marine",
+                "shelf"
+              ]
+            }
+          },
+          {
+            "name": "platform",
+            "title": "Survey platform",
+            "example": "ground",
+            "description": "Survey platform.\n- ground: Terrestrial\n- air: Airborne\n- space: Spaceborne\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ground",
+                "air",
+                "space",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "method",
+            "title": "Survey method",
+            "example": "laser",
+            "description": "Survey method.\n- direct: In-situ measurement (e.g. GPS, tape measure)\n- map: Maps and mapping\n- photo: Photographs and photogrammetry\n- laser: Laser scanning\n- radar: Radar\n- reconstruction: Reconstruction (from historical or dating methods)\n- historical: Historical (from texts or visuals)\n- text: Text\n- print: Print (from an engraving or etching). For photographic prints, use photo.\n- painting: Painting\n- drawing: Drawing\n- radiocarbon: Radiocarbon date\n- dendrochronology: Dendrochronology\n- surface exposure: Surface exposure dating (e.g. TCN)\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "direct",
+                "map",
+                "photo",
+                "laser",
+                "radar",
+                "reconstruction",
+                "historical",
+                "text",
+                "print",
+                "painting",
+                "drawing",
+                "radiocarbon",
+                "dendrochronology",
+                "surface exposure",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "investigators",
+            "type": "string",
+            "submission": true,
+            "title": "Investigators",
+            "description": "Pipe-delimited list of persons (linked to `person` table as `person.name`) and their agency affiliations (linked to `agencies` and `agency` table as `agency.id`) responsible for the measurements.",
+            "example": "Michael Zemp (139, 138) | Li Zhongqin | (157)",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "agencies",
+            "type": "string",
+            "submission": true,
+            "title": "Agencies",
+            "description": "Numbered (by `agency.id`), pipe-delimited list of agencies referred to from `investigators`.",
+            "example": "139. World Glacier Monitoring Service | 138. University of Zurich > Department of Geography | 157. Tianshan Glaciological Station",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "state_band",
+      "title": "Glacier state by elevation band",
+      "description": "Measurements of glacier state by elevation band.",
+      "path": "data/state_band.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "state_id",
+          "lower_elevation",
+          "upper_elevation"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "glacier_id",
+              "state_id"
+            ],
+            "reference": {
+              "resource": "state",
+              "fields": [
+                "glacier_id",
+                "id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "submission": true,
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "state_id",
+            "title": "State identifier",
+            "example": "1",
+            "description": "Integer identifying the glacier state.",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "lower_elevation",
+            "title": "Lower elevation bound",
+            "units": "m",
+            "example": "2500",
+            "description": "Lower boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "upper_elevation",
+            "title": "Upper elevation bound",
+            "units": "m",
+            "example": "2600",
+            "description": "Upper boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "mean_elevation",
+            "type": "integer",
+            "title": "Mean glacier elevation",
+            "units": "m",
+            "description": "Mean glacier elevation.",
+            "example": "2550",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 9000
+            }
+          },
+          {
+            "name": "elevation_unc",
+            "type": "integer",
+            "title": "Elevation uncertainty",
+            "units": "m",
+            "description": "Estimated random error of reported elevations.",
+            "example": "10",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Area",
+            "units": "m²",
+            "description": "Elevation band area.",
+            "example": "25500",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "area_unc",
+            "type": "integer",
+            "title": "Area uncertainty",
+            "units": "m²",
+            "description": "Estimated random error of `area`.",
+            "example": "1000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "change",
+      "title": "Glacier change",
+      "description": "Measurements of glacier elevation change – typically from geodetic surveys.",
+      "path": "data/change.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "begin_outline_id",
+            "title": "Earlier glacier outline identifier",
+            "example": "glims:754359",
+            "description": "Glacier outline used to derive the glacier state on `begin_date`, as either a GLIMS (https://www.glims.org) analysis id prefixed with 'glims:', RGI (https://www.glims.org/RGI) id, or integer id of a custom outline (available upon request).",
+            "type": "string"
+          },
+          {
+            "name": "end_outline_id",
+            "title": "Later glacier outline identifier",
+            "example": "glims:754359",
+            "description": "Glacier outline used to derive the glacier state on `end_date`, as either a GLIMS (https://www.glims.org) analysis id prefixed with 'glims:', RGI (https://www.glims.org/RGI) id, or integer id of a custom outline (available upon request).",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "title": "Change identifier",
+            "example": "288",
+            "description": "Integer identifying the glacier change.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 1,
+              "required": true
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "begin_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Begin date",
+            "description": "Date of the earlier (reference) measurement.",
+            "example": "2020-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "begin_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Begin date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `begin_date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "end_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "End date",
+            "description": "Date of the later measurement.",
+            "example": "2021-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "end_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "End date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `end_date` (e.g. 2021-10-02 ± 1 days = 2021-10-01 to 2021-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Area",
+            "units": "m²",
+            "description": "Glacier area (presumably from `begin_date`, `end_date`, or an average) which should be used to estimate `elevation_change` from `volume_change` or vice versa.",
+            "example": "710000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "elevation_change",
+            "title": "Elevation change",
+            "units": "m",
+            "example": "-3.976",
+            "description": "Change in surface elevation (averaged over the glacier) from `begin_date` to `end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "elevation_change_unc",
+            "title": "Elevation change uncertainty",
+            "units": "m",
+            "example": "0.1",
+            "description": "Estimated random error of `elevation_change`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "volume_change",
+            "title": "Volume change",
+            "units": "m³",
+            "example": "-28220000",
+            "description": "Change in glacier volume from `begin_date` to `end_date`.",
+            "type": "integer"
+          },
+          {
+            "name": "volume_change_unc",
+            "type": "integer",
+            "title": "Volume change uncertainty",
+            "units": "m³",
+            "description": "Estimated random error of `volume_change`.",
+            "example": "813471",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "begin_platform",
+            "title": "Begin survey platform",
+            "example": "ground",
+            "description": "Survey platform used on `begin_date`.\n- ground: Terrestrial\n- air: Airborne\n- space: Spaceborne\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ground",
+                "air",
+                "space",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "begin_method",
+            "title": "Begin survey method",
+            "example": "laser",
+            "description": "Survey method used on `begin_date`.\n- direct: In-situ measurement (e.g. GPS, tape measure)\n- map: Maps and mapping\n- photo: Photographs and photogrammetry\n- laser: Laser scanning\n- radar: Radar\n- reconstruction: Reconstruction (from historical or dating methods)\n- historical: Historical (from texts or visuals)\n- text: Text\n- print: Print (from an engraving or etching). For photographic prints, use photo.\n- painting: Painting\n- drawing: Drawing\n- radiocarbon: Radiocarbon date\n- dendrochronology: Dendrochronology\n- surface exposure: Surface exposure dating (e.g. TCN)\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "direct",
+                "map",
+                "photo",
+                "laser",
+                "radar",
+                "reconstruction",
+                "historical",
+                "text",
+                "print",
+                "painting",
+                "drawing",
+                "radiocarbon",
+                "dendrochronology",
+                "surface exposure",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "end_platform",
+            "title": "End survey platform",
+            "example": "space",
+            "description": "Survey platform used on `end_date`.\n- ground: Terrestrial\n- air: Airborne\n- space: Spaceborne\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ground",
+                "air",
+                "space",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "end_method",
+            "title": "End survey method",
+            "example": "photo",
+            "description": "Survey method used on `end_date`.\n- direct: In-situ measurement (e.g. GPS, tape measure)\n- map: Maps and mapping\n- photo: Photographs and photogrammetry\n- laser: Laser scanning\n- radar: Radar\n- reconstruction: Reconstruction (from historical or dating methods)\n- historical: Historical (from texts or visuals)\n- text: Text\n- print: Print (from an engraving or etching). For photographic prints, use photo.\n- painting: Painting\n- drawing: Drawing\n- radiocarbon: Radiocarbon date\n- dendrochronology: Dendrochronology\n- surface exposure: Surface exposure dating (e.g. TCN)\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "direct",
+                "map",
+                "photo",
+                "laser",
+                "radar",
+                "reconstruction",
+                "historical",
+                "text",
+                "print",
+                "painting",
+                "drawing",
+                "radiocarbon",
+                "dendrochronology",
+                "surface exposure",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "investigators",
+            "type": "string",
+            "submission": true,
+            "title": "Investigators",
+            "description": "Pipe-delimited list of persons (linked to `person` table as `person.name`) and their agency affiliations (linked to `agencies` and `agency` table as `agency.id`) responsible for the measurements.",
+            "example": "Michael Zemp (139, 138) | Li Zhongqin | (157)",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "agencies",
+            "type": "string",
+            "submission": true,
+            "title": "Agencies",
+            "description": "Numbered (by `agency.id`), pipe-delimited list of agencies referred to from `investigators`.",
+            "example": "139. World Glacier Monitoring Service | 138. University of Zurich > Department of Geography | 157. Tianshan Glaciological Station",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "change_band",
+      "title": "Glacier change by elevation band",
+      "description": "Measurements of glacier elevation change – typically from geodetic surveys – by elevation band.",
+      "path": "data/change_band.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "change_id",
+          "lower_elevation",
+          "upper_elevation"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "glacier_id",
+              "change_id"
+            ],
+            "reference": {
+              "resource": "change",
+              "fields": [
+                "glacier_id",
+                "id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "submission": true,
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "change_id",
+            "title": "Change identifier",
+            "example": "288",
+            "description": "Integer identifying the glacier change.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 1,
+              "required": true
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "lower_elevation",
+            "title": "Lower elevation bound",
+            "units": "m",
+            "example": "2500",
+            "description": "Lower boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "upper_elevation",
+            "title": "Upper elevation bound",
+            "units": "m",
+            "example": "2600",
+            "description": "Upper boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Area",
+            "units": "m²",
+            "description": "Elevation band area (presumably from `begin_date`, `end_date`, or an average) which should be used to estimate `elevation_change` from `volume_change` or vice versa.",
+            "example": "710000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "elevation_change",
+            "title": "Elevation change",
+            "units": "m",
+            "example": "-3.976",
+            "description": "Change in surface elevation (averaged over the elevation band) from `begin_date` to `end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "elevation_change_unc",
+            "title": "Elevation change uncertainty",
+            "units": "m",
+            "example": "0.1",
+            "description": "Estimated random error of `elevation_change`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "volume_change",
+            "title": "Volume change",
+            "units": "m³",
+            "example": "-28220000",
+            "description": "Change in glacier volume (in the elevation band) from `begin_date` to `end_date`.",
+            "type": "integer"
+          },
+          {
+            "name": "volume_change_unc",
+            "type": "integer",
+            "title": "Volume change uncertainty",
+            "units": "m³",
+            "description": "Estimated random error of `volume_change`.",
+            "example": "813471",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "front_variation",
+      "title": "Glacier front variation",
+      "description": "Measurements of glacier front variation (length change).",
+      "path": "data/front_variation.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "glacier_id",
+          "series_id",
+          "end_date"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "series_id",
+            "title": "Series identifier",
+            "description": "Integer used to distinguish between different front variation series for the same glacier. Value `0` is reserved for the longterm in-situ series (if one exists).",
+            "type": "integer",
+            "constraints": {
+              "required": true
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "begin_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Begin date",
+            "description": "Date of the earlier (reference) measurement, or null if no reference was used (e.g. glacier advance inferred from moraine condition).",
+            "example": "2020-10-02",
+            "constraints": {
+              "required": false,
+              "pattern": null
+            }
+          },
+          {
+            "name": "begin_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Begin date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `begin_date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "end_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "End date",
+            "description": "Date of the later measurement.",
+            "example": "2021-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "end_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "End date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `end_date` (e.g. 2021-10-02 ± 1 days = 2021-10-01 to 2021-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "length_change",
+            "title": "Length change",
+            "units": "m",
+            "example": "-17",
+            "description": "Change in glacier length from `begin_date` to `end_date` (+ advance, - retreat).",
+            "type": "number"
+          },
+          {
+            "name": "length_change_unc",
+            "title": "Length change uncertainty",
+            "units": "m",
+            "example": "1",
+            "description": "Estimated random error of `length_change`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "length_change_direction",
+            "title": "Length change direction",
+            "description": "Length change direction (in the absence of a quantitative `length_change`) from `begin_date` to `end_date`.\n- advance: Glacier advanced (+)\n- retreat: Glacier retreated (-)\n- stationary: Glacier was stationary (0)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "advance",
+                "retreat",
+                "stationary"
+              ]
+            }
+          },
+          {
+            "name": "end_platform",
+            "title": "End survey platform",
+            "example": "space",
+            "description": "Survey platform used on `end_date`.\n- ground: Terrestrial\n- air: Airborne\n- space: Spaceborne\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ground",
+                "air",
+                "space",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "end_method",
+            "title": "End survey method",
+            "example": "photo",
+            "description": "Survey method used on `end_date`.\n- direct: In-situ measurement (e.g. GPS, tape measure)\n- map: Maps and mapping\n- photo: Photographs and photogrammetry\n- laser: Laser scanning\n- radar: Radar\n- reconstruction: Reconstruction (from historical or dating methods)\n- historical: Historical (from texts or visuals)\n- text: Text\n- print: Print (from an engraving or etching). For photographic prints, use photo.\n- painting: Painting\n- drawing: Drawing\n- radiocarbon: Radiocarbon date\n- dendrochronology: Dendrochronology\n- surface exposure: Surface exposure dating (e.g. TCN)\n- other: Other (see `remarks`)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "direct",
+                "map",
+                "photo",
+                "laser",
+                "radar",
+                "reconstruction",
+                "historical",
+                "text",
+                "print",
+                "painting",
+                "drawing",
+                "radiocarbon",
+                "dendrochronology",
+                "surface exposure",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "investigators",
+            "type": "string",
+            "submission": true,
+            "title": "Investigators",
+            "description": "Pipe-delimited list of persons (linked to `person` table as `person.name`) and their agency affiliations (linked to `agencies` and `agency` table as `agency.id`) responsible for the measurements.",
+            "example": "Michael Zemp (139, 138) | Li Zhongqin | (157)",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "agencies",
+            "type": "string",
+            "submission": true,
+            "title": "Agencies",
+            "description": "Numbered (by `agency.id`), pipe-delimited list of agencies referred to from `investigators`.",
+            "example": "139. World Glacier Monitoring Service | 138. University of Zurich > Department of Geography | 157. Tianshan Glaciological Station",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "mass_balance",
+      "title": "Glacier mass balance",
+      "description": "Glacier-wide mass balance and survey details.",
+      "path": "data/mass_balance.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "glacier_id",
+          "year"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "outline_id",
+            "title": "Glacier outline identifier",
+            "example": "glims:754359",
+            "description": "Glacier outline used to derive the reported glacier-wide mass balance(s), as either a GLIMS (https://www.glims.org) analysis id prefixed with 'glims:', RGI (https://www.glims.org/RGI) id, or integer id of a custom outline (available upon request).",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "title": "Hydrological year",
+            "example": "2004",
+            "description": "Calendar year associated with the last accumulation (winter) - ablation (summer) cycle. This is almost always the calendar year at the end of the measurement period unless the cycle extends only briefly into the following year (e.g. 2020-01-05 to 2021-01-17 ends in 2021 but is the 2020 hydrological year).",
+            "type": "year",
+            "constraints": {
+              "required": true,
+              "maximum": 2024
+            }
+          },
+          {
+            "name": "time_system",
+            "type": "string",
+            "submission": true,
+            "title": "Time measurement system",
+            "description": "Time measurement system of the dates (`begin_date`, `midseason_date` and `end_date`) and balances (`winter_balance`, `summer_balance`, `annual_balance`). See Cogley 2011 (https://unesdoc.unesco.org/ark:/48223/pf0000192525) for background.\n- floating: Floating-date. Dates are the dates of measurement, and balances are as measured. [Introduced in 2011, so earlier balances based on this system are theoretically reported as 'other'. Redefined in 2024 to include stratigraphic measurements.]\n- fixed: Fixed-date. Dates are those to which the measured balances were corrected (typically the hydrological year), and balances are as corrected. Correction methods should be given in the `remarks`. [Redefined to include stratigraphic measurements in 2024]\n- stratigraphic: Stratigraphic. Involves measurements between successive minimum or maximum surfaces (at least in the accumulation area), often in combination with fixed or floating-date measurements in the ablation area. [Discontinued in 2024]\n- combined: Some combination of the above (see `remarks`). [Discontinued in 2024]\n- other: Other (see `remarks`).\n",
+            "example": "floating",
+            "constraints": {
+              "enum": [
+                "floating",
+                "fixed",
+                "stratigraphic",
+                "combined",
+                "other"
+              ]
+            }
+          },
+          {
+            "name": "begin_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Begin date",
+            "description": "Begin (reference) date of the reported `winter_balance` and `annual_balance`.",
+            "example": "2020-10-01",
+            "constraints": {
+              "pattern": null
+            }
+          },
+          {
+            "name": "begin_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Begin date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `begin_date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "midseason_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Midseason date",
+            "description": "End date of the reported `winter_balance` and begin date of the reported `summer_balance`.",
+            "example": "2021-05-04",
+            "constraints": {
+              "pattern": null
+            }
+          },
+          {
+            "name": "midseason_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Midseason date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `midseason_date` (e.g. 2021-05-04 ± 2 days = 2021-05-02 to 2021-05-06).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "end_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "End date",
+            "description": "End date of the reported `summer_balance` and `annual_balance`.",
+            "example": "2021-10-02",
+            "constraints": {
+              "pattern": null
+            }
+          },
+          {
+            "name": "end_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "End date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `end_date` (e.g. 2021-10-02 ± 1 days = 2021-10-01 to 2021-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "winter_balance",
+            "title": "Winter mass balance",
+            "units": "m w.e.",
+            "example": "1.05",
+            "description": "Mass balance over the winter (accumulation) season – from `begin_date` to `midseason_date`.",
+            "type": "number"
+          },
+          {
+            "name": "winter_balance_unc",
+            "title": "Winter mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.05",
+            "description": "Estimated random error of `winter_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "summer_balance",
+            "title": "Summer mass balance",
+            "units": "m w.e.",
+            "example": "-1.92",
+            "description": "Mass balance over the summer (ablation) season – from `midseason_date` to `end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "summer_balance_unc",
+            "title": "Summer mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.02",
+            "description": "Estimated random error of `summer_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "annual_balance",
+            "title": "Annual mass balance",
+            "units": "m w.e.",
+            "example": "-0.87",
+            "description": "Mass balance over the hydrological year – from `begin_date` to `end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "annual_balance_unc",
+            "title": "Annual mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.03",
+            "description": "Estimated random error of `annual_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "ela_position",
+            "title": "Equilibrium line altitude (ELA) position",
+            "description": "Position of the equilibrium line altitude (ELA) relative to the glacier.\n- on: On the glacier\n- above: Above the glacier (`ela` may be a lower bound)\n- below: Below the glacier (`ela` may be an upper bound)\n",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "on",
+                "above",
+                "below"
+              ]
+            }
+          },
+          {
+            "name": "ela",
+            "type": "integer",
+            "title": "Equilibrium line altitude (ELA)",
+            "units": "m",
+            "description": "Mean elevation, averaged over the glacier, of the end-of-mass-balance-year equilibrium line. This can be outside the elevation range of the glacier if the `ela_position` was `below` or `above`.",
+            "example": "2673",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9000
+            }
+          },
+          {
+            "name": "ela_unc",
+            "type": "integer",
+            "title": "Equilibrium line altitude (ELA) uncertainty",
+            "units": "m",
+            "description": "Estimated random error of `ela`.",
+            "example": "10",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "aar",
+            "title": "Accumulation area ratio (AAR)",
+            "example": "0.81",
+            "description": "Accumulation area divided by the total glacier area.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Area",
+            "units": "m²",
+            "description": "Area considered in the calculation of the glacier-wide mass balance.",
+            "example": "608000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "investigators",
+            "type": "string",
+            "submission": true,
+            "title": "Investigators",
+            "description": "Pipe-delimited list of persons (linked to `person` table as `person.name`) and their agency affiliations (linked to `agencies` and `agency` table as `agency.id`) responsible for the measurements.",
+            "example": "Michael Zemp (139, 138) | Li Zhongqin | (157)",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "agencies",
+            "type": "string",
+            "submission": true,
+            "title": "Agencies",
+            "description": "Numbered (by `agency.id`), pipe-delimited list of agencies referred to from `investigators`.",
+            "example": "139. World Glacier Monitoring Service | 138. University of Zurich > Department of Geography | 157. Tianshan Glaciological Station",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "mass_balance_band",
+      "title": "Glacier mass balance by elevation band",
+      "description": "Glacier mass balance by elevation band.",
+      "path": "data/mass_balance_band.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "glacier_id",
+          "year",
+          "lower_elevation",
+          "upper_elevation"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "glacier_id",
+              "year"
+            ],
+            "reference": {
+              "resource": "mass_balance",
+              "fields": [
+                "glacier_id",
+                "year"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "year",
+            "title": "Hydrological year",
+            "example": "2004",
+            "description": "Calendar year associated with the last accumulation (winter) - ablation (summer) cycle. This is almost always the calendar year at the end of the measurement period unless the cycle extends only briefly into the following year (e.g. 2020-01-05 to 2021-01-17 ends in 2021 but is the 2020 hydrological year).",
+            "type": "year",
+            "constraints": {
+              "required": true,
+              "maximum": 2024
+            }
+          },
+          {
+            "name": "lower_elevation",
+            "title": "Lower elevation bound",
+            "units": "m",
+            "example": "2500",
+            "description": "Lower boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "upper_elevation",
+            "title": "Upper elevation bound",
+            "units": "m",
+            "example": "2600",
+            "description": "Upper boundary of the surface elevation band.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 9999,
+              "required": true
+            }
+          },
+          {
+            "name": "area",
+            "type": "integer",
+            "title": "Area",
+            "units": "m²",
+            "description": "Area of the elevation band.",
+            "example": "608000",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "winter_balance",
+            "title": "Winter mass balance",
+            "units": "m w.e.",
+            "example": "1.05",
+            "description": "Mass balance over the winter (accumulation) season – from `mass_balance.begin_date` to `mass_balance.midseason_date`.",
+            "type": "number"
+          },
+          {
+            "name": "winter_balance_unc",
+            "title": "Winter mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.05",
+            "description": "Estimated random error of `winter_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "summer_balance",
+            "title": "Summer mass balance",
+            "units": "m w.e.",
+            "example": "-1.92",
+            "description": "Mass balance over the summer (ablation) season – from `mass_balance.midseason_date` to `mass_balance.end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "summer_balance_unc",
+            "title": "Summer mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.02",
+            "description": "Estimated random error of `summer_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "annual_balance",
+            "title": "Annual mass balance",
+            "units": "m w.e.",
+            "example": "-0.87",
+            "description": "Mass balance over the hydrological year – from `mass_balance.begin_date` to `mass_balance.end_date`.",
+            "type": "number"
+          },
+          {
+            "name": "annual_balance_unc",
+            "title": "Annual mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.03",
+            "description": "Estimated random error of `annual_balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "mass_balance_point",
+      "title": "Glacier mass balance by point",
+      "description": "Glacier mass balance measured at specific points (e.g. stakes or pits).",
+      "path": "data/mass_balance_point.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "glacier_id",
+              "year"
+            ],
+            "reference": {
+              "resource": "mass_balance",
+              "fields": [
+                "glacier_id",
+                "year"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "year",
+            "title": "Hydrological year",
+            "example": "2004",
+            "description": "Calendar year associated with the last accumulation (winter) - ablation (summer) cycle. This is almost always the calendar year at the end of the measurement period unless the cycle extends only briefly into the following year (e.g. 2020-01-05 to 2021-01-17 ends in 2021 but is the 2020 hydrological year).",
+            "type": "year",
+            "constraints": {
+              "required": true,
+              "maximum": 2024
+            }
+          },
+          {
+            "name": "id",
+            "title": "Point identifier",
+            "description": "Unique identifier for the point.",
+            "type": "integer",
+            "constraints": {
+              "minimum": 1,
+              "required": true
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "original_id",
+            "title": "Original identifier",
+            "example": "P123",
+            "description": "Identifier for the point used by the original investigators.",
+            "type": "string"
+          },
+          {
+            "name": "begin_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "Begin date",
+            "description": "Begin (reference) date of the reported `balance`.",
+            "example": "2020-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "begin_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Begin date uncertainty",
+            "units": "days",
+            "description": "Estimated range of `begin_date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "end_date",
+            "format": "%Y-%m-%d",
+            "type": "date",
+            "submission": true,
+            "title": "End date",
+            "description": "End date of the reported `balance`.",
+            "example": "2021-10-02",
+            "constraints": {
+              "required": true,
+              "pattern": null
+            }
+          },
+          {
+            "name": "end_date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "End date uncertainty",
+            "units": "days",
+            "description": "Estimated range of `end_date` (e.g. 2021-10-02 ± 1 days = 2021-10-01 to 2021-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "title": "Latitude",
+            "units": "degrees",
+            "description": "Point latitude (EPSG:4326). Positive values indicate the northern hemisphere and negative values indicate the southern hemisphere.",
+            "example": "46.8709",
+            "constraints": {
+              "required": false,
+              "maximum": 90,
+              "minimum": -90
+            }
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "title": "Longitude",
+            "units": "degrees",
+            "description": "Point longitude (EPSG:4326). Positive values indicate east of the zero meridian and negative values indicate west of the zero meridian.",
+            "example": "10.8261",
+            "constraints": {
+              "required": false,
+              "maximum": 180,
+              "minimum": -180
+            }
+          },
+          {
+            "name": "elevation",
+            "type": "integer",
+            "title": "Elevation",
+            "units": "m",
+            "description": "Glacier surface elevation at point.",
+            "example": "2550",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "balance",
+            "title": "Mass balance",
+            "units": "m w.e.",
+            "example": "3.5",
+            "description": "Point mass balance from `begin_date` to `end_date` (+ accumulation, - ablation).",
+            "type": "number"
+          },
+          {
+            "name": "balance_unc",
+            "title": "Mass balance uncertainty",
+            "units": "m w.e.",
+            "example": "0.1",
+            "description": "Estimated random error of `balance`.",
+            "type": "number",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "density",
+            "type": "integer",
+            "title": "Density",
+            "units": "kg m⁻³",
+            "description": "Measured or estimated density used to convert height change to mass balance. If multiple density values were used (e.g. for snow and ice), they should be described in `remarks`.",
+            "example": "400",
+            "constraints": {
+              "minimum": 1,
+              "maximum": 1000
+            }
+          },
+          {
+            "name": "density_unc",
+            "type": "integer",
+            "title": "Density uncertainty",
+            "units": "kg m⁻³",
+            "description": "Estimated random error of `density`.",
+            "example": "100",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 1000
+            }
+          },
+          {
+            "name": "balance_code",
+            "title": "Balance code",
+            "example": "winter",
+            "description": "Whether and how the point balance was used in the calculation of glacier-wide (`mass_balance`) and elevation band (`mass_balance_band`) balance.\n- annual: Used for annual balance.\n- summer: Used for summer balance.\n- winter: Used for winter balance.\n- index: Not used (index measurement).\n",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "annual",
+                "summer",
+                "winter",
+                "index"
+              ]
+            }
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "event",
+      "title": "Event",
+      "description": "Noteworthy events concerning glacier hazards and dramatic glacier changes.",
+      "path": "data/event.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "country",
+              "glacier_name",
+              "glacier_id"
+            ],
+            "reference": {
+              "resource": "glacier",
+              "fields": [
+                "country",
+                "short_name",
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the glacier is (primarily) located.",
+            "type": "string",
+            "example": "CH",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "AF",
+                "AL",
+                "AQ",
+                "AR",
+                "AT",
+                "AZ",
+                "BG",
+                "BO",
+                "BT",
+                "CA",
+                "CD",
+                "CH",
+                "CL",
+                "CN",
+                "CO",
+                "DE",
+                "EC",
+                "ES",
+                "FR",
+                "GE",
+                "GL",
+                "GS",
+                "HM",
+                "ID",
+                "IN",
+                "IR",
+                "IS",
+                "IT",
+                "JP",
+                "KE",
+                "KG",
+                "KZ",
+                "ME",
+                "MM",
+                "MN",
+                "MX",
+                "NO",
+                "NP",
+                "NZ",
+                "PE",
+                "PK",
+                "PL",
+                "RU",
+                "SE",
+                "SI",
+                "SJ",
+                "TF",
+                "TJ",
+                "TR",
+                "TZ",
+                "UG",
+                "US",
+                "UZ",
+                "VE",
+                "ZA"
+              ]
+            }
+          },
+          {
+            "name": "glacier_name",
+            "type": "string",
+            "submission": true,
+            "title": "Glacier name",
+            "description": "Short name of the glacier (see `glacier.short_name`).",
+            "example": "FINDELEN"
+          },
+          {
+            "name": "glacier_id",
+            "type": "integer",
+            "title": "Glacier identifier",
+            "description": "Integer identifying the glacier in the Fluctuations of Glaciers (FoG) database (see `glacier.id`).",
+            "example": "389",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "id",
+            "title": "Event identifier",
+            "example": "123",
+            "description": "Integer indentifying the event.",
+            "type": "integer",
+            "constraints": {
+              "unique": true,
+              "minimum": 1,
+              "required": true
+            },
+            "submission": "extended"
+          },
+          {
+            "name": "date",
+            "title": "Date",
+            "description": "Date of the event. Events that span multiple days or represent a series of events should be further described with dates in `description`.",
+            "type": "string",
+            "constraints": {
+              "required": false,
+              "pattern": "(1[0-9]{3}|20[0-1][0-9]|202[0-5])((\\-XX(\\-XX)?)|(XX(XX)?)|(\\-(0[1-9]|1[0-2])(\\-(0[1-9]|[1-2][0-9]|3[0-1]|XX))?)|((0[1-9]|1[0-2])((0[1-9]|[1-2][0-9]|3[0-1]|XX))?))?"
+            },
+            "submission": true
+          },
+          {
+            "name": "date_unc",
+            "type": "number",
+            "submission": true,
+            "title": "Date uncertainty",
+            "units": "days",
+            "description": "Estimated (or exact) range of `date` (e.g. 2020-10-02 ± 1 days = 2020-10-01 to 2020-10-03).",
+            "example": "0",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "title": "Latitude",
+            "units": "degrees",
+            "description": "Latitude (EPSG:4326). Positive values indicate the northern hemisphere and negative values indicate the southern hemisphere. The point (`latitude`, `longitude`) should be as close as possible to the event source.",
+            "example": "45.9926",
+            "constraints": {
+              "minimum": -90,
+              "maximum": 90
+            }
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "title": "Longitude",
+            "units": "degrees",
+            "description": "Longitude (EPSG:4326). Positive values indicate east of the zero meridian and negative values indicate west of the zero meridian. The point (`latitude`, `longitude`) should be as close as possible to the event source.",
+            "example": "7.8803",
+            "constraints": {
+              "minimum": -180,
+              "maximum": 180
+            }
+          },
+          {
+            "name": "description",
+            "title": "Description",
+            "example": "On 8 September 2000, a rock fall of about 0.1 million m3 started from 2000–2200 m on the west face of Mättenberg, above Findelen Glacier. The rockfall reached and destroyed the trail leading to the Schreckhornhütte.",
+            "description": "Summary description of the event sequence - including for example the type and scale of the damage, measures taken to mitigate glacier hazards, and studies carried out in connection with the event. Quantitative information should be included whenever possible.\n\n  - Surge: Date and location of onset, duration, flow velocity, discharge anomalies and periodicity\n  - Calving: Rate of retreat, iceberg discharge, flow velocity and water depth at calving front\n  - Flood: Volume, mechanism, peak discharge, sediment load, reach and propagation velocity of flood wave or flow front\n  - Ice avalanche: Volume, runout distance, overall slope (ratio of vertical drop height to horizontal runout distance) of path\n  - Tectonics: Volumes, runout distances and overall slopes (ratio of vertical drop height to horizontal runout distance) of rockfall on glacier surface, amount of geothermal melting in craters, etc.",
+            "type": "string"
+          },
+          {
+            "name": "surge",
+            "title": "Surge",
+            "description": "Whether a surge was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "calving",
+            "title": "Calving",
+            "description": "Whether calving was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "flood",
+            "title": "Flood",
+            "description": "Whether a flood (e.g. glacial-lake outburst flood) was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "avalanche",
+            "title": "Avalanche",
+            "description": "Whether an ice avalanche was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "rockfall",
+            "title": "Rockfall",
+            "description": "Whether rockfall was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "debris_flow",
+            "title": "Debris flow",
+            "description": "Whether a debris flow was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "earthquake",
+            "title": "Earthquake",
+            "description": "Whether an earthquake was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "volcanic_eruption",
+            "title": "Volcanic eruption",
+            "description": "Whether a volcanic eruption was involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "other",
+            "title": "Other",
+            "description": "Whether any other event types were involved.",
+            "type": "boolean",
+            "trueValues": [
+              "true"
+            ],
+            "falseValues": [
+              "false"
+            ]
+          },
+          {
+            "name": "investigators",
+            "type": "string",
+            "submission": true,
+            "title": "Investigators",
+            "description": "Pipe-delimited list of persons (linked to `person` table as `person.name`) and their agency affiliations (linked to `agencies` and `agency` table as `agency.id`) responsible for the measurements.",
+            "example": "Michael Zemp (139, 138) | Li Zhongqin | (157)",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "agencies",
+            "type": "string",
+            "submission": true,
+            "title": "Agencies",
+            "description": "Numbered (by `agency.id`), pipe-delimited list of agencies referred to from `investigators`.",
+            "example": "139. World Glacier Monitoring Service | 138. University of Zurich > Department of Geography | 157. Tianshan Glaciological Station",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "example": "author YYYY (https://doi.org/doi) | author YYYY (url): title. journal, volume, pages",
+            "description": "Literature references as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            },
+            "submission": true
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "person",
+      "title": "Person",
+      "description": "Details about persons associated with measurements in the database.",
+      "path": "data/person.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "title": "Person identifier",
+            "description": "Integer identifying the person.",
+            "type": "integer",
+            "example": "1359",
+            "constraints": {
+              "minimum": 0,
+              "unique": true,
+              "required": true
+            }
+          },
+          {
+            "name": "name",
+            "title": "Name",
+            "description": "Full name in Latin script.",
+            "type": "string",
+            "example": "Xu Chunhai",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*",
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "surname",
+            "title": "Surname",
+            "description": "Surname or family name in Latin script.",
+            "type": "string",
+            "example": "Xu",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*",
+              "required": true
+            }
+          },
+          {
+            "name": "original_name",
+            "title": "Original name",
+            "description": "Full name in non-Latin script.",
+            "type": "string",
+            "example": "徐春海",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "synonyms",
+            "title": "Synonyms",
+            "description": "Pipe-delimited list of alternative names in any script.",
+            "type": "string",
+            "example": "Chunhai Xu",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "orcid",
+            "title": "ORCID",
+            "description": "Open Researcher and Contributor ID (ORCID, convertable to a url as `https://orcid.org/{orcid}`).",
+            "type": "string",
+            "example": "0000-0002-4803-1995",
+            "constraints": {
+              "pattern": "[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]"
+            }
+          },
+          {
+            "name": "url",
+            "title": "URL",
+            "description": "Profile URL.",
+            "type": "string",
+            "example": "https://people.ucas.ac.cn/~xuchunhai",
+            "constraints": {
+              "pattern": "https?:\\/\\/\\S+"
+            }
+          },
+          {
+            "name": "birth_year",
+            "title": "Birth year",
+            "description": "Year of birth.",
+            "type": "year"
+          },
+          {
+            "name": "death_year",
+            "title": "Death year",
+            "description": "Year of death.",
+            "type": "year"
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "name": "agency",
+      "title": "Agency",
+      "description": "Details about agencies associated with measurements in the database.",
+      "path": "data/agency.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "parent_agency_id"
+            ],
+            "reference": {
+              "fields": [
+                "id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "former_agency_id"
+            ],
+            "reference": {
+              "fields": [
+                "id"
+              ]
+            }
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "fields": [
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "ISO 3166 alpha-2 code (https://www.iso.org/obp/ui) of the country in which the agency is (primarily) located.",
+            "type": "string",
+            "example": "IT",
+            "constraints": {
+              "enum": [
+                "AC",
+                "AD",
+                "AE",
+                "AF",
+                "AG",
+                "AI",
+                "AL",
+                "AM",
+                "AO",
+                "AQ",
+                "AR",
+                "AS",
+                "AT",
+                "AU",
+                "AW",
+                "AX",
+                "AZ",
+                "BA",
+                "BB",
+                "BD",
+                "BE",
+                "BF",
+                "BG",
+                "BH",
+                "BI",
+                "BJ",
+                "BL",
+                "BM",
+                "BN",
+                "BO",
+                "BQ",
+                "BR",
+                "BS",
+                "BT",
+                "BV",
+                "BW",
+                "BY",
+                "BZ",
+                "CA",
+                "CC",
+                "CD",
+                "CF",
+                "CG",
+                "CH",
+                "CI",
+                "CK",
+                "CL",
+                "CM",
+                "CN",
+                "CO",
+                "CP",
+                "CR",
+                "CU",
+                "CV",
+                "CW",
+                "CX",
+                "CY",
+                "CZ",
+                "DE",
+                "DG",
+                "DJ",
+                "DK",
+                "DM",
+                "DO",
+                "DZ",
+                "EC",
+                "EE",
+                "EG",
+                "EH",
+                "ER",
+                "ES",
+                "ET",
+                "FI",
+                "FJ",
+                "FK",
+                "FM",
+                "FO",
+                "FR",
+                "GA",
+                "GB",
+                "GD",
+                "GE",
+                "GF",
+                "GG",
+                "GH",
+                "GI",
+                "GL",
+                "GM",
+                "GN",
+                "GP",
+                "GQ",
+                "GR",
+                "GS",
+                "GT",
+                "GU",
+                "GW",
+                "GY",
+                "HK",
+                "HM",
+                "HN",
+                "HR",
+                "HT",
+                "HU",
+                "IC",
+                "ID",
+                "IE",
+                "IL",
+                "IM",
+                "IN",
+                "IO",
+                "IQ",
+                "IR",
+                "IS",
+                "IT",
+                "JE",
+                "JM",
+                "JO",
+                "JP",
+                "KE",
+                "KG",
+                "KH",
+                "KI",
+                "KM",
+                "KN",
+                "KP",
+                "KR",
+                "KW",
+                "KY",
+                "KZ",
+                "LA",
+                "LB",
+                "LC",
+                "LI",
+                "LK",
+                "LR",
+                "LS",
+                "LT",
+                "LU",
+                "LV",
+                "LY",
+                "MA",
+                "MC",
+                "MD",
+                "ME",
+                "MF",
+                "MG",
+                "MH",
+                "MK",
+                "ML",
+                "MM",
+                "MN",
+                "MO",
+                "MP",
+                "MQ",
+                "MR",
+                "MS",
+                "MT",
+                "MU",
+                "MV",
+                "MW",
+                "MX",
+                "MY",
+                "MZ",
+                "NA",
+                "NC",
+                "NE",
+                "NF",
+                "NG",
+                "NI",
+                "NL",
+                "NO",
+                "NP",
+                "NR",
+                "NU",
+                "NZ",
+                "OM",
+                "PA",
+                "PE",
+                "PF",
+                "PG",
+                "PH",
+                "PK",
+                "PL",
+                "PM",
+                "PN",
+                "PR",
+                "PS",
+                "PT",
+                "PW",
+                "PY",
+                "QA",
+                "RE",
+                "RO",
+                "RS",
+                "RU",
+                "RW",
+                "SA",
+                "SB",
+                "SC",
+                "SD",
+                "SE",
+                "SG",
+                "SH",
+                "SI",
+                "SJ",
+                "SK",
+                "SL",
+                "SM",
+                "SN",
+                "SO",
+                "SR",
+                "SS",
+                "ST",
+                "SV",
+                "SX",
+                "SY",
+                "SZ",
+                "TA",
+                "TC",
+                "TD",
+                "TF",
+                "TG",
+                "TH",
+                "TJ",
+                "TK",
+                "TL",
+                "TM",
+                "TN",
+                "TO",
+                "TR",
+                "TT",
+                "TV",
+                "TW",
+                "TZ",
+                "UA",
+                "UG",
+                "UM",
+                "US",
+                "UY",
+                "UZ",
+                "VA",
+                "VC",
+                "VE",
+                "VG",
+                "VI",
+                "VN",
+                "VU",
+                "WF",
+                "WS",
+                "XK",
+                "YE",
+                "YT",
+                "ZA",
+                "ZM",
+                "ZW"
+              ]
+            }
+          },
+          {
+            "name": "id",
+            "title": "Agency identifier",
+            "description": "Integer identifying the agency.",
+            "type": "integer",
+            "example": "333",
+            "constraints": {
+              "minimum": 0,
+              "unique": true,
+              "required": true
+            }
+          },
+          {
+            "name": "parent_agency_id",
+            "title": "Parent agency identifier",
+            "description": "Integer (`id`) of the (present or former) parent agency.",
+            "type": "integer",
+            "example": "330",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "name",
+            "title": "Name",
+            "description": "Name.",
+            "type": "string",
+            "example": "Agentur für Bevölkerungsschutz",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*",
+              "required": true
+            }
+          },
+          {
+            "name": "abbreviation",
+            "title": "Abbreviation",
+            "description": "Abbreviation of `name`.",
+            "type": "string",
+            "example": "AfBs",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "alternate_name",
+            "title": "Alternate name",
+            "description": "Alternate name (for regions with two official languages).",
+            "example": "Agenzia per la Protezione civile",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "alternate_abbreviation",
+            "title": "Alternate abbreviation",
+            "description": "Abbreviation of `alternate_name`.",
+            "type": "string",
+            "example": "ApPc",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "english_name",
+            "title": "English name",
+            "description": "English name (if `name` or `alternate_name` is not in English).",
+            "type": "string",
+            "example": "Civil Protection Agency",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "english_abbreviation",
+            "title": "English abbreviation",
+            "description": "Abbreviation of `english_name`.",
+            "type": "string",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          },
+          {
+            "name": "url",
+            "title": "URL",
+            "description": "Homepage URL.",
+            "type": "string",
+            "example": "https://afbs.provinz.bz.it",
+            "constraints": {
+              "pattern": "https?:\\/\\/\\S+"
+            }
+          },
+          {
+            "name": "wikipedia_url",
+            "title": "Wikipedia URL",
+            "description": "Wikipedia URL (English if available).",
+            "type": "string",
+            "example": "https://en.wikipedia.org/wiki/Kabul_University",
+            "constraints": {
+              "pattern": "https?:\\/\\/[a-z-]+.wikipedia.org\\/\\S+"
+            }
+          },
+          {
+            "name": "wikidata_id",
+            "title": "Wikidata identifier",
+            "description": "Wikidata identifier (convertable to a url as `https://wikidata.org/wiki/{wikidata_id}`).",
+            "type": "string",
+            "example": "Q1354097",
+            "constraints": {
+              "pattern": "Q[0-9]+"
+            }
+          },
+          {
+            "name": "begin_year",
+            "title": "Begin year",
+            "description": "Year of founding or the renaming of `former_agency_id`.",
+            "type": "year",
+            "example": "1851"
+          },
+          {
+            "name": "end_year",
+            "title": "End year",
+            "description": "Year of dissolution or renaming.",
+            "type": "year",
+            "example": "2022"
+          },
+          {
+            "name": "former_agency_id",
+            "title": "Former agency identifier",
+            "description": "Integer (`id`) of the agency that this agency was formerly known as.",
+            "type": "integer",
+            "example": "37",
+            "constraints": {
+              "minimum": 0
+            }
+          },
+          {
+            "name": "remarks",
+            "title": "Remarks",
+            "description": "Remarks and flags as a pipe-delimited list.",
+            "type": "string",
+            "example": "area: Surveyed on 1986-12-31 | [flag] Balance includes unknown calving loss",
+            "constraints": {
+              "pattern": "[^\\s]+( [^\\s]+)*"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

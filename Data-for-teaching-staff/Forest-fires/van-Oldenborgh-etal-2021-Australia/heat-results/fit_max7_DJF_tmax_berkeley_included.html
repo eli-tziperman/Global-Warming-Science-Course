@@ -1,0 +1,153 @@
+
+<html>
+<head>
+<!-- beheerder: Geert Jan van Oldenborgh -->
+<link rel="stylesheet" href="styles/rccstyle.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" src="library/javascript/hidden_info_switch.js"></script>
+<script language="javascript" src="library/javascript/pop_page.js"></script> 
+
+<meta name="robots" content="noindex,nofollow">
+<link rel="shortcut icon" href="/favicon.ico"> 
+<title>Climate Explorer: Trends in return times of extremes</title>
+<style type="text/css">
+a { text-decoration: none }
+</style>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000099">
+<tr>
+<td width=10%>&nbsp;</td><td align=left>&nbsp;</td>
+</tr><tr>
+<td width=10%>&nbsp;</td>
+<td align=left><img src="https://climexp.knmi.nl/rcc/logo_climexp.png" alt=logo></td>
+</tr><tr>
+<td width=10%>&nbsp;</td>
+<td align=left>
+<table width=85.25% border="0" cellspacing="0" cellpadding="0" bgcolor="#000099">
+<tr>
+<td><a href="https://climexp.knmi.nl/start.cgi?id=ec8907341dfc63c526d08e36d06b7ed8"><font color="#FFFFFF">Climate Explorer</font></a>
+</td><td>
+<a href="http://www.ecad.eu"><font color="#FFFFFF">European Climate Assessment &amp; Data</font></a>
+</td><td>
+<a href="http://www.knmi.nl"><font color="#FFFFFF">KNMI</font></a>
+</td><td align=right>
+<form name="zoek" method=POST action="/htsearch.cgi" style="margin:0px">
+<!-- Search ht://Dig -->
+<input type="hidden" name="method" value="and">
+<input type="hidden" name="format" value="builtin-long">
+<input type="hidden" name="sort" value="score">
+<input type="hidden" name="config" value="htdig_www_eng">
+<input type="hidden" name="restrict" value="">
+<input type="hidden" name="exclude" value="">
+<input type="hidden" name="EMAIL" value="id=ec8907341dfc63c526d08e36d06b7ed8">
+<input type="search" name="words" size=20 maxlength=255 bgcolor="#D3E3E3" style="background-color: #ffffff; width: 200px" placeholder="search in the Climate Explorer">
+</td><td>
+<input type=image alt="zoek!" title="Zoek!" img src="https://climexp.knmi.nl/vinklude/images/zoekglas.png" border=0 align=left valign="middle">
+<!-- Search ht://Dig -->
+</form>
+</td></tr>
+</table>
+</td></tr>
+<tr><td width=10%>&nbsp;</td><td align=left>&nbsp;</td></tr>
+<tr bgcolor="#9999CC">
+<style>a:visited {color: #000099;}</style>
+<td width=10%>&nbsp;</td>
+<td align=left>
+<table width=90% border="0" cellspacing="0" cellpadding="0">
+<tr height=20px>
+<style>a:visited {color: "#000000"}</style>
+<td width=6%><a href="/help.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Help</a></td>
+<td width=6%><a href="/news.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">News</a></td>
+<td width=6%><a href="/about.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">About</a></td>
+<td width=9%><a href="/contact.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Contact</a></td>
+<td width=16%><a href="/monthly_overview_world_weather/index.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">World weather</a></td>
+<td width=19%><a href="/effects.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Effects of El Ni&ntilde;o</a></td>
+<td width=19%><a href="/kprep_seasonal_forecasts.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Seasonal forecasts</a></td>
+<td width=19%><a href="/plot_atlas_form.py?id=ec8907341dfc63c526d08e36d06b7ed8">Climate Change Atlas</a></td>
+</tr></table>
+</td></tr>
+</table>
+<table border="0" width="95.25%" cellspacing="0" cellpadding="0">
+   <tr>
+      <td width="10%">&nbsp;</td>
+      <td width="56.375%" valign=top>
+         <div id="printable" name="printable">
+         <!-- div -->
+<!-- Voeg hieronder de inhoud van de pagina in -->
+<br>
+         <div class="hoofdkop">Trends in return times of extremes</div>
+         <div class="subkop"> seasonal maximum of 7-daily Air Surface Temperature</div>
+<div class="kalelink">
+Using sub-optimal algorithms to compute the error estimates.  This may take a while.<p>
+<small>If it takes too long you can abort the job <a href="killit.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&pid=2300" target="_new">here</a> (using the [back] button of the browser does <it>not</it> kill the job)</small><p>
+<table class="realtable" width="100%" border=0 cellpadding=0 cellspacing=0>
+<tr><th colspan=4>DJF seasonal maximum of 7-daily Air Surface Temperature  [] dependent on Global mean surface temperature (smoothed)</th></tr>
+</table>
+<p>Something went wrong, c=1
+Please send <a href="mailto:mailto:oldenborgh@knmi.nl">me</a> the following command and I will try to fix it.<p>
+bin/attribute ./data/iTMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su.dat NASAData/giss_al_gl_a_4yrlo.dat gev assume shift dump /tmp/hiTMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su_2300_prob.txt obsplot /tmp/hiTMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su_2300_obsplot.txt month 1 minfac 30 begin 1910 begin2 1900 dgt 80% restrain 0 includelast confidenceinterval 95 end2 2019 
+         </div>
+         </div>
+<!-- Insert the body of the page above this line -->
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="27.5%" valign=top>
+<!-- Voeg hieronder de lijst met links in -->
+<div class="menukopje">Select a time series</div>
+<div class="menulink"><a href="selectdailyseries.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Daily station data</a></div>
+<div class="menulink"><a href="selectdailyindex.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Daily climate indices</a></div>
+<div class="menulink"><a href="selectstation.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly station data</a></div>
+<div class="menulink"><a href="selectindex.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly climate indices</a></div>
+<div class="menulink"><a href="selectannualindex.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Annual climate indices</a></div>
+
+<div class="menulink"><a href="userseries.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">View, upload your time series</a></div>
+<div class="menukopje">Select a field</div>
+<div class="menulink"><a href="selectdailyfield2.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Daily fields</a></div>
+<div class="menulink"><a href="selectfield_obs2.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly observations</a></div>
+<div class="menulink"><a href="selectfield_rea.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly reanalysis fields</a></div>
+<div class="menulink"><a href="selectfield_rapid.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly and seasonal historical reconstructions</a></div>
+<div class="menulink"><a href="selectfield_sea.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly seasonal hindcasts</a></div>
+<div class="menulink"><a href="selectfield_co2.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly CMIP3+ scenario runs</a></div>
+<div class="menulink"><a href="selectfield_cmip5.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly CMIP5 scenario runs</a></div>
+<div class="menulink"><a href="selectfield_cmip5_annual.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Annual CMIP5 extremes</a></div>
+<div class="menulink"><a href="selectfield_cmip6.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly CMIP6 scenario runs</a></div>
+<div class="menulink"><a href="selectfield_cordex.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Monthly CORDEX scenario runs</a></div>
+<div class="menulink"><a href="selectfield_att.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">Attribution runs</a></div>
+<!--
+<div class="menulink"><a href="selectfield_external.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">External data (ensembles, ncep, enact, soda, ecmwf, ...)</a></div>
+-->
+<div class="menulink"><a href="selectfield_use.cgi?id=ec8907341dfc63c526d08e36d06b7ed8">View, upload your field</a></div></div>
+<div class="menukopje">Investigate this time series</div>
+<div class="menulink"><a href="corseries.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Correlate with other time series</a></div>
+<div class="menulink"><a href="corfield.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Correlate with a field (correlation, regression, composite)</a>
+<div class="menulink"><a href="corfield_obs.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">only observations</a></div>
+<div class="menulink"><a href="corfield_rea.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">only reanalyses</a></div>
+<div class="menulink"><a href="corfield_sea.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">only seasonal forecasts</a></div>
+<div class="menulink"><a href="corfield_cmip5.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">only scenario runs</a></div>
+<div class="menulink"><a href="corfield_use.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">only user-defined fields</a></div>
+</div>
+<div class="menulink"><a href="verificationform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Verify against another time series</a></div>
+<div class="menulink"><a href="periodform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Spectrum, autocorrelation function</a></div>
+<div class="menulink"><a href="waveform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Wavelet</a></div>
+<div class="menulink"><a href="runningmomentsform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Running mean/s.d./skew/curtosis</a></div>
+<div class="menulink"><a href="attributeform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Trends in return times of extremes</a></div>
+<div class="menulink"><a href="histogramform.cgi?id=ec8907341dfc63c526d08e36d06b7ed8&TYPE=i&WMO=TMAX_Daily_LatLong1_full_110-155E_-45--10N_su_extended.info_4_max_7v_mask0_su&STATION=seasonal_maximum_of_7-daily_Air_Surface_Temperature&NAME=&NPERYEAR=4">Plot and fit distribution</a></div>
+</div>
+      </td>
+   </tr>
+</table>
+<table width="100%" border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width="10%"><div style="float:right; padding-right:11px;"><img src="/vinklude/images/bolletjes.gif" border=0 align=right></div></td>
+<td>
+<div align=left style="width: 94.875%; height 1px; margin-top: 14px; border-top: solid 1px #999999; color: #999999;">
+&#169; KNMI
+</div>
+</td>
+</tr>
+</table>
+<p><br>
+
+</body>
+</html>

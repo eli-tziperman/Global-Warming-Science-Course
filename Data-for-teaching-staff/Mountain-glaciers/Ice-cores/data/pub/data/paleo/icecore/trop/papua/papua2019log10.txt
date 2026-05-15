@@ -1,0 +1,154 @@
+# Papua, Indonesia 50 Year Ice Core Isotope and Chemistry Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/24351
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019log10.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Core
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: oxygen isotopes, hydrogen isotopes, chemistry
+#--------------------
+# Contribution_Date
+#	Date: 2019-12-09
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2019-12-09
+#--------------------
+# Title
+#	Study_Name: Papua, Indonesia 50 Year Ice Core Isotope and Chemistry Data
+#--------------------
+# Investigators
+#	Investigators: Permana, D.S.; Thompson, L.G.; Mosley-Thompson, E.; Davis, M.E.; Lin, P.-N.; Nicolas, J.P.; Bolzan, J.F.; Bird, B.W.; Mikhalenko, V.N.; Gabrielli, P.; Zagorodnov, V.; Mountain, K.R.; Schotterer, U.; Hanggoro, W.; Habibie, M.N.; Kaize, Y.; Gunawan, D.; Setyadi, G.; Susanto, R.D.; Fernández, A.; Mark, B.G.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Papua, Indonesia ice core isotope (d18O, dD, tritium) and chemistry (chloride, potassium) data for the past 50 years, plus calculated Nino3 SST. 
+#	Data from 3 ice cores drilled in 2010 by the Ohio State University's Byrd Polar and Climate Reseach Center's Ice Core Paleoclimate Research Group.
+#
+#--------------------
+# Publication 
+#	Authors: Donaldi S. Permana, Lonnie G. Thompson, Ellen Mosley-Thompson, Mary E. Davis, Ping-Nan Lin, Julien P. Nicolas, John F. Bolzan, Broxton W. Bird, Vladimir N. Mikhalenko, Paolo Gabrielli, Victor Zagorodnov, Keith R. Mountain, Ulrich Schotterer, Wido Hanggoro, Muhammad N. Habibie, Yohanes Kaize, Dodo Gunawan, Gesang Setyadi, Raden D. Susanto, Alfonso Fernández, Bryan G. Mark
+#	Published_Date_or_Year: 2019-12-09     
+#	Published_Title: Disappearance of the last tropical glaciers in the Western Pacific Warm Pool (Papua, Indonesia) appears imminent
+#	Journal_Name: Proceedings of the National Academy of Sciences
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 0.1073/pnas.1822037116 
+#	Online_Resource: https://www.pnas.org/content/early/2019/12/03/1822037116
+#	Full_Citation: 
+#	Abstract: The glaciers near Puncak Jaya in Papua, Indonesia, the highest peak between the Himalayas and the Andes, are the last remaining tropical glaciers in the West Pacific Warm Pool (WPWP). Here, we report the recent, rapid retreat of the glaciers near Puncak Jaya by quantifying the loss of ice coverage and reduction of ice thickness over the last 8 y. Photographs and measurements of a 30-m accumulation stake anchored to bedrock on the summit of one of these glaciers document a rapid pace in the loss of ice cover and a ~5.4-fold increase in the thinning rate, which was augmented by the strong 2015-2016 El Nino. At the current rate of ice loss, these glaciers will likely disappear within the next decade. To further understand the mechanisms driving the observed retreat of these glaciers, 2 ~32-m-long ice cores to bedrock recovered in mid-2010 are used to reconstruct the tropical Pacific climate variability over approximately the past half-century on a quasi-interannual timescale. The ice core oxygen isotopic ratios show a significant positive linear trend since 1964 CE (0.018 ± 0.008 permil per year; P < 0.03) and also suggest that the glaciers' retreat is augmented by El Nino-Southern Oscillation processes, such as convection and warming of the atmosphere and sea surface. These Papua glaciers provide the only tropical records of ice core-derived climate variability for the WPWP.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: ATM-0823586
+#------------------
+# Site_Information 
+#	Site_Name: Puncak Jaya
+#	Location: Ocean>Indian Ocean>Indonesia
+#	Country: Indonesia
+#	Northernmost_Latitude: -4.083 
+# 	Southernmost_Latitude: -4.083 
+# 	Easternmost_Longitude: 137.167
+# 	Westernmost_Longitude: 137.167
+# 	Elevation: 4884
+#------------------
+# Data_Collection   
+#	Collection_Name: Papua2019log10
+#	Earliest_Year: 1964
+#	Most_Recent_Year: 2010
+#	Time_Unit: Year CE
+#	Core_Length: 31.87
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age_CE	age, , , year Common Era, , ice core, , ,N,
+## log10dustD1	dust, bulk ice, , particles per milliliter, ,ice core,,,N, particles >63 um diameter
+## log10dustD1B	dust, bulk ice, , particles per milliliter, ,ice core,,,N, particles >63 um diameter
+## log10Cl-D1	chloride, bulk ice, , log10, ,ice core,,,N, 0.0 means below the detection limit
+## log10Cl-D1B	chloride, bulk ice, , log10, ,ice core,,,N, 0.0 means below the detection limit
+## log10KD1	potassium, bulk ice, , log10, ,ice core,,,N, 0.0 means below the detection limit
+## log10KD1B	potassium, bulk ice, , log10, ,ice core,,,N, 0.0 means below the detection limit
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age_CE	log10dustD1	log10dustD1B	log10Cl-D1	log10Cl-D1B	log10KD1	log10KD1B
+1964	3.69	3.81	0.66	0.00	0.54	-1.00
+1965	3.75	3.96	0.76	0.00	0.66	-0.30
+1966	3.79	3.90	0.15	-0.19	-0.15	-0.08
+1967	3.42	3.87	0.77	0.00	0.22	-0.85
+1968	3.73	4.01	0.69	0.00	0.19	-0.64
+1969	3.83	4.07	-0.42	0.00	-0.90	0.47
+1970	3.60	3.84	0.46	0.00	0.05	0.00
+1971	3.72	3.99	0.17	-0.24	-0.01	-0.14
+1972	3.59	3.83	0.57	0.00	0.14	-0.56
+1973	3.77	3.86	-0.69	0.04	-0.45	-0.12
+1974	3.76	3.80	-0.14	-0.28	-0.22	-0.39
+1975	3.64	3.65	0.19	0.00	-0.32	-0.27
+1976	3.70	3.68	0.00	0.00	0.00	0.00
+1977	3.62	3.73	0.00	0.00	0.00	0.00
+1978	3.65	3.66	0.00	0.00	0.00	0.00
+1979	3.97	3.94	0.00	0.00	0.00	0.00
+1980	3.96	3.99	0.00	0.00	0.00	0.00
+1981	3.91	3.85	0.24	0.00	-0.04	0.00
+1982	3.98	3.80	1.15	0.00	0.81	0.00
+1983	3.74	3.65	0.12	0.00	-0.21	-0.60
+1984	3.70	4.05	-0.48	0.00	-0.96	0.00
+1985	3.53	3.44	-0.52	0.00	0.00	0.09
+1986	3.75	3.88	0.63	0.00	-0.05	0.00
+1987	3.92	3.81	0.00	0.00	-0.78	0.00
+1988	3.70	3.79	0.00	-0.33	-0.54	-0.08
+1989	3.73	3.60	-0.28	0.00	-0.59	0.00
+1990	3.58	3.84	0.00	0.26	0.00	-0.10
+1991	3.67	3.80	0.39	0.00	-0.01	0.00
+1992	3.67	3.90	0.30	0.94	-0.22	0.57
+1993	3.77	3.97	0.00	0.49	0.00	1.00
+1994	3.77	4.11	0.00	0.00	0.00	-0.40
+1995	3.85	3.93	0.00	-0.21	0.00	0.21
+1996	3.75	3.91	0.00	0.00	0.00	0.00
+1997	3.93	3.97	0.00	0.00	0.00	-0.14
+1998	4.16	4.35	0.00	0.00	0.00	0.00
+1999	3.91	3.75	0.00	0.00	0.00	0.00
+2000	3.66	3.76	0.42	0.00	0.32	0.30
+2001	3.77	4.00	0.49	0.00	0.12	0.70
+2002	3.89	3.91	0.77	0.00	0.46	0.28
+2003	3.66	3.83	0.54	0.00	0.06	0.00
+2004	3.64	3.85	0.24	0.00	0.02	-0.23
+2005	3.83	4.05	0.17	-0.23	-0.02	-0.18
+2006	4.47	4.35	0.71	0.38	0.48	0.63
+2007	4.40	4.14	0.00	0.72	-0.08	0.99
+2008	4.49	4.42	0.55	1.30	0.48	0.90
+2009	4.84	4.88	2.09	2.16	1.14	1.28
+2010	4.98	5.09	2.49	1.96	1.53	1.31

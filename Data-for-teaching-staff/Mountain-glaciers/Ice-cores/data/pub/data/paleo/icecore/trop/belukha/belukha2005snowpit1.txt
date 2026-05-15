@@ -1,0 +1,160 @@
+# West Belukha Plateau Firn Core/Snowpit Isotope and Major Ions Data
+#----------------------------------------------------------------------- 
+#               World Data Center for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#----------------------------------------------------------------------- 
+# NOTE: Please cite original reference when using these data, 
+# plus the Online Resource and date accessed.
+#
+#
+# Online_Resource: http://hurricane.ncdc.noaa.gov/pls/paleox/f?p=519:1:::::P1_STUDY_ID:13606
+#
+# Original_Source_URL: ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit1.txt 
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#--------------------
+# Contribution_Date
+#	Date: 2012-12-06
+#--------------------
+# Title
+#	Study_Name: West Belukha Plateau Firn Core/Snowpit Isotope and Major Ions Data
+#--------------------
+# Investigators
+#	Investigators: Aizen, V.B.; Aizen, E.; Fujita, K.; Nikitin, S.A.; Kreutz, K.J.; Takeuchi, L.N.
+#--------------------
+# Description_and_Notes
+# 
+# High resolution d18O, D2H, Na, K, Mg, Ca, Cl, NO3 and SO4 data from the 2001 
+# W.Belukha Snow-Firn Plateau 21m firn-ice core and snow pits.  
+# 21 m Depth Firn-Ice Core (49°48.308 N  86°33.694 E; 4115 m asl., July 2001)	
+#
+# Additional citations:
+# Nakazawa, F., K. Fujita, N. Takeuchi., T. Fujiki, J. Utake, V. Aizen, M. Nakawo. 2005. 
+# Dating of seasonal and annual layers in alpine glacier ice using pollen analysis. 
+# Journal of Glaciology, V.51, No. 174, pp. 453-490. 
+# 
+# Aizen, V.B., E.M. Aizen, D. R. Joswiak, K. Fujita, N. Takeuchi, S.A. Nikitin. 2006. 
+# Climatic and atmospheric circulation pattern variability from ice-core isotope/
+# geochemistry records  (Altai, Tien Shan and Tibet), Annals of Glaciology, V.43, pp.49-60.
+# 
+# Takeuchi, N., J. Uetake, K. Fujita, V. Aizen, S. Nikitin. 2006. A snow algal 
+# community on Akkem Glacier in the Russian Altai Mountains. Annals of Glaciology, 
+# V. 43, pp.
+# 
+# Nakazawa, F., T. Miyaki, K. Fujita, N.Takeuchi, J. Uetaki, T. Fujiki, V. Aizen, 
+# M. Nakawo. 2011. Seasonal resolution interpretation of chemical signals enabled by 
+# seasonal dating from pollen analysis in a pit at Belukha glacier of Altai Mountains, 
+# Russia. Arctic, Antarctic, and Alpine Research, Vol. 43, No. 1, 2011, pp. 66–72"
+# 
+# Uetake, Jun,  Shiro Kohshima, Fumio Nakazawa, Nozomu Takeuchi, Koji Fujita, 
+# Takayuki Miyake, Hideki Narita, Vladimir B Aizen, Masayoshi Nakawo. 2011. 
+# Psychrophilic yeast inhabited in ice core from Belukha Glacier, Siberian Altai 
+# indicate recent warming in Siberian Altai. Journal of Geophysical Research, 
+# vol. 116, G01019, DOI:10.1029/2010JG001337"
+# 
+# 
+#--------------------
+# Publication
+#	Authors: Aizen, V.B.; Aizen, E.; Fujita, K.; Nikitin, S.A.; Kreutz, K.J.; Takeuchi, L.N.
+#       Published_Date_or_YEAR: 2005-12-01
+#	Published_Title: Stable-isotope time series and precipitation origin from firn-core and snow samples, Altai glaciers, Siberia
+#	Journal_Name: Journal of Glaciology
+#	Volume: 51
+#	Issue: 175
+#	Pages: 637 - 654
+#	DOI: 10.3189/172756505781829034
+#	Abstract: In the summers of 2001 and 2002, glacio-climatological research was performed at 4110-4120 m a.s.l. on the Belukha snow/firn plateau, Siberian Altai. Hundreds of samples from snow pits and a 21 m snow/firn core were collected to establish the annual/seasonal/monthly depth-accumulation scale, based on stable-isotope records, stratigraphic analyses and meteorological and synoptic data. The fluctuations of water stable-isotope records show well-preserved seasonal variations. The d18O and dD relationships in precipitation, snow pits and the snow/firn core have the same slope to the covariance as that of the global meteoric water line. The origins of precipitation nourishing the Belukha plateau were determined based on clustering analysis of d18O and d-excess records and examination of synoptic atmospheric patterns. Calibration and validation of the developed clusters occurred at event and monthly timescales with about 15% uncertainty. Two distinct moisture sources were shown: oceanic sources with d-excess <12‰, and the Aral-Caspian closed drainage basin sources with d-excess >12‰. Two-thirds of the annual accumulation was from oceanic precipitation, of which more than half had isotopic ratios corresponding to moisture evaporated over the Atlantic Ocean. Precipitation from the Arctic/Pacific Ocean had the lowest deuterium excess, contributing one-tenth to annual accumulation. 
+#
+#--------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Kyoto Institute of Humanity and Nature (Japan) 
+#	Grant: 
+#---------------------
+#	Funding_Agency_Name: US Department of Energy 
+#	Grant: contract A107 
+#-------------------- 
+# Site_Information 
+#       Site_Name: West Belukha Plateau Snowpit 1
+#	Location: Europe>Eastern Europe>Russia
+#	Country: Russia
+#	Northernmost_Latitude: 49.8042
+# 	Southernmost_Latitude: 49.8042
+# 	Easternmost_Longitude: 86.5611
+# 	Westernmost_Longitude: 86.5611
+# 	Elevation: 4107 m 
+#------------------   
+# Data_Collection  
+#	Core_Name: BelukhaSnowPit1 
+#	First_Year: 1999 
+#	Last_Year: 2001 
+#	Time_Unit: AD
+#	Core_Length: 2 m  
+#	Notes: 
+#------------------
+# Chronology 
+#
+# 
+# 
+#------------------
+# Variables
+# 
+# End Description/Documentation (lines begin with #)
+# Data lines follow (have no #)
+# Data line variables format:  Variables list, one per line, shortname-tab-longname-tab-longname components (9 components: material, error, units, anomaly, period, archive, detail, method, C or N for Character or Numeric data) 
+# Data line format: tab-delimited text, variable short name as header
+# 
+# Missing values -999.0
+#
+
+depth_m	Depth(m), , , m, , , , N
+density	Density, , , g/cc, , , , N
+temp	Temperature (C), , , degree C, , , , N 
+notes	notes, , , firn stratigraphy (01 - new fine grained snow; 02 - medium graned snow; 03 - coarse graned snow/firn;  04 - 1-2 mm radiation or wind ice crust; 5 - ice lense or ice layers up to 5 mm thick; 6 - regelate snow/firn; 7 - fine-graned snow firn with aeolian particles; 8 - compact white snow/firn; 9 - hoar), , , , N
+d18OiceVSMOW	delta18O ice, , , per mil VSMOW, , , , N
+d2HiceVSMOW	delta2H ice, , , per mil VSMOW, , , , N
+
+depth_m	density	temp	notes	d18OiceVSMOW	d2HiceVSMOW
+0.00	0.34	-999.0	01	-14.07	-100.0					
+0.05	0.34	-0.9	01	-15.03	-113.2					
+0.10	0.30	-999.0	01	-15.32	-110.5					
+0.15	0.30	-999.0	01	-15.64	-115.6					
+0.20	0.34	-999.0	01	-15.49	-115.1					
+0.25	0.34	-999.0	01	-18.89	-134.5					
+0.30	0.36	-999.0	01	-18.26	-139.7					
+0.35	0.36	-999.0	04	-16.71	-127.3					
+0.40	0.38	-999.0	04	-15.57	-113.0					
+0.45	0.38	-999.0	02	-14.93	-102.1					
+0.50	0.38	-3.3	02	-14.86	-103.4					
+0.55	0.38	-999.0	02	-14.26	-100.8					
+0.60	0.37	-999.0	02	-13.68	-93.7					
+0.65	0.37	-999.0	02	-14.61	-105.6					
+0.70	0.38	-999.0	02	-13.07	-95.3					
+0.75	0.38	-999.0	02	-12.42	-91.7					
+0.80	0.40	-999.0	02;06	-9.13	-59.9					
+0.85	0.40	-999.0	02	-9.38	-63.1					
+0.90	0.44	-999.0	05;09	-8.77	-66.4					
+0.95	0.44	-999.0	05;09	-9.98	-67.9					
+1.00	0.42	-4.0	05;09	-12.34	-92.5					
+1.05	0.42	-999.0	02;05	-11.69	-84.3					
+1.10	0.44	-999.0	02;05	-13.59	-98.8					
+1.15	0.44	-999.0	02	-15.37	-115.1					
+1.20	0.42	-999.0	02	-15.40	-118.4					
+1.25	0.42	-999.0	02;05	-15.17	-107.6					
+1.30	0.42	-999.0	02	-10.53	-81.2					
+1.35	0.42	-999.0	02;05	-12.21	-86.8					
+1.40	0.46	-999.0	02;05	-19.98	-143.7					
+1.45	0.46	-999.0	02	-22.70	-163.2					
+1.50	0.46	-6.5	02;05	-21.73	-149.1					
+1.55	0.46	-999.0	08	-27.94	-204.5					
+1.60	0.46	-999.0	08	-27.77	-202.8					
+1.65	0.45	-999.0	08	-25.34	-192.1					
+1.70	0.45	-999.0	08	-20.97	-156.2					
+1.75	0.45	-999.0	08	-19.90	-140.4					
+1.80	0.45	-7.3	05;07	-14.80	-105.4					
+1.85	0.45	-999.0	05;07	-11.59	-80.2					
+1.90	0.45	-999.0	05;07	-10.27	-69.1					
+1.95	0.45	-999.0	05;07	-11.48	-75.5					

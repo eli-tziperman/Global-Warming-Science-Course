@@ -1,0 +1,197 @@
+# Amundsenisen Dronning Maud Land oxygen isotope and accumulation rate data from 1895-1996 CE
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/23235
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_16-accum-DML_Plateau_FB97DML09.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# Title
+#    Study_Name: Amundsenisen Dronning Maud Land oxygen isotope and accumulation rate data from 1895-1996 CE
+#---------------------------------------
+# Investigators
+#      Investigators: Oerter, Hans; Graf, Wolfgang; Wilhelms, Frank; Minikin, Andreas; Miller, Heinz
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors: Oerter, Hans; Graf, Wolfgang; Wilhelms, Frank; Minikin, Andreas; Miller, Heinz
+# Published_Date_or_Year: 1999
+# Published_Title: Accumulation studies on Amundsenisen, Dronning Maud Land, Antarctica, by means of tritium, dielectric profiling and stable-isotope measurements: first results from the 1995�96 and 1996�97 field seasons
+# Journal_Name: Annals of Glaciology
+# Volume: 29
+# Edition: 
+# Issue: 1
+# Pages: 1-9
+# Report Number: 
+# DOI: 10.3189/172756499781820914
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: The paper focuses on studies of snow-pit samples and shallow firn cores taken during the 1995-96 and 1996-97 field seasons at Amundsenisen, Dronning Maud Land, Antarctica. The dating of the firn is based on the artificial tritium distribution in the snow cover and on several reference horizons identified by electrical measurements. The early 1964 through 1965 horizon is marked by the deposition of sulfate released to the atmosphere during the eruption of the Agung volcano in March 1963; this horizon was detected by dielectric profiling and electrical conductivity measurements: the proof by chemical analysis has still to be seen. At the ten investigated sites on Amundsenisen the 1964-65 horizon was identified 4.1-5.7 m below the surface. The accumulation rates on Amundsenisen are 41-91kg m-2 a−1 The cores are up to 100 years old A relationship between isotope content and the mean air temperature on a regional scale can be based on measurements of firn temperature at 10 m depth at the drilling sites Between Neumayer station at the coast and Heimefrontfiella, the temperature gradient of the deuterium content is 9.6%0 K−1. South of Heimefrontfiella, on the Amundsenisen plateau, it is only 5.5‰ K−1. Time series of yearly accumulation rates show no significant trend For the isotope records a significant trend to higher values with gradients of 0.1-0.2 δ 2H‰a−1 can be seen in five of the ten time series
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Deutsche Forschungsgemeinschaft
+#    Grant: Re-762/2
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: European Science Foundation/European Commission
+#    Grant: ENV4-CT95-0074
+#---------------------------------------
+# Site Information
+# Site_Name: DML09 Amundsenisen Dronning Maud Land
+# Location: Antarctica 
+# Country: 
+# Northernmost_Latitude: -75.9333
+# Southernmost_Latitude: -75.9333
+# Easternmost_Longitude: 7.2217
+# Westernmost_Longitude: 7.2217
+# Elevation: 3145
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: DML09C97_00 accum Oerter1999
+#   First_Year: 1897
+#   Last_Year: 1996
+#   Time_Unit: AD
+#   Core_Length: 11.1
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age	,,,years CE,,ice core,,,N,titrium content, dielectric profiling, electical conductivity, volcanic reference horizons
+## accum  accumulation rate,snow,,kg/m2/yr,,ice core,,,N,calculated
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+year	accum
+1996	NaN	
+1995	44.2	
+1994	44.2	
+1993	44.2	
+1992	44.2	
+1991	44.2	
+1990	44.2	
+1989	44.2	
+1988	44.2	
+1987	44.2	
+1986	44.2	
+1985	44.2	
+1984	44.2	
+1983	43.9	
+1982	NaN	
+1981	44.5	
+1980	44.2	
+1979	44.2	
+1978	44.2	
+1977	44.2	
+1976	44.2	
+1975	44.2	
+1974	44.2	
+1973	44.2	
+1972	44.2	
+1971	28.6	
+1970	46.7	
+1969	58.1	
+1968	61.1	
+1967	40.5	
+1966	37.2	
+1965	40.5	
+1964	20.3	
+1963	64.2	
+1962	44.1	
+1961	45.4	
+1960	53.4	
+1959	28.5	
+1958	46.4	
+1957	25.2	
+1956	50.8	
+1955	39.7	
+1954	26.2	
+1953	55.1	
+1952	44.4	
+1951	48.1	
+1950	23.6	
+1949	28.1	
+1948	63.8	
+1947	59.3	
+1946	38.4	
+1945	58.6	
+1944	49.1	
+1943	67.3	
+1942	61	
+1941	29.2	
+1940	36.2	
+1939	55.4	
+1938	55.4	
+1937	67.5	
+1936	52.7	
+1935	73.5	
+1934	54.4	
+1933	43.7	
+1932	64.7	
+1931	58.2	
+1930	31.6	
+1929	36.2	
+1928	25.3	
+1927	28.9	
+1926	77.1	
+1925	65.9	
+1924	44.2	
+1923	65.3	
+1922	46.8	
+1921	58.7	
+1920	30.5	
+1919	39.3	
+1918	43.4	
+1917	59.4	
+1916	19.9	
+1915	47.8	
+1914	59.9	
+1913	39.9	
+1912	63.7	
+1911	31.9	
+1910	56.5	
+1909	44.2	
+1908	30.7	
+1907	57.6	
+1906	31.5	
+1905	36.5	
+1904	40.5	
+1903	52.6	
+1902	59.9	
+1901	28.4	
+1900	48	
+1899	36	
+1898	28	
+1897	28	

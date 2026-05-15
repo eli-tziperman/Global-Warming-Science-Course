@@ -1,0 +1,246 @@
+{
+  "xmlId" : "11626",
+  "NOAAStudyId" : "13605",
+  "studyName" : "West Belukha Plateau 12,800 Year Ice Core Isotope and Major Ions Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Aizen, E.M.; Aizen, V.B.; Takeuchi, N.; Joswiak, D.R.; Fujita, K.; Nikitin, S.A.; Grigholm, B.; Zapf, A.; Mayewski, P.A.; Schwikowski, M.; Nakawo, M.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US Department of Energy",
+    "fundingGrant" : "A107"
+  }, {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "ATM-0754479 and ATM- 0754644"
+  } ],
+  "studyNotes" : "High resolution  d18O, D2H, Na, K, Mg, Ca, Cl, NO3 and SO4 data from the 2003 \nW.Belukha Snow-Firn Plateau surface to bedrock ice core. \n",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/13605",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-13605.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-13605.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2012-12-06",
+  "entryId" : "noaa-icecore-13605",
+  "earliestYearBP" : 12750,
+  "mostRecentYearBP" : -57,
+  "earliestYearCE" : -10800,
+  "mostRecentYearCE" : 2007,
+  "publication" : [ {
+    "author" : {
+      "name" : "ELENA M. AIZEN, VLADIMIR B. AIZEN, NOZOMU TAKEUCHI, PAUL A. MAYEWSKI, BJORN GRIGHOLM, DANIEL R. JOSWIAK, STANISLAV A. NIKITIN, KOJI FUJITA, MASAYOSHI NAKAWO, ALEXANDER ZAPF, MARGIT SCHWIKOWSKI"
+    },
+    "pubYear" : 2016,
+    "title" : "Abrupt and moderate climate changes at mid-latitudes of Asia during the Holocene",
+    "journal" : "Journal of Glaciology",
+    "volume" : "62",
+    "edition" : null,
+    "issue" : "233",
+    "pages" : "411-439",
+    "reportNumber" : null,
+    "citation" : "ELENA M. AIZEN, VLADIMIR B. AIZEN, NOZOMU TAKEUCHI, PAUL A. MAYEWSKI, BJORN GRIGHOLM, DANIEL R. JOSWIAK, STANISLAV A. NIKITIN, KOJI FUJITA, MASAYOSHI NAKAWO, ALEXANDER ZAPF, MARGIT SCHWIKOWSKI. 2016. Abrupt and moderate climate changes at mid-latitudes of Asia during the Holocene. Journal of Glaciology, 62(233), 411-439. doi: 10.1017/jog.2016.34",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1017/jog.2016.34",
+      "url" : "http://dx.doi.org/10.1017/jog.2016.34"
+    },
+    "abstract" : "A multiple parameter dating technique was used to establish a depth-age scale for a 171.3 m surface to bedrock ice core recovered from the cold recrystallization accumulation zone of the Western Belukha Plateau (4115 m a.s.l.) in the Siberian Altai Mountains. The ice core record presented visible layering of annual and seasonal accumulation, a clear tritium reference horizon, multiple statistically significant sulfate peaks coincident with volcanic eruptions, d18O/ dD and major ion distribution. The 14C radiocarbon measurements of course particles contained in ice core samples from four depths dated the bottom and middle part of Belukha ice core. Analysis 12,800 years of the ice core records reveals that Altai glaciers did not exist in the warm Bølling-Allerød period, but were formed later during the Younger Dryas (YD). Altai glaciers survived the Pre-Boreal Interglacial Period (PBI), the Holocene Climate Optimum (HCO), and the Medieval Warm Period (MWP). Two-step transfer functions were developed for reconstruction of Holocene air temperature changes at the northern periphery of central Asia, mid- latitudes. Air temperature reconstructions suggest the YD was 6.1 ± 0.3C lower than recent mean temperature. Since the 1990s,  Altai nearly reached the highest Holocene temperatures observed during HCO and MWP. Elevated d-excess values beginning prior to the MWP suggest enhanced continental water recycling, likely from transfer of evaporated land surface moisture to the Altai glaciers.",
+    "pubRank" : "1"
+  }, {
+    "author" : null,
+    "pubYear" : 2004,
+    "title" : "Glaciological observations on the plateau of Belukha Glacier in the Altai Mountains, Russia from 2001 to 2003",
+    "journal" : "Bulletin of Glaciological Research",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Koji Fujita, Nozomu Takeuchi, Vladimir Aizen and Stanislav Nikitin. 2004. \r\nGlaciological observations on the plateau of Belukha Glacier in the Altai Mountains, Russia from 2001 to 2003. \r\nBulletin of Glaciological Research, Vol. 21, pp. 57 - 64",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "2"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "54266",
+    "siteName" : "West Belukha Plateau",
+    "mappable" : "Y",
+    "locationName" : "Continent>Europe>Eastern Europe>Russia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "49.8067", "86.5675" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "49.8067",
+        "northernmostLatitude" : "49.8067",
+        "westernmostLongitude" : "86.5675",
+        "easternmostLongitude" : "86.5675",
+        "minElevationMeters" : "4115",
+        "maxElevationMeters" : "4115"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "BelukhaCore1",
+      "NOAADataTableId" : "23292",
+      "earliestYear" : -10800,
+      "mostRecentYear" : 2007,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 12750,
+      "mostRecentYearBP" : -57,
+      "earliestYearCE" : -10800,
+      "mostRecentYearCE" : 2007,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2004.txt",
+        "urlDescription" : "Data",
+        "linkText" : "belukha2004.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VSMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 2H",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VSMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>sodium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>potassium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>magnesium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>calcium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>chlorine>chloride",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>nitrate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>sulfate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>oxygen isotopes", "earth science>paleoclimate>ice core>hydrogen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

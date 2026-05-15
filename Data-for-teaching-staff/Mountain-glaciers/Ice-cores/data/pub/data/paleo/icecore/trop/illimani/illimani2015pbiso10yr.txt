@@ -1,0 +1,125 @@
+﻿# Illimani Ice Core 2000 Year Pb Concentration and Pb Isotope Data
+#----------------------------------------------------------------------- 
+#                World Data Center for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#----------------------------------------------------------------------- 
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+#
+# Online_Resource: http://ncdc.noaa.gov/paleo/study/18056
+#
+# Original_Source_URL: ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2015pbiso10yr.txt
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#--------------------
+# Contribution_Date
+#	Date: 2015-02-24
+#--------------------
+# Title
+#	Study_Name: Illimani Ice Core 2000 Year Pb Concentration and Pb Isotope Data
+#--------------------
+# Investigators
+# 	Investigators: Eichler, A.; Gramlich, G.; Kellerhals, T.; Tobler, L.; Schwikowski, M. 
+#--------------------
+# Description_and_Notes
+#	Description: Lead (Pb) concentration and Pb isotopes from the 1999 Illimani ice core, Bolivian Andes, 
+#	for the past 2,000 years. Data include 10 year medians and lowpass filtered Pb and Ce concentrations, 
+#	Pb enrichment factors (EFs), and 10 year and 50 year averaged Pb isotope ratios.
+#
+#	In 1999, two parallel ice cores were retrieved from Nevado Illimani (16°37′S, 67°46′W, 6300 m a.s.l.) 
+#	in a joint operation of the French Institut de Recherche pour le Developpement (IRD) and the Swiss 
+#	Paul Scherrer Institute (PSI). Both ice cores reached bedrock at depths of 138.7 and 136.7 m, respectively. 
+#	Nevado Illimani is located in the eastern Bolivian Andes at the northeastern margin of the Bolivian Altiplano.
+#	Analyses of the major ions, trace elements, tritium, and 14C were performed at the Laboratory of Radiochemistry 
+#	and Environmental Chemistry (LCH) of the Paul Scherrer Institute (PSI) and the University of Bern, Switzerland. 
+#	The mean annual accumulation rate is 0.58 m water equivalent.
+#
+#--------------------
+# Publication 
+# 	Authors: Eichler, A., G. Gramlich, T. Kellerhals, L. Tobler, and M. Schwikowski
+#	Published_Date_or_Year: 2015-03-06    
+#	Published_Title: Pb pollution from leaded gasoline in South America in the context of a 2000 year metallurgical history
+#	Journal_Name: Science Advances
+#	Volume: 1
+#	Edition: e1400196
+#	Issue: 1
+#	Pages: 
+#	DOI: 
+#	Online_Resource: http://advances.sciencemag.org/content/1/1/e1400196
+#	Full_Citation: 
+#	Abstract: Exploitation of the extensive polymetallic deposits of the Andean Altiplano in South America since pre-colonial times has caused substantial emissions of neurotoxic Pb into the atmosphere, however, its historical significance compared to recent Pb pollution from leaded gasoline is not yet resolved. Here we present a comprehensive, two millennia Pb emission history for South America, based on a continuous, high resolution, ice core record from Illimani glacier. Illimani is the highest mountain of the eastern Bolivian Andes and is located at the northeastern margin of the Andean Altiplano. The ice core Pb deposition history revealed enhanced Pb Enrichment Factors (EFs) due to metallurgical processing for silver production during periods of the Tiwanaku/Wari culture (AD 450-950), the Inca empires (AD 1450-1532), colonial times (AD 1532-1900), and tin production at the beginning of the 20th century. After the 1960s Pb EFs increased by a factor of three compared to the emission level from metal production, which we attribute to gasoline related Pb emissions. Our results show that anthropogenic Pb pollution levels from road traffic in South America exceed those of any historical metallurgy in the last two millennia, even in regions with exceptional high local metallurgical activity.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Institut de Recherche pour le Développement (IRD, France) 
+#	Grant: 
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Paul Scherrer Institute (PSI, Switzerland)
+#	Grant: 
+#------------------
+# Site_Information 
+#	Site_Name: Illimani
+#	Location: South America>Bolivia
+#	Country: Bolivia
+#	Northernmost_Latitude: -16.6167
+#	Southernmost_Latitude: -16.6167
+#	Easternmost_Longitude: -67.7667
+#	Westernmost_Longitude: -67.7667
+#	Elevation: 6300 m  
+#------------------
+# Data_Collection   
+#	Collection_Name: Illimani2015Pbiso10yr
+#	Earliest_Year: 1860
+#	Most_Recent_Year: 2000
+#	Time_Unit: AD
+#	Core_Length: 138.7m
+#	Notes: 
+#------------------
+# Chronology: 
+#
+# The timescale for the Illimani core was derived using annual layer-counting, known reference horizons 
+# from nuclear bomb testing in 1964 AD, volcanic eruptions (Pinatubo (1991), El Chichón (1982), Agung (1963), 
+# Krakatoa (1883), Tambora (1815), “unknown” (1258)) and six 14C dating points. A two‐parameter model 
+# was fitted to the time markers to obtain a continuous depth‐age relationship.
+#
+#
+#----------------
+# Variables 
+#
+# Data variables follow that are preceded by "##" in columns one and two.
+# Data line variables format:  Variables list, one per line, shortname-tab-longname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data) 
+#
+##age_AD	age, , , AD, , , , midpoint of 10 year interval,N
+##208Pb/207Pb	208Pb/207Pb ratio, , , , , ice core, 10 year average, ,N
+##208Pb/207Pberr	208Pb/207Pb ratio standard error, , , , , ice core, 10 year average, ,N
+##206Pb/207Pb	206Pb/207Pb ratio, , , , , ice core, 10 year average, ,N
+##206Pb/207Pberr	206Pb/207Pb ratio standard error, , , , , ice core, 10 year average, ,N
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+# 10 year averages Pb Isotope ratios Illimani ice core 
+#
+age_AD	208Pb/207Pb	208Pb/207Pberr	206Pb/207Pb	206Pb/207Pberr
+2000	2.4122	0.0108	1.1800	0.0054
+1990	2.4134	0.0052	1.1778	0.0026
+1980	2.4258	0.0036	1.1731	0.0017
+1970	2.4286	0.0049	1.1756	0.0024
+1960	2.4638	0.0092	1.1760	0.0050
+1950	2.4644	0.0088	1.1804	0.0045
+1940	2.4580	0.0127	1.1788	0.0058
+1930	2.4723	0.0089	1.1770	0.0047
+1920	2.4846	0.0061	1.1872	0.0029
+1910	2.4682	0.0092	1.1798	0.0049
+1900	2.4764	0.0130	1.1823	0.0063
+1890	2.4600	0.0121	1.1752	0.0072
+1880	2.4630	0.0109	1.1909	0.0055
+1870	2.4839	0.0113	1.1811	0.0062
+1860	2.4840	0.0125	1.1838	0.0073

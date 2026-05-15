@@ -1,0 +1,220 @@
+{
+  "xmlId" : "10984",
+  "NOAAStudyId" : "12942",
+  "studyName" : "Dunde Ice Core 1500 Year d18O, Dust, Anion, and Accumulation Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Thompson, L.G.; Mosley-Thompson, E.; Brecher, H.H.; Davis, M.E.; Leon, B.; Les, D.; Lin, P-N.; Mashiotta, T.A.; Mountain, K.R.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "ATM-8519794"
+  } ],
+  "studyNotes" : "Dunde ice core oxygen isotopes, dust, major anions (chloride, nitrate, \nsulfate), decadal averages from ~500 A.D.-1987 A.D.  Five year averages \nof net balance (accumulation) in water equivalent from 1606 to 1984 A.D. \n\nNote: The Core 3 decadal averages of dust and major ions (chloride, \nnitrate and sulfate) have not been published, but are included here. \n\ncore location: \nDunde Ice Cap, NE Tibetan Plateau: 38°06'N, 96°24'E, 5325 masl \n",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/12942",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-12942.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-12942.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : [ "abrupt climate change" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2012-05-21",
+  "entryId" : "noaa-icecore-12942",
+  "earliestYearBP" : 1430,
+  "mostRecentYearBP" : -30,
+  "earliestYearCE" : 520,
+  "mostRecentYearCE" : 1980,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2006,
+    "title" : "Abrupt tropical climate change: Past and present",
+    "journal" : "Proceedings of the National Academy of Sciences",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Thompson, L.G., E. Mosley-Thompson, H. Brecher, M. Davis, \r\nB. Leon, D. Les, P.-N. Lin, T. Mashiotta, and K. Mountain. 2006. \r\nAbrupt tropical climate change: Past and present. \r\nProceedings of the National Academy of Sciences, Vol. 103, No. 28, \r\npp. 10536-10543, 11 July, 2006. \r\nDOI: 10.1073/pnas.0603900103 ",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1073/pnas.0603900103",
+      "url" : "http://dx.doi.org/10.1073/pnas.0603900103"
+    },
+    "abstract" : "Three lines of evidence for abrupt tropical climate change, both past \r\nand present, are presented. First, annually and decadally averaged d18O \r\nand net mass-balance histories for the last 400 and 2,000 yr, \r\nrespectively, demonstrate that the current warming at high elevations \r\nin the mid- to low latitudes is unprecedented for at least the last \r\n2 millennia. Second, the continuing retreat of most mid- to low-latitude \r\nglaciers, many having persisted for thousands of years, signals a recent \r\nand abrupt change in the Earth’s climate system. Finally, rooted, \r\nsoft-bodied wetland plants, now exposed along the margins as the \r\nQuelccaya ice cap (Peru) retreats, have been radiocarbon dated and, \r\nwhen coupled with other widespread proxy evidence, provide strong \r\nevidence for an abrupt mid-Holocene climate event that marked the \r\ntransition from early Holocene (pre-5,000-yr-B.P.) conditions to cooler, \r\nlate Holocene (post-5,000-yr-B.P.) conditions. This abrupt event, \r\n~5,200 yr ago, was widespread and spatially coherent through much \r\nof the tropics and was coincident with structural changes in several \r\ncivilizations. These three lines of evidence argue that the present \r\nwarming and associated glacier retreat are unprecedented in some areas \r\nfor at least 5,200 yr. The ongoing global-scale, rapid retreat of \r\nmountain glaciers is not only contributing to global sea-level rise \r\nbut also threatening freshwater supplies in many of the world’s most\r\npopulous regions.\r\n",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "20007",
+    "siteName" : "Dunde Ice Cap",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "38.1", "96.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "38.1",
+        "northernmostLatitude" : "38.1",
+        "westernmostLongitude" : "96.4",
+        "easternmostLongitude" : "96.4",
+        "minElevationMeters" : "5325",
+        "maxElevationMeters" : "5325"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Dunde2006",
+      "NOAADataTableId" : "22397",
+      "earliestYear" : 520,
+      "mostRecentYear" : 1980,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 1430,
+      "mostRecentYearBP" : -30,
+      "earliestYearCE" : 520,
+      "mostRecentYearCE" : 1980,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dunde/dunde2006.txt",
+        "urlDescription" : "Data",
+        "linkText" : "dunde2006.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample end",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "water equivalent",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>dust",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "0.63-16um",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>dust",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "2.00-60 um",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>chlorine>chloride",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>sulfate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>nitrate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>accumulation", "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dunde/dunde2006.xls",
+        "urlDescription" : "Data",
+        "linkText" : "dunde2006.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>accumulation", "earth science>paleoclimate>ice core>oxygen isotopes", "earth science>paleoclimate>ice core>chemistry" ]
+      } ]
+    } ]
+  } ]
+}

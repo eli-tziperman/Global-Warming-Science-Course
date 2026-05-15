@@ -1,0 +1,232 @@
+{
+  "xmlId" : "9600",
+  "NOAAStudyId" : "11180",
+  "studyName" : "Dasuopu Ice Core 1000 Year d18O, Dust, Anion and Accumulation Data ",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Thompson, L.G.; Yao, T.; Mosley-Thompson, E.; Davis, M.E.; Henderson, K.A.; Lin, P-N.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "ATM-9523237"
+  } ],
+  "studyNotes" : "Dasuopu ice core oxygen isotopes, dust, major anions (chloride, \nnitrate, sulfate) and accumulation: annual averages from 1450-1996 \nA.D., and decadal averages of oxygen isotopes, dust and major anions \nfrom 1000-1996 A.D. ",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/11180",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-11180.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-11180.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : [ "Monsoon" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2011-06-16",
+  "entryId" : "noaa-icecore-11180",
+  "earliestYearBP" : 500,
+  "mostRecentYearBP" : -46,
+  "earliestYearCE" : 1450,
+  "mostRecentYearCE" : 1996,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2000,
+    "title" : "A high-resolution millennial record of the South Asian Monsoon  from Himalayan ice cores",
+    "journal" : "Science",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Thompson, L.G., T. Yao, E. Mosley-Thompson, M.E. Davis, \r\nK.A. Henderson, and P.N. Lin. 2000. \r\nA high-resolution millennial record of the South Asian Monsoon \r\nfrom Himalayan ice cores. \r\nScience, Vol. 289, pp. 1916-1919, 15 Sepember 2000. \r\nDOI: 10.1126/science.289.5486.1916 ",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1126/science.289.5486.1916 ",
+      "url" : "http://dx.doi.org/10.1126/science.289.5486.1916 "
+    },
+    "abstract" : "A high-resolution ice core record from Dasuopu, Tibet, reveals \r\nthat this site is sensitive to fluctuations in the intensity \r\nof the South Asian Monsoon. Reductions in monsoonal intensity \r\nare recorded by dust and chloride concentrations.  The deeper, \r\nolder sections of the Dasuopu cores suggest many other periods \r\nof drought in this region, but none have been of greater intensity \r\nthan the greatest recorded drought, during 1790 to 1796 A.D. \r\nof the last millennium. The 20th century increase in anthropogenic \r\nactivity in India and Nepal, upwind from this site, is recorded \r\nby a doubling of chloride concentrations and a fourfold increase \r\nin dust. Like other ice cores from the Tibetan Plateau, Dasuopu \r\nsuggests a large-scale, plateau-wide 20th-century warming trend \r\nthat appears to be amplifed at higher elevations. \r\n",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "20009",
+    "siteName" : "Dasuopu Glacier",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>China",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "28.38", "85.72" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "28.38",
+        "northernmostLatitude" : "28.38",
+        "westernmostLongitude" : "85.72",
+        "easternmostLongitude" : "85.72",
+        "minElevationMeters" : "7200",
+        "maxElevationMeters" : "7200"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Dasuopu Core 3",
+      "NOAADataTableId" : "19756",
+      "earliestYear" : 1450,
+      "mostRecentYear" : 1996,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 500,
+      "mostRecentYearBP" : -46,
+      "earliestYearCE" : 1450,
+      "mostRecentYearCE" : 1996,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2000.txt",
+        "urlDescription" : "Data",
+        "linkText" : "dasuopu2000.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "rate unit>length per time unit>centimeter per year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "water equivalent",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample end",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample start",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "geological material>bulk geological material>dust",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>count per volume unit>count per milliliter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "0.63-20um diameter",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>chlorine>chloride",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>nitrate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>compound>inorganic compound>sulfate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per billion",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "formation property>formation rate>accumulation rate",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "rate unit>length per time unit>centimeter per year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "ice equivalent",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2000.xls",
+        "urlDescription" : "Data",
+        "linkText" : "dasuopu2000.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

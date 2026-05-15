@@ -1,0 +1,28 @@
+https://podaac.jpl.nasa.gov/dataset/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52
+
+after lots of navigation tries, I found a simple link:
+
+https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52/GMSL_TPJAOS_5.2.txt?A-userid=eli.tziperman&Expires=1733827393&Signature=VpMkwsQATojW54tYUCSQu1w7Ou9SHQMvTgbYMFO6~4hKQwfMfOO8Z~cmR93tIRIQmxjDCtzbn31RXA~UTjBbMw5u3hc8nlBXnLUoCHZ1lDmC00hUPVubV0nsKtRmHBAsFvY863T32u3azONqKHyz7ACCK5M3nPVs6HTLu2hxO6sBfAEa8cLz2lCAeZXT4PdxLa8w~l1s~KvhbcDy-6ty9Wz~OqYGP9L06V28P~Ii-5Zhb8zj6izVJN5V~H0BCsaFl8CATU2INA7ROlvIuiCel1XlhRvkVT2frZEmTa7FcnxHkMJFwg1Otqtt4hgv30ZFqSohJB27gHl2C~djFHWmzQ__&Key-Pair-Id=K359O4CSRG7EHS
+
+
+------------------------------------------------------------------------
+Older data I used previously:
+------------------------------------------------------------------------
+From:
+https://podaac-tools.jpl.nasa.gov/drive/files/allData/merged_alt/L2/TP_J1_OSTM/global_mean_sea_level/GMSL_TPJAOS_4.2_199209_202004.txt
+
+Cite as:
+GSFC. 2017. Global Mean Sea Level Trend from Integrated Multi-Mission Ocean Altimeters TOPEX/Poseidon, Jason-1, OSTM/Jason-2 Version 4.2 Ver. 4.2 PO.DAAC, CA, USA. Dataset accessed [YYYY-MM-DD] at http://dx.doi.org/10.5067/GMSLM-TJ42.
+
+As described by:
+
+@article{beckley2017cal,
+  title={On the “Cal-Mode” Correction to TOPEX Satellite Altimetry and Its Effect on the Global Mean Sea Level Time Series},
+  author={Beckley, Brian D and Callahan, Philip S and Hancock III, DW and Mitchum, GT and Ray, RD},
+  journal={Journal of Geophysical Research: Oceans},
+  volume={122},
+  number={11},
+  pages={8371--8384},
+  year={2017},
+  publisher={Wiley Online Library}
+}

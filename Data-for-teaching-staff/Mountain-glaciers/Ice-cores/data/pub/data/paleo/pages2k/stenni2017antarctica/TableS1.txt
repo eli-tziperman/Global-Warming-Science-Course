@@ -1,0 +1,119 @@
+Table S1. 
+Identification number (the first number identifies the region: 1 East Antarctic Plateau, 2 Wilkes Land Coast, 3 Weddell Sea Coast, 
+4 Antarctic Peninsula, 5 West Antarctic Ice Sheet, 6 Victoria Land Coast and 7 Dronning Maud Land Coast), name, latitude and longitude, 
+elevation, minimun and maximum time period covered by the core, data resolution, inclusion (Y) or not (N) in this study and previous 
+PAGES 2k reconstructions (a: PAGES 2K consortium, 2013; b: PAGES 2k consortium, 2017), bibliographic citation of the core sites and original data URL.
+
+Site id	Site name	Lat (dec degree)	Long (dec degree)	elevation (m)	Min year (CE)	Max year (CE)	Resolution (years)	Included	Citation	original data URL	
+1.01	EDC Dome C	-75.1	123.39	3233	3	1919	15	"Y, a, b"	"Jouzel et al, 2001; Stenni et al., 2001"	https://www.ncdc.noaa.gov/paleo/study/6080	
+1.02	Vostok VRS13	-78.47	106.83	3488	1654	2010	1	"Y, b"	"Ekaykin et al., 2014"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-Vostok.Ekaykin.2014-2.txt	
+1.03	B31Site DML07	-75.58	-3.43	2680	1000	1994	1	"Y, b"	"Graf et al., 2002"	https://doi.pangaea.de/10.1594/PANGAEA.104882	
+1.04	B32Site DML05	-75	-0.01	2892	166	1996	1	"Y, b"	"Graf et al., 2002"	https://doi.pangaea.de/10.1594/PANGAEA.104881	
+1.05	B33Site DML17	-75.17	6.5	3160	1000	1997	1	"Y, b"	"Graf et al., 2002"	https://doi.pangaea.de/10.1594/PANGAEA.104888	
+1.06	DML E98	-72.68	3.67	2751	1976	1996	1	N	"Isaksson et al., 1999"	NOT USED	
+1.07	DML L89	-74.65	12.8	3406	1962	1996	1	Y	"Isaksson et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+1.08	FB96 DML01	-74.86	-2.55	2817	1895	1995	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo/study/22589	
+1.09	FB96 DML02	-74.97	-3.92	3014	1919	1995	1	Y	"Oerter et al., 1999"	https://doi.pangaea.de/10.1594/PANGAEA.104876	
+1.1	FB97 DML03	-74.49	1.97	2843	1941	1996	1	Y	"Oerter et al., 1999"	https://doi.pangaea.de/10.1594/PANGAEA.104879	
+1.11	FB97 DML04	-74.41	7.22	3161	1905	1996	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo/study/22589	
+1.12	FB97 DML05	-75	0.01	2882	1930	1996	1	Y	"Oerter et al., 1999"	https://doi.pangaea.de/10.1594/PANGAEA.104880	
+1.13	FB97 DML06	-75	8.01	3246	1899	1996	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+1.14	FB97 DML07	-74.59	-3.44	2669	1908	1996	1	Y	"Oerter et al., 1999"	https://doi.pangaea.de/10.1594/PANGAEA.104863	
+1.15	FB97 DML08	-75.75	3.29	2962	1919	1996	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+1.16	FB97 DML09	-75.93	7.22	3145	1897	1996	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+1.17	FB97 DML10	-75.22	11.35	3349	1900	1996	1	Y	"Oerter et al., 1999"	https://www.ncdc.noaa.gov/paleo/study/22589	
+1.18	DML11 FB9803	-74.85	-8.5	2600	1921	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104883	
+1.19	DML18 FB9804	-75.25	-6	2630	1801	1996	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104889	
+1.2	DML19 FB9805	-75.17	-1	2840	1800	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104890	
+1.21	DML05 FB9807	-75	0.04	2880	1758	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104880	
+1.22	DML20 FB9808	-74.75	1	2860	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104891	
+1.23	DML03 FB9809	-74.5	1.96	2843	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104879	
+1.24	DML21 FB9810	-74.67	4	2980	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104892	
+1.25	DML22 FB9811	-75.08	6.5	3160	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104893	
+1.26	DML23 FB9812	-75.25	6.5	3160	1810	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104894	
+1.27	DML16 FB9813	-75.17	5	3100	1800	1997	1	Y	"Oerter et al., 2000"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+1.28	DML15 FB9814	-75.08	2.5	2970	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104887	
+1.29	DML14 FB9815	-74.96	-1.5	2840	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104880	
+1.3	DML13 FB9816	-75	-4.51	2740	1800	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104885	
+1.31	DML12 FB9817	-75	-6.5	2680	1800	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104884	
+1.32	DML02S SS9813	-74.97	3.92	3014	1801	1997	1	Y	"Oerter et al., 2000"	https://doi.pangaea.de/10.1594/PANGAEA.104878	
+1.33	Dome F 1993	-77.32	39.7	3810	424	1467	5	"N, b"	"Kawamura et al., 2007"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-DomeF1993.Uemura.2014.txt	
+1.34	Dome F 2001	-77.32	39.7	3810	695	1875	10	"Y, b"	"Horiuchi et al., 2008"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-DomeF2001.Uemura.2008.txt	
+1.35	US-ITASE-2002-4	-86.5	-107.99	2586	1594	2003	0.12	"Y, b"	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+1.36	Plateau Remote	-84	43	3330	2	1986	1	"Y, b"	"Cole-Dai et al., 2000"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-PlateauRemote.Mosley-Thompson.2013.txt	
+1.37	TALDICE -Talos Dome	-72.82	159.18	2315	4	1991	11	"Y, b"	"Stenni et al., 2011"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-TalosDome.Stenni.2002.txt	
+1.38	TD96 Talos Dome	-72.8	159.06	2316	1232	1995	1	"Y, b"	"Stenni et al., 2002"	https://www.ncdc.noaa.gov/paleo-search/study/2465	
+1.39	SPRESSO (South Pole)	-89.93	144.39	2835	1801	1998	1	Y	"Steig et al., 2013"	http://nsidc.org/data/docs/agdc/nsidc0536/ 	
+1.4	NUS 08-7	-74.12	1.6	2673	1382	2008	0.25	Y	"Steig et al., 2013"	http://nsidc.org/data/docs/agdc/nsidc0536/ 	
+1.41	NUS 07-1	-73.72	7.94	3174	1706	2005	0.21	Y	"Steig et al., 2013"	http://nsidc.org/data/docs/agdc/nsidc0536/ 	
+1.42	400th km	-69.95	95.62	2777	1254	1987	5	Y	"Ekaykin et al., 2017"	https://www.clim-past.net/13/61/2017/cp-13-61-2017-supplement.zip	
+1.43	NVFL-1	-77.11	95.07	3775	1711	1944	1	Y	"Ekaykin et al., 2017"	https://www.clim-past.net/13/61/2017/cp-13-61-2017-supplement.zip	
+1.44	NVFL-3	-76.41	102.17	3528	1978	2009	1	Y	"Ekaykin et al., 2017"	https://www.clim-past.net/13/61/2017/cp-13-61-2017-supplement.zip	
+1.45	PV-10	-72.81	79.93	2800	1976	2009	1	Y	"Ekaykin et al., 2017"	https://www.clim-past.net/13/61/2017/cp-13-61-2017-supplement.zip	
+2.01	DSS Law Dome	-66.77	112.81	1370	173	1995	1	"Y, b"	"PAGES2k consortium, 2013"	https://data.aad.gov.au/metadata/records/LD2012-d18O-Native-age	
+2.02	105th km	-67.43	93.38	1407	1757	1987	1	Y	"Vladimirova and Ekaykin, 2014"	https://www.clim-past.net/13/61/2017/cp-13-61-2017-supplement.zip	
+2.03	200th km	-68.25	94.08	1990	1640	1988	1	N	"Ekaykin et al., 2017"	NOT USED	
+3.01	Berkner Island (South) B25	-79.57	-45.72	890	1000	1992	1	"Y, b"	"Mulvaney et al., 2002"	https://doi.pangaea.de/10.1594/PANGAEA.728157	
+4.01	Gomez	-73.59	-70.36	1400	1858	2006	1	Y	"Thomas et al., 2009"	https://www.ncdc.noaa.gov/paleo-search/study/12543	
+4.02	James Ross Island	-64.2	-57.69	1542	0	2007	1	"Y, b"	"Mulvaney et al., 2012"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-JamesRossIsland.Mulvaney.2013.txt	
+4.03	Dyer Plateau	-70.68	-64.87	2002	1505	1988	1	Y	"Thompson et al., 1994"	http://www.bas.ac.uk/data/uk-pdc/	
+4.04	Bruce Plateau	-66.04	-64.08	1975.5	1900	2009	1	Y	"Goodwin et al., 2016"	ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/antarctica/bruce/bruce2016d18o.txt	
+5.01	Ferrigno	-74.57	-86.9	1354	1703	2010	1	"Y, b"	"Thomas et al., 2013"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-Ferrigno.Thomas.2013.txt	
+5.02	Bryan Coast	-74.5	-81.68	1177	1712	2010	1	N	"Thomas et al., 2015"	NOT USED	
+5.03	Siple Station	-75.92	-84.25	1054	1417	1983	1	"Y, b"	"Mosley-Thompson et al., 1996"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-SipleStation.Mosley-Thompson.1990.txt	
+5.04	WDC05A	-79.46	-112.09	1806	786	2005	1	"Y, b"	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.05	WDC06A	-79.46	-112.09	1766	-50	2005	0.05	"Y, b"	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.06	US-ITASE-1999-1	-80.62	-122.63	1350	1724	2000	0.5	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.07	US-ITASE-2000-1	-79.38	-111.24	1791	1673	2001	0.1	"Y, b"	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.08	US-ITASE-2000-2	-79.73	-111.5	1675	1979	2000	0.025	N	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.09	US-ITASE-2000-3	-78.43	-111.92	1742	1971	2001	0.043	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.1	US-ITASE-2000-4	-78.08	-120.08	1697	1798	2000	0.085	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.11	US-ITASE-2000-5	-77.68	-124	1828	1718	1999	0.18	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.12	US-ITASE-2000-6	-78.33	-124.48	1639	1965	1998	0.09	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.13	US-ITASE-2001-1	-79.16	-104.97	1842	1986	2002	0.038	N	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.14	US-ITASE-2001-2	-82	-110.01	1746	1892	2002	0.037	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.15	US-ITASE-2001-3	-78.12	-95.65	1620	1858	2002	0.048	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.16	US-ITASE-2001-4	-77.61	-92.25	1483	1986	2001	0.058	N	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.17	US-ITASE-2001-5	-77.06	-89.14	1239	1780	2002	0.078	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.18	US-ITASE-2002-1	-82	-110.01	1746	1855	2003	0.072	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.19	US-ITASE-2002-2	-83.5	-104.99	1957	1894	2002	0.046	Y	"Steig et al., 2013"	http://dx.doi.org/10.7265/N5QJ7F8B	
+5.2	RICE (Roosevelt Island)	-79.36	-161.7	550	-44	2011	0.14	Y	"Bertler et al., in prep."	https://doi.pangaea.de/10.1594/PANGAEA.880396	
+6.01	Hercules Névé	-73.1	165.4	2960	1770	1992	1	Y	"Stenni et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22401	
+6.02	VLG	-77.33	162.53	625	1140	2000	1	"Y, b"	"Bertler et al., 2011"	https://doi.pangaea.de/10.1594/PANGAEA.866368	
+6.03	Mt Erebus Saddle - MES	-77.52	167.68	1600	1473	2007	0.08	"Y, b"	"Rhodes et al., 2012"	https://www.ncdc.noaa.gov/paleo-search/study/13175	
+6.04	Whitehall Glacier WGH	-72.9	169.08	400	1882	2006	1	Y	"Sinclair et al., 2012"	https://doi.pangaea.de/10.1594/PANGAEA.880396	
+6.05	Taylor Dome	-77.78	158.72	2365	-25	1939	1.7	Y	"Steig et al., 2000"	http://doi.org/10.17911/S9H59X	
+7.01	IND 22B4	-70.86	11.54	500	1533	1994	1	Y	"Laluraj et al., 2011"	https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/pages2k-temperature-v2-2017/data-current-version/Ant-CoastalDML.Thamban.2012.txt	
+7.02	IND 25B5	-71.34	11.59	1300	1903	2006	0.08	Y	"Naik et al., 2010"	https://www.ncdc.noaa.gov/paleo-search/study/22602	
+7.03	DML G3	-69.83	-0.62	57	1993	2009	1	N	"Schlosser et al., 2012"	NOT USED	
+7.04	DML G4	-70.9	-0.4	66	1983	2009	1	N	"Schlosser et al., 2012"	NOT USED	
+7.05	DML G5	-70.55	-0.05	82	1983	2009	1	N	"Schlosser et al., 2012"	NOT USED	
+7.06	DML G8	-70.42	2.02	58	1991	2009	1	N	"Schlosser et al., 2014"	NOT USED	
+7.07	DML LP1	-70.24	4.8	48	1992	2009	1	N	"Schlosser et al., 2014"	NOT USED	
+7.08	DML M2	-70.33	-0.12	75	1981	2009	1	N	"Schlosser et al., 2012"	NOT USED	
+7.09	DML S20	-70.25	4.82	63	1956	1996	1	Y	"Isaksson et al., 1999"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+7.1	DML S32	-70.32	-0.8	53	1995	2009	1	N	"Schlosser et al., 2014"	NOT USED	
+7.11	DML S100	-70.24	4.8	48	1737	1999	1	Y	"Kaczmarska et al., 2006"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+7.12	DML A89	-72.66	-16.65	30	1975	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.13	DML C89	-72.77	-14.77	70	1976	1987	1	N	"Isaksson et al., 1994"	NOT USED	
+7.14	DML D89	-73.46	-12.56	300	1974	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.15	DML E89	-73.6	-12.43	700	1973	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.16	DML E91	-73.6	-12.43	700	1932	1991	1	Y	"Isaksson et al., 1996"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+7.17	DML F89	-73.83	-12.22	800	1970	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.18	DML G89	-74.02	-12.03	1200	1971	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.19	DML H89	-74.35	-11.73	1200	1973	1988	1	N	"Isaksson et al., 1994"	NOT USED	
+7.2	DML B04	-70.62	-8.37	28	1892	1981	1	Y	"Schlosser et al., 2002"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+7.21	DML E002	-70.62	-8.37	39	1972	1986	1	N	"Oerter et al., 1999"	NOT USED	
+7.22	DML E040	-70.96	-8.52	58	1971	1986	1	N	"Oerter et al., 1999"	NOT USED	
+7.23	DML E090	-71.4	-8.36	75	1969	1986	1	N	"Oerter et al., 1999"	NOT USED	
+7.24	DML E143	-71.84	-8.62	298	1967	1986	1	N	"Oerter et al., 1999"	NOT USED	
+7.25	DML E160	-71.98	-8.73	559	1969	1986	1	N	"Oerter et al., 1999"	NOT USED	
+7.26	DML E180	-72.17	-8.83	788	1973	1984	1	N	"Oerter et al., 1999"	NOT USED	
+7.27	DML FB0189	-70.66	-8.25	28	1975	1988	1	N	"Schlosser et al., 2002"	NOT USED	
+7.28	DML FB0201	-71.21	-6.79	600	1995	2001	1	N	"Fernandoy et al., 2010"	NOT USED	
+7.29	DML FB0203	-71.46	-9.86	630	1996	2001	1	N	"Fernandoy et al., 2010"	NOT USED	
+7.3	DML A98	-71.9	3.08	1520	1971	1996	1	N	"Isaksson et al., 1999"	NOT USED	
+7.31	DML B89	-72.13	3.18	2044	1971	1996	1	N	"Isaksson et al., 1999"	NOT USED	
+7.32	DML S15	-71.2	4.61	800	1974	1996	1	N	"Isaksson et al., 1999"	NOT USED	
+7.33	DML FB9802	-74.21	-9.75	1439	1881	1997	1	Y	"Oerter et al., 2000"	https://www.ncdc.noaa.gov/paleo-search/study/22589	
+7.34	H72	-69.2	41.08	1214	1832	1999	1	N	"Nishio et al., 2002"	NOT USED	

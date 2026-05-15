@@ -1,0 +1,157 @@
+{
+  "xmlId" : "10993",
+  "NOAAStudyId" : "12951",
+  "studyName" : "Belukha Glacier, Siberian Altai 300Yr Pb Concentration and Isotope Data ",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Eichler, A.; Tobler, L.; Eyrikh, S.; Gramlich, G.; Malygina, N.; Papina, T.; Schwikowski, M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "5-year averages of the Pb concentrations and Pb isotope ratios \nfrom the 2001 Belukha ice core, Siberian Altai (period 1680-1995).\nDating uncertainties are <3 years (AD 1815-1995), or <5 years \n(AD 1680-1815). Listed age is the first year of the 5 year \naveraging period, e.g. 1680 value is for the period 1680-1684. \n \nBelukha ice core, Siberian Altai: \n49°48'26\"N, 86°34'43\"E, elevation 4062 m a.s.l., 139 m long \n\n\n",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/12951",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-12951.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-12951.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2012-05-29",
+  "entryId" : "noaa-icecore-12951",
+  "earliestYearBP" : 270,
+  "mostRecentYearBP" : -45,
+  "earliestYearCE" : 1680,
+  "mostRecentYearCE" : 1995,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2012,
+    "title" : "Three centuries of Eastern European and Altai lead emissions  recorded in a Belukha ice core",
+    "journal" : "Environmental Science and Technology",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Eichler, A., L. Tobler, S. Eyrikh, G. Gramlich, N. Malygina, \r\nT. Papina, and M. Schwikowski. 2012. \r\nThree centuries of Eastern European and Altai lead emissions \r\nrecorded in a Belukha ice core. \r\nEnviron. Sci. Technol.,  46(8), 4323-4330 \r\nDOI: 10.1021/es2039954 ",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1021/es2039954 ",
+      "url" : "http://dx.doi.org/10.1021/es2039954 "
+    },
+    "abstract" : "Human activities have significantly altered atmospheric Pb \r\nconcentrations and thus, its geochemical cycle, for thousands \r\nof years. While historical Pb emissions from Western Europe, \r\nNorth America, and Asia are well documented, there is no \r\nequivalent data for Eastern Europe. Here we present ice-core \r\nPb concentrations for the period 1680-1995 from Belukha glacier \r\nin the Siberian Altai, assumed to be representative of emissions \r\nin Eastern Europe and the Altai. Pb concentrations and 207Pb/206Pb \r\nratios were strongly enhanced during the period 1935-1995 due to \r\nthe use of Pb additives in Russian gasoline mined in the Rudny Altai. \r\nComparable to Western Europe and North America, Eastern European Pb \r\nemissions peaked in the 1970s. However, the subsequent downward \r\ntrend in Eastern Europe was mainly caused by the economic crisis \r\nin the U.S.S.R. and not by a phase-out of leaded gasoline. \r\nPb concentrations in the period 1680-1935, preceding the era \r\nof intensified industrialization in Russia, reflect the history \r\nof local emissions from Rudny Altai mining and related metallurgical \r\nprocessing primarily for the production of Russian coins. During this \r\ntime Altai ore Pb contributed about 40% of the regional atmospheric Pb.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "53018",
+    "siteName" : "Belukha Glacier",
+    "mappable" : "Y",
+    "locationName" : "Continent>Europe>Eastern Europe>Russia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "49.8072", "86.5786" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "49.8072",
+        "northernmostLatitude" : "49.8072",
+        "westernmostLongitude" : "86.5786",
+        "easternmostLongitude" : "86.5786",
+        "minElevationMeters" : "4062",
+        "maxElevationMeters" : "4062"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Belukha2012Pb",
+      "NOAADataTableId" : "22421",
+      "earliestYear" : 1680,
+      "mostRecentYear" : 1995,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 270,
+      "mostRecentYearBP" : -45,
+      "earliestYearCE" : 1680,
+      "mostRecentYearCE" : 1995,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2012pb.txt",
+        "urlDescription" : "Data",
+        "linkText" : "belukha2012pb.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>lead",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>nanogram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "5-year average",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>207Pb/206Pb",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "dimensionless",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>208Pb/206Pb",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "dimensionless",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2012pb.xls",
+        "urlDescription" : "Data",
+        "linkText" : "belukha2012pb.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry" ]
+      } ]
+    } ]
+  } ]
+}

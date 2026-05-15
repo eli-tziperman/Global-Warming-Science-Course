@@ -1,0 +1,173 @@
+Altai, Siberia 750 Year Ice Core d18O and Temperature Reconstruction 
+----------------------------------------------------------------------- 
+               World Data Center for Paleoclimatology, Boulder 
+                                  and 
+                     NOAA Paleoclimatology Program 
+----------------------------------------------------------------------- 
+NOTE: Please cite original reference when using these data, 
+plus the data file URL and date accessed. 
+
+NAME OF DATA SET: 
+Altai, Siberia 750 Year Ice Core d18O and Temperature Reconstruction 
+LAST UPDATE: 3/2012 (Original receipt by WDC Paleo) 
+CONTRIBUTORS: Eichler, A., S. Olivier, K. Henderson, A. Laube, 
+J. Beer, T. Papina, H. W. Gäggeler, and M. Schwikowski 
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2012-032 
+
+
+WDC PALEO CONTRIBUTION SERIES CITATION: 
+Eichler, A., et al. 2012. 
+Altai, Siberia 750 Year Ice Core d18O and Temperature Reconstruction. 
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2012-032. 
+NOAA/NCDC Paleoclimatology Program, Boulder CO, USA. 
+
+
+
+ORIGINAL REFERENCE: 
+Eichler, A., S. Olivier, K. Henderson, A. Laube, J. Beer, 
+T. Papina, H. W. Gäggeler, and M. Schwikowski. 2009. 
+Temperature response in the Altai region lags solar forcing. 
+Geophys. Res. Lett., 36, L01808, doi:10.1029/2008GL035930. 
+
+ABSTRACT: 
+The role of the sun on Earth's climate variability is still 
+much debated. Here we present an ice core oxygen isotope 
+record from the continental Siberian Altai, serving as a 
+high-resolution temperature proxy for the last 750 years. 
+The strong correlation between reconstructed temperature 
+and solar activity suggests solar forcing as a main driver 
+for temperature variations during the period 1250-1850 
+in this region. The precisely dated record allowed for 
+the identification of a 10-30 year lag between solar forcing 
+and temperature response, underlining the importance of 
+indirect sun-climate mechanisms involving ocean-induced 
+changes in atmospheric circulation. Solar contribution 
+to temperature change became less important during 
+industrial period 1850-2000 in the Altai region. 
+
+
+
+ADDITIONAL REFERENCE: 
+Henderson, K., A. Laube, H.W. Gäggeler, S. Olivier, 
+T. Papina, and M. Schwikowski. 2006. 
+Temporal variations of accumulation and temperature during 
+the past two centuries from Belukha ice core, Siberian Altai. 
+J. Geophys. Res., 111, D03104, doi:10.1029/2005JD005819. 
+
+
+
+GEOGRAPHIC REGION: Siberian Altai, Central Asia 
+PERIOD OF RECORD: 1250 - 1980 AD 
+
+FUNDING SOURCE: 
+Swiss National Science Foundation (SNSF), 
+Marie-Heim Vögtlin program, PMPD2-110174 
+
+
+
+DATA FILE URLS: 
+ftp://ftp.ncdc.noaa.gov/pub/data/paleo/trop/belukha/belukha2009.txt 
+ftp://ftp.ncdc.noaa.gov/pub/data/paleo/trop/belukha/belukha2009.xls 
+
+
+
+DESCRIPTION: 
+Ice core oxygen isotope data (d18O) and March-November temperature 
+reconstruction for the Altai region of Siberia over the past 750 years. 
+
+March-November temperatures in the Altai region were reconstructed 
+using d18O measurements from a Belukha ice core in the Siberian Altai. 
+Dating uncertainties are <3 years (AD 1815-1980), <5 years 
+(AD 1400-1815), and <10 years (AD 1250-1400). 
+
+Calibration was performed for the period 1850-1980 based on 
+10-year means, using temperature data from the weather station Barnaul. 
+
+Belukha ice core: 49°48'26"N, 86°34'43"E, elevation 4062 m a.s.l. 
+
+
+
+DATA: 
+Eichler et al. 2009 Belukha ice core d18O and Altai Temperature Reconstruction
+
+Column 1: Year AD (e.g. 1255: period 1250-1259)
+Column 2: 10-year averages of the ice-core d18O (per mil)
+Column 3: Reconstructed March-November temperature (deg C anomaly vs. 1250-1980 mean)
+Column 4: 1 sigma error (deg C) (including SE of d18O and calibration)
+
+YearAD      d18O      Tanom       1sigma  
+1255      -14.62      -0.30       1.69
+1265      -14.29       0.07       1.71
+1275      -14.06       0.34       1.68
+1285      -13.89       0.53       1.70
+1295      -15.12      -0.87       1.68
+1305      -14.02       0.38       1.63
+1315      -15.48      -1.28       1.61
+1325      -15.72      -1.56       1.66
+1335      -14.40      -0.05       1.64
+1345      -13.35       1.14       1.65
+1355      -14.88      -0.60       1.70
+1365      -15.14      -0.90       1.68
+1375      -14.19       0.19       1.69
+1385      -15.52      -1.33       1.72
+1395      -13.05       1.49       1.72
+1405      -13.84       0.58       1.71
+1415      -15.21      -0.98       1.75
+1425      -14.46      -0.12       1.69
+1435      -13.78       0.66       1.62
+1445      -15.11      -0.86       1.64
+1455      -16.98      -2.98       1.58
+1465      -14.18       0.19       1.56
+1475      -16.58      -2.53       1.58
+1485      -14.58      -0.26       1.65
+1495      -13.74       0.70       1.63
+1505      -13.71       0.73       1.64
+1515      -15.31      -1.09       1.63
+1525      -16.22      -2.12       1.62
+1535      -15.10      -0.85       1.58
+1545      -14.51      -0.18       1.61
+1555      -15.36      -1.14       1.65
+1565      -14.20       0.18       1.69
+1575      -14.26       0.11       1.69
+1585      -13.76       0.68       1.73
+1595      -14.65      -0.34       1.73
+1605      -13.73       0.71       1.74
+1615      -14.44      -0.10       1.74
+1625      -14.15       0.23       1.74
+1635      -13.95       0.46       1.72
+1645      -13.99       0.41       1.70
+1655      -14.49      -0.15       1.68
+1665      -15.14      -0.89       1.66
+1675      -15.06      -0.81       1.63
+1685      -14.57      -0.25       1.61
+1695      -15.54      -1.35       1.60
+1705      -15.38      -1.16       1.61
+1715      -15.64      -1.46       1.60
+1725      -14.74      -0.43       1.57
+1735      -15.19      -0.95       1.57
+1745      -16.30      -2.21       1.58
+1755      -15.15      -0.91       1.59
+1765      -14.99      -0.72       1.62
+1775      -13.95       0.46       1.70
+1785      -13.80       0.63       1.75
+1795      -13.23       1.27       1.77
+1805      -13.59       0.87       1.75
+1815      -13.97       0.44       1.74
+1825      -14.89      -0.60       1.71
+1835      -14.15       0.23       1.68
+1845      -14.02       0.38       1.70
+1855      -14.67      -0.35       1.73
+1865      -13.39       1.10       1.76
+1875      -13.67       0.78       1.81
+1885      -13.21       1.30       1.87
+1895      -12.38       2.24       1.86
+1905      -12.98       1.57       1.87
+1915      -13.42       1.06       1.85
+1925      -13.56       0.90       1.85
+1935      -13.58       0.88       1.86
+1945      -12.43       2.19       1.89
+1955      -12.69       1.89       1.94
+1965      -12.60       1.99       1.95
+1975      -11.95       2.73       1.95
+

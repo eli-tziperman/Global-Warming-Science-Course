@@ -1,0 +1,542 @@
+# Briffa - Lone Lake - PICO - ITRDB CA556
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using these data,
+# If there is no publication information, please cite investigator, title, online resource and date accessed.
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/2831
+#             Description: NOAA Landing Page of study
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca556l-noaa.rwl
+#    Description: Raw Measurements - NOAA Template File
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca556l.rwl
+#    Description: Raw Measurements - Tucson Decadal File
+#
+# Archive: Treering
+#
+# Dataset_DOI: 
+#
+# Parameter_Keywords: minimum density, latewood width, earlywood density, more info, earlywood width, ring width, latewood density, maximum density
+#-------------------
+# Contribution_Date
+# Date: 2002-07-31
+#-------------------
+# File_Last_Modified_Date
+# Date: 2019-02-08
+#-------------------
+# Title
+#   Study_Name: Briffa - Lone Lake - PICO - ITRDB CA556
+#-------------------
+# Investigators: Briffa, K.R.; Schweingruber, F.H.
+#-------------------
+# Description_Notes_and_Keywords
+#     Description: NOAA Template Chronology file added 2019-01-07. NOAA Template Raw Measurements file added 2019-02-08.
+#-------------------
+# Publication
+# Authors: 
+# Journal_Name: 
+# Published_Title: 
+# Published_Date_or_Year: 
+# Volume: 
+# Pages: 
+# Report_Number: 
+# DOI: 
+# Full_Citation: 
+# Abstract: 
+#-------------------
+# Site Information
+# Site_Name:  Lone Lake
+# Location: California
+# Northernmost_Latitude: 37.17
+# Southernmost_Latitude: 37.17
+# Easternmost_Longitude: -118.47
+# Westernmost_Longitude: -118.47
+# Elevation: 2850
+#-------------------
+# Data Collection
+# Collection_Name:  CA556
+# Earliest_Year: 1548
+# Most_Recent_Year: 1983
+# Time_Unit: AD
+# Notes: 
+#-------------------
+# Species
+# Species_Name: Pinus contorta Douglas ex Loudon
+# Common_Name: lodgepole pine
+# Tree_Species_Code: PICO
+#-------------------
+# Chronology_Information 
+#      Chronology: 
+#---------------------
+# Variables 
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line; shortname-tab- components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data,additional information)
+## age_CE age,,,year Common Era,,tree ring,,,N,
+## 732011_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732011; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732012_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732012; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732021_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732021; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732022_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732022; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732032_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732032; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732041_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732041; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732042_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732042; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732051_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732051; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732052_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732052; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732061_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732061; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732062_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732062; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732071_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732071; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732072_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732072; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732081_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732081; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732082_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732082; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732091_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732091; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732092_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732092; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732101_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732101; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732102_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732102; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732111_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732111; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732112_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732112; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732121_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732121; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## 732122_raw	latewood width ,,,millimeter,,tree ring,,,N,Tree ID: 732122; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+#---------------------
+# Data:
+# Missing_Values: NA
+age_CE	732011_raw	732012_raw	732021_raw	732022_raw	732032_raw	732041_raw	732042_raw	732051_raw	732052_raw	732061_raw	732062_raw	732071_raw	732072_raw	732081_raw	732082_raw	732091_raw	732092_raw	732101_raw	732102_raw	732111_raw	732112_raw	732121_raw	732122_raw	
+1548 	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	39	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1549	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	32	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1550	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	24	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1551	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	24	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1552	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	36	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1553	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	31	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1554	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	36	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1555	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	28	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1556	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	32	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1557	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	36	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1558	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	40	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1559	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	46	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1560	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	26	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1561	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	26	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1562	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	39	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1563	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	38	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1564	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	30	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1565	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	68	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1566	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	30	46	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1567	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	23	25	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1568	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	37	33	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1569	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	13	16	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1570	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	15	20	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1571	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	6	12	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1572	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	9	14	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1573	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	19	29	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1574	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	34	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1575	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	7	22	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1576	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	9	18	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1577	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	24	30	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1578	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	27	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1579	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	11	27	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1580	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	12	23	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1581	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	31	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1582	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	15	29	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1583	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	19	22	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1584	NaN	8	NaN	NaN	NaN	NaN	NaN	NaN	NaN	10	26	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1585	NaN	18	NaN	NaN	NaN	NaN	NaN	NaN	NaN	13	19	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1586	NaN	16	NaN	NaN	NaN	NaN	NaN	NaN	NaN	20	23	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1587	NaN	24	NaN	NaN	NaN	NaN	NaN	NaN	NaN	22	31	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1588	NaN	11	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	19	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1589	NaN	17	NaN	NaN	NaN	NaN	NaN	NaN	NaN	21	36	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1590	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	10	17	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1591	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	24	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1592	NaN	12	NaN	NaN	NaN	NaN	NaN	NaN	NaN	8	17	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1593	NaN	14	NaN	NaN	NaN	NaN	NaN	NaN	NaN	11	16	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1594	NaN	15	NaN	NaN	NaN	NaN	NaN	NaN	NaN	13	23	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1595	NaN	17	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	16	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1596	NaN	14	NaN	NaN	NaN	NaN	NaN	NaN	NaN	21	20	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1597	NaN	18	NaN	NaN	NaN	NaN	NaN	NaN	NaN	9	18	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1598	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	9	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1599	NaN	22	NaN	NaN	NaN	NaN	NaN	NaN	NaN	10	14	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1600	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	8	18	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1601	NaN	17	NaN	NaN	NaN	NaN	NaN	NaN	NaN	15	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1602	NaN	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	16	14	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1603	NaN	15	NaN	NaN	33	NaN	NaN	NaN	NaN	9	13	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1604	NaN	17	NaN	NaN	38	NaN	NaN	NaN	NaN	10	19	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1605	NaN	13	NaN	NaN	29	NaN	NaN	NaN	NaN	11	15	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1606	NaN	12	NaN	NaN	28	NaN	NaN	NaN	NaN	17	21	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1607	NaN	10	NaN	NaN	18	NaN	NaN	NaN	NaN	12	10	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1608	NaN	15	NaN	NaN	15	NaN	NaN	NaN	NaN	10	10	NaN	NaN	NaN	46	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1609	NaN	15	NaN	NaN	12	NaN	NaN	NaN	NaN	10	8	NaN	NaN	NaN	36	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1610	NaN	17	NaN	NaN	20	NaN	NaN	NaN	NaN	12	11	NaN	NaN	NaN	60	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1611	NaN	18	NaN	NaN	15	NaN	NaN	NaN	NaN	12	12	NaN	NaN	NaN	37	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1612	NaN	16	NaN	NaN	17	NaN	NaN	NaN	NaN	13	8	NaN	NaN	NaN	60	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1613	NaN	18	NaN	NaN	19	NaN	NaN	NaN	NaN	15	8	NaN	NaN	NaN	55	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1614	NaN	19	NaN	NaN	20	NaN	NaN	NaN	NaN	17	11	NaN	NaN	NaN	55	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1615	NaN	24	NaN	NaN	23	NaN	NaN	NaN	NaN	13	20	NaN	NaN	NaN	34	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1616	NaN	22	NaN	NaN	31	NaN	NaN	NaN	NaN	17	26	NaN	NaN	NaN	66	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1617	NaN	21	NaN	NaN	41	NaN	NaN	NaN	NaN	12	17	NaN	NaN	NaN	108	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1618	NaN	24	NaN	NaN	32	NaN	NaN	NaN	NaN	12	17	NaN	NaN	NaN	108	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1619	NaN	32	NaN	NaN	33	NaN	NaN	NaN	NaN	9	15	NaN	NaN	NaN	113	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1620	NaN	20	NaN	NaN	21	NaN	NaN	NaN	NaN	8	10	NaN	NaN	NaN	101	NaN	NaN	NaN	49	NaN	NaN	NaN	NaN	
+1621	NaN	27	NaN	NaN	21	NaN	NaN	NaN	NaN	9	10	NaN	NaN	NaN	68	NaN	NaN	NaN	25	NaN	NaN	NaN	NaN	
+1622	NaN	8	NaN	NaN	17	NaN	NaN	NaN	NaN	9	9	NaN	NaN	NaN	86	NaN	NaN	NaN	46	NaN	NaN	NaN	NaN	
+1623	NaN	13	NaN	NaN	19	NaN	NaN	NaN	NaN	11	15	NaN	NaN	NaN	72	NaN	NaN	NaN	31	39	NaN	NaN	NaN	
+1624	NaN	11	NaN	NaN	18	NaN	NaN	NaN	NaN	9	13	NaN	NaN	NaN	65	NaN	NaN	NaN	25	97	NaN	NaN	NaN	
+1625	NaN	10	NaN	NaN	22	NaN	NaN	NaN	NaN	10	13	NaN	NaN	NaN	87	NaN	NaN	NaN	28	34	NaN	NaN	NaN	
+1626	NaN	8	NaN	NaN	21	NaN	NaN	NaN	NaN	10	13	NaN	NaN	NaN	63	NaN	NaN	NaN	12	46	NaN	NaN	NaN	
+1627	NaN	14	NaN	NaN	25	NaN	NaN	NaN	NaN	10	17	NaN	NaN	NaN	75	NaN	NaN	NaN	38	22	NaN	NaN	NaN	
+1628	NaN	9	NaN	NaN	30	NaN	NaN	NaN	NaN	10	16	NaN	NaN	NaN	78	NaN	NaN	NaN	31	28	NaN	NaN	NaN	
+1629	NaN	8	NaN	NaN	26	NaN	NaN	NaN	NaN	9	12	NaN	NaN	NaN	63	NaN	NaN	NaN	25	36	37	NaN	NaN	
+1630	NaN	11	NaN	NaN	26	NaN	NaN	NaN	NaN	10	11	NaN	NaN	NaN	59	NaN	NaN	39	28	30	28	NaN	NaN	
+1631	NaN	6	NaN	NaN	17	NaN	NaN	NaN	NaN	9	14	NaN	NaN	NaN	105	NaN	NaN	50	28	47	36	NaN	NaN	
+1632	NaN	6	NaN	NaN	11	NaN	NaN	NaN	NaN	6	9	NaN	NaN	NaN	75	NaN	NaN	20	14	37	39	NaN	NaN	
+1633	NaN	11	NaN	NaN	17	NaN	NaN	NaN	NaN	8	16	NaN	NaN	37	45	NaN	NaN	29	26	35	23	NaN	NaN	
+1634	NaN	7	NaN	NaN	12	NaN	NaN	NaN	NaN	9	9	NaN	NaN	32	61	NaN	NaN	24	33	32	26	NaN	NaN	
+1635	15	10	NaN	NaN	17	NaN	NaN	NaN	NaN	11	16	NaN	NaN	50	53	NaN	NaN	44	51	36	28	NaN	NaN	
+1636	18	9	NaN	NaN	24	NaN	NaN	NaN	NaN	10	19	NaN	NaN	57	76	NaN	NaN	33	54	32	33	NaN	NaN	
+1637	28	11	NaN	NaN	20	NaN	NaN	NaN	NaN	10	10	NaN	NaN	61	78	NaN	NaN	20	31	18	23	NaN	NaN	
+1638	19	7	NaN	NaN	15	NaN	NaN	NaN	NaN	10	9	NaN	NaN	27	34	NaN	NaN	21	23	10	30	NaN	NaN	
+1639	18	9	NaN	NaN	12	NaN	NaN	NaN	NaN	9	11	NaN	NaN	39	46	NaN	NaN	23	24	23	25	NaN	NaN	
+1640	19	10	NaN	NaN	15	NaN	NaN	NaN	NaN	9	11	NaN	NaN	34	50	NaN	NaN	27	42	23	21	NaN	NaN	
+1641	18	11	NaN	NaN	16	NaN	NaN	NaN	NaN	10	12	NaN	NaN	38	50	NaN	NaN	17	15	21	22	NaN	NaN	
+1642	15	12	NaN	NaN	15	NaN	NaN	NaN	NaN	10	12	NaN	NaN	47	38	NaN	NaN	19	15	18	29	NaN	NaN	
+1643	19	14	NaN	NaN	15	NaN	NaN	NaN	NaN	13	11	NaN	NaN	38	35	NaN	NaN	19	19	21	15	NaN	NaN	
+1644	26	17	NaN	NaN	15	NaN	NaN	NaN	NaN	8	10	NaN	NaN	35	44	NaN	NaN	17	12	25	21	NaN	NaN	
+1645	18	11	NaN	NaN	12	NaN	NaN	NaN	NaN	8	12	NaN	NaN	37	35	NaN	NaN	24	21	17	24	NaN	NaN	
+1646	20	17	NaN	NaN	19	NaN	NaN	NaN	NaN	10	11	NaN	NaN	25	31	NaN	NaN	19	22	18	19	NaN	NaN	
+1647	21	18	NaN	NaN	14	NaN	NaN	NaN	NaN	8	13	NaN	NaN	37	40	NaN	NaN	17	22	22	18	NaN	NaN	
+1648	22	25	NaN	NaN	31	NaN	NaN	NaN	NaN	5	10	NaN	NaN	49	24	NaN	NaN	17	45	41	28	NaN	NaN	
+1649	27	25	NaN	NaN	43	NaN	NaN	NaN	NaN	9	11	NaN	NaN	79	47	NaN	NaN	25	54	36	29	NaN	NaN	
+1650	17	15	NaN	NaN	46	NaN	NaN	NaN	NaN	9	12	NaN	NaN	40	46	NaN	NaN	22	17	18	18	NaN	NaN	
+1651	26	18	NaN	NaN	30	NaN	NaN	NaN	NaN	11	12	NaN	NaN	39	39	NaN	NaN	29	28	25	19	NaN	NaN	
+1652	34	14	NaN	NaN	52	NaN	NaN	NaN	NaN	8	11	NaN	NaN	32	36	NaN	NaN	12	16	16	11	NaN	NaN	
+1653	15	13	NaN	NaN	33	NaN	NaN	NaN	NaN	4	10	NaN	NaN	21	15	NaN	NaN	18	17	9	13	NaN	NaN	
+1654	8	12	NaN	NaN	11	NaN	NaN	NaN	NaN	5	10	NaN	NaN	21	19	NaN	NaN	14	18	15	14	NaN	NaN	
+1655	7	10	NaN	NaN	10	NaN	NaN	NaN	NaN	3	6	NaN	NaN	30	19	NaN	NaN	18	16	15	16	NaN	NaN	
+1656	9	9	NaN	NaN	40	NaN	NaN	NaN	NaN	8	9	NaN	NaN	39	39	NaN	NaN	35	17	16	16	NaN	NaN	
+1657	10	13	NaN	NaN	15	NaN	NaN	NaN	NaN	6	9	NaN	NaN	35	66	NaN	NaN	20	15	14	15	NaN	NaN	
+1658	10	8	NaN	NaN	12	NaN	NaN	NaN	NaN	7	9	NaN	NaN	27	34	NaN	NaN	24	21	17	16	NaN	NaN	
+1659	7	10	NaN	NaN	9	NaN	NaN	NaN	NaN	8	10	NaN	NaN	13	24	NaN	NaN	17	15	15	10	NaN	NaN	
+1660	15	14	NaN	NaN	15	NaN	NaN	NaN	NaN	10	13	12	NaN	24	29	NaN	NaN	22	15	13	11	NaN	NaN	
+1661	13	10	NaN	NaN	24	NaN	NaN	NaN	NaN	13	15	20	NaN	30	27	NaN	NaN	22	19	18	12	NaN	NaN	
+1662	26	11	NaN	NaN	33	NaN	NaN	NaN	NaN	14	12	23	NaN	24	42	NaN	NaN	14	15	11	12	NaN	NaN	
+1663	31	12	NaN	NaN	15	NaN	NaN	NaN	NaN	14	12	21	NaN	20	21	NaN	NaN	10	12	9	9	NaN	NaN	
+1664	37	13	NaN	NaN	22	NaN	NaN	NaN	NaN	12	12	27	NaN	18	19	NaN	NaN	16	22	14	12	NaN	NaN	
+1665	21	13	NaN	NaN	10	NaN	NaN	NaN	NaN	13	14	18	NaN	20	14	NaN	NaN	19	16	10	12	NaN	NaN	
+1666	30	23	NaN	NaN	24	NaN	NaN	NaN	NaN	9	6	13	NaN	30	24	NaN	NaN	16	17	14	24	NaN	NaN	
+1667	18	11	NaN	NaN	14	NaN	NaN	NaN	NaN	11	9	14	NaN	15	22	NaN	NaN	15	13	22	21	NaN	NaN	
+1668	18	10	NaN	NaN	11	NaN	NaN	NaN	NaN	7	8	7	NaN	16	14	NaN	NaN	10	13	15	17	NaN	NaN	
+1669	13	15	NaN	NaN	13	NaN	NaN	NaN	NaN	8	8	8	NaN	20	16	NaN	NaN	14	15	12	15	NaN	NaN	
+1670	13	10	NaN	NaN	18	NaN	NaN	NaN	NaN	7	10	13	NaN	21	15	NaN	NaN	15	13	17	22	NaN	NaN	
+1671	28	21	NaN	NaN	34	NaN	NaN	NaN	NaN	12	8	19	NaN	23	19	NaN	NaN	21	23	25	24	NaN	NaN	
+1672	23	12	NaN	NaN	28	NaN	NaN	NaN	NaN	13	8	12	NaN	15	23	NaN	NaN	14	19	11	13	NaN	NaN	
+1673	29	15	NaN	NaN	24	NaN	NaN	NaN	NaN	8	6	16	NaN	19	27	NaN	NaN	14	12	16	14	NaN	NaN	
+1674	32	18	NaN	NaN	25	NaN	NaN	NaN	NaN	12	10	24	NaN	26	24	NaN	NaN	26	29	23	18	NaN	NaN	
+1675	39	10	NaN	NaN	15	NaN	NaN	NaN	NaN	9	9	20	NaN	23	24	NaN	NaN	12	22	17	13	NaN	NaN	
+1676	38	14	NaN	NaN	11	NaN	NaN	NaN	NaN	13	11	21	NaN	27	22	NaN	NaN	17	22	19	18	NaN	NaN	
+1677	39	11	NaN	NaN	14	NaN	NaN	NaN	NaN	10	9	11	NaN	36	19	NaN	NaN	16	15	17	15	NaN	NaN	
+1678	61	13	NaN	NaN	17	NaN	NaN	NaN	NaN	11	8	10	NaN	23	16	NaN	NaN	13	13	16	10	NaN	NaN	
+1679	35	15	NaN	47	20	NaN	NaN	NaN	NaN	9	10	14	NaN	35	16	NaN	NaN	10	14	14	12	NaN	NaN	
+1680	31	21	NaN	60	34	NaN	NaN	NaN	NaN	15	14	17	NaN	29	15	NaN	NaN	13	20	15	20	NaN	NaN	
+1681	31	15	NaN	49	24	NaN	NaN	NaN	NaN	8	7	22	NaN	20	17	NaN	NaN	10	12	14	11	NaN	NaN	
+1682	45	19	24	35	21	NaN	24	NaN	NaN	10	8	15	NaN	23	19	NaN	NaN	15	21	16	18	NaN	NaN	
+1683	46	22	54	44	32	NaN	25	NaN	NaN	13	11	20	NaN	36	15	NaN	NaN	15	17	13	9	NaN	NaN	
+1684	34	24	36	37	13	NaN	20	NaN	NaN	13	12	12	NaN	9	22	NaN	NaN	13	12	18	8	NaN	NaN	
+1685	28	27	27	52	18	NaN	25	NaN	NaN	9	9	13	NaN	20	20	NaN	NaN	16	13	17	12	NaN	NaN	
+1686	42	23	29	56	10	NaN	24	NaN	NaN	9	9	11	NaN	23	17	NaN	NaN	11	16	14	13	NaN	NaN	
+1687	29	19	28	35	16	NaN	19	NaN	NaN	10	11	10	NaN	14	12	NaN	NaN	12	15	12	17	NaN	NaN	
+1688	34	19	53	67	19	NaN	24	NaN	NaN	9	9	15	NaN	15	13	NaN	NaN	12	25	15	12	NaN	NaN	
+1689	32	16	39	45	22	NaN	21	NaN	NaN	13	13	22	NaN	14	12	NaN	NaN	13	23	13	9	NaN	NaN	
+1690	29	9	29	24	9	NaN	13	NaN	NaN	14	10	12	NaN	8	10	NaN	NaN	8	11	9	7	NaN	NaN	
+1691	37	8	22	20	10	NaN	13	NaN	NaN	12	12	14	NaN	11	11	30	NaN	8	11	10	7	NaN	NaN	
+1692	43	13	36	47	21	NaN	23	NaN	NaN	13	13	13	NaN	22	15	23	NaN	18	26	17	15	NaN	NaN	
+1693	39	15	23	37	14	NaN	19	NaN	NaN	16	17	16	NaN	23	12	25	NaN	9	16	10	9	NaN	NaN	
+1694	32	15	23	34	16	NaN	20	NaN	NaN	16	15	11	NaN	15	8	21	NaN	10	16	9	11	NaN	NaN	
+1695	39	16	27	47	16	37	15	NaN	NaN	20	19	16	NaN	16	10	26	NaN	9	14	9	12	NaN	NaN	
+1696	43	20	30	40	24	50	29	NaN	NaN	20	11	20	NaN	32	15	34	NaN	12	25	16	11	NaN	NaN	
+1697	43	33	33	42	20	60	35	NaN	NaN	20	15	18	NaN	27	15	35	NaN	17	28	15	11	NaN	NaN	
+1698	38	16	35	31	20	48	15	NaN	NaN	23	10	15	NaN	10	10	20	NaN	15	14	12	9	NaN	NaN	
+1699	41	14	31	49	27	43	23	NaN	NaN	11	10	19	NaN	19	12	25	NaN	22	19	12	12	NaN	NaN	
+1700	31	18	24	45	23	42	29	NaN	NaN	15	10	12	NaN	18	10	30	NaN	15	19	18	13	NaN	NaN	
+1701	21	14	17	13	12	32	15	NaN	NaN	11	10	12	NaN	14	6	10	NaN	9	10	10	7	NaN	NaN	
+1702	24	19	33	23	19	187	50	NaN	NaN	14	14	15	NaN	15	9	91	NaN	12	20	15	12	NaN	NaN	
+1703	30	23	25	19	13	37	43	NaN	NaN	13	13	12	NaN	15	6	17	NaN	8	13	12	10	NaN	NaN	
+1704	30	16	30	31	21	33	27	NaN	NaN	13	11	13	NaN	31	10	13	NaN	9	19	12	12	NaN	NaN	
+1705	27	14	29	29	19	36	16	NaN	NaN	12	12	13	NaN	30	11	26	NaN	12	22	13	15	NaN	NaN	
+1706	22	12	17	25	15	29	11	NaN	NaN	17	12	9	NaN	21	14	7	NaN	14	12	7	9	NaN	NaN	
+1707	25	13	20	17	12	23	19	NaN	NaN	13	9	9	NaN	23	8	7	NaN	12	12	11	17	NaN	NaN	
+1708	18	11	20	25	15	24	22	NaN	NaN	14	10	11	NaN	20	12	9	NaN	13	21	11	12	NaN	NaN	
+1709	16	15	28	27	14	59	59	NaN	NaN	17	15	11	NaN	22	10	30	NaN	17	19	10	11	NaN	NaN	
+1710	13	13	22	29	12	26	34	NaN	NaN	14	17	13	NaN	15	11	16	NaN	8	18	12	8	NaN	NaN	
+1711	12	12	15	27	12	18	22	NaN	NaN	14	13	13	25	19	8	17	NaN	11	14	10	9	NaN	NaN	
+1712	21	19	16	29	15	24	20	NaN	NaN	16	16	14	24	17	11	16	NaN	14	11	10	11	NaN	NaN	
+1713	19	12	17	33	11	26	15	NaN	NaN	12	16	14	29	18	8	13	NaN	10	10	9	12	NaN	NaN	
+1714	19	14	19	35	16	25	14	NaN	NaN	14	9	18	23	21	13	11	NaN	9	14	11	13	NaN	NaN	
+1715	36	15	17	22	9	16	16	NaN	NaN	13	10	12	25	15	12	8	NaN	12	12	13	11	NaN	NaN	
+1716	26	15	32	31	10	22	16	NaN	NaN	13	8	12	28	15	19	12	NaN	8	11	9	11	NaN	NaN	
+1717	38	28	54	36	18	32	26	NaN	NaN	12	13	22	24	17	12	17	NaN	20	16	12	11	NaN	NaN	
+1718	27	23	40	25	20	23	18	NaN	NaN	15	16	14	26	24	16	16	NaN	17	12	13	12	NaN	NaN	
+1719	32	17	37	29	28	23	24	NaN	NaN	12	11	14	25	18	11	17	NaN	7	13	9	10	NaN	NaN	
+1720	27	18	30	25	25	23	30	NaN	NaN	13	11	24	23	18	16	21	NaN	11	11	15	13	NaN	NaN	
+1721	16	15	16	27	15	19	21	NaN	NaN	10	10	17	23	9	16	8	NaN	8	14	9	14	NaN	NaN	
+1722	22	20	23	25	18	17	16	NaN	NaN	12	11	14	30	11	13	13	NaN	8	16	8	10	NaN	NaN	
+1723	16	16	22	26	16	16	15	NaN	NaN	10	9	14	19	19	19	26	NaN	11	13	9	11	NaN	NaN	
+1724	14	15	23	32	13	19	13	NaN	NaN	7	11	12	23	15	14	10	NaN	7	17	7	13	NaN	NaN	
+1725	14	16	44	70	31	29	11	NaN	NaN	10	11	14	22	32	19	39	NaN	7	10	12	14	NaN	NaN	
+1726	35	17	44	73	28	20	20	NaN	NaN	14	10	19	26	18	18	30	NaN	11	22	16	18	NaN	NaN	
+1727	30	20	22	31	20	15	15	NaN	NaN	9	12	14	21	17	16	16	NaN	10	11	11	10	NaN	NaN	
+1728	20	16	41	37	17	23	21	NaN	NaN	11	14	16	23	18	13	15	NaN	11	9	13	11	NaN	NaN	
+1729	10	8	16	20	20	10	11	NaN	NaN	12	14	14	25	8	9	11	NaN	6	8	9	7	NaN	NaN	
+1730	10	11	25	20	19	13	13	NaN	NaN	7	8	10	17	19	14	28	NaN	12	13	11	12	NaN	NaN	
+1731	11	12	21	23	19	15	12	NaN	NaN	8	12	11	13	24	11	19	NaN	10	9	16	9	NaN	NaN	
+1732	7	8	31	33	29	19	18	NaN	NaN	7	7	13	17	16	13	26	NaN	8	12	9	9	NaN	NaN	
+1733	14	10	29	23	16	12	12	NaN	NaN	8	9	12	18	15	13	14	NaN	7	9	8	11	NaN	NaN	
+1734	12	13	22	25	14	12	11	NaN	NaN	10	8	12	20	19	16	21	NaN	20	13	9	11	NaN	NaN	
+1735	12	11	21	14	13	15	11	NaN	NaN	10	12	16	19	13	12	9	NaN	12	10	9	8	NaN	NaN	
+1736	9	20	14	13	19	15	9	NaN	NaN	18	11	12	28	12	11	11	NaN	7	7	7	8	NaN	13	
+1737	16	10	19	19	14	20	8	NaN	NaN	11	7	10	16	10	18	9	NaN	9	13	7	8	NaN	22	
+1738	28	15	37	20	17	22	26	NaN	NaN	7	9	10	16	17	9	13	NaN	8	10	9	11	NaN	10	
+1739	15	7	28	21	21	28	12	NaN	NaN	9	9	15	24	12	12	10	NaN	6	9	8	9	NaN	11	
+1740	11	10	30	25	18	16	12	NaN	NaN	18	8	11	17	19	11	11	NaN	13	11	9	11	NaN	7	
+1741	15	12	41	40	22	23	14	NaN	NaN	13	10	9	15	28	14	14	NaN	17	17	9	13	NaN	7	
+1742	15	10	21	25	19	17	9	NaN	NaN	9	8	12	17	18	12	13	NaN	8	10	8	9	NaN	7	
+1743	21	13	42	38	21	18	15	NaN	NaN	14	13	13	21	23	17	20	NaN	13	14	11	11	NaN	10	
+1744	19	17	59	55	23	16	11	NaN	NaN	14	11	13	16	16	16	13	NaN	10	9	8	10	NaN	18	
+1745	27	15	57	36	19	17	12	NaN	NaN	15	14	16	14	19	16	17	NaN	6	10	11	9	NaN	15	
+1746	19	11	36	28	19	15	11	NaN	NaN	16	17	12	19	13	17	18	NaN	9	11	9	12	NaN	18	
+1747	18	22	47	33	29	22	14	NaN	NaN	17	13	15	20	19	18	26	NaN	7	18	9	9	NaN	12	
+1748	15	9	30	17	20	14	13	NaN	NaN	15	10	11	22	10	14	9	NaN	7	12	5	7	NaN	29	
+1749	13	9	24	14	18	19	16	NaN	NaN	17	11	12	19	12	12	9	NaN	10	11	8	10	NaN	15	
+1750	14	9	22	20	19	19	18	NaN	NaN	9	8	11	18	13	11	13	NaN	11	9	8	9	NaN	18	
+1751	16	9	23	22	15	20	22	NaN	NaN	12	11	13	21	13	12	14	NaN	10	9	10	10	NaN	20	
+1752	19	12	17	32	16	14	23	NaN	NaN	8	8	18	22	18	12	10	NaN	9	12	5	10	NaN	15	
+1753	11	8	14	18	14	20	21	NaN	NaN	9	8	14	14	16	13	12	NaN	9	10	8	12	NaN	13	
+1754	11	8	15	16	16	15	21	NaN	NaN	9	10	10	13	13	11	11	NaN	12	12	8	11	NaN	16	
+1755	9	7	15	14	14	14	19	NaN	NaN	10	8	12	8	12	11	8	NaN	7	9	8	10	NaN	23	
+1756	8	8	12	19	14	15	17	NaN	NaN	8	9	13	10	11	11	7	NaN	11	8	7	12	NaN	18	
+1757	19	12	15	26	13	15	17	NaN	NaN	11	10	13	10	15	15	14	NaN	11	12	8	13	NaN	22	
+1758	15	10	13	25	15	17	13	NaN	NaN	12	15	12	11	14	14	17	NaN	10	10	8	11	18	21	
+1759	14	11	11	18	13	11	11	NaN	20	9	13	14	12	18	11	9	NaN	9	8	6	10	16	13	
+1760	16	13	18	21	16	19	13	NaN	18	8	10	13	11	17	12	18	NaN	13	10	8	13	21	24	
+1761	19	12	15	33	24	22	14	NaN	21	9	7	16	12	19	11	11	NaN	10	8	7	10	13	21	
+1762	17	13	13	29	17	14	13	NaN	13	10	17	14	13	8	10	12	NaN	9	10	8	11	11	20	
+1763	13	13	14	25	17	16	11	NaN	12	8	16	12	13	20	18	10	NaN	7	18	8	11	15	21	
+1764	18	15	14	30	19	16	20	NaN	14	9	15	8	15	26	16	17	NaN	9	17	9	12	24	26	
+1765	8	9	9	11	19	9	13	NaN	9	8	12	8	14	8	14	7	NaN	7	8	5	8	15	20	
+1766	10	10	15	17	17	18	16	NaN	14	9	14	7	14	14	16	15	NaN	7	13	8	11	17	28	
+1767	15	13	22	32	22	28	20	NaN	24	8	15	15	14	29	16	15	NaN	11	13	13	13	22	28	
+1768	17	18	21	21	26	24	18	NaN	13	9	14	13	12	25	13	17	NaN	11	11	8	9	21	23	
+1769	8	9	19	20	22	18	14	NaN	9	7	11	11	10	12	9	10	NaN	8	12	9	8	17	22	
+1770	9	7	13	15	22	16	17	NaN	8	8	14	10	8	9	8	7	NaN	5	11	8	8	15	22	
+1771	10	12	17	23	20	22	17	NaN	17	9	21	13	11	23	15	17	NaN	10	18	9	11	26	33	
+1772	14	12	30	39	18	22	20	NaN	15	9	10	13	9	12	8	7	NaN	7	14	6	8	19	25	
+1773	8	9	10	13	17	11	14	NaN	14	7	8	8	12	10	7	7	NaN	6	20	7	9	20	26	
+1774	12	8	15	26	17	17	16	NaN	13	7	8	13	13	13	10	10	NaN	11	17	8	9	38	33	
+1775	11	12	10	29	17	13	11	NaN	13	6	9	9	9	16	11	9	NaN	8	17	6	6	48	41	
+1776	10	18	11	17	16	13	12	NaN	20	7	12	9	9	9	8	7	NaN	8	17	9	8	9	25	
+1777	10	13	9	15	12	17	11	NaN	13	8	9	8	9	12	8	7	NaN	7	7	11	6	11	22	
+1778	10	10	15	17	13	14	9	NaN	12	7	12	13	8	10	7	7	NaN	8	7	8	7	22	27	
+1779	9	11	14	27	13	13	9	NaN	17	7	11	11	10	14	11	8	NaN	8	8	14	7	21	28	
+1780	7	11	15	19	13	10	11	NaN	14	5	9	13	7	17	11	7	NaN	8	6	8	7	33	32	
+1781	9	8	11	20	14	11	8	NaN	12	9	15	11	7	12	15	7	NaN	9	10	7	7	15	34	
+1782	8	12	10	10	13	11	8	NaN	9	8	9	7	4	9	7	6	NaN	8	7	6	5	11	24	
+1783	7	10	7	7	11	7	10	NaN	13	9	10	11	7	10	8	5	NaN	8	11	8	8	12	25	
+1784	7	8	15	24	10	11	11	NaN	8	6	11	8	5	18	15	13	NaN	12	11	7	7	23	26	
+1785	8	9	10	19	11	10	11	NaN	10	7	10	14	6	19	8	13	NaN	11	9	7	6	15	33	
+1786	7	8	10	18	12	8	7	NaN	11	8	4	9	5	13	9	7	NaN	9	7	6	5	24	29	
+1787	10	14	14	26	11	12	6	NaN	10	10	8	10	8	21	11	11	NaN	14	8	8	9	23	31	
+1788	7	9	11	10	11	8	11	NaN	7	7	8	10	7	11	9	7	NaN	12	6	8	7	8	31	
+1789	9	7	9	15	10	12	13	NaN	12	8	6	10	6	19	11	6	NaN	14	8	9	7	16	39	
+1790	9	11	9	13	12	11	12	NaN	13	8	9	11	8	12	7	13	NaN	14	7	9	7	12	32	
+1791	10	10	11	19	9	9	10	NaN	13	6	8	8	8	15	11	13	NaN	15	7	9	8	16	27	
+1792	13	12	11	17	13	11	11	NaN	16	10	9	9	9	21	9	12	NaN	19	12	8	7	20	29	
+1793	10	12	10	18	11	11	10	NaN	14	9	13	16	12	13	9	9	NaN	16	10	6	11	16	18	
+1794	9	14	9	8	7	8	11	NaN	8	6	7	9	8	9	8	8	NaN	16	8	7	7	16	16	
+1795	9	6	13	11	6	7	16	NaN	9	5	7	7	9	13	10	9	NaN	18	10	8	8	25	23	
+1796	7	7	9	10	13	8	6	NaN	9	6	10	6	7	12	7	7	NaN	17	11	6	7	13	20	
+1797	10	18	10	18	13	11	13	25	23	6	9	7	10	20	10	11	NaN	17	9	8	9	17	17	
+1798	11	11	9	22	11	9	12	20	19	5	11	6	6	28	16	10	NaN	16	13	8	7	44	25	
+1799	9	13	11	17	13	11	13	14	17	6	7	8	7	28	12	14	NaN	16	10	7	11	28	24	
+1800	11	13	11	11	11	9	14	16	19	7	9	13	9	16	9	9	14	14	9	5	7	9	16	
+1801	13	10	12	15	13	10	14	13	17	10	9	11	8	26	14	15	15	11	10	10	8	36	29	
+1802	12	10	9	19	13	10	14	14	12	9	7	7	10	22	10	15	15	12	7	9	9	28	19	
+1803	12	10	9	11	13	12	13	14	16	7	9	9	9	12	9	12	15	14	7	9	8	17	15	
+1804	13	16	13	13	15	11	16	13	19	8	9	8	12	18	10	15	19	13	9	9	8	23	16	
+1805	12	10	8	13	16	10	15	9	15	8	9	7	7	14	7	10	15	11	7	7	8	11	17	
+1806	11	9	9	12	12	10	12	12	12	10	7	13	7	16	10	10	15	15	9	8	10	11	16	
+1807	10	18	8	12	10	10	12	10	9	7	9	9	7	12	8	8	13	15	9	9	9	15	14	
+1808	11	11	10	9	10	8	12	10	9	5	5	5	8	19	7	9	11	15	11	6	6	18	15	
+1809	12	11	8	10	14	8	18	15	9	5	7	6	10	15	9	9	14	13	16	8	9	24	13	
+1810	8	10	16	13	15	9	14	14	10	6	8	5	9	13	9	12	12	13	12	7	8	27	29	
+1811	9	17	20	17	13	10	14	21	9	7	8	6	10	12	9	12	12	15	12	8	9	26	18	
+1812	10	9	11	15	11	9	15	17	10	6	10	8	9	12	9	12	12	9	6	7	10	24	14	
+1813	7	8	9	10	14	9	14	20	10	4	6	5	8	10	9	12	10	8	7	6	7	20	18	
+1814	9	9	10	12	11	10	13	20	10	6	7	11	8	10	11	9	10	8	9	9	12	16	13	
+1815	10	5	10	12	10	7	13	12	8	6	13	7	8	10	12	8	11	10	7	6	7	13	10	
+1816	8	9	14	13	14	11	10	21	11	7	10	6	8	15	12	11	10	10	5	7	9	27	20	
+1817	11	10	20	13	15	15	16	18	11	8	8	9	10	14	9	11	8	8	8	9	10	34	20	
+1818	10	11	11	10	10	21	11	19	10	8	8	7	10	13	9	11	10	9	6	6	8	30	21	
+1819	11	8	11	10	12	12	10	14	13	9	7	10	9	10	11	12	11	8	8	6	7	23	16	
+1820	14	9	9	18	10	12	11	15	12	6	9	8	8	10	8	9	10	12	13	7	11	10	11	
+1821	8	8	7	8	10	9	11	10	10	8	9	7	7	7	8	8	9	9	5	6	7	11	13	
+1822	6	9	8	7	9	10	10	9	8	5	7	10	7	10	11	9	8	8	5	5	6	11	12	
+1823	8	8	7	8	8	8	8	14	9	6	8	6	7	11	8	8	6	8	9	7	7	18	13	
+1824	7	5	6	7	8	7	12	15	8	4	8	7	6	8	6	7	7	9	5	5	8	12	11	
+1825	10	10	14	9	11	17	11	19	22	6	10	13	8	20	14	13	13	8	9	7	11	28	16	
+1826	9	14	15	9	10	14	15	18	18	6	8	11	10	20	11	13	8	7	8	7	8	37	17	
+1827	7	9	10	8	10	8	10	13	14	7	10	8	10	12	8	8	8	8	6	5	7	17	9	
+1828	7	8	10	7	8	8	10	11	10	8	6	13	11	11	8	9	9	7	7	10	8	19	13	
+1829	6	7	7	8	7	11	8	9	10	7	7	9	12	7	8	11	8	5	6	9	8	13	11	
+1830	7	8	8	6	7	9	15	17	14	6	7	8	10	18	11	14	14	7	11	8	8	31	31	
+1831	9	8	13	9	7	11	10	12	13	6	9	9	12	13	10	20	14	7	11	7	8	38	25	
+1832	12	10	14	10	10	13	13	18	20	6	8	8	13	14	12	19	13	6	8	10	7	46	31	
+1833	8	10	7	9	6	12	11	19	18	4	8	10	11	6	10	20	9	7	7	8	8	19	19	
+1834	7	8	9	6	5	7	12	14	20	6	9	9	10	12	11	9	9	7	7	8	8	10	15	
+1835	7	8	11	8	4	7	12	12	17	6	7	7	9	9	9	7	9	12	6	9	8	11	15	
+1836	6	8	7	10	5	9	9	12	16	6	5	6	10	11	12	8	7	7	6	8	6	12	17	
+1837	7	8	12	11	9	11	10	15	22	6	7	8	10	13	15	17	13	6	8	10	8	18	29	
+1838	15	8	14	16	9	13	11	12	20	8	8	11	10	11	12	14	10	8	5	11	11	27	22	
+1839	7	7	13	11	6	12	13	15	15	9	7	11	9	7	-999	12	7	8	5	9	10	32	17	
+1840	8	7	17	8	7	10	12	12	15	6	9	8	8	10	7	13	8	9	5	13	13	29	17	
+1841	7	7	12	7	10	8	11	10	13	10	9	8	10	11	8	11	7	6	6	10	9	10	13	
+1842	5	6	13	7	3	9	8	11	10	5	8	10	8	9	16	8	7	6	7	11	7	16	14	
+1843	9	7	7	9	4	9	8	9	12	8	9	8	7	5	13	7	7	6	7	7	9	11	11	
+1844	5	7	9	6	2	7	8	9	10	5	6	5	5	9	12	8	8	8	6	7	8	11	12	
+1845	5	8	14	9	4	12	10	11	9	4	7	7	9	16	14	9	8	7	9	5	8	26	20	
+1846	6	10	9	10	6	8	7	11	6	7	8	8	7	9	10	8	8	5	6	11	9	16	14	
+1847	5	8	11	10	4	8	7	10	11	6	6	6	8	12	10	11	7	8	5	8	6	17	15	
+1848	11	6	18	13	5	10	8	10	9	5	10	14	6	7	9	10	7	11	9	8	9	12	15	
+1849	9	6	12	10	5	9	8	13	9	3	8	7	7	8	11	7	6	6	6	7	7	21	13	
+1850	5	7	26	9	5	13	10	12	11	6	7	10	8	10	4	10	11	8	6	6	7	28	14	
+1851	11	7	19	10	5	6	8	8	7	19	8	8	8	10	8	12	7	7	6	9	10	11	14	
+1852	8	8	32	10	5	9	8	14	12	23	7	6	7	11	14	9	7	6	5	7	8	16	15	
+1853	9	10	72	13	8	14	10	19	18	18	9	7	9	12	8	20	12	6	6	10	10	34	19	
+1854	10	8	41	11	5	10	11	18	11	17	9	8	8	8	9	16	8	8	7	7	10	24	29	
+1855	12	8	65	10	5	9	10	19	16	11	7	7	8	9	7	12	7	7	11	8	13	6	24	
+1856	8	8	13	7	6	9	8	10	9	9	7	11	7	5	8	11	6	6	7	5	7	7	16	
+1857	8	8	22	9	8	7	9	12	12	8	7	8	11	9	10	11	8	7	7	6	8	13	21	
+1858	8	7	17	9	-999	8	9	10	11	7	7	7	9	9	8	12	8	10	6	6	8	10	18	
+1859	19	9	26	11	6	9	10	12	10	14	8	7	14	9	12	11	10	12	6	7	9	19	16	
+1860	12	9	18	8	7	7	7	12	14	10	6	11	9	9	8	12	9	10	6	6	9	11	19	
+1861	14	11	29	12	7	12	13	12	14	12	6	10	8	10	14	16	10	11	6	8	8	12	18	
+1862	14	15	18	12	9	12	9	12	15	11	12	10	10	15	14	18	12	9	6	6	10	24	23	
+1863	6	8	15	18	9	11	12	20	12	8	11	8	9	9	10	16	11	11	6	7	10	21	22	
+1864	9	6	13	9	6	9	10	12	11	9	9	8	8	8	9	9	9	9	6	5	8	19	21	
+1865	11	8	11	8	5	10	7	8	16	10	10	9	7	11	11	9	11	9	6	6	9	26	21	
+1866	14	5	15	10	4	8	7	9	11	10	11	10	6	10	7	11	10	12	6	6	9	30	26	
+1867	20	11	22	13	8	15	11	15	16	9	13	8	8	20	10	14	11	9	9	7	9	38	29	
+1868	15	11	24	17	7	14	20	18	19	8	12	9	10	13	12	18	15	10	8	7	8	39	24	
+1869	15	9	17	15	8	12	12	16	17	6	9	10	9	13	9	33	18	9	6	8	10	39	24	
+1870	12	11	16	13	11	11	14	17	22	6	10	11	10	11	10	40	18	10	5	7	7	43	26	
+1871	11	9	15	11	10	9	12	16	14	8	11	13	15	15	16	20	14	10	7	6	8	27	25	
+1872	13	7	15	8	9	11	11	15	21	8	10	10	10	15	10	15	14	16	5	7	8	19	20	
+1873	9	7	8	7	10	9	8	15	14	8	10	9	8	8	7	12	13	12	6	7	10	10	20	
+1874	12	9	14	11	9	11	10	12	18	6	13	9	10	13	10	13	14	11	7	7	7	13	21	
+1875	10	9	14	11	9	10	12	16	20	8	11	12	15	9	7	10	11	10	6	5	7	9	20	
+1876	7	9	13	11	9	10	11	12	16	8	10	11	9	12	13	10	17	12	7	7	8	26	28	
+1877	7	7	11	15	5	7	9	9	12	2	12	12	8	8	6	7	8	14	4	8	10	12	20	
+1878	5	7	12	11	7	10	12	10	16	8	9	10	9	14	13	9	12	13	4	8	7	23	20	
+1879	8	8	9	10	9	11	8	10	16	8	8	10	15	10	8	8	14	14	3	7	8	20	23	
+1880	5	8	10	11	8	8	7	8	12	5	10	10	8	10	6	9	14	15	6	5	7	16	20	
+1881	5	8	13	10	7	7	6	10	14	8	8	16	10	10	6	10	11	11	5	6	7	12	15	
+1882	3	7	10	11	6	7	7	12	18	7	7	12	8	12	10	10	7	12	7	7	7	13	16	
+1883	6	8	8	10	6	7	6	8	10	6	8	9	6	9	7	10	6	20	8	7	8	10	15	
+1884	5	8	9	11	8	7	10	10	11	7	8	9	8	11	8	8	8	14	7	7	8	15	15	
+1885	7	10	12	10	6	9	6	10	11	8	9	11	9	10	8	7	8	13	8	6	9	16	15	
+1886	6	7	10	8	7	8	7	8	8	7	9	11	7	12	7	10	7	12	8	6	8	14	24	
+1887	8	9	15	20	10	7	9	10	13	8	9	10	8	10	8	9	9	9	6	7	12	14	17	
+1888	8	8	12	10	9	9	8	9	11	5	8	15	10	10	10	10	7	11	8	6	8	21	15	
+1889	8	11	12	6	9	11	7	9	13	8	8	10	10	9	6	10	8	11	9	6	6	9	18	
+1890	8	10	12	18	9	10	11	9	12	7	10	10	7	11	10	11	7	11	8	6	8	16	16	
+1891	8	11	16	12	8	12	9	14	14	7	7	11	8	17	9	12	8	14	7	4	7	22	20	
+1892	10	9	12	20	6	9	8	17	13	7	9	12	8	7	8	10	7	18	13	7	17	14	20	
+1893	8	10	12	22	7	11	8	13	9	7	9	11	8	12	12	10	10	12	7	4	14	20	20	
+1894	9	10	9	13	7	9	9	12	14	7	9	11	10	9	9	11	9	11	6	6	13	12	15	
+1895	10	9	14	14	13	8	9	15	16	7	8	10	9	14	13	13	16	13	9	12	8	21	18	
+1896	9	8	13	14	10	8	7	12	14	10	9	10	10	10	12	11	11	9	8	4	7	15	16	
+1897	11	6	10	13	10	8	7	16	12	8	8	11	9	11	8	8	9	17	6	5	8	11	15	
+1898	8	6	12	11	16	7	6	16	10	9	10	10	7	9	9	10	10	10	5	5	5	23	24	
+1899	9	7	10	11	8	6	6	10	9	7	11	8	6	10	9	7	9	13	6	6	8	12	14	
+1900	9	8	10	11	5	8	8	11	12	8	10	9	6	13	11	9	8	12	5	6	9	14	15	
+1901	9	10	17	13	11	9	9	11	16	9	11	10	15	15	11	13	13	12	7	6	8	34	24	
+1902	6	5	8	12	8	6	8	11	13	9	9	8	7	7	5	12	8	13	6	5	10	10	21	
+1903	6	6	22	12	11	8	8	11	15	11	9	7	9	18	10	9	8	12	5	7	11	10	18	
+1904	8	7	12	10	9	7	7	12	18	8	9	6	8	10	9	8	9	11	5	6	12	13	14	
+1905	11	8	19	14	12	7	8	15	18	10	11	8	9	7	8	8	11	13	7	8	12	13	17	
+1906	17	9	19	12	12	10	7	16	16	10	8	8	9	17	9	12	11	10	5	6	11	18	16	
+1907	12	8	36	12	13	8	11	24	14	9	8	7	9	10	9	13	17	10	6	6	10	18	22	
+1908	17	9	26	10	13	9	9	20	15	11	11	9	8	11	13	10	19	11	8	5	14	19	22	
+1909	13	9	29	10	9	9	10	18	16	11	10	8	9	8	7	9	14	11	4	6	12	12	18	
+1910	12	10	32	10	10	7	8	19	17	8	8	8	9	23	9	10	12	8	7	7	13	21	20	
+1911	15	10	42	13	9	11	9	18	17	8	8	12	12	11	9	17	15	10	4	5	12	13	20	
+1912	11	8	35	14	17	9	9	16	16	11	8	10	10	15	8	18	12	9	4	5	10	26	20	
+1913	17	8	16	12	10	9	9	20	18	11	9	10	15	9	9	9	11	8	5	5	9	17	21	
+1914	17	10	78	13	17	15	16	14	17	7	7	11	13	18	17	11	12	7	5	4	11	32	20	
+1915	14	8	41	13	11	9	11	11	15	10	8	14	10	8	7	13	12	10	6	5	13	17	16	
+1916	12	9	37	16	12	10	10	13	17	7	9	10	10	10	9	12	12	7	6	6	9	19	14	
+1917	12	7	25	13	13	10	9	10	13	9	10	10	7	10	9	13	15	9	8	7	17	19	14	
+1918	16	6	28	11	11	9	9	14	17	9	8	12	9	8	9	14	10	6	9	5	9	16	19	
+1919	15	12	35	14	15	10	10	13	19	12	8	12	12	10	6	16	11	7	8	5	6	11	13	
+1920	12	8	21	11	10	9	7	10	16	11	8	10	6	22	10	16	10	8	9	4	8	10	17	
+1921	14	6	29	11	10	11	10	11	12	7	8	13	9	10	8	17	9	5	7	7	12	8	17	
+1922	9	9	22	8	15	8	10	11	21	7	8	12	10	12	10	16	12	6	10	6	14	13	20	
+1923	8	5	12	10	8	10	8	18	16	13	9	9	7	10	8	16	9	5	6	5	12	14	15	
+1924	6	10	13	7	13	10	9	8	11	7	11	8	6	11	12	18	12	6	6	4	7	7	13	
+1925	5	10	12	8	8	10	8	10	13	10	9	8	7	12	10	15	8	5	6	4	5	13	17	
+1926	7	6	18	8	16	8	9	9	10	8	9	5	8	15	11	17	9	6	7	3	10	18	20	
+1927	10	7	15	8	13	8	10	16	11	6	10	9	10	12	11	16	10	6	8	4	12	17	17	
+1928	5	8	10	8	9	7	8	15	12	8	9	7	8	11	7	9	10	8	9	1	8	10	15	
+1929	-999	9	10	10	11	6	6	9	7	5	9	8	4	7	9	9	10	5	10	5	12	9	13	
+1930	-999	9	10	10	15	6	4	13	12	6	10	9	10	18	8	11	7	7	12	4	12	12	18	
+1931	-999	9	7	6	24	7	5	15	6	7	10	9	7	11	7	9	7	3	9	4	11	8	12	
+1932	-999	11	13	10	25	9	9	15	17	7	10	7	8	15	10	10	8	6	8	3	12	16	23	
+1933	-999	9	8	14	29	6	7	17	10	2	8	9	7	15	7	11	7	12	5	1	6	11	12	
+1934	-999	16	7	8	19	6	7	11	7	10	15	20	25	15	12	8	7	6	5	3	5	11	11	
+1935	-999	11	15	10	24	8	9	14	12	6	10	19	12	12	10	11	10	7	4	4	11	20	14	
+1936	-999	14	18	11	29	10	8	12	11	4	10	18	13	23	13	14	19	8	8	4	12	38	23	
+1937	7	11	12	8	22	8	9	12	13	6	10	14	13	9	7	11	15	7	10	4	10	17	19	
+1938	7	10	11	7	16	5	8	13	15	6	10	11	8	11	8	7	10	6	9	4	10	16	14	
+1939	7	11	10	8	12	7	8	13	11	5	8	11	6	11	8	9	11	8	7	5	8	16	14	
+1940	8	10	11	8	8	8	9	15	14	6	12	10	6	10	8	11	13	7	8	6	14	13	12	
+1941	7	11	11	8	15	8	9	14	14	6	10	7	6	17	9	8	11	4	6	5	10	20	16	
+1942	8	13	10	9	8	9	11	12	14	6	9	11	6	10	7	11	8	10	9	4	8	9	14	
+1943	6	10	12	11	17	8	7	15	17	5	7	12	5	13	10	8	8	4	8	4	8	11	11	
+1944	7	10	15	10	11	7	7	11	14	4	12	10	6	10	7	9	9	9	7	5	10	9	13	
+1945	6	8	12	7	12	7	8	11	15	7	9	8	7	18	9	11	9	5	6	5	9	12	14	
+1946	7	10	15	10	13	7	8	18	18	4	8	9	7	12	10	7	8	5	5	5	9	13	10	
+1947	6	9	7	3	14	6	7	8	14	4	9	6	5	9	9	9	9	6	7	4	10	8	12	
+1948	7	5	10	4	9	6	5	8	10	1	6	6	4	9	7	6	6	6	8	5	10	7	10	
+1949	7	8	10	5	10	7	6	8	13	2	6	8	4	11	17	6	6	6	8	5	6	12	11	
+1950	13	8	10	7	8	7	6	7	11	5	13	6	5	13	10	7	8	5	7	6	10	10	11	
+1951	9	11	9	5	8	10	6	7	14	5	7	4	7	24	9	10	7	5	13	6	8	14	13	
+1952	6	8	23	6	22	6	7	9	21	4	9	5	5	13	8	9	12	5	9	6	7	16	14	
+1953	7	6	9	5	6	6	6	11	18	7	7	8	5	12	8	9	7	5	12	-999	10	13	13	
+1954	6	8	9	5	7	5	6	8	11	2	6	6	5	9	7	8	6	5	9	6	5	10	13	
+1955	5	6	9	5	7	7	6	10	12	3	9	5	4	14	12	8	7	4	7	4	7	14	12	
+1956	7	6	10	7	8	6	6	10	13	2	6	6	6	14	13	8	5	5	10	6	8	9	12	
+1957	7	7	12	7	8	5	6	11	14	8	8	9	6	9	8	11	8	9	12	5	9	10	12	
+1958	11	8	12	8	11	6	7	9	18	5	8	8	6	10	9	9	8	10	10	5	8	14	14	
+1959	8	6	6	5	8	6	8	9	12	6	8	10	5	6	7	7	8	9	11	5	9	8	12	
+1960	8	4	6	5	8	6	6	7	9	5	10	7	6	5	10	9	7	11	9	4	6	8	11	
+1961	6	7	6	5	9	7	7	8	9	7	7	6	6	6	9	9	8	6	7	5	4	8	11	
+1962	11	8	10	6	13	6	6	10	16	7	11	5	8	8	11	9	7	6	7	3	6	9	10	
+1963	10	8	9	6	13	9	7	8	23	6	8	8	8	10	16	10	8	8	7	4	8	17	13	
+1964	10	6	9	7	13	8	5	12	14	3	8	7	7	8	8	8	6	8	7	3	9	9	11	
+1965	10	8	11	9	16	9	5	14	17	8	7	7	7	10	10	10	7	7	7	3	8	12	11	
+1966	12	8	11	7	12	8	6	11	13	5	5	7	8	10	8	10	6	10	6	4	7	7	9	
+1967	11	7	13	9	13	8	8	11	13	8	10	8	11	10	11	10	8	7	8	7	12	18	16	
+1968	11	8	13	7	12	7	7	15	19	7	10	7	10	10	10	9	7	8	7	6	11	17	15	
+1969	18	16	18	11	18	9	10	14	28	6	10	10	10	11	11	15	9	8	7	5	9	19	12	
+1970	11	12	13	9	16	8	9	13	24	9	13	8	8	12	8	12	10	7	7	4	9	11	9	
+1971	12	7	7	5	13	7	6	15	22	7	10	8	7	8	14	11	7	6	6	6	10	7	7	
+1972	10	9	6	7	13	8	8	11	12	5	10	8	7	10	12	15	7	8	6	5	8	8	7	
+1973	10	13	11	7	14	9	7	12	29	6	9	7	8	13	11	18	17	7	6	6	8	21	33	
+1974	11	16	17	8	15	11	9	16	25	6	10	10	8	9	12	17	15	14	9	6	11	15	35	
+1975	16	9	12	7	21	9	8	12	15	6	10	11	7	9	11	12	10	9	10	5	8	7	11	
+1976	11	10	10	6	14	16	6	13	15	4	9	8	5	12	12	12	16	8	8	6	9	10	16	
+1977	12	10	13	6	12	15	8	28	26	6	10	9	7	13	14	14	17	10	10	6	9	12	18	
+1978	15	14	21	12	15	19	14	26	34	7	10	9	8	11	17	15	20	16	12	7	8	13	14	
+1979	12	11	20	7	12	16	10	22	24	6	10	8	6	7	12	9	8	17	10	6	9	7	10	
+1980	13	9	29	9	14	18	10	17	20	9	9	11	10	7	11	12	20	13	9	6	10	11	9	
+1981	17	11	17	8	10	20	9	16	21	999	9	10	9	8	8	11	11	22	13	5	10	7	8	
+1982	11	15	21	9	15	19	12	12	28	NaN	10	11	10	15	17	21	16	15	10	5	7	26	26	
+1983	21	20	32	9	19	17	13	15	21	NaN	8	14	10	14	21	33	21	16	8	8	8	22	14	

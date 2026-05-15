@@ -1,0 +1,62 @@
+% Antarctica 2K 2017 temperature reconstruction
+% weighting method : based on the correlation between site T and regional T from NB2014 forced by ERA-Interim
+% Temperature scaling method : based on 1960-1990 variance of NB2014
+% West Antarctica adjusted to match the temperature trend between 1000 and 1400 AD based on borehole temperature measurements (Orsi et al, 2012)
+% smoothing : 5-year binned averages
+% col 1 : time, in year AD
+% col 2 : East Antarctic Plateau
+% col 3 : Wilkes Land Coast
+% col 4 : Weddell Sea Coast
+% col 5 : Antarctic Peninsula
+% col 6 : West Antarctic Ice Sheet
+% col 7 : Victoria Land Coast
+% col 8 : Dronning Maud Land Coast
+% col 9 : West Antarctica : WAIS+Peninsula
+% col 10 : East Antarctica
+% col 11 : Whole Antarctica
+
+
+Time (year AD)	1. East Antarctic Plateau	2. Wilkes Land Coast	3. Weddell Sea Coast	4. Antarctic Peninsula	5. West Antarctic Ice Sheet	6. Victoria Land Coast	7. Dronning Maud Land Coast	West Antarctica	East Antarctica	All Antarctica
+1802.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1807.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1812.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1817.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1822.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1827.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1832.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1837.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1842.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1847.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1852.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1857.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1862.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1867.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1872.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1877.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1882.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1887.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1892.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1897.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1902.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1907.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1912.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1917.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1922.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1927.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1932.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1937.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1942.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1947.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1952.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1957.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1962.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1967.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1972.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1977.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1982.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1987.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1992.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+1997.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+2002.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+2007.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN
+2012.5	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN	      NaN

@@ -1,0 +1,207 @@
+Belukha Glacier, Siberian Altai 750 Year Major Ions Data 
+----------------------------------------------------------------------- 
+               World Data Center for Paleoclimatology, Boulder 
+                                  and 
+                     NOAA Paleoclimatology Program 
+----------------------------------------------------------------------- 
+NOTE: Please cite original reference when using these data, 
+plus the data file URL and date accessed. 
+
+NAME OF DATA SET: 
+Belukha Glacier, Siberian Altai 750 Year Major Ions Data
+LAST UPDATE: 5/2012 (Original receipt by WDC Paleo) 
+CONTRIBUTORS: Eichler, A., S. Brütsch, S. Olivier, T. Papina, 
+M. Schwikowski
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2012-071 
+
+
+WDC PALEO CONTRIBUTION SERIES CITATION: 
+Eichler, A., et al. 2012. 
+Belukha Glacier, Siberian Altai 750 Year Major Ions Data. 
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2012-071. 
+NOAA/NCDC Paleoclimatology Program, Boulder CO, USA. 
+
+
+
+ORIGINAL REFERENCES: 
+Eichler, A., S. Brütsch, S. Olivier, T. Papina, and M. Schwikowski. 2009. 
+A 750 year ice core record of past biogenic emissions from Siberian 
+boreal forests. 
+Geophys. Res. Lett., 36, L18813, doi:10.1029/2009GL038807 
+
+Eichler, A., W. Tinner, S. Brütsch, S. Olivier, T. Papina, 
+and M. Schwikowski. 2011. 
+An ice-core based history of Siberian forest fires since AD 1250. 
+Quat. Sci. Rev., 30, 1027-1034. 
+DOI: 10.1016/j.quascirev.2011.02.007 
+
+
+ABSTRACT (Eichler et al. 2009): 
+Emissions from forests represent an important source of gaseous 
+precursors of aerosols that can significantly alter the regional 
+radiation balance. Long-term records of biogenic emissions are 
+available for Northern America and the Amazon Basin, whereas the 
+historical development of emissions from Siberian forests, 
+comprising about 20% of the world’s forested area, is unknown 
+so far. Here we investigate ice core ammonium and formate records 
+for the last 750 years, representing biogenic emissions from boreal 
+Siberian forests in the pre-industrial era. Biogenic emissions 
+were found to be closely related to changes in temperature following 
+variations in solar activity. In addition, anthropogenic emissions 
+have caused a strong increase of the ammonium concentrations 
+and a drop of the formate concentrations in the last 60 years. 
+
+
+ABSTRACT (Eichler et al. 2011): 
+Forest fires play a key role in the global carbon cycle and thus, 
+can affect regional and global climate. Although fires in extended 
+areas of Russian boreal forests have considerable influence on 
+atmospheric greenhouse gas and soot concentrations, estimates of 
+its impact on climate are hampered by a lack of data on the history 
+of forest fires. Especially regions with strong continental climate 
+are of high importance due to an intensified development of wildfires. 
+In this study we reconstruct the fire history of Southern Siberia 
+during the past 750 years using ice-core based nitrate, potassium, 
+and charcoal concentration records from Belukha glacier in the 
+continental Siberian Altai. A period of exceptionally high forest-fire 
+activity was observed between AD 1600 and 1680, following an extremely 
+dry period AD 1540-1600. Ice-core pollen data suggest distinct forest 
+diebacks and the expansion of steppe in response to dry climatic 
+conditions. Coherence with a paleovegetational record from the 200 km 
+distant Siberian lake Teletskoye shows that this vegetational shift 
+AD 1540-1680 and the subsequent recovery of forests AD 1700 were of 
+regional significance. Dead biomass accumulation in response to drought 
+and high temperatures around AD 1600 probably triggered maximum 
+forest-fire activity AD 1600-1680. The extreme dry period in the 16th 
+century was also observed at other sites in Central Asia and is possibly 
+associated with a persistent positive mode of the Pacific Decadal 
+Oscillation (PDO). No significant increase in biomass burning occurred 
+in the Altai region during the last 300 years, despite strongly 
+increasing temperatures and human activities. Our results imply that
+precipitation changes controlled fire-regime and vegetation shifts 
+in the Altai region during the past 750 years. We conclude that high 
+sensitivity of ecosystems to occasional decadal-scale drought events 
+may trigger unprecedented environmental reorganizations under 
+global-warming conditions.
+
+
+
+ADDITIONAL REFERENCE:
+Eichler, A., S. Olivier, K. Henderson, A. Laube, J. Beer,
+T. Papina, H.W. Gäggeler, and M. Schwikowski. 2009.
+Temperature response in the Altai region lags solar forcing
+Geophys. Res. Lett., 36, L01808, doi:10.1029/2008GL035930.
+
+
+
+GEOGRAPHIC REGION: Siberian Altai, Central Asia 
+PERIOD OF RECORD:  1250 - 2000 AD 
+
+
+FUNDING SOURCES:
+Swiss National Science Foundation (SNSF), Marie-Heim Vögtlin program, 
+PMPD2-110174
+
+
+DATA FILE URLS: 
+ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2009ions.txt 
+ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2009ions.xls 
+
+
+
+DESCRIPTION: 
+10-year averages of the major ion concentrations from the 2001 Belukha 
+ice core, Siberian Altai. Dating uncertainties are <3 years (AD 1815-2000), 
+<5 years (AD 1400-1815), and <10 years (AD 1250-1400).
+
+Belukha ice core, Siberian Altai: 
+49°48'26"N, 86°34'43"E, elevation 4062 m a.s.l., 139 m long 
+
+
+
+
+DATA: 
+Eichler et al. Belukha ice core 10-year averages of the major ion concentrations (period 1250-2000)
+
+Column 1: Year AD (e.g. 1255: period 1250-1259)
+Column 2-10: 10-year averages of the ice-core formate, chloride, nitrate, sulfate, sodium,
+             ammonium, pottassium, magnesium, calcium concentrations (microequivalent/l)
+       
+
+Year     formate  chloride  nitrate   sulfate  sodium ammonium pottassium magnesium calcium
+1255        4.74     2.46     3.79     5.20     3.77     7.25     1.04     1.99     9.80
+1265        2.72     0.99     2.91     2.73     1.33     5.18     0.53     1.14     4.87
+1275        5.58     1.10     3.02     4.25     2.10     7.25     0.39     1.76    11.68
+1285        5.34     1.27     3.11     4.47     2.70     6.30     0.50     2.20    12.74
+1295        4.59     2.03     3.46     4.85     2.55     6.22     0.59     2.21    11.95
+1305        4.67     1.89     4.05     4.65     2.27     7.19     0.68     2.32    11.52
+1315        5.13     1.58     3.50     4.55     2.42     6.90     0.66     2.29    11.46
+1325        3.96     1.47     4.96     6.16     2.10     6.82     1.00     2.75    15.36
+1335        3.18     0.99     3.01     3.02     1.29     5.03     0.56     1.34     7.20
+1345        3.63     1.13     3.73     3.81     1.45     5.73     0.63     1.80    10.30
+1355        4.28     1.73     2.88     3.43     2.06     5.49     0.53     1.95    13.00
+1365        2.85     1.37     3.08     3.07     1.66     4.66     0.58     1.40     7.50
+1375        6.72     1.12     3.46     4.59     2.04     8.20     0.81     1.99    10.99
+1385        5.49     1.45     3.56     4.60     2.10     7.28     1.02     2.45    12.36
+1395        4.97     0.82     3.32     3.54     1.42     7.66     0.51     1.70     7.76
+1405        4.66     1.08     3.31     3.68     1.63     6.99     0.44     1.62     8.89
+1415        3.39     1.09     3.20     3.27     1.85     5.08     0.45     1.46     7.89
+1425        5.47     1.36     3.92     4.63     2.17     8.10     0.61     2.17    11.24
+1435        3.87     1.26     3.22     3.83     2.23     5.94     0.50     1.77     8.43
+1445        4.24     1.25     3.79     4.63     2.25     6.79     0.65     1.61     8.89
+1455        2.97     0.93     3.38     4.12     2.31     5.46     0.68     1.40     6.54
+1465        4.64     1.26     3.32     3.80     2.14     5.96     0.60     1.64     9.98
+1475        3.89     1.25     3.65     4.57     2.33     6.10     0.56     1.78     8.14
+1485        4.38     2.09     3.53     4.61     2.40     6.09     0.53     2.13    12.44
+1495        4.17     1.08     3.04     3.61     1.72     5.59     0.44     1.57     7.57
+1505        4.48     1.12     3.23     3.40     1.52     6.33     0.48     1.59     8.60
+1515        4.24     1.10     3.05     2.81     1.51     6.01     0.43     1.48     8.02
+1525        5.45     1.07     3.23     3.80     1.64     6.79     0.51     1.62     9.37
+1535        4.72     1.22     3.51     4.26     2.10     6.24     0.63     1.94    12.12
+1545        4.80     2.06     3.55     3.78     2.34     7.00     0.83     1.96    12.62
+1555        4.18     1.80     4.40     4.93     2.42     7.36     1.01     1.72    10.56
+1565        5.32     1.94     4.18     5.57     2.87     8.34     0.73     2.34    11.98
+1575        6.20     3.59     4.17     9.17     6.68     6.82     0.61     4.09    26.09
+1585        5.61     1.01     3.59     4.54     2.06     6.87     0.47     1.86    12.43
+1595        5.80     2.35     3.63     5.46     4.06     6.87     0.66     2.46    15.91
+1605        5.64     2.27     3.95     6.54     3.79     7.39     0.82     2.61    18.68
+1615        5.06     1.23     4.27     4.19     1.62     7.42     0.87     2.20    14.07
+1625        4.10     1.44     4.87     4.61     1.45     8.55     1.39     1.67     8.19
+1635        4.95     1.37     4.17     4.08     1.70     7.79     0.72     1.68     8.92
+1645        4.17     0.73     3.28     3.60     1.68     5.79     0.44     1.18     6.73
+1655        2.84     0.75     3.02     2.38     0.75     5.31     0.48     1.00     4.41
+1665        3.71     0.99     3.21     4.29     2.84     6.03     0.65     1.13     5.19
+1675        3.92     1.09     3.03     3.51     1.61     5.98     0.60     1.39     7.81
+1685        4.41     1.43     3.12     3.92     1.83     5.67     0.52     1.50    11.25
+1695        3.09     0.96     2.87     3.30     1.42     4.99     0.40     1.07     7.19
+1705        3.76     1.07     3.02     3.60     1.35     5.06     0.44     1.30     8.00
+1715        2.07     0.59     2.45     2.34     0.72     3.86     0.40     0.76     3.58
+1725        4.98     1.38     2.86     4.95     1.87     6.84     0.51     1.89    10.30
+1735        4.94     1.03     2.92     3.63     1.50     7.18     0.45     1.28     6.17
+1745        3.92     0.67     2.89     4.73     2.29     5.54     0.39     2.10     7.86
+1755        4.12     0.98     2.38     3.26     1.94     4.45     0.46     1.38     8.50
+1765        4.72     0.92     3.16     4.18     1.96     5.40     0.53     1.57     9.72
+1775        5.18     1.10     3.51     5.18     1.69     7.16     0.88     1.50     7.98
+1785        4.81     1.07     2.42     3.81     1.49     5.52     0.37     1.37     7.84
+1795        4.87     0.76     3.03     3.16     1.28     6.56     0.48     1.12     6.59
+1805        4.47     0.75     2.78     3.15     1.14     5.47     0.39     1.03     5.65
+1815        5.32     0.93     2.87     7.04     1.55     6.94     0.43     1.24     7.52
+1825        4.79     0.84     3.49     2.99     1.09     8.57     0.43     0.61     5.16
+1835        4.85     0.65     2.55     3.22     1.18     7.46     0.43     1.00     6.34
+1845        5.00     1.00     2.70     4.21     1.92     8.42     0.38     1.79    13.22
+1855        4.72     0.75     2.53     4.90     1.47     7.78     0.29     1.02     8.72
+1865        5.80     0.73     2.81     2.98     1.52     9.41     0.34     0.96     7.64
+1875        5.03     0.44     2.49     1.98     0.99     8.74     0.27     0.74     5.65
+1885        6.26     1.85     3.06     5.21     2.24    10.89     0.28     1.73    13.92
+1895        6.14     0.76     3.08     3.24     1.12     9.72     0.34     1.01     8.86
+1905        5.32     0.72     2.89     3.99     1.13     7.82     0.36     1.02     9.14
+1915        7.23     0.62     2.79     5.22     1.49     8.57     0.23     1.12     8.99
+1925        7.12     0.86     3.07     4.20     1.21     7.89     0.52     1.29     9.82
+1935        6.78     0.47     2.66     4.70     1.42     7.69     0.36     1.36     7.04
+1945        4.79     0.56     2.62     5.25     1.03     7.30     0.28     1.50     7.07
+1955        4.63     0.89     3.52    10.24     1.03     8.27     0.36     1.45     7.25
+1965        4.24     0.72     3.56    11.32     0.70     9.82     0.48     1.33     9.22
+1975        4.70     0.97     5.24    16.77     0.99    15.53     0.62     1.46     7.71
+1985        4.80     1.19     5.73    15.58     1.47    12.83     0.53     1.53    10.93
+1995        4.06     0.78     4.24     8.26     0.75    10.91     0.40     1.02     5.71

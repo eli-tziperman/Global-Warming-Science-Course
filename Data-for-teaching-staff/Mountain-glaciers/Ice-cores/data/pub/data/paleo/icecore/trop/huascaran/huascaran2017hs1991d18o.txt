@@ -1,0 +1,263 @@
+# Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22251 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/huascaran2017hs1991d18o.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: oxygen isotopes, geochemistry, physical properties 
+#--------------------
+# Contribution_Date
+#	Date: 2017-09-07
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2017-09-07
+#--------------------
+# Title
+#	Study_Name: Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#--------------------
+# Investigators
+#	Investigators: Thompson, L.G.; Davis, M.E.; Mosley-Thompson, E.; Beaudon, E.; Porter, S.E.; Kutuzov, S.; Lin, P.-N.; Mikhalenko, V.N.; Mountain, K.R.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Ice core and snow pit oxygen isotope (d18O) data, at sub-annual resolution for recent decades, from two ice core locations in tropical Peru 
+#	(Quelccaya and Huascarán), plus ice density and geochemical measurements made on some samples. 
+#	Individual data sets are as follows: 
+#	
+#	Figure 2 data:
+#	Individual d18O sample values for Quelccaya (QIC) summit dome cores drilled in 1976, 1979, 1983, 1991, 2003, 2016, plotted by depth to 16 meter maximum
+#	Individual d18O sample values for Huascarán (HS) col cores drilled in 1991, 1993, 2016, plotted by depth to 16 meter maximum
+#	
+#	Figure 3 data:
+#	Individual d18O sample values from the 2003 QIC Summit deep core (top ~60 meters)
+#	Individual d18O sample values from the 1983 QIC Summit deep core (4.46 to 60 meters)
+#	Individual d18O sample values from 1983 QIC Summit pit (0 to 2.5 meters) and shallow core (2.6 to 4.5 meters) drilled at bottom of pit
+#	Discrete density values from the 1983 QIC Summit cores (0-32 meters)
+#	Discrete density values from the 2003 QIC Summit core (0-~40 meters)
+#	QIC 2003 d18O time series (thermal years) from 1900 to 2003
+#	QIC 1983 d18O time series (thermal years) from 1900 to 1984 (includes the 1984 pit)
+#	
+#	Figure 4 QIC data:
+#	Individual sample d18O values for each TY1 in the QIC summit between 1973/74 and 2015/16
+#	TY1 annual d18O, layer thicknesses, densities, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O for pits, cores and averages of multiple data sets where applicable
+#	
+#	Figure 4 HS data
+#	Individual sample d18O values for each TY in HS col from 1973/74 to 1992/93 (from the 1993 deep core) and 2012/13 to 2015/2016 (from the 2016 shallow core)
+#	TY annual averages of d18O, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O
+#	
+#	Figure S1 data
+#	Individual d18O values from pit and core samples from the summit of the QIC between TY1973/74 to TY2015/16, plotted by depth to a maximum of 16 meters
+#	
+#	Figure S2 data
+#	2016 QIC summit dome core and Huascarán col shallow core data
+#	Individual d18O sample values, and insoluble dust and nitrate concentrations (3-sample running means)
+#	
+#	Figure S4 data
+#	Density  (kg/m3) of each 2016 QIC summit dome pit sample 
+#	
+#--------------------
+# Publication 
+#	Authors: Thompson, L.G. M.E, Davis, E. Mosley-Thompson, E. Beaudon, S.E. Porter, S. Kutuzov, P-N. Lin, V.N. Mikhalenko, K.R. Mountain
+#	Published_Date_or_Year: 2017 in press 
+#	Published_Title: Impacts of recent warming and the 2015/16 El Nino on tropical Peruvian ice fields
+#	Journal_Name: Journal of Geophysical Research Atmospheres
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 
+#	Online_Resource: 
+#	Full_Citation: 
+#	Abstract: 
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: 
+#	Grant: 
+#------------------
+# Site_Information 
+#       Site_Name: Nevado Huascaran
+#       Location: South America>Peru
+#	Country: Peru
+#	Northernmost_Latitude: -9.0
+# 	Southernmost_Latitude: -9.0
+# 	Easternmost_Longitude: -77.5
+# 	Westernmost_Longitude: -77.5
+# 	Elevation: 6050 m 
+#------------------
+# Data_Collection   
+#	Collection_Name: HS1991d18O
+#	Earliest_Year: 1973
+#	Most_Recent_Year: 2013
+#	Time_Unit: AD
+#	Core_Length: 
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#---------------- 
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## depth_m	depth, , , m, , , , ,N,
+## d18O	delta18O, ice, , per mil, ,ice core, ,isotope ratio mass spectrometry,N, 
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+depth_m	d18O
+0.00	-22.90
+0.18	-27.07
+0.34	-20.93
+0.48	-19.76
+0.63	-18.68
+0.78	-17.02
+0.92	-16.22
+1.04	-15.58
+1.17	-16.00
+1.31	-14.33
+1.45	-14.94
+1.59	-18.51
+1.75	-12.55
+1.89	-16.86
+2.04	-19.28
+2.19	-20.49
+2.33	-15.90
+2.48	-11.01
+2.63	-8.16
+2.78	-9.08
+2.91	-10.75
+3.08	-11.95
+3.23	-18.02
+3.38	-18.02
+3.52	-16.17
+3.67	-14.50
+3.81	-15.28
+3.95	-23.29
+4.12	-17.34
+4.25	-16.64
+4.37	-15.09
+4.48	-16.48
+4.59	-16.25
+4.68	-13.07
+4.78	-11.87
+4.92	-11.94
+5.06	-10.94
+5.19	-12.54
+5.31	-18.14
+5.44	-23.68
+5.57	-26.27
+5.67	-24.83
+5.79	-21.56
+5.91	-21.75
+6.04	-21.27
+6.17	-19.24
+6.30	-19.82
+6.43	-20.71
+6.52	-20.29
+6.62	-21.59
+6.74	-22.87
+6.86	-21.24
+7.00	-18.49
+7.12	-20.61
+7.23	-18.44
+7.35	-14.49
+7.47	-13.22
+7.59	-12.01
+7.71	-11.33
+7.82	-12.33
+7.94	-16.13
+8.06	-20.05
+8.17	-21.82
+8.29	-21.69
+8.41	-20.27
+8.53	-16.64
+8.65	-14.24
+8.76	-15.93
+8.88	-18.57
+9.00	-16.88
+9.11	-15.36
+9.23	-15.61
+9.35	-13.32
+9.46	-10.49
+9.58	-10.12
+9.69	-13.03
+9.81	-16.29
+9.92	-18.48
+10.03	-19.42
+10.16	-19.22
+10.30	-18.86
+10.42	-19.11
+10.54	-18.66
+10.66	-17.41
+10.78	-17.11
+10.90	-17.77
+11.05	-16.27
+11.17	-14.11
+11.29	-13.93
+11.40	-13.85
+11.50	-14.50
+11.61	-14.96
+11.73	-18.71
+11.85	-21.67
+11.96	-22.73
+12.08	-26.09
+12.20	-28.22
+12.32	-26.33
+12.44	-20.52
+12.55	-18.30
+12.67	-15.48
+12.78	-14.91
+12.90	-15.53
+13.02	-12.96
+13.13	-12.60
+13.22	-12.62
+13.32	-11.75
+13.44	-13.08
+13.55	-14.48
+13.67	-16.73
+13.79	-19.61
+13.91	-19.46
+14.03	-16.91
+14.15	-16.43
+14.27	-14.57
+14.39	-13.64
+14.51	-18.50
+14.63	-20.23
+14.76	-19.45
+14.88	-17.36
+14.99	-14.50
+15.11	-13.25
+15.23	-17.00
+15.36	-25.42
+15.48	-24.44
+15.61	-23.63
+15.73	-25.41
+15.86	-26.14
+15.98	-26.36

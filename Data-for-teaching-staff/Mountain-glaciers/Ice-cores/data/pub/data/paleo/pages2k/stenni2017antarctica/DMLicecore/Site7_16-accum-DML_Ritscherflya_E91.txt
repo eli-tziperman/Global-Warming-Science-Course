@@ -1,0 +1,153 @@
+# Ritscherflya Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data for 1932-1991 CE
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/23230
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_16-accum-DML_Ritscherflya_E91.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-11-17
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# Title
+#    Study_Name: Ritscherflya Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data for 1932-1991 CE
+#---------------------------------------
+# Investigators
+#      Investigators: Isaksson, Elisabeth; Karl√©n, Wibj√∂rn; Gundestrup, Niels;  Mayewski, Paul; Whitlow, Sallie; Twickler, Mark 
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors:  Isaksson, Elisabeth; Karl√©n, Wibj√∂rn; Gundestrup, Niels;  Mayewski, Paul; Whitlow, Sallie; and Twickler, Mark 
+# Published_Date_or_Year: 1996
+# Published_Title: A century of accumulation and temperature changes in Dronning Maud Land, Antarctica
+# Journal_Name: Journal of Geophysical Research
+# Volume: 101
+# Edition: 
+# Issue: D3
+# Pages: 7085-7094
+# Report Number: 
+# DOI: 10.1029/95JD03232
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: A mass balance program was initiated in the Vestfjella-Heimefrontfjella area of western Dronning Maud Land during the austral summer of 1988ñ1989. As a part of this program, spatial and temporal variations in snow accumulation and temperature/stable isotopes are measured using shallow firn cores. In this paper we present surface accumulation data and discuss the climatic implications of the stable isotope records from two shallow firn cores. One 30-m-deep core, obtained about 200 km from the coast at 700 m asl (73∞36'S, 12∞26'W), covers the period 1932ñ1991. The other core was drilled at about 500 km from the coast at 2900 m asl (75∞00'S, 2∞00'E) and covers the period 1865ñ1991. The recent accumulation increase that has been reported from several areas of the Antarctic continent is not present in either of these records. Instead, our coastal record suggests a significant decrease in accumulation, with the strongest trend from about 1975. There is a positive trend in the oxygen isotope signal in both cores, which in the coastal core corresponds to a temperature increase of about 1.8∞C since the early 1930s, and in the high-altitude core to about 0.8∞C since 1865. However, it is likely that part of this increase in d18O is due to a change of moisture source.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: The Swedish National Research Council
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: Ritscherflya Core E Dronning Maud Land
+# Location: Antarctica 
+# Country: 
+# Northernmost_Latitude: -73.6
+# Southernmost_Latitude: -73.6
+# Easternmost_Longitude: -12.4333
+# Westernmost_Longitude: -12.4333
+# Elevation: 700
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: E_91 accum Isaksson1996
+#   First_Year: 1932
+#   Last_Year: 1991
+#   Time_Unit: AD
+#   Core_Length: 30
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age,,,years CE,,ice core,,,N,annual counting by dO18, electrical conductivity
+## accum  accumulation rate	,snow,,kg/m2/yr,,ice core,,,N,calculated
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+year	accum
+1991	183.65	
+1990	205	
+1989	298	
+1988	180	
+1987	234	
+1986	192	
+1985	321	
+1984	228	
+1983	309	
+1982	428	
+1981	416	
+1980	169	
+1979	229	
+1978	340	
+1977	550	
+1976	517	
+1975	329	
+1974	419	
+1973	252	
+1972	232	
+1971	236	
+1970	258	
+1969	300	
+1968	565	
+1967	227	
+1966	294	
+1965	203	
+1964	283	
+1963	257	
+1962	558	
+1961	406	
+1960	211	
+1959	355	
+1958	348	
+1957	237	
+1956	314	
+1955	732	
+1954	378	
+1953	253	
+1952	295	
+1951	379	
+1950	236	
+1949	344	
+1948	279	
+1947	371	
+1946	212	
+1945	245	
+1944	177	
+1943	354	
+1942	529	
+1941	201	
+1940	382	
+1939	444	
+1938	299	
+1937	570	
+1936	479	
+1935	432	
+1934	307	
+1933	230	
+1932	221	

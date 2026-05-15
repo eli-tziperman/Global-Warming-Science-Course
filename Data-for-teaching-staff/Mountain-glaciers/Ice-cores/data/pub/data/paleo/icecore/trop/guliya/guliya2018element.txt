@@ -1,0 +1,189 @@
+# Guliya Ice Core, Tibet 340 Year Trace Elements Data 
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/28352 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018element.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Core
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: chemistry 
+#--------------------
+# Contribution_Date
+#	Date: 2019-11-10
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2019-11-10
+#--------------------
+# Title
+#	Study_Name: Guliya Ice Core, Tibet 340 Year Trace Elements Data 
+#--------------------
+# Investigators
+#	Investigators: Sierra-Hernández, M.R.; Gabrielli, P.; Beaudon, E.; Wegner, A.; Thompson, L.G.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Guliya ice core 340 year trace elements data, including 5-year median concentration, enrichment factor (EF), and excess concentrations for Cd, Sb, Zn, Pb, Sn, Al, and Fe.  
+#	EF calculated using Potential Source Areas: Guliya PSA Average of 8 sites. 
+#--------------------
+# Publication 
+#	Authors: M. Roxana Sierra-Hernández, Paolo Gabrielli, Emilie Beaudon, Anna Wegner, Lonnie G. Thompson
+#	Published_Date_or_Year: 2018-03-01      
+#	Published_Title: Atmospheric depositions of natural and anthropogenic trace elements on the Guliya ice cap (northwestern Tibetan Plateau) during the last 340 years 
+#	Journal_Name: Atmospheric Environment
+#	Volume: 176
+#	Edition: 
+#	Issue: 
+#	Pages: 91-102
+#	Report_Number: 
+#	DOI: 10.1016/j.atmosenv.2017.11.040
+#	Online_Resource: https://www.sciencedirect.com/science/article/pii/S1352231017307938 
+#	Full_Citation: 
+#	Abstract: A continuous record of 29 trace elements (TEs) has been constructed between 1650 and 1991 CE (Common Era) from an ice core retrieved in 1992 from the Guliya ice cap, on the northwestern Tibetan Plateau. Enrichments of Pb, Cd, Zn and Sb were detected during the second half of the 19th century and the first half of the 20th century (~1850-1950) while enrichments of Sn (1965-1991), Cd and Pb (1975-1991) were detected during the second half of the 20th century. The EFs increased significantly by 20% for Cd and Sb, and by 10% for Pb and Zn during 1850-1950 relative to the pre-1850s. Comparisons of the Guliya TEs data with other ice core-derived and production/consumption data suggest that Northern Hemisphere coal combustion (primarily in Western Europe) is the likely source of Pb, Cd, Zn, and Sb during the 1850-1950 period. Coal combustion in Europe declined as oil replaced coal as the primary energy source. The European shift from coal to oil may have contributed to the observed Sn enrichment in ~1965 (60% EF increase in 1975-1991), although regional fossil fuel combustion (coal and leaded gasoline) from western China, Central Asia, and South Asia (India, Nepal), as well as Sn mining/smelting in Central Asia, may also be possible sources. The post-1975 Cd and Pb enrichments (40% and 20% EF increase respectively in 1975-1991) may reflect emissions from phosphate fertilizers, fossil fuel combustion, and/or non-ferrous metal production, from western China, Central Asia, and/or South Asia. Leaded gasoline is likely to have also contributed to the post-1975 Pb enrichment observed in this record. The results strongly suggest that the Guliya ice cap has recorded long-distance emissions from coal combustion since the 1850s with more recent contributions from regional agriculture, mining, and/or fossil fuel combustion. This new Guliya ice core record of TEs fills a geographical gap in the reconstruction of the pollution history of this region that extends well beyond modern instrumental records.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: 1149239
+#------------------
+# Site_Information 
+#	Site_Name: Guliya Ice Cap
+#	Location: Asia>Eastern Asia>China
+#	Country: China
+#	Northernmost_Latitude: 35.2833
+# 	Southernmost_Latitude: 35.2833
+# 	Easternmost_Longitude: 81.4833
+# 	Westernmost_Longitude: 81.4833
+# 	Elevation: 6200 
+#------------------
+# Data_Collection   
+#	Collection_Name: Guliya2018element 
+#	Earliest_Year: 1645
+#	Most_Recent_Year: 1991
+#	Time_Unit: Year CE
+#	Core_Length: 
+#	Notes: Guliya ice core drilled in 1992
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age_CE	age, , , year Common Era, , ice core, , ,N,
+## Cd	Cadmium, ice, , picogram per gram, , ice core, , ,N, 
+## Sb	Antimony, ice, , picogram per gram, , ice core, , ,N, 
+## Zn	Zinc, ice, , picogram per gram, , ice core, , ,N, 
+## Pb	Lead, ice, , picogram per gram, , ice core, , ,N, 
+## Sn	Tin, ice, , picogram per gram, , ice core, , ,N, 
+## Al	Aluminum, ice, , picogram per gram, , ice core, , ,N, 
+## Fe	Iron, ice, , picogram per gram, , ice core, , ,N, 
+## CdEF	Cadmium Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## SbEF	Antimony Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## ZnEF	Zinc Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## PbEF	Lead Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## SnEF	Tin Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## AlEF	Aluminum Enrichment Factor, ice, , , , ice core, , ,N, Enrichment Factor relative to Fe
+## CdEx	Cadmium Excess Concentration , ice, , picogram per gram, , ice core, , ,N, 
+## SbEx	Antimony Excess Concentration , ice, , picogram per gram, , ice core, , ,N, 
+## ZnEx	Zinc Excess Concentration , ice, , picogram per gram, , ice core, , ,N, 
+## PbEx	Lead Excess Concentration , ice, , picogram per gram, , ice core, , ,N, 
+## SnEx	Tin Excess Concentration , ice, , picogram per gram, , ice core, , ,N, 
+## AlEx	Aluminum Excess Concentration , ice, , picogram per gram, , ice core, , ,N,  
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age_CE	Cd	Sb	Zn	Pb	Sn	Al	Fe	CdEF	SbEF	ZnEF	PbEF	SnEF	AlEF	CdEx	SbEx	ZnEx	PbEx	SnEx	AlEx
+1995	6.3	36.0	1248.3	454.0	29.6	400959	372260	1.7	1.0	1.1	1.0	2.9	1.2	2.1	9.3	95.6	121.7	7.9	13181
+1990	5.2	23.4	1237.5	399.7	19.2	282383	339263	1.5	0.8	1.1	0.9	3.0	1.2	1.6	1	53.8	34.2	5.8	10225
+1985	2.7	14.0	700.2	257.7	12.0	180500	227253	1.4	0.9	1.1	0.9	3.0	1.2	0.8	3.1	27.1	50.8	4.4	12210
+1980	5.3	28.2	959.4	351.5	18.3	341177	291943	1.4	1.0	1.1	0.9	2.6	1.3	1.5	9.2	41.0	88.2	3.1	22771
+1975	5.0	24.3	1471.6	443.5	17.6	399363	522006	1.1	0.7	1.0	0.7	2.4	1.1	0.5	1.1	17.1	2.2	3.4	-13271
+1970	5.5	36.6	1296.0	502.6	19.2	305633	449189	1.2	1.1	1.1	0.9	2.2	1.0	0.9	11.4	69.7	88.0	3.3	-18575
+1965	7.4	29.7	1861.5	578.1	22.4	474119	588318	1.2	0.6	1.1	0.7	2.1	1.1	0.7	-2.4	61.9	-14.1	2.1	-23776
+1960	7.7	46.1	2000.3	715.6	27.7	571673	672466	1.1	0.9	1.1	0.8	1.6	1.0	0.6	8.6	78.8	39.4	-2.8	-23870
+1955	7.3	72.1	2861.3	641.6	19.0	501315	608981	1.1	1.3	1.3	0.7	1.5	1.1	0.8	24.6	448.5	-23.1	-5.6	-13299
+1950	8.9	45.7	2453.9	663.0	16.6	424800	520040	1.3	0.6	1.2	0.8	1.3	1.1	1.2	-1.8	210.6	55.9	-4.2	-14557
+1945	8.7	29.8	2136.2	635.3	23.4	508522	645780	1.4	0.7	1.1	0.8	1.7	1.2	1.7	2	140.9	29.5	-1.4	7761
+1940	3.9	16.5	775.6	243.4	11.6	211957	231961	1.3	0.8	1.1	0.9	2.3	1.2	1.0	1.8	72.6	27.6	2.6	6361
+1935	22.0	151.4	6745.0	1209.2	25.6	1029824	1304615	1.3	1.1	1.3	0.8	0.9	1.1	4.3	46.5	1717.7	66.6	-25.2	-81909
+1930	10.8	70.7	3130.8	853.1	21.1	521867	798335	1.4	1.5	1.2	0.9	1.2	1.0	1.9	29.7	547.1	88.2	-8.0	-69392
+1925	5.5	39.4	1460.3	257.0	11.5	208686	274217	1.7	1.4	1.5	0.9	2.0	1.1	2.1	19.5	488.6	32.1	0.7	-6212
+1920	7.6	49.3	2287.2	592.3	17.1	426997	539640	1.5	1.2	1.4	0.8	1.5	1.2	2.0	18.4	504.7	80.1	-2.2	-9068
+1915	9.2	45.8	2746.3	815.6	18.4	565436	779746	1.3	0.9	1.3	0.8	1.4	1.2	1.7	5.8	439.1	27.2	-7.0	-3244
+1910	9.1	61.2	1984.7	753.3	19.8	483087	593927	1.5	1.5	1.4	0.8	1.6	1.2	2.7	23.5	484.7	58.0	-3.2	17104
+1905	9.9	48.6	2991.4	920.6	22.4	740214	1049850	1	0.6	1.1	0.7	1.1	1.1	-0.3	-4	73.2	-5.6	-14.6	-68735
+1900	9.7	44.6	2603.2	863.1	22.4	635077	861341	1	0.5	1.1	0.8	1.2	1.1	-0.5	-8	219.5	32.9	-11.6	-44880
+1895	3.7	21.2	994.3	319.9	12.4	229770	280707	1.4	0.9	1.2	0.9	2.2	1.2	1.1	4.2	146.4	65.3	1.8	3734
+1890	7.4	51.4	2299.1	514.6	17.5	420503	600009	1.4	1.0	1.2	0.9	1.5	1.1	1.7	7.9	295.8	53.4	-3.2	-40415
+1885	6.3	29.5	1668.8	494.1	19.4	438771	478770	1.3	0.7	1.1	0.8	1.8	1.3	1.2	0.3	188.4	10.5	-0.1	46553
+1880	5.0	23.5	1143.0	391.8	13.0	258375	375930	1.2	0.8	1.1	0.8	1.8	1.1	0.7	1.8	82.3	22.6	-0.4	-9683
+1875	4.6	22.1	1291.0	370.5	16.4	346731	395289	1	0.7	1.1	0.7	1.8	1.1	-0.1	0.4	32.0	-4.9	-0.1	-11828
+1870	10.1	51.9	2596.1	962.2	29.1	656357	892719	1	0.8	1.1	0.8	1.7	1.1	-0.1	6	240.1	107.6	-2.9	-16861
+1865	6.5	35.6	1134.9	555.4	19.2	252188	346527	1.5	1.2	1.2	0.9	2.1	1.1	1.9	10.7	155.9	83.6	2.2	-17573
+1860	4.9	24.7	1482.0	542.9	20.6	407579	507896	0.9	0.7	1.0	0.8	1.8	1.1	-0.5	-0.5	-27.6	31.8	-0.8	-20850
+1855	4.6	22.9	1245.7	454.7	15.9	335607	416476	1	0.7	1.1	0.8	1.7	1.1	0.1	1.1	72.3	38.9	-0.9	-12590
+1850	3.8	19.6	1109.0	326.9	19.2	318864	388786	0.9	0.6	1.1	0.7	2.2	1.2	-0.2	-1.7	82.8	-40.1	2.8	5819
+1845	6.1	28.2	1883.8	572.5	21.1	515207	712961	0.8	0.6	0.9	0.7	1.4	1.1	-1.0	-7.9	-134.7	-25.9	-6.9	-57330
+1840	10.5	53.5	3633.3	1190.4	28.9	930028	1126332	1	0.6	1.1	0.8	1.2	1.1	-0.3	-3.4	156.7	51.7	-13.7	-59582
+1835	7.3	29.4	1637.9	617.9	20.4	467675	528007	1.4	0.8	1.2	0.8	1.7	1.2	1.9	5.9	146.4	44.1	-3.1	18752
+1830	8.7	35.4	2503.2	615.6	21.9	707967	826228	1.2	0.6	1.1	0.8	1.6	1.2	1.6	-3.6	228.5	22.1	-3.1	40030
+1825	4.5	27.6	1326.3	413.5	17.3	347625	454315	0.9	0.7	1.0	0.7	1.7	1.2	-0.5	-0.8	-1.4	-8.6	-1.0	-2417
+1820	4.3	23.7	1184.1	346.2	17.2	285263	347980	1	0.8	1.1	0.8	2.0	1.2	0.1	3.7	34.0	11.2	0.9	-1658
+1815	2.9	12.6	849.9	245.0	10.5	204770	264274	1.1	0.6	1.1	0.7	1.9	1.1	0.3	-1.1	36.8	0.7	0.5	-4047
+1810	7.0	33.9	1945.6	526.3	15.1	396770	589988	1.1	0.7	1.1	0.7	1.3	1.0	0.4	-0.3	107.2	3.5	-7.1	-50508
+1805	4.9	30.6	1292.0	371.7	17.4	302120	380041	1.2	0.7	1.1	0.8	2.1	1.2	0.6	-0.3	68.6	39.5	3.0	12902
+1800	7.8	30.5	2067.6	704.1	26.7	644415	685822	1	0.7	1.1	0.8	1.5	1.2	0.3	-1.3	129.9	30.9	-4.8	67561
+1795	8.6	34.8	2334.4	687.9	27.4	663014	901743	1	0.6	1.0	0.7	1.6	1.1	0.3	-1.8	-15.3	-62.6	-4.5	-19636
+1790	4.7	24.2	1312.2	361.0	18.4	327884	378352	1.1	0.7	1.0	0.7	2.0	1.1	0.4	1.8	61.1	-52.3	0.7	-18168
+1785	4.7	24.8	1015.0	268.3	11.7	289409	320297	1.4	0.9	1.2	0.8	1.8	1.1	1.4	3.1	201.6	14.3	0.0	-5845
+1780	3.7	17.9	1046.4	269.5	13.3	247456	276856	1.2	0.8	1.1	0.8	2.0	1.1	0.6	1.8	77.6	16.4	0.4	-8531
+1775	3.5	14.3	886.6	266.3	15.4	223109	296449	1	0.6	1.0	0.7	2.1	1.1	0.2	-0.4	2.3	-10.1	1.6	-1788
+1770	7.7	33.2	2488.7	704.3	23.1	582057	707753	1	0.7	1.2	0.8	1.4	1.1	0.3	1.5	159.9	7.4	-6.1	-27693
+1765	5.6	30.5	1670.8	499.8	21.1	426123	559951	1	0.8	1.1	0.8	1.8	1.1	-0.1	3.7	15.3	13.8	-0.5	-9339
+1760	4.9	22.7	1458.9	389.6	13.6	338358	475149	1	0.6	1.1	0.7	1.5	1.0	0.1	-1.6	14.8	-31.1	-4.0	-56132
+1755	11.0	48.8	3000.0	978.3	27.9	795192	1035964	1	0.6	1.0	0.7	1.3	1.1	-0.1	-4.7	70.3	-57.9	-10.5	-41989
+1750	5.9	24.1	1279.2	450.5	22.0	442384	457997	1.2	0.8	1.1	0.8	2.2	1.3	1.0	2.7	68.4	63.5	3.5	43359
+1745	5.2	22.6	1558.9	555.7	16.5	450919	563890	1	0.6	1.0	0.8	1.6	1.1	0.0	-1.1	-44.8	22.0	-2.7	-15165
+1740	6.0	32.2	1939.6	630.0	23.9	534500	666759	0.9	0.5	1.0	0.7	1.4	1.1	-0.6	-5.3	-32.3	-7.9	-6.7	-28820
+1735	6.5	25.6	1900.6	484.1	19.7	449759	524516	1	0.6	1.0	0.7	1.9	1.1	0.0	-0.9	-47.0	-19.2	0.6	-3966
+1730	5.8	37.4	2082.8	600.5	26.0	662034	701701	1.1	0.7	1.0	0.8	1.8	1.3	0.3	-0.5	-0.2	15.1	-0.9	29814
+1725	4.9	41.7	1382.5	457.9	30.8	453852	449124	1.2	1.3	1.0	0.8	3.4	1.5	1.0	16.1	10.7	23.2	10.0	97376
+1720	4.5	26.1	1429.7	395.3	14.5	319697	460360	1	0.7	1.0	0.6	1.5	1.1	0.2	1.2	16.7	-59.1	-3.1	-12805
+1715	8.8	45.9	2965.6	882.9	26.6	726558	989328	0.8	0.7	1.1	0.7	1.4	1.1	-1.0	1.1	141.9	-6.8	-10.1	-36295
+1710	6.9	40.7	2566.5	761.0	24.0	671039	906163	0.8	0.7	1.0	0.8	1.6	1.1	-1.8	-1.8	-10.2	24.7	-4.3	-23196
+1705	6.1	36.9	2048.8	688.0	26.3	551946	800072	0.8	0.7	1.0	0.7	1.9	1.2	-1.1	0.1	-85.8	4.3	0.9	-1869
+1700	3.6	15.5	1068.2	301.0	13.5	294882	381277	1	0.6	1.0	0.7	2.1	1.2	-0.2	-2	-30.2	-27.5	2.0	10135
+1695	6.8	26.0	1873.5	541.8	25.3	581748	673445	1	0.6	1.0	0.7	2.0	1.3	0.2	-2.7	-8.2	-34.9	1.7	25384
+1690	5.3	25.8	1440.7	443.5	29.4	546816	518496	0.9	0.5	1.0	0.7	2.0	1.1	-0.2	-3.6	-33.4	-24.2	2.0	-3492
+1685	7.2	38.8	2116.3	639.4	27.6	635449	770901	1	0.6	1.0	0.7	1.8	1.2	0.1	-4.3	-21.7	-8.1	-0.9	26887
+1680	16.0	87.4	4528.3	1639.1	41.7	1128410	1624744	1	0.8	1.0	0.8	1.2	1.3	-0.1	12.7	-119.1	231.5	-22.2	-154190
+1675	4.3	20.7	1107.5	450.5	17.2	313758	334859	1.2	0.8	1.0	0.9	2.1	1.3	0.5	2.1	30.1	71.4	1.7	20536
+1670	5.8	25.7	1438.3	497.9	20.5	422200	492072	1	0.7	1.1	0.8	2.0	1.1	0.0	1.4	54.3	38.0	0.9	-15485
+1665	4.1	16.3	1166.4	350.4	15.4	301128	383741	1	0.6	1.0	0.7	1.9	1.1	0.1	-2	16.3	1.1	0.7	-10879
+1660	5.8	28.3	1720.6	489.5	21.8	426504	566395	1	0.7	1.1	0.7	1.6	1.1	-0.1	0	80.3	-8.0	-2.9	-20617
+1655	4.7	25.1	1392.5	457.0	21.8	396449	503824	1	0.7	1.0	0.8	1.8	1.1	-0.3	0.4	-83.7	2.6	-0.1	-10925
+1650	2.9	19.1	793.3	281.5	14.4	246792	284919	1	1.0	1.1	0.9	2.8	1.3	-0.1	2.4	22.9	28.6	3.5	15570

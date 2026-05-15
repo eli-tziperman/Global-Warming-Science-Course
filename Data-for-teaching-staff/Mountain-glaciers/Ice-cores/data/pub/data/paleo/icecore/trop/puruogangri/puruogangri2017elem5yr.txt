@@ -1,0 +1,218 @@
+# Puruogangri Ice Cap, China 500 Year Trace Element Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22214 
+#       Description: 
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017elem5yr.txt
+#       Description:
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: chemistry 
+#--------------------
+# Contribution_Date
+#	Date: 2017-06-09
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2017-06-09
+#--------------------
+# Title
+#	Study_Name: Puruogangri Ice Cap, China 500 Year Trace Element Data
+#--------------------
+# Investigators
+#	Investigators: Beaudon, E.; Gabrielli, P.; Sierra-Hernandez, M.R.; Wegner, A.; Thompson, L.G. 
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Trace element data from ice cores collected on the Dome A of the Puruogangri Ice Cap, Tibetan Plateau, China,
+#	from  1497 to 1991 CE.  Included are annual median of concentration and enrichment factor (EF) of trace elements. 
+#	Annual medians are calculated from raw concentration/EFc of individual sample values (based on freshly cut ice samples) for 
+#	Ag, Bi, Cd, Fe, Pb, Sb, Tl, and Zn.  EFc were calculated using Fe as crustal element of reference and Potential Source Areas 
+#	(PSA) of dust samples from the Tibetan Plateau as crustal reference.  5 year average concentrations and EFc are calculated 
+#	as average of annual median values for Ag, Cd, Fe, Pb, Sb, Tl, and Zn.  Time scale is from Thompson et al. (2006) Annals of 
+#	Glaciology, vol 43, 61-68. 
+#--------------------
+# Publication 
+#	Authors: Emilie Beaudon, Paolo Gabrielli, M. Roxana Sierra-Hernández, Anna Wegner, Lonnie G. Thompson
+#	Published_Date_or_Year: 2017-12-01    
+#	Published_Title: Central Tibetan Plateau atmospheric trace metals contamination: a 500-year record from the Puruogangri ice core
+#	Journal_Name: Science of the Total Environment
+#	Volume: 601-602
+#	Edition: 
+#	Issue: 
+#	Pages: 1349-1363
+#	Report_Number: 
+#	DOI: 10.1016/j.scitotenv.2017.05.195
+#	Online_Resource: http://www.sciencedirect.com/science/article/pii/S0048969717313025
+#	Full_Citation: 
+#	Abstract: A ~ 500-year section of ice core (1497-1992) from the Puruogangri ice cap has been analyzed at high resolution for 28 trace elements (TEs: Ag, Al, As, Ba, Bi, Cd, Co, Cr, Cs, Cu, Fe, Ga, Li, Mg, Mn, Na, Nb, Ni, Pb, Rb, Sb, Sn, Sr, Ti, Tl, U, V and Zn) to assess different atmospheric contributions to the ice and provide a temporal perspective on the diverse atmospheric influences over the central Tibetan Plateau (TP). At least two volcanic depositions have significantly impacted the central TP over the past 500 years, possibly originating from the Billy Mitchell (1580, Papua New Guinea) and the Parker Peak (1641, Philippines) eruptions. A decreasing aeolian dust input to the ice cap allowed the detection of an atmospheric pollution signal. The anthropogenic pollution contribution emerges in the record since the early 1900s (for Sb and Cd) and increases substantially after 1935 (for Ag, Zn, Pb, Cd and Sb). The metallurgy (Zn, Pb and steel smelting) emission products (Cd, Zn, Pb and Ag) from the former Soviet Union and especially from central Asia (e.g., Kyrgyzstan, Kazakhstan) likely enhanced the anthropogenic deposition to the Puruogangri ice cap between 1935 and 1980, suggesting that the westerlies served as a conveyor of atmospheric pollution to central Tibet. The impact of this industrial pollution cumulated with that of the hemispheric coal and gasoline combustion which are respectively traced by Sb and Pb enrichment in the ice. The Chinese steel production accompanying the Great Leap Forward (1958-1961) and the Chinese Cultural Revolution (1966-1976) is proposed as a secondary but proximal source of Pb pollution affecting the ice cap between 1958 and 1976. The most recent decade (1980-1992) of the enrichment time series suggests that Puruogangri ice cap recorded the early Sb, Cd, Zn, Pb and Ag pollution originating from developing countries of South (i.e., India) and East (i.e., China) Asia and transported by the summer monsoonal circulation.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: ACP-1149239
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: Ohio State University
+#	Grant: BPCRC Fellowship
+#------------------
+# Site_Information 
+#	Site_Name: Puruogangri Dome A Ice Core
+#	Location: Asia>Eastern Asia>China
+#	Country: China
+#	Northernmost_Latitude: 33.916
+# 	Southernmost_Latitude: 33.916
+# 	Easternmost_Longitude: 89.083
+# 	Westernmost_Longitude: 89.083
+# 	Elevation: 5980 m
+#------------------
+# Data_Collection   
+#	Collection_Name: Puruogangri2017elem5yr
+#	Earliest_Year: 1500 
+#	Most_Recent_Year: 1995 
+#	Time_Unit: AD
+#	Core_Length: 123.74 m 
+#	Notes: 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	Time scale is from Thompson et al. (2006) Annals of Glaciology, vol 43, 61-68. 
+#	The Puruogangri core 2 was dated by dust layer counting to 1600 AD, and was also constrained by the 1962/63 beta peak. 
+#	From 1497 to 1600 AD, the core age is calculated from a 2-parameter thinning model (see Thompson et al., 2006)
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age_AD	age, , , AD, , , , , N,
+## Ag	Silver, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Cd	Cadmium, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Sb	Antimony, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Tl	Thallium, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Pb	Lead, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Fe	Iron, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+## Zn	Zinc, , , pg/g, ,icecore, 5-year average of annual median concentration, , N, 
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age_AD	Ag	Cd	Sb	Tl	Pb	Fe	Zn
+1995	4.12	11.39	36.53	7.64	1103.93	315013.01	1521.47
+1990	6.99	25.32	50.62	15.30	2422.56	722339.45	3570.47
+1985	3.38	15.18	36.06	10.97	1521.35	573533.29	2781.42
+1980	4.03	12.83	38.54	9.81	1446.10	336690.63	1822.90
+1975	3.33	15.62	51.23	8.89	1712.50	369589.42	2085.24
+1970	2.37	9.66	26.86	6.16	706.90	230453.71	1699.85
+1965	6.06	19.03	44.28	12.44	1817.12	559232.93	2923.51
+1960	2.39	9.04	27.18	6.91	756.13	279083.95	1279.02
+1955	6.00	19.49	50.67	15.73	2189.95	579581.62	3080.95
+1950	1.56	6.09	22.81	5.69	532.12	219631.63	1112.01
+1945	1.03	5.24	15.55	3.98	352.60	135193.10	714.42
+1940	2.71	10.36	22.39	7.21	727.11	335787.79	1439.42
+1935	3.16	12.27	34.39	10.03	1163.29	634463.46	2407.42
+1930	2.59	10.42	29.79	8.91	1016.47	480122.26	1997.08
+1925	3.44	13.88	39.32	12.84	1348.77	512205.87	2559.54
+1920	2.22	8.68	33.54	8.31	1181.95	303184.95	1440.74
+1915	4.29	23.33	61.17	17.34	2698.97	834658.23	3690.84
+1910	3.13	9.21	43.59	6.84	972.57	271412.08	1411.64
+1905	3.30	9.56	38.78	14.49	1244.07	425386.13	1833.81
+1900	1.14	5.83	22.03	6.34	499.44	308121.22	1168.38
+1895	2.96	17.39	40.53	12.72	2245.87	492798.13	2484.49
+1890	1.15	4.87	15.95	4.28	336.86	186477.06	799.21
+1885	1.44	5.57	20.30	6.71	487.91	304787.39	1125.83
+1880	3.04	12.78	34.89	13.83	1552.15	627435.06	2902.08
+1875	1.70	8.92	23.12	7.60	775.19	373737.43	1472.37
+1870	2.33	13.82	46.86	11.80	1460.18	562154.45	3423.59
+1865	2.01	9.90	36.53	11.26	1127.42	353960.94	1740.14
+1860	5.11	16.14	41.40	13.08	1513.34	681489.97	2899.23
+1855	2.03	7.66	26.42	7.37	775.64	302854.18	1524.31
+1850	2.37	9.06	31.26	9.77	962.67	390462.04	1785.28
+1845	1.99	7.42	26.48	6.48	824.65	287205.85	1597.34
+1840	2.34	9.18	31.74	9.42	975.51	512761.67	2199.31
+1835	2.75	9.49	29.09	8.21	963.54	481282.21	2115.14
+1830	5.47	16.72	43.52	14.02	1866.83	676826.05	3111.84
+1825	8.12	40.02	76.75	36.50	4941.59	1021385.91	5377.77
+1820	7.10	21.18	42.92	16.73	2464.76	1117105.95	4158.28
+1815	5.54	27.47	67.09	19.49	3224.81	665267.36	3830.91
+1810	3.35	7.33	23.23	8.79	1664.88	494210.32	1582.25
+1805	5.32	19.09	47.41	15.21	1971.35	839219.46	3402.96
+1800	5.01	18.85	35.14	12.27	1733.56	585289.32	2696.67
+1795	3.30	11.88	26.29	8.28	892.96	465714.30	2245.76
+1790	2.79	12.06	40.83	9.70	1114.29	541808.15	2394.79
+1785	1.40	8.29	19.94	5.96	582.79	258209.78	1200.05
+1780	3.05	9.54	36.43	8.64	976.90	393174.04	1846.94
+1775	2.10	6.94	15.43	5.63	546.06	274774.54	1095.03
+1770	3.02	11.15	28.71	10.08	1103.97	497203.64	2062.65
+1765	1.28	5.69	13.79	6.17	555.86	281516.28	1069.80
+1760	1.44	5.51	17.05	5.63	622.91	267100.26	996.84
+1755	2.10	5.75	16.91	6.78	670.37	271668.46	790.66
+1750	3.25	14.23	34.45	11.96	1766.23	581991.65	2696.36
+1745	2.21	8.92	22.01	8.10	792.40	428812.47	1868.21
+1740	2.06	6.57	19.19	6.61	551.26	269380.11	1005.65
+1735	3.22	7.85	28.97	8.31	862.10	497031.85	1747.54
+1730	2.30	9.19	21.56	6.32	762.97	296311.84	1342.50
+1725	5.16	25.64	60.61	18.95	4647.29	658088.35	3930.47
+1720	3.98	14.47	25.65	10.66	1357.09	513161.02	2398.57
+1715	2.37	8.34	23.03	7.54	880.58	375834.95	1501.50
+1710	5.34	19.52	48.22	15.84	1898.84	731839.22	3427.63
+1705	4.73	17.96	34.12	13.16	1570.03	860921.68	3282.98
+1700	2.65	13.32	34.31	10.21	1076.34	497197.48	2059.02
+1695	1.94	7.01	22.25	7.34	672.94	380218.12	1462.99
+1690	7.23	39.94	65.79	28.08	6972.11	808887.23	5351.86
+1685	3.43	14.88	37.80	16.27	1641.27	888984.89	3211.90
+1680	3.45	12.41	34.86	11.84	1337.49	450302.65	2147.75
+1675	3.38	10.62	26.31	7.44	914.52	400200.94	1746.73
+1670	5.57	16.36	36.65	10.72	1881.16	521468.50	2659.07
+1665	5.08	13.93	41.83	9.72	1781.93	574281.25	2371.84
+1660	2.70	13.65	32.09	9.46	1400.84	357793.19	1780.76
+1655	3.95	20.96	103.76	14.61	2368.89	424680.11	2256.52
+1650	1.67	7.91	21.51	7.72	690.65	401202.66	1605.40
+1645	3.55	11.96	26.14	9.66	1251.18	499603.09	1980.08
+1640	4.85	11.66	33.73	11.57	1431.79	450647.58	2058.96
+1635	3.51	12.35	32.75	10.78	1394.06	545646.12	2317.90
+1630	3.99	16.08	60.42	12.84	1436.26	525002.81	2380.37
+1625	6.30	23.17	45.41	19.88	2064.73	804136.86	4135.21
+1620	3.18	13.57	33.93	11.38	1620.01	578404.02	3148.73
+1615	1.60	7.91	17.68	6.51	642.68	321850.68	1320.23
+1610	5.10	32.88	71.94	25.04	3763.40	1005568.41	4935.09
+1605	2.11	7.65	52.08	8.88	1169.44	395393.41	1651.54
+1600	3.24	11.91	33.46	13.63	1696.29	640556.45	2434.17
+1595	3.10	9.48	26.11	8.37	1050.46	424040.13	1883.37
+1590	10.26	36.62	102.55	29.48	5172.81	1257619.23	6189.69
+1585	9.71	23.85	62.47	30.79	2865.75	910409.21	4034.68
+1580	4.48	14.86	55.85	10.75	1823.72	790923.30	3176.44
+1575	2.53	8.15	14.43	7.14	1051.75	324289.41	1168.67
+1570	5.31	16.14	225.22	12.53	2099.37	543422.20	2633.47
+1565	4.07	10.84	27.96	10.07	1228.88	547988.40	2126.50
+1560	3.03	7.72	44.62	8.46	1121.73	349411.09	1588.65
+1555	4.86	16.53	43.35	18.76	2008.18	889448.37	3899.80
+1550	2.51	12.94	35.79	12.43	1443.54	678154.58	2649.08
+1545	5.91	34.05	67.67	23.46	3146.03	1183035.69	5726.09
+1540	3.32	15.93	33.95	9.72	1374.24	515122.88	2236.40
+1535	5.40	22.22	49.16	11.39	1994.83	497466.81	2858.16
+1530	1.82	10.12	64.38	9.03	1209.33	335247.10	1679.35
+1525	6.79	24.67	46.17	23.48	3260.19	1251617.60	4402.22
+1520	4.91	12.89	26.20	11.26	1611.42	611336.78	2378.51
+1515	3.40	12.99	24.99	9.08	1410.28	430230.69	2012.23
+1510	1.73	9.05	24.77	9.10	1115.01	406221.68	1709.33
+1505	1.33	6.98	22.23	7.65	696.87	292904.47	1238.34
+1500	1.65	8.96	30.62	10.30	2782.90	347275.68	1587.12

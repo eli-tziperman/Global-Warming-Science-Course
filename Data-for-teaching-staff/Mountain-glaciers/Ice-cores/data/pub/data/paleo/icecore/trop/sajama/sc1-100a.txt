@@ -1,0 +1,431 @@
+Sajama Ice Core Data: Readme file
+---------------------------------------------------------------------
+              World Data Center for Paleoclimatology, Boulder
+                                and 
+                   NOAA Paleoclimatology Program
+---------------------------------------------------------------------
+NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Sajama Ice Core Data
+LAST UPDATE: 1/2001 (Original receipt by WDC Paleo)
+
+CONTRIBUTOR: Lonnie G. Thompson, 
+Byrd Polar Research Center of The Ohio State University
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2001-009
+
+SUGGESTED DATA CITATION: Thompson, L.G., 2001, 
+Sajama Ice Core Data, 
+IGBP PAGES/World Data Center A for Paleoclimatology 
+Data Contribution Series #2001-009. 
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA. 
+
+ORIGINAL REFERENCE:  Thompson, L.G., M.E.Davis, E.M.Thompson, 
+T.A.Sowers, K.A.Henderson, V.S.Zagorodnov, P.N.Lin, V.N. Mikhalenko, 
+R.K.Campen, J.F.Bolzan, J.Cole-Dai and B.Francou. 1998. 
+A 25,000 year tropical climate history from Bolivian ice cores. 
+Science, 282(5295), 1858-1864. 
+
+Thompson et al., Science, v. 282, 1998, p. 1858-1864 
+
+
+GEOGRAPHIC REGION: South America, Bolivian Altiplano
+
+PERIOD OF RECORD: 25 KYrBP-Present
+
+LIST OF FILES: Readme_Sajama.txt (this file),
+ASCII text data files: 
+s1-dates.txt    Core 1 dating scheme  
+sc12-5m.txt     5m/3m/.5m averages   
+d18oatm.txt     Sowers' d18Oatm data        
+sc1-100a.txt    All Core 1 100-yr averages     
+sc1-acc.txt     Accumulation reconstruction
+                
+
+DESCRIPTION:
+General Information about the Sajama Ice Cores
+
+Site Description and Analysis
+	In June-July 1997, two ice cores to bedrock were recovered from the summit of 
+the extinct Sajama volcano, Bolivia (18øS, 69øW, elevation 6540 m) and were 
+subsequently transported back in a frozen state to the cold room facility at the Byrd Polar 
+Research Center (BPRC).  Core 1 (SjC1, 132.4 m) was sectioned in the BPRC laboratory 
+into 5063 samples decreasing in thickness from ~15 cm at the top to ~1-2 cm at the base.
+Core 2 (SjC2, 132.8 m), drilled just 3m from the SjC1 site, was sampled more coarsely, only
+803 samples collected from its length.  Borehole temperatures ranged from -11.3 to -9.5øC
+and indicate that the glacier remains frozen to the bed.
+	Each ice sample from SjC1 and SjC2 were prepared in a Class 100 clean room 
+environment, and analyzed for major anion concentrations (Cl-, NO3-, and SO42-) on a 
+Dionex DX-500 ion chromatograph, d18O on a Finnigan Mat mass spectrometer (Craig, 
+Geochim. Cosmochim. Acta, v. 12, 1957, p. 133-149), and for particulate concentration 
+and size distribution using a Coulter TA-II particle counter (Thompson, OSU IPS Report 
+46, 1973).
+	For display purposes, variable averaging on the core depth scale was utilized to 
+show the major large-scale events in the record without the confusion of the large annual 
+variations superimposed upon the upper portion.  Hence, for SjC1, 5-m integrated 
+averages were calculated for between the surface and 75 meters depth and then 3-m 
+averages were generated between 75 and 105 meters, and finally 50-cm averages were 
+generated between 105 m and the bottom.  The identical scheme was used for SjC2, and 
+all of these data are included in sc12-5m.txt in this data archive, and the graph can be 
+seen in Thompson et al., Science, v. 282, 1998, p. 1858-1864 (Fig. 3).  This figure is 
+included in this archive as fig3.jpg.
+
+Development of the time/depth relationship
+        As for the Huascarán, Peru ice cores, the upper section of the Sajama cores 
+contain an annually-resolved portion that can be accurately layer-counted.  For 
+developing the full-core age-depth scale, 100 years of accumulation was fixed according 
+to the annual layer-counting.  Measurements of tritium in SjC1 detected a strong peak at 
+~25.2 m depth, and confirmed the counting of 33 layers at 1964 A.D.  The strength of the 
+annual oscillations in nitrate, dust, and d18O are shown in Fig. 2 (Thompson et al, 1998) 
+for the relevant period.  This figure is archived here as fig2.jpg.
+	The Sajama ice cores contain intact insects, insect fragments, and polylepis bark 
+with a sufficient mass for 14C dating.  An abundance of plant material at 130.8 min SjC1 
+was split into two samples and independently dated by two AMS facilities (20,400 and 
+21,200 14C yrs. BP).  Additional stratigraphic information for the lower portion of the 
+Sajama cores was obtained by measuring the 18O/16O ratio of paleoatmospheric O2 
+(d18Oatm) trapped in the bubbles.  31 samples between 56 and 130 m depth were measured 
+and compared to results for the GISP 2 ice core (Sowers and Bender, Science, v. 269, 
+1995, p. 210).  Anomalous results were generally coincident with elevated dAr/N2 values, 
+that indicate some post-depositional alteration.  The d18Oatm results are depicted in 
+fig4.jpg in this archive, the data included in d18oatm.txt.  In each, the regions of 
+anomalous gases are indicated.
+	Additionally, a single ash horizon was identified in SjC1 that yielded one more 
+absolute date.  The identification of Huaynaputina 1600 A.D. ash  in SjC1 at 64.85 m, 
+was further confirmed by the nearby 14C date of 354 yrs. BP (1596 A.D.) at 67.0 m.  ICP-
+OES analysis of the major elements from the dust layer in SjC1 corresponded very well 
+with the simultaneous analysis of the ash collected from the Huaynaputina eruption from 
+the Cerro Trapiche archeological site (Thompson et al., 1998).
+        A summary of all age information determined from SjC1 is tabulated in s1-
+dates.txt.  From seven important age markers (tabulated in s1-dates.txt), including the 
+layer counts, tritium measurements, d18Oatm measurements, and Huaynatputina, a single 
+exponential-polynomial expression was determined for age control over the uppermost 
+9.7 kyr BP.  For glacial stage ice, the AnalySeries 1.0a program (D. Palliard et al., EOS, 
+v. 77, 1996, p. 379) was used to transfer the depth-based Sajama geochemical records to 
+the GISP 2-based time scale. Constant layer-thicknesses were assumed between the 14 
+d18Oice matching points, given in s1-dates.txt file in this archive.  Constant layers were 
+also assumed between the earliest GISP 2 matchpoint and the final 14C-dated layer, just 
+above the bed.  An average of the two corrected dates (24,485 yrs. BP) was used as an 
+absolute time marker for this depth (130.8 m).
+        Using the AnalySeries New Sampling feature, 100-year averages of all major ice 
+core parameters were generated, archived here in the file sc1-100a.txt.  Fig. 6 in 
+Thompson et al., 1998 shows all of these data for the entire 25,000 year length of record, 
+and is archived here as fig6.jpg.  The d18O profile is further compared to five other 
+important glacial-stage ice core records in Fig. 7, archived as fig7.jpg.  A subset of the
+100-yr. averages in Fig. 6 was shown in the PAGES volume of Quat. Sci. Rev. (v. 19, 2000,
+p. 29) for 20 kyr BP, to compare with a similar figure for Huascarán.  This is archived
+here as pages14.jpg.
+
+Accumulation reconstruction
+
+       Establishing dated horizons in SjC1 enables us to estimate an accumulation 
+history.  The observed depth-age profile suggests that annual layers thin much more 
+rapidly in the upper part of the ice cap than predicted by simple laminar flow or by 
+numerical modeling of ice divide deformation.  The observed thinning is similar to that 
+seen in ice caps at Dunde (Thompson et al., Science, v. 246, 1989, p. 474) and Guliya 
+(Thompson et al., Science, v. 276, 1997, p. 1821).  In the absence of the appropriate data 
+(the vertical strain rate), we assume that the vertical velocity profile is similar to that 
+inferred from the Dunde and Guliya ice cores.  If changes in ice thickness are ignored, the 
+average accumulation rate a(ij) between the dated depth horizons zi and zj (where i, and j, 
+are any two dated horizons) is given by:
+          Aij = {1/dt(ij)} * (Integral from zi to zj) (1 - z/H)^-p dz
+where H is the ice thickness, z is the ice-equivalent depth, p is a constant, and dt(ij) is the 
+number of years between zi and zj.  Reconstructed accumulation values (in terms of standard
+deviation, since absolutes are difficult to estimate) from these relationships are tabulated
+in sc1-acc.txt and are shown in fig6.jpg.
+
+s1-dates:
+Sajama Core 1 (1997)           3rd order exp
+          Core     Initial Age Model Age   Coeff. for 3rd order
+          Depth, z kyr BP '50  kyr BP '50  exponential age model
+Tritium      25.20   -0.014   -0.014          (kyr BP '97)
+Layer Counts 41.50    0.053    0.050     b[0] =    -2.4116
+Huaynaputina 64.80    0.350    0.360     b[1] =     0.0452
+C-14*        78.30    0.970    0.997     b[2] =  -3.85E-04
+C-14         92.10    3.390    3.292     b[3] =  2.616E-06
+d18Oatm     101.20    9.100    8.359
+
+Model Age = 10^(b[0]+b[1]z+b[2]z^2+b[3]z^3)-.047
+valid to:   102.56    9.726
+
+From here down, dates are treated as "absolute,"
+with linear interpolation used in between
+
+d18Oatm     103.80   10.300
+
+GISP II d18Oice matchpoints
+        1   105.45   11.575
+        2   106.95   11.925
+        3   108.45   12.575
+        4   109.05   12.775
+        5   109.85   13.125
+        6   111.05   14.075
+        7   113.05   14.725
+        8   114.15   15.125
+        9   114.55   15.475
+       10   115.65   16.025
+       11   116.45   16.525
+       12   117.85   17.025
+       13   118.75   17.975
+       14   123.25   21.625
+
+C-14*       130.80   24.487
+Bottom      132.35   25.075
+
+* used average of two dates
+
+Sajama 1997 Ice Core, Bolivia
+Top Age          Total Part.
+kyr BP'50    d18O >0.63 um    Cl-      NO3-     SO4--
+   -0.05   -17.06    1.606    0.116    0.227    0.818
+    0.05   -17.80    2.275    0.140    0.213    0.656
+    0.15   -17.52    1.937    0.148    0.229    0.706
+    0.25   -17.22    5.760    0.339    0.267    1.140
+    0.35   -17.00    3.656    0.635    0.231    2.092
+    0.45   -16.39    2.584    0.450    0.271    1.944
+    0.55   -15.94    5.562    0.454    0.320    1.902
+    0.65   -16.19    2.739    0.140    0.262    0.811
+    0.75   -15.61    3.562    0.108    0.271    0.509
+    0.85   -16.82    2.888    0.202    0.256    0.787
+    0.95   -15.42   11.356    0.406    0.263    1.619
+    1.05   -16.54    4.209    0.346    0.242    1.317
+    1.15   -16.43    1.455    0.138    0.201    0.461
+    1.25   -17.90    1.942    0.248    0.245    1.030
+    1.35   -16.49    2.302    0.217    0.273    1.077
+    1.45   -16.77    2.622    0.306    0.260    1.520
+    1.55   -14.23    2.707    1.217    0.651    5.530
+    1.65   -15.86    3.268    0.375    0.211    1.295
+    1.75   -16.00    3.004    0.592    0.323    3.439
+    1.85   -15.34    3.025    0.714    0.340    3.493
+    1.95   -16.53    1.053    0.262    0.279    1.456
+    2.05   -16.63    1.249    0.181    0.252    0.626
+    2.15   -16.82    1.682    0.165    0.254    0.683
+    2.25   -17.44    1.188    0.309    0.243    1.472
+    2.35   -14.24   40.578    0.869    0.349    6.773
+    2.45   -16.44    8.324    1.934    0.495    5.492
+    2.55   -16.36    2.836    0.386    0.294    1.425
+    2.65   -17.51    8.185    0.220    0.280    0.623
+    2.75   -15.71    1.970    0.322    0.337    1.485
+    2.85   -16.87    2.114    0.729    0.376    3.875
+    2.95   -16.67    2.907    1.230    0.500    6.620
+    3.05   -15.65    3.549    0.999    0.464    4.709
+    3.15   -16.31    2.289    0.432    0.341    2.026
+    3.25   -15.86    3.964    0.523    0.334    2.641
+    3.35   -14.32   10.738    2.268    0.573   14.918
+    3.45   -16.18    3.413    0.713    0.360    6.477
+    3.55   -15.72    1.905    0.351    0.376    2.480
+    3.65   -17.04    1.846    0.530    0.299    1.377
+    3.75   -16.11    6.640    0.217    0.277    0.760
+    3.85   -16.14    2.196    0.513    0.241    2.064
+    3.95   -17.10   27.314    0.943    0.465    5.835
+    4.05   -16.47    3.100    0.199    0.369    1.034
+    4.15   -16.87    1.204    0.130    0.262    0.678
+    4.25   -16.71    7.206    0.417    0.357    1.043
+    4.35   -16.12    2.433    0.209    0.282    0.725
+    4.45   -16.48    7.137    0.185    0.336    0.695
+    4.55   -15.48   32.505    0.761    0.486    2.700
+    4.65   -16.05    9.418    0.578    0.405    3.595
+    4.75   -16.13    2.058    0.172    0.324    1.048
+    4.85   -15.85    3.467    0.172    0.313    0.934
+    4.95   -16.81    3.352    0.446    0.356    2.755
+    5.05   -14.90    1.678    0.580    1.358    3.581
+    5.15   -14.01    1.149    0.516    0.377    1.509
+    5.25   -16.42    1.496    0.145    0.289    0.766
+    5.35   -17.07    1.926    0.140    0.250    0.462
+    5.45   -16.71   27.345    0.240    0.295    0.874
+    5.55   -17.06   40.879    0.259    0.160    0.972
+    5.65   -17.05    5.340    0.327    0.352    1.165
+    5.75   -16.86    0.931    0.122    0.275    0.670
+    5.85   -16.85    1.532    0.117    0.272    0.548
+    5.95   -16.26    1.263    0.177    0.322    0.951
+    6.05   -15.89    1.327    0.255    0.398    1.757
+    6.15   -16.40    1.546    0.146    0.322    0.871
+    6.25   -16.49    1.772    0.368    0.298    1.507
+    6.35   -16.91    1.013    0.518    0.535    2.728
+    6.45   -17.41    1.163    0.132    0.262    0.650
+    6.55   -16.23    2.031    0.073    0.311    0.670
+    6.65   -16.24    3.657    0.096    0.353    1.369
+    6.75   -15.66    2.942    0.142    0.399    1.634
+    6.85   -17.08   11.453    0.228    0.290    1.891
+    6.95   -16.65    0.768    0.190    0.374    1.400
+    7.05   -17.05    2.166    0.083    0.329    0.771
+    7.15   -16.40    1.455    0.075    0.277    0.514
+    7.25   -16.81    1.968    0.156    0.332    0.942
+    7.35   -17.42    5.165    0.180    0.290    0.972
+    7.45   -15.90    5.446    0.311    0.491    2.040
+    7.55   -16.76    1.189    0.195    0.433    1.386
+    7.65   -15.87    1.775    0.130    0.326    0.752
+    7.75   -16.18    2.131    0.183    0.377    1.094
+    7.85   -16.78    2.803    0.384    0.487    2.843
+    7.95   -16.93    0.702    0.114    0.301    0.703
+    8.05   -16.40    3.156    0.342    0.412    2.000
+    8.15   -17.12    2.740    0.250    0.419    1.565
+    8.25   -16.70    2.673    0.120    0.352    0.708
+    8.35   -16.44    2.479    0.165    0.342    0.879
+    8.45   -17.15    1.358    0.159    0.323    0.905
+    8.55   -16.57    3.818    0.239    0.397    2.040
+    8.65   -16.37    2.077    0.199    0.304    1.173
+    8.75   -16.58    3.498    0.365    0.508    2.483
+    8.85   -17.24    1.765    0.225    0.384    1.410
+    8.95   -17.51    1.584    0.115    0.304    0.987
+    9.05   -17.12    1.659    0.098    0.293    0.620
+    9.15   -16.90    2.015    0.090    0.280    0.457
+    9.25   -16.61    2.021    0.112    0.288    0.598
+    9.35   -17.11    2.772    0.124    0.312    0.717
+    9.45   -17.05    1.672    0.080    0.269    0.489
+    9.55   -16.47    2.537    0.130    0.312    0.776
+    9.65   -17.04    1.785    0.094    0.293    0.597
+    9.75   -16.55    1.905    0.110    0.307    0.561
+    9.85   -17.00    2.878    0.093    0.278    0.938
+    9.95   -17.00    2.349    0.080    0.270    0.446
+   10.05   -17.05    2.175    0.068    0.264    0.402
+   10.15   -16.49    2.777    0.084    0.293    0.504
+   10.25   -16.65    2.102    0.097    0.281    0.594
+   10.35   -17.08    1.730    0.101    0.263    0.564
+   10.45   -16.87    1.451    0.101    0.242    0.447
+   10.55   -16.81    1.133    0.034    0.241    0.279
+   10.65   -17.31    0.966    0.033    0.246    0.290
+   10.75   -17.30    1.414    0.042    0.252    0.342
+   10.85   -17.15    1.283    0.046    0.261    0.338
+   10.95   -17.45    0.756    0.057    0.244    0.375
+   11.05   -17.59    2.107    0.169    0.228    0.544
+   11.15   -17.62    1.037    0.047    0.236    0.392
+   11.25   -17.95    0.835    0.041    0.215    0.360
+   11.35   -17.72    1.195    0.039    0.205    0.246
+   11.45   -17.08    1.585    0.047    0.244    0.322
+   11.55   -18.36    0.831    0.045    0.204    0.230
+   11.65   -20.71    1.376    0.054    0.143    0.245
+   11.75   -21.77    0.903    0.094    0.128    0.287
+   11.85   -21.50    2.694    0.114    0.145    0.325
+   11.95   -21.22    2.226    0.091    0.168    0.331
+   12.05   -20.86    2.551    0.120    0.156    0.279
+   12.15   -20.25    2.716    0.082    0.190    0.236
+   12.25   -20.53    2.722    0.072    0.199    0.228
+   12.35   -21.34    2.434    0.070    0.212    0.328
+   12.45   -21.73    2.023    0.095    0.169    0.204
+   12.55   -21.67    1.900    0.070    0.119    0.227
+   12.65   -21.00    2.483    0.080    0.152    0.241
+   12.75   -20.64    2.733    0.077    0.185    0.259
+   12.85   -19.30    3.715    0.063    0.188    0.322
+   12.95   -19.97    2.487    0.044    0.161    0.258
+   13.05   -21.99    1.338    0.047    0.125    0.189
+   13.15   -22.23    1.137    0.049    0.125    0.181
+   13.25   -21.40    1.918    0.048    0.137    0.179
+   13.35   -21.24    2.146    0.049    0.142    0.189
+   13.45   -20.48    2.385    0.055    0.129    0.189
+   13.55   -19.49    4.047    0.149    0.214    0.436
+   13.65   -18.51    4.282    0.218    0.237    0.628
+   13.75   -18.77    3.630    0.154    0.211    0.473
+   13.85   -20.13    3.814    0.082    0.140    0.365
+   13.95   -20.47    2.807    0.089    0.156    0.247
+   14.05   -20.23    2.698    0.070    0.140    0.233
+   14.15   -15.91    4.814    0.496    0.545    1.301
+   14.25   -14.32    6.387    0.379    0.615    1.212
+   14.35   -15.30    6.411    0.316    0.501    0.965
+   14.45   -15.93    7.295    0.417    0.488    1.400
+   14.55   -18.16    5.136    0.176    0.263    0.732
+   14.65   -20.13    0.778    0.047    0.150    0.317
+   14.75   -20.98    1.011    0.069    0.151    0.209
+   14.85   -21.09    4.974    0.435    0.307    1.518
+   14.95   -20.78    3.538    0.233    0.147    0.479
+   15.05   -19.07    5.822    0.555    0.302    1.722
+   15.15   -20.14    1.897    0.207    0.158    0.384
+   15.25   -20.58    1.070    0.090    0.147    0.207
+   15.35   -18.76    3.889    0.273    0.307    0.884
+   15.45   -19.74    2.845    0.149    0.178    0.419
+   15.55   -21.32    1.270    0.061    0.137    0.181
+   15.65   -21.97    0.997    0.054    0.125    0.140
+   15.75   -22.34    1.158    0.049    0.120    0.140
+   15.85   -22.86    1.231    0.044    0.116    0.147
+   15.95   -21.88    2.091    0.059    0.125    0.237
+   16.05   -22.14    4.170    0.059    0.139    0.271
+   16.15   -21.90    0.934    0.054    0.124    0.148
+   16.25   -21.87    0.587    0.044    0.119    0.204
+   16.35   -22.13    0.663    0.043    0.117    0.156
+   16.45   -22.60    0.698    0.049    0.111    0.160
+   16.55   -21.84    0.897    0.053    0.120    0.136
+   16.65   -21.79    0.725    0.063    0.126    0.192
+   16.75   -22.04    0.556    0.056    0.117    0.152
+   16.85   -22.17    0.517    0.061    0.117    0.197
+   16.95   -22.52    0.563    0.058    0.119    0.177
+   17.05   -22.56    0.478    0.055    0.114    0.135
+   17.15   -22.36    0.585    0.053    0.120    0.159
+   17.25   -22.28    0.680    0.047    0.115    0.134
+   17.35   -22.01    0.804    0.057    0.131    0.177
+   17.45   -22.10    0.487    0.050    0.127    0.182
+   17.55   -22.38    0.371    0.050    0.117    0.138
+   17.65   -22.33    0.457    0.052    0.115    0.179
+   17.75   -21.92    0.803    0.068    0.149    0.265
+   17.85   -21.60    0.533    0.055    0.127    0.199
+   17.95   -21.64    0.904    0.060    0.149    0.204
+   18.05   -22.15    0.461    0.049    0.122    0.176
+   18.15   -22.80    0.787    0.072    0.150    0.218
+   18.25   -22.70    0.511    0.053    0.120    0.157
+   18.35   -22.82    0.406    0.063    0.138    0.188
+   18.45   -22.78    0.470    0.060    0.153    0.172
+   18.55   -22.74    0.630    0.062    0.142    0.226
+   18.65   -22.80    0.519    0.055    0.132    0.176
+   18.75   -22.82    0.381    0.075    0.123    0.175
+   18.85   -22.49    0.316    0.108    0.149    0.329
+   18.95   -22.02    0.231    0.080    0.157    0.262
+   19.05   -21.72    0.242    0.122    0.146    0.374
+   19.15   -21.72    0.268    0.230    0.119    0.386
+   19.25   -21.73    0.336    0.303    0.106    0.301
+   19.35   -21.82    0.315    0.307    0.103    0.290
+   19.45   -21.99    0.261    0.319    0.100    0.315
+   19.55   -22.14    0.299    0.343    0.103    0.343
+   19.65   -22.18    0.230    0.346    0.104    0.384
+   19.75   -22.40    0.215    0.345    0.108    0.412
+   19.85   -22.61    0.291    0.372    0.110    0.327
+   19.95   -22.44    0.414    0.400    0.125    0.474
+   20.05   -22.19    0.263    0.388    0.124    0.470
+   20.15   -22.04    0.283    0.414    0.116    0.384
+   20.25   -21.84    0.277    0.443    0.114    0.416
+   20.35   -21.61    0.167    0.495    0.104    0.382
+   20.45   -21.52    0.235    0.582    0.100    0.438
+   20.55   -21.53    0.290    0.619    0.094    0.453
+   20.65   -21.68    0.237    0.668    0.097    0.519
+   20.75   -21.80    0.214    0.737    0.109    0.704
+   20.85   -21.88    0.252    0.790    0.094    0.609
+   20.95   -21.91    0.277    0.851    0.095    0.592
+   21.05   -22.02    0.344    0.916    0.087    0.549
+   21.15   -22.22    0.263    0.941    0.076    0.483
+   21.25   -22.29    0.198    0.939    0.061    0.442
+   21.35   -22.37    0.220    1.021    0.070    0.600
+   21.45   -22.29    0.178    1.129    0.086    0.849
+   21.55   -22.35    0.159    1.095    0.064    0.759
+   21.65   -22.40    2.337    1.258    0.083    5.091
+   21.75   -22.32    0.166    0.638    0.047    0.360
+   21.85   -22.21    0.190    0.314    0.098    0.296
+   21.95   -22.15    0.235    0.110    0.180    0.255
+   22.05   -22.13    0.283    0.082    0.176    0.217
+   22.15   -22.13    0.427    0.074    0.162    0.584
+   22.25   -22.03    0.461    0.090    0.139    0.236
+   22.35   -21.86    0.358    0.126    0.163    1.117
+   22.45   -21.69    0.469    0.094    0.134    0.288
+   22.55   -21.61    0.480    0.093    0.135    0.318
+   22.65   -21.52    0.489    0.096    0.133    0.236
+   22.75   -21.44    0.642    0.107    0.143    0.319
+   22.85   -21.41    0.552    0.111    0.141    0.285
+   22.95   -21.30    0.588    0.105    0.136    0.254
+   23.05   -21.28    0.676    0.105    0.139    0.258
+   23.15   -21.11    1.044    0.114    0.149    0.231
+   23.25   -21.08    0.721    0.124    0.161    0.349
+   23.35   -20.89    0.787    0.120    0.151    0.252
+   23.45   -20.78    0.788    0.117    0.152    0.307
+   23.55   -20.71    0.727    0.122    0.156    0.428
+   23.65   -20.72    0.585    0.117    0.159    0.340
+   23.75   -20.66    0.698    0.099    0.144    0.159
+   23.85   -20.57    0.530    0.103    0.147    0.176
+   23.95   -20.62    0.523    0.105    0.154    0.174
+   24.05   -20.61    0.708    0.119    0.170    0.271
+   24.15   -20.57    0.783    0.119    0.172    0.286
+   24.25   -20.61    0.846    0.120    0.171    0.291
+   24.35   -20.65    0.801    0.126    0.184    0.290
+   24.45   -20.69    0.567    0.129    0.192    0.202
+   24.55   -20.66    0.598    0.113    0.156    0.188
+   24.65   -20.74    0.354    0.111    0.142    0.169
+   24.75   -20.71    0.365    0.128    0.131    0.244
+   24.85   -20.84    0.595    0.112    0.126    0.232
+   24.95   -20.66    0.616    0.112    0.114    0.349
+   25.05
+

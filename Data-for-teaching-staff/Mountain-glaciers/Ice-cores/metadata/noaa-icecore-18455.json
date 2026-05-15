@@ -1,0 +1,165 @@
+{
+  "xmlId" : "16137",
+  "NOAAStudyId" : "18455",
+  "studyName" : "Belukha Glacier, Siberian Altai 300 Year Ice Core Heavy Metals Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Eichler, A.; Tobler, L.; Eyrikh, S.; Malygina, N.; Papina, T.; Schwikowski, M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "5-year averages of the Cd, Cu, Sb, Zn concentrations from the 2001 Belukha ice core, Siberian Altai, 1680-1991. ",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/18455",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-18455.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-18455.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2015-04-24",
+  "entryId" : "noaa-icecore-18455",
+  "earliestYearBP" : 270,
+  "mostRecentYearBP" : -41,
+  "earliestYearCE" : 1680,
+  "mostRecentYearCE" : 1991,
+  "publication" : [ {
+    "author" : {
+      "name" : "Anja Eichler, Leonhard Tobler, Stella Eyrikh, Natalia Malygina, Tatyana Papina, and Margit Schwikowski"
+    },
+    "pubYear" : 2014,
+    "title" : "Ice-Core Based Assessment of Historical Anthropogenic Heavy Metal (Cd, Cu, Sb, Zn) Emissions in the Soviet Union",
+    "journal" : "Environmental Science and Technology",
+    "volume" : "48",
+    "edition" : null,
+    "issue" : "5",
+    "pages" : "2635-2642",
+    "reportNumber" : null,
+    "citation" : "Anja Eichler, Leonhard Tobler, Stella Eyrikh, Natalia Malygina, Tatyana Papina, and Margit Schwikowski. 2014. Ice-Core Based Assessment of Historical Anthropogenic Heavy Metal (Cd, Cu, Sb, Zn) Emissions in the Soviet Union. Environmental Science and Technology, 48(5), 2635-2642. doi: 10.1021/es404861n",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1021/es404861n",
+      "url" : "http://dx.doi.org/10.1021/es404861n"
+    },
+    "abstract" : "The development of strategies and policies aiming at the reduction of environmental exposure to air pollution requires the assessment of historical emissions. Although anthropogenic emissions from the extended territory of the Soviet Union (SU) considerably influenced concentrations of heavy metals in the Northern Hemisphere, Pb is the only metal with long-term historical emission estimates for this region available, whereas for selected other metals only single values exist. Here we present the first study assessing long-term Cd, Cu, Sb, and Zn emissions in the SU during the period 1935-1991 based on ice-core concentration records from Belukha glacier in the Siberian Altai and emission data from 12 regions in the SU for the year 1980. We show that Zn primarily emitted from the Zn production in Ust-Kamenogorsk (East Kazakhstan) dominated the SU heavy metal emission. Cd, Sb, Zn (Cu) emissions increased between 1935 and the 1970s (1980s) due to expanded non-ferrous metal production. Emissions of the four metals in the beginning of the 1990s were as low as in the 1950s, which we attribute to the economic downturn in industry, changes in technology for an increasing metal recovery from ores, the replacement of coal and oil by gas, and air pollution control.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "53018",
+    "siteName" : "Belukha Glacier",
+    "mappable" : "Y",
+    "locationName" : "Continent>Europe>Eastern Europe>Russia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "49.8072", "86.5786" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "49.8072",
+        "northernmostLatitude" : "49.8072",
+        "westernmostLongitude" : "86.5786",
+        "easternmostLongitude" : "86.5786",
+        "minElevationMeters" : "4062",
+        "maxElevationMeters" : "4062"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Belukha2014metals",
+      "NOAADataTableId" : "28814",
+      "earliestYear" : 1680,
+      "mostRecentYear" : 1991,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 270,
+      "mostRecentYearBP" : -41,
+      "earliestYearCE" : 1680,
+      "mostRecentYearCE" : 1991,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2014metals.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Belukha Glacier Ice Core Heavy Metals Data",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age at sample end",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>cadmium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>nanogram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "5-year average",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>copper",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>nanogram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>antimony",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>nanogram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>zinc",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>nanogram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : "averaged",
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry" ]
+      } ]
+    } ]
+  } ]
+}

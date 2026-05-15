@@ -1,0 +1,228 @@
+# Kottas Camp and DML16 Dronning Maud Land oxygen isotope and accumulation rate data from 1800-1997 CE
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_33-PAGESAnt2k-DML_Plateau_FB9802.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-12-13
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-13
+#---------------------------------------
+# Title
+#    Study_Name: Kottas Camp and DML16 Dronning Maud Land oxygen isotope and accumulation rate data from 1800-1997 CE
+#---------------------------------------
+# Investigators
+#      Investigators: Oerter, H.; Wilhelms, F.; Jung-Rothenhäusler, F.; Göktas, F.; Miller, H.; Graf, W.; Sommer, S.
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors: Authors: Oerter, H., F. Wilhelms, F. Jung-Rothenhäusler, F. Göktas, H. Miller, W. Graf, and S. Sommer
+# Published_Date_or_Year: 2000
+# Published_Title: Accumulation rates in Dronning Maud Land, Antarctica, as revealed by dielectric-profiling measurements of shallow firn cores
+# Journal_Name: Annals of Glaciology
+# Volume: 30
+# Edition: 
+# Issue: 1
+# Pages: 27-34
+# Report Number: 
+# DOI: 10.3189/172756400781820705
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: The European Programme for Ice Coring in Antarctica includes a comprehensive pre-site survey on the inland ice plateau of Dronning Maud Land, Antarctica. The German glaciological programme during the 1997/98 field season was carried out along a 1200 km traverse on Amundsenisen and involved sampling the snow cover in pits and by shallow firn cores. This paper focuses on the accumulation studies. The cores were dated by dielectric-profiling and continuous-flow analysis. Distinct volcanogenic peaks and seasonal signals in the profiles served to establish a depth time-scale. The eruptions of Krakatoa, Tambora, an unknown volcano, Kuwae and El Chichon are well-documented in the ice. Variations of the accumulation rates over different times were inferred from the depth time-scales. A composite record of accumulation rates for the last 200 years was produced by stacking 12 annually resolved records. According to this, accumulation rates decreased in the 19th century and increased in the 20th century. The recent values are by no means extraordinary, as they do not exceed the values at the beginning of the 19th century. Variations in accumulation rates are most probably linked to temperature variations indicated in δ18O records from Amundsenisen.
+#---------------------------------------
+# Publication
+# Authors: Graf, Wolfgang, Hans Oerter, Oskar Reinwarth, Willibald Stichler, Frank Wilhelms, Heinz Miller, and Robert Mulvaney
+# Published_Date_or_Year: 2002
+# Published_Title: Stable-isotope records from Dronning Maud Land, Antarctica
+# Journal_Name: Annals of Glaciology
+# Volume: 35
+# Edition: 
+# Issue: 1
+# Pages: 195-201
+# Report Number: 
+# DOI: 10.3189/172756402781816492
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: The European Project for Ice Coring in Antarctica (EPICA) includes a comprehensive pre-site survey on the inland ice plateau of Dronning Maud Land. This paper focuses on the investigation of the 18O content of shallow firn and ice cores. These cores were dated by profiles derived from dielectric-profiling and continuous flow analysis measurements. the individual records were stacked in order to obtain composite chronologies of 18O contents and accumulation rates with enhanced signal-to-noise variance ratios. These chronologies document variations in the last 200 and 1000 years. The18O contents and accumulation rates decreased in the 19th century and increased during the 20th century. Using the empirical relationships between stable isotopes, accumulation rates and the 10 m firn temperature, the variation of both parameters can be explained by the same temperature history. But other causes for these variations, such as the build-up of the snow cover, cannot be excluded. A marked feature of the 1000 year chronology occurs during the period AD 1180–1530 when the 18Ocontents remains below the long-term mean. Cross-correlation analyses between five cores from the Weddell Sea region and Dronning Maud Land show that 18O records can in some periods be positively correlated and in others negatively correlated, indicating a complex climatic history in time and space.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Deutsche Forschungsgemeinschaft
+#    Grant: Re762/2 and Oe130/3
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: European Science Foundation/ European Commission
+#    Grant: ENV4-CT95-0074
+#---------------------------------------
+# Site Information
+# Site_Name: Kottas Camp Dronning Maud Land Plateau
+# Location: Antarctica 
+# Country: 
+# Northernmost_Latitude: -74.2083
+# Southernmost_Latitude: -74.2083
+# Easternmost_Longitude: -9.7472
+# Westernmost_Longitude: -9.7472
+# Elevation: 1439
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: Kottas DML60C98_02 d18O Oerter2000
+#   First_Year: 1881
+#   Last_Year: 1997
+#   Time_Unit: AD
+#   Core_Length: 26.4
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age,,,years CE,,ice core,,dielectric profiling, continuous flow analysis, volcanic reference horizons, seasonal variability of Na and Ca content,,
+## d18O	delta 18O,ice,,per mil SMOW,,ice core,,isotope ratio mass spectrometry,N,mean annual values
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+1997	-33.47	
+1996	-27.23	
+1995	-32.31	
+1994	-30.77	
+1993	-30.16	
+1992	-33.05	
+1991	-29.99	
+1990	-31.85	
+1989	-30.55	
+1988	-31.16	
+1987	-32.65	
+1986	-32.57	
+1985	-31.41	
+1984	-31.64	
+1983	-31.79	
+1982	-31.2	
+1981	-32.68	
+1980	-33.54	
+1979	-33.55	
+1978	-33.63	
+1977	-26.84	
+1976	-28.13	
+1975	-32.6	
+1974	-33.99	
+1973	-35.14	
+1972	-29.03	
+1971	-33.78	
+1970	-29.73	
+1969	-32.98	
+1968	-33.74	
+1967	-31.95	
+1966	-34.03	
+1965	-33.98	
+1964	-32.19	
+1963	-32.13	
+1962	-29.66	
+1961	-29.95	
+1960	-32.45	
+1959	-35.17	
+1958	-31.42	
+1957	-32.87	
+1956	-33.15	
+1955	-33.05	
+1954	-32.62	
+1953	-33.19	
+1952	-33.2	
+1951	-32.65	
+1950	-32.03	
+1949	-33.39	
+1948	-34.46	
+1947	-35.17	
+1946	-32.81	
+1945	-31.7	
+1944	-32.69	
+1943	-34.04	
+1942	-34.37	
+1941	-32.01	
+1940	-31.27	
+1939	-33.79	
+1938	-35.4	
+1937	-34.07	
+1936	-34.17	
+1935	-30.86	
+1934	-33.05	
+1933	-34.08	
+1932	-34.68	
+1931	-31.9	
+1930	-31.17	
+1929	-31.37	
+1928	-32.33	
+1927	-32.71	
+1926	-32.69	
+1925	-32.8	
+1924	-32.25	
+1923	-31.69	
+1922	-31.86	
+1921	-33.78	
+1920	-34.44	
+1919	-31.65	
+1918	-33.34	
+1917	-31.96	
+1916	-31.27	
+1915	-33	
+1914	-33.91	
+1913	-34.71	
+1912	-32.49	
+1911	-31.28	
+1910	-31.67	
+1909	-33.82	
+1908	-34.15	
+1907	-32.94	
+1906	-32.59	
+1905	-33.05	
+1904	-32.15	
+1903	-30.8	
+1902	-31.5	
+1901	-32.88	
+1900	-33.49	
+1899	-34.29	
+1898	-33.69	
+1897	-32.45	
+1896	-31.42	
+1895	-33.13	
+1894	-34.03	
+1893	-32.55	
+1892	-32.64	
+1891	-34.1	
+1890	-31.97	
+1889	-30.79	
+1888	-30.77	
+1887	-31.43	
+1886	-33.27	
+1885	-32.69	
+1884	-32.41	
+1883	-34.07	
+1882	-33.88	
+1881	-34.02	

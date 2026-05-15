@@ -1,0 +1,278 @@
+Huascarán Ice Core Data: Readme file
+---------------------------------------------------------------------
+              World Data Center for Paleoclimatology, Boulder
+                                and 
+                   NOAA Paleoclimatology Program
+---------------------------------------------------------------------
+NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Huascarán Ice Core Data
+LAST UPDATE: 8/2013 (addition of annions data file). 
+             Original receipt by WDC Paleo 1/2001
+
+CONTRIBUTOR: Lonnie G. Thompson, 
+Byrd Polar Research Center of The Ohio State University
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2001-008
+
+SUGGESTED DATA CITATION: Thompson, L.G., 2001, 
+Huascarán Ice Core Data, 
+IGBP PAGES/World Data Center A for Paleoclimatology 
+Data Contribution Series #2001-008. 
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA. 
+
+ORIGINAL REFERENCE:  Thompson, L.G., E. Mosley-Thompson, M.E. Davis, 
+P-N. Lin, K.A. Henderson, J. Cole-Dai, J.F. Bolzan and K-b. Liu. 1995.
+Late Glacial Stage and Holocene tropical ice core records from Huascarán, Peru. 
+Science, 269, 46-50. 
+
+
+GEOGRAPHIC REGION: South America, Peruvian Andes
+
+PERIOD OF RECORD: 19.5 KYrBP - present
+
+LIST OF FILES: Readme_Huascaran.txt (this file),
+ASCII text data files: 
+
+age.txt         Age-scale/averaging doc.  
+all-mo.txt      Linearized profiles 100yr.
+annualc.txt     Cal. Annual avg for 100yr.  
+annualt.txt     Thermal Annual avg - 100yr. 
+hs12-5m.txt     5m/.5m/every averages     
+hs1layer.txt    C1 layer depths/thickness   
+hs2layer.txt    C2 layer depths/thickness   
+hs2-100a.txt    Revised C2 100-yr averages.   
+annions.txt	decadal averages of major anions (Chloride, Nitrate, Sulfate)     
+		
+
+DESCRIPTION:
+General Information about the Huascarán Ice Cores
+
+Site Description and Analysis
+	In July-August 1993, two ice cores to bedrock were recovered from the col 
+between the north and south peaks of Nevado Huascarán, Peru (9øS, 77ø30'W, col 
+elevation 6050 m) and were subsequently transported back to the cold room facility at the 
+Byrd Polar Research Center (BPRC).  Core 1 (HSC1, 160.40 m) was sectioned in the 
+field into 2677 samples decreasing in thickness from 13 cm at the top to 3 cm at the base, 
+which were then melted and poured into 2 or 4 oz. plastic (HDPE) bottles, and sealed 
+with wax.  Core 2 (HSC2, 166.08 m), drilled approximately 100 m from the HSC1 site, 
+was returned frozen in 1 m sections.  Ice motion vectors determined from stake 
+movements from 1991-93 indicate that the drill sites are proximal to the divide between 
+ice flow towards the east and west outlets of the col.  Visible observations and borehole 
+temperatures indicate that the glacier is 'polar' type, i.e., it remains frozen to the bed 
+(Thompson et al., Science, v.269, 1995, p. 46-50).
+	Each ice sample from HSC2 was prepared in a Class 100 clean room 
+environment, and analyzed for major anion concentrations (Cl-, NO3-, and SO42-) on a 
+Dionex 2010i ion chromatograph, d18O on a Finnigan Mat mass spectrometer (Craig, 
+1957), and for particulate concentration and size distribution using a Coulter TA-II 
+particle counter (Thompson, OSU IPS Report 46, 1973).  A complete d18O profile was 
+also produced from the bottled samples from HSC1.  Contamination during field 
+preparation and transport of these samples precluded the development of a second 
+complete record of particles and anion concentrations.
+	For display purposes, variable averaging on the core depth scale was utilized to 
+show the major large-scale events in the record without the confusion of the large annual 
+variations superimposed upon the upper portion.  Hence, for HSC2, 5-m integrated 
+averages were calculated for between the surface and 140 meters depth and then 50-cm 
+averages were generated between 140 and 160 meters.  Between 160 and 166 meters, 
+every sample value was plotted.  A similar scheme was used for HSC1 (all values plotted 
+for 155-160.4 m).  These data are included in hs12-5m.txt in this data archive, and the 
+graph can be seen in Thompson et al., 1995 (Fig. 3).
+
+Development of the time/depth relationship
+	Tropical South American climate is marked by annual dry seasons (July-October) 
+which were identifiable in the ice core record as elevated values in all relevant 
+measurements.  The nitrate (NO3-) record from the Huascarán ice core provided the most 
+definitive seasonal marker, but the final time scale was constructed from a comparison of 
+four major parameters (NO3-, d18O, dust and SO42-).  Each annual maximum corresponds 
+to the middle of the dry season, assumed to occur on the 1st of August.  The rapid layer-
+thinning below 120 m limited annual resolution to the most recent 270 years.  However, 
+the high accumulation and strong preservation of seasonal cycles also made possible the 
+subannual resolution of d18O variations for a period of at least 100 years (1894-1993).
+	The accuracy of the time scale is of paramount importance in the development of 
+relationships between ice core proxy data and tropical climate conditions.  Several 
+horizons in recent times were useful for confirming the layer counting as a reliable 
+method, and indicate almost certain ages for the uppermost 50 years.  In 1980, during the 
+original reconnaissance expedition to Huascarán, a 10 m firn core was extracted and 
+analyzed for d18O at BPRC (Thompson et al., JGR, v. 89d3, 1984, p. 4638-4646). Aside 
+from minor accumulation variation and slight signal attenuation, the 1993 cores 
+duplicated the earlier stable isotope profile over the common portion, and confirmed the 
+layer counting to 1980 as absolute.  Additionally, a magnitude 7.7 earthquake struck 
+coastal Peru in May 1970, generating large mud flows following the collapse of a large 
+portion of the Huascarán glacier from the north peak. The event was recognized in the ice 
+core by a sharp two-year rise in particulates from the newly-created sediment source.  A 
+third time horizon was provided by the HSC2 36Cl profile (Synal et al., Glaciers From the 
+Alps, Paul Scherrer Inst., 1997, p. 99-102), a substance produced by neutron activation 
+during the explosion of atomic devices in the presence of a 35Cl source, such as sea water.  
+An abrupt >100-fold rise in 36Cl concentration occurred at ~54 m depth, which dates (by 
+layer counting) to 1951-53.  This was in direct response to the October 31, 1952 U.S. 
+'Ivy' surface test of an experimental nuclear device on the Eniwetok Atoll in the Pacific 
+Ocean (11øN, 162øE) (Carter and Moghissi, Health Physics, v. 33, 1977, p. 55-71).  
+Finally, in both HSC1 and HSC2, the 1883 eruption of Krakatau, Indonesia (6øS, 
+105ø30'E) was identified by an anomalous sulfate concentration of ~400 ppb at 110 m 
+depth, more than twice the level of any other local (within 10 m) event.  A date of mid-
+year 1884 was thus considered to be an absolute time marker for both cores within the 
+error of the time lag (less than one year).
+THERMAL YEAR (Aug.-Jul.) LAYER THICKNESSES
+Huascaran (1993) Core 1
+Year       Core Depth     Layer     Mean IED Bottom IED Layer
+           Bottom (m) Thickness  Density      (m)   Thickness
+  1993               0
+  1992 -93        3.37     3.37    0.388    1.600    1.600
+  1991 -92        5.51     2.14    0.486    2.785    1.185
+  1990 -91        8.29     2.78    0.533    4.473    1.687
+  1989 -90       10.27     1.98    0.584    5.764    1.291
+  1988 -89       12.89     2.62    0.616    7.573    1.810
+  1987 -88       14.45     1.56    0.655    8.704    1.130
+  1986 -87       16.27     1.82    0.678   10.071    1.367
+  1985 -86       17.67     1.40    0.704   11.158    1.087
+  1984 -85       19.27     1.60    0.724   12.437    1.280
+  1983 -84       21.17     1.90    0.747   14.008    1.571
+  1982 -83       22.73     1.56    0.774   15.339    1.331
+  1981 -82       24.05     1.32    0.795   16.493    1.154
+  1980 -81       25.25     1.20    0.813   17.563    1.070
+  1979 -80       26.19     0.94    0.828   18.415    0.852
+  1978 -79       27.70     1.51    0.840   19.808    1.393
+  1977 -78       28.72     1.02    0.857   20.765    0.957
+  1976 -77       29.51     0.79    0.868   21.514    0.749
+  1975 -76       30.74     1.23    0.876   22.692    1.179
+  1974 -75       31.81     1.07    0.887   23.729    1.037
+  1973 -74       33.12     1.31    0.896   25.011    1.282
+  1972 -73       34.19     1.07    0.905   26.067    1.056
+  1971 -72       35.59     1.40    0.910   27.457    1.390
+  1970 -71       37.07     1.48    0.916   28.933    1.477
+  1969 -70       38.42     1.35    0.920   30.283    1.350
+  1968 -69       39.84     1.42    0.920   31.703    1.420
+  1967 -68       41.17     1.33    0.920   33.033    1.330
+  1966 -67       42.98     1.81    0.920   34.843    1.810
+  1965 -66       44.13     1.15    0.920   35.993    1.150
+  1964 -65       45.21     1.08    0.920   37.073    1.080
+  1963 -64       46.19     0.98    0.920   38.053    0.980
+  1962 -63       47.01     0.82    0.920   38.873    0.820
+  1961 -62       48.16     1.15    0.920   40.023    1.150
+  1960 -61       49.53     1.37    0.920   41.393    1.370
+  1959 -60       50.83     1.30    0.920   42.693    1.300
+  1958 -59       51.90     1.07    0.920   43.763    1.070
+  1957 -58       52.88     0.98    0.920   44.743    0.980
+  1956 -57       53.71     0.83    0.920   45.573    0.830
+  1955 -56       54.47     0.76    0.920   46.333    0.760
+  1954 -55       55.69     1.22    0.920   47.553    1.220
+  1953 -54       56.75     1.06    0.920   48.613    1.060
+  1952 -53       57.61     0.86    0.920   49.473    0.860
+  1951 -52       58.46     0.85    0.920   50.323    0.850
+  1950 -51       59.39     0.93    0.920   51.253    0.930
+  1949 -50       60.04     0.65    0.920   51.903    0.650
+  1948 -49       60.79     0.75    0.920   52.653    0.750
+  1947 -48       61.54     0.75    0.920   53.403    0.750
+  1946 -47       62.42     0.88    0.920   54.283    0.880
+  1945 -46       63.28     0.86    0.920   55.143    0.860
+  1944 -45       64.29     1.01    0.920   56.153    1.010
+  1943 -44       65.24     0.95    0.920   57.103    0.950
+  1942 -43       66.38     1.14    0.920   58.243    1.140
+  1941 -42       68.50     2.12    0.920   60.363    2.120
+  1940 -41       69.43     0.93    0.920   61.293    0.930
+  1939 -40       70.40     0.97    0.920   62.263    0.970
+  1938 -39       71.70     1.30    0.920   63.563    1.300
+  1937 -38       72.55     0.85    0.920   64.413    0.850
+  1936 -37       73.52     0.97    0.920   65.383    0.970
+  1935 -36       74.42     0.90    0.920   66.283    0.900
+  1934 -35       75.07     0.65    0.920   66.933    0.650
+  1933 -34       75.94     0.87    0.920   67.803    0.870
+  1932 -33       76.67     0.73    0.920   68.533    0.730
+  1931 -32       77.10     0.43    0.920   68.963    0.430
+  1930 -31       77.66     0.56    0.920   69.523    0.560
+  1929 -30       78.38     0.72    0.920   70.243    0.720
+  1928 -29       79.09     0.71    0.920   70.953    0.710
+  1927 -28       79.65     0.56    0.920   71.513    0.560
+  1926 -27       80.89     1.24    0.920   72.753    1.240
+  1925 -26       82.80     1.91    0.920   74.663    1.910
+  1924 -25       84.40     1.60    0.920   76.263    1.600
+  1923 -24       85.15     0.75    0.920   77.013    0.750
+  1922 -23       86.03     0.88    0.920   77.893    0.880
+  1921 -22       87.20     1.17    0.920   79.063    1.170
+  1920 -21       87.95     0.75    0.920   79.813    0.750
+  1919 -20       88.72     0.77    0.920   80.583    0.770
+  1918 -19       89.34     0.62    0.920   81.203    0.620
+  1917 -18       90.68     1.34    0.920   82.543    1.340
+  1916 -17       91.49     0.81    0.920   83.353    0.810
+  1915 -16       92.86     1.37    0.920   84.723    1.370
+  1914 -15       93.61     0.75    0.920   85.473    0.750
+  1913 -14       94.38     0.77    0.920   86.243    0.770
+  1912 -13       95.07     0.69    0.920   86.933    0.690
+  1911 -12       95.84     0.77    0.920   87.703    0.770
+  1910 -11       97.03     1.19    0.920   88.893    1.190
+  1909 -10       98.07     1.04    0.920   89.933    1.040
+  1908 - 9       98.76     0.69    0.920   90.623    0.690
+  1907 - 8       99.83     1.07    0.920   91.693    1.070
+  1906 - 7      100.57     0.74    0.920   92.433    0.740
+  1905 - 6      101.11     0.54    0.920   92.973    0.540
+  1904 - 5      101.53     0.42    0.920   93.393    0.420
+  1903 - 4      102.09     0.56    0.920   93.953    0.560
+  1902 - 3      102.48     0.39    0.920   94.343    0.390
+  1901 - 2      102.94     0.46    0.920   94.803    0.460
+  1900 - 1      103.50     0.56    0.920   95.363    0.560
+  1899 - 0      104.14     0.64    0.920   96.003    0.640
+  1898 -99      104.98     0.84    0.920   96.843    0.840
+  1897 -98      105.47     0.49    0.920   97.333    0.490
+  1896 -97      106.09     0.62    0.920   97.953    0.620
+  1895 -96      106.64     0.55    0.920   98.503    0.550
+  1894 -95      107.07     0.43    0.920   98.933    0.430
+  1893 -94      107.63     0.56    0.920   99.493    0.560
+  1892 -93      107.98     0.35    0.920   99.843    0.350
+  1891 -92      108.32     0.34    0.920  100.183    0.340
+  1890 -91      108.71     0.39    0.920  100.573    0.390
+  1889 -90      109.00     0.29    0.920  100.863    0.290
+  1888 -89      109.23     0.23    0.920  101.093    0.230
+  1887 -88      109.47     0.24    0.920  101.333    0.240
+  1886 -87      109.80     0.33    0.920  101.663    0.330
+  1885 -86      110.15     0.35    0.920  102.013    0.350
+  1884 -85      110.49     0.34    0.920  102.353    0.340
+  1883 -84      110.89     0.40    0.920  102.753    0.400
+  1882 -83      111.21     0.32    0.920  103.073    0.320
+  1881 -82      111.50     0.29    0.920  103.363    0.290
+  1880 -81      111.68     0.18    0.920  103.543    0.180
+  1879 -80      111.93     0.25    0.920  103.793    0.250
+  1878 -79      112.12     0.19    0.920  103.983    0.190
+  1877 -78      112.30     0.18    0.920  104.163    0.180
+  1876 -77      112.45     0.15    0.920  104.313    0.150
+  1875 -76      112.64     0.19    0.920  104.503    0.190
+  1874 -75      112.90     0.26    0.920  104.763    0.260
+  1873 -74      113.12     0.22    0.920  104.983    0.220
+  1872 -73      113.41     0.29    0.920  105.273    0.290
+  1871 -72      113.60     0.19    0.920  105.463    0.190
+  1870 -71      113.76     0.16    0.920  105.623    0.160
+  1869 -70      113.90     0.14    0.920  105.763    0.140
+  1868 -69      114.03     0.13    0.920  105.893    0.130
+  1867 -68      114.17     0.14    0.920  106.033    0.140
+  1866 -67      114.28     0.11    0.920  106.143    0.110
+  1865 -66      114.41     0.13    0.920  106.273    0.130
+  1864 -65      114.52     0.11    0.920  106.383    0.110
+  1863 -64      114.67     0.15    0.920  106.533    0.150
+  1862 -63      114.82     0.15    0.920  106.683    0.150
+  1861 -62      115.01     0.19    0.920  106.873    0.190
+  1860 -61     115.145    0.135    0.920  107.008    0.135
+  1859 -60     115.240    0.095    0.920  107.103    0.095
+  1858 -59     115.335    0.095    0.920  107.198    0.095
+  1857 -58     115.415    0.080    0.920  107.278    0.080
+  1856 -57     115.490    0.075    0.920  107.353    0.075
+  1855 -56     115.555    0.065    0.920  107.418    0.065
+  1854 -55     115.670    0.115    0.920  107.533    0.115
+  1853 -54     115.785    0.115    0.920  107.648    0.115
+  1852 -53     115.885    0.100    0.920  107.748    0.100
+  1851 -52     115.960    0.075    0.920  107.823    0.075
+  1850 -51     116.025    0.065    0.920  107.888    0.065
+  1849 -50     116.095    0.070    0.920  107.958    0.070
+  1848 -49     116.150    0.055    0.920  108.013    0.055
+  1847 -48     116.215    0.065    0.920  108.078    0.065
+  1846 -47     116.310    0.095    0.920  108.173    0.095
+  1845 -46     116.395    0.085    0.920  108.258    0.085
+  1844 -45     116.490    0.095    0.920  108.353    0.095
+  1843 -44     116.605    0.115    0.920  108.468    0.115
+  1842 -43     116.695    0.090    0.920  108.558    0.090
+  1841 -42     116.780    0.085    0.920  108.643    0.085
+  1840 -41     116.880    0.100    0.920  108.743    0.100
+  1839 -40     116.965    0.085    0.920  108.828    0.085
+  1838 -39     117.055    0.090    0.920  108.918    0.090
+  1837 -38     117.135    0.080    0.920  108.998    0.080
+  1836 -37     117.205    0.070    0.920  109.068    0.070
+  1835 -36     117.300    0.095    0.920  109.163    0.095
+

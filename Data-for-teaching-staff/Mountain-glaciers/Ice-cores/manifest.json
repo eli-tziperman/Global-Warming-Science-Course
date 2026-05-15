@@ -1,0 +1,1862 @@
+{
+  "files" : [ {
+    "path" : "data/pub/data/paleo/reconstructions/lechleitner2017/lechleitner2017precip.txt",
+    "filesize" : "44201",
+    "MD5" : "5084265445e88b9f6ba1d873895f33ba"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2009.txt",
+    "filesize" : "6646",
+    "MD5" : "72a25d9717f88d5336da9d14924a1a39"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016age-core2.txt",
+    "filesize" : "107961",
+    "MD5" : "f969ec8f070092b84581dd1ea44c8695"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016age-core3.txt",
+    "filesize" : "45797",
+    "MD5" : "7bc9ba938f4feb8aef197eecd11529a9"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016rgb.txt",
+    "filesize" : "988105",
+    "MD5" : "13647411464884ca4037c9ed7943b53b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016beta.txt",
+    "filesize" : "8643",
+    "MD5" : "3f96a2443d1c8bead1fcb74922d735b0"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016dens.txt",
+    "filesize" : "13645",
+    "MD5" : "a8669c54d795193001bb6ce2800ecd15"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016flow.txt",
+    "filesize" : "16930",
+    "MD5" : "df330264821f1a9facc2748848d180ba"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016h3.txt",
+    "filesize" : "8545",
+    "MD5" : "473abccbb18c7dc5a18b8f136822a853"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016incl.txt",
+    "filesize" : "9814",
+    "MD5" : "02492b98460ba2220964b3234ac519ab"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/ortles/ortles2016age.txt",
+    "filesize" : "90525",
+    "MD5" : "cf264cac5d60e870f0deb9e0de70cd8e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2014metals.txt",
+    "filesize" : "6504",
+    "MD5" : "d9dc743a333718f26306a46dbe2e00b5"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2012pb.txt",
+    "filesize" : "6596",
+    "MD5" : "2b99ea03424271af1f4c84e70fd98726"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2009ions.txt",
+    "filesize" : "12463",
+    "MD5" : "8dfc10b89b32ed90cfead0a743647b5e"
+  }, {
+    "path" : "data/pub/data/paleo/contributions_by_author/braganza2009/braganza2009enso.txt",
+    "filesize" : "12967",
+    "MD5" : "def59a009cf8fd5003ac1e56d235df09"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/col-du-dome/col-du-dome2020metals.txt",
+    "filesize" : "371686",
+    "MD5" : "5a86b3f3b5ea94b46cf4a927b9fe6f77"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018samples01a.txt",
+    "filesize" : "133966",
+    "MD5" : "da21f62a409e7e5cbeedd5b04d1fd25b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018samples01b.txt",
+    "filesize" : "135959",
+    "MD5" : "d4315aa5cae77459f91ee01781b1b68a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018ann.txt",
+    "filesize" : "28630",
+    "MD5" : "9c58f4164dbd50fdd7f930e622399b0c"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu2000.txt",
+    "filesize" : "61090",
+    "MD5" : "cb7778536715f843a8cd7c8d6812e45e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem.txt",
+    "filesize" : "314296",
+    "MD5" : "2114fedce0d39c881d5942ee9d8c882c"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr.txt",
+    "filesize" : "13507",
+    "MD5" : "272f8163564725e5aea41de8e840dd77"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr-efc.txt",
+    "filesize" : "12960",
+    "MD5" : "b35210dbe536b522286d92d3bc411e3f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr-flux.txt",
+    "filesize" : "14169",
+    "MD5" : "7eadc249dce668ec59f8ddc0d1e5fc54"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dunde/dunde-d18o.txt",
+    "filesize" : "5530",
+    "MD5" : "d22f8da43a36df44c3cfea521b3d0c27"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dasuopu/dasuopu-d18o.txt",
+    "filesize" : "6513",
+    "MD5" : "f1d5b07615a6d19072be9fa3eaa7b83e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guliya/guliya-d18o.txt",
+    "filesize" : "29576",
+    "MD5" : "bdd5f3191634a222ee89e2760bdf0ea3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/dunde/dunde2006.txt",
+    "filesize" : "22929",
+    "MD5" : "9aa6491aa5db2171187f07172144a7b3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/everest/rongbuk2007.txt",
+    "filesize" : "15663",
+    "MD5" : "1e906583852ff3f4090d2b978c101b89"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/everest/rongbuk2008bc.txt",
+    "filesize" : "80651",
+    "MD5" : "094e53b3c7da5c4332a78f3cc044fcdc"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/everest/rongbuk.txt",
+    "filesize" : "257857",
+    "MD5" : "cfccba8dc4bf794ac054287a15a69983"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/everest/rongbuk2009.txt",
+    "filesize" : "776293",
+    "MD5" : "893f9ef5ceb1c6a8d61665b04af97400"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fedchenko/fedchenko2009.txt",
+    "filesize" : "91964",
+    "MD5" : "319eb1783d4a859a2072a79d3bdbb3ac"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1998-ions.txt",
+    "filesize" : "21871",
+    "MD5" : "c78f82513ec60bbdc86d140315dcefcd"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont_hg.txt",
+    "filesize" : "5938",
+    "MD5" : "15836a9d550d06a33fbbba92249005ec"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1991-tritium.txt",
+    "filesize" : "5760",
+    "MD5" : "390c413c6cbe2627e7605071698ef9e5"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont_ecm.txt",
+    "filesize" : "1925277",
+    "MD5" : "693fcfb1d0f1115e64ace70deddbd4bc"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1991-ions.txt",
+    "filesize" : "61267",
+    "MD5" : "ea93fddd3cd1141154b59782f0f44dfb"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1991-age.txt",
+    "filesize" : "4558",
+    "MD5" : "730e57bc12ee301cb899ee2b2a61fed3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1991-d18o.txt",
+    "filesize" : "16565",
+    "MD5" : "c0d7e12b1eed5d8a3b619470d18663bb"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/fremont/fremont1998-d18o-tritium.txt",
+    "filesize" : "30177",
+    "MD5" : "49665d4dc6716d2fa52e15e18b5e0ff0"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/grenzgletscher/grenzgletscher2018elem.txt",
+    "filesize" : "39447",
+    "MD5" : "ca6f9807499b41a6f2c62a11d52cb9f0"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/grigorieva/grigorieva2011.txt",
+    "filesize" : "116125",
+    "MD5" : "288741c36ab678b28df7c3f1db319fda"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guliya/guliya2018summit-thickness.txt",
+    "filesize" : "52996",
+    "MD5" : "725687b14651d05814902b509831008b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guliya/guliya2018plateau-thickness.txt",
+    "filesize" : "231629",
+    "MD5" : "c30a1c606b630662f835a5fc30b6ad7e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guliya/guliya1997.txt",
+    "filesize" : "50626",
+    "MD5" : "590fca6c39e038118233829816a0e1c3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guliya/guliya2018element.txt",
+    "filesize" : "14349",
+    "MD5" : "960fe47e0a2deaec4933bbee2471dd44"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/guoqu/guoqu2009.txt",
+    "filesize" : "10625",
+    "MD5" : "1e71782542b212dbe0c44e17b291f976"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2010nh4-10yr.txt",
+    "filesize" : "11744",
+    "MD5" : "abf759db03e9f0ddfbd3ce0a0c2ba712"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2010nh4ann.txt",
+    "filesize" : "12732",
+    "MD5" : "2a63e41c871f2c8eaf35b8dae0ff439d"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2015pbiso50yr.txt",
+    "filesize" : "7554",
+    "MD5" : "d7bf3d297ce51955743eba91bb592c97"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2015pbiso10yr.txt",
+    "filesize" : "6758",
+    "MD5" : "a0bfd0e1c2a5e102fe59a4d4892cf5a1"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2015pb.txt",
+    "filesize" : "13509",
+    "MD5" : "70a8565d70f33ad24adb084a8ed3a106"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/illimani/illimani2019rbc.txt",
+    "filesize" : "96873",
+    "MD5" : "eb3689dfb2c5681dcedf44ac55c4bdf7"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/inilchek/inilchek98_iso_ion.txt",
+    "filesize" : "29347",
+    "MD5" : "74046575a6a2172613aab0359403bff9"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/inilchek/inilchek98_ree.txt",
+    "filesize" : "19049",
+    "MD5" : "d502374a93de70d907b4216ce644ea2e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/kilimanjaro/kilimanjaro.txt",
+    "filesize" : "70000",
+    "MD5" : "d28fada5c4cb01d7e0103e08fdf74a88"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/lewis/lewisa.txt",
+    "filesize" : "9871",
+    "MD5" : "a97d1e45c4a0f4952b60e774432b3505"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/lewis/lewisc.txt",
+    "filesize" : "10906",
+    "MD5" : "65abaeb3e4807b632dc12339c19d841e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/lewis/lewisb.txt",
+    "filesize" : "11465",
+    "MD5" : "a886edbb9f5fe16d6b318bd73f61eae4"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/anions.txt",
+    "filesize" : "12327",
+    "MD5" : "7d28c703463d4e39c74c9c0cc58242b2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/all-mo.txt",
+    "filesize" : "61267",
+    "MD5" : "c8400caee5e7bb788a606b707fbcdd62"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/hs12-5m.txt",
+    "filesize" : "24188",
+    "MD5" : "ac6f24f9e46fc8f4563147dc9a630870"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/hs1layer.txt",
+    "filesize" : "16644",
+    "MD5" : "2c941eece7af51491af8ad293984c4ef"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/hs2-100a.txt",
+    "filesize" : "14136",
+    "MD5" : "cdc43aef74d5aa3a316aea5e8d2390b2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/hs2layer.txt",
+    "filesize" : "23515",
+    "MD5" : "8532bb8857b84c3eb83773b2650d6f3f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/annualc.txt",
+    "filesize" : "12158",
+    "MD5" : "848f603dc8f29528390e534be522514f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/annualt.txt",
+    "filesize" : "12376",
+    "MD5" : "0c5c045dfcbfe5e934657bbc386f53e1"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/Ant2K_2017_isotopic_and_temperature_data.xlsx",
+    "filesize" : "378508",
+    "MD5" : "c5ef5be375445b810f55767888c081fd"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/All_regions_decadal_means.csv",
+    "filesize" : "30540",
+    "MD5" : "53dfc34bf6348cdd3581e5cee96d212e"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/All_regions_recons_CPS.csv",
+    "filesize" : "299333",
+    "MD5" : "3caf1dcc2d47527467bf7dc6e644b55c"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Antarctic-Peninsula.csv",
+    "filesize" : "55",
+    "MD5" : "c3ef35a278a9ffc693a2d16533093725"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_DML-coast.csv",
+    "filesize" : "165",
+    "MD5" : "6fca5e550c0d91f5953d15712292e5cc"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_East-Antarctica.csv",
+    "filesize" : "1082",
+    "MD5" : "aa232e51091d80c6b7d0970f2f1fed60"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Plateau.csv",
+    "filesize" : "782",
+    "MD5" : "d346e8b7930eb1fe481ee2a43679f0ca"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Victoria-Land-Ross-Sea.csv",
+    "filesize" : "88",
+    "MD5" : "563a52cb3aa7c0e9790e62cd795820aa"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_WAIS.csv",
+    "filesize" : "285",
+    "MD5" : "f5c2fe53855b5648cd2b67db303c372a"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Weddel-Sea-Coast.csv",
+    "filesize" : "15",
+    "MD5" : "d00e59460ae2a1c942e3fdb185ddf851"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_West-Antarctica.csv",
+    "filesize" : "343",
+    "MD5" : "bf7b044e4c162a939122285f29b3a56f"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Whole-Antarctica.csv",
+    "filesize" : "1412",
+    "MD5" : "c1b5e59b362c56cdada8a4da8668bd50"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/Proxy_cors_PAGES2013method_NB_infilled_posr_Wilkes-Land-Coast.csv",
+    "filesize" : "18",
+    "MD5" : "a3dbfbb4367af84a8ba393a4218672c9"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/readme_CPS_files.txt",
+    "filesize" : "2003",
+    "MD5" : "07758992ed53d80b01a1227db140a279"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Antarctic-Peninsula.csv",
+    "filesize" : "302390",
+    "MD5" : "b01e212bad081dc727553eefad3880a8"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_DML-coast.csv",
+    "filesize" : "29850",
+    "MD5" : "d21035f8e05d5677da80bcb6d84f9804"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_East-Antarctica.csv",
+    "filesize" : "304914",
+    "MD5" : "28d3a6b3b5e61658c3a19a22f9b7c4e0"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Plateau.csv",
+    "filesize" : "304496",
+    "MD5" : "d74a961e9858414f004d9e5ddedfdfe7"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Victoria-Land-Ross-Sea.csv",
+    "filesize" : "133020",
+    "MD5" : "277ce6f63433bacf182ff6942120bb4b"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_WAIS.csv",
+    "filesize" : "305232",
+    "MD5" : "0de3158b846d1308fee93ee0ed132ad3"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Weddel-Sea-Coast.csv",
+    "filesize" : "148738",
+    "MD5" : "78b78d183e0348870108392058f5685c"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_West-Antarctica.csv",
+    "filesize" : "239652",
+    "MD5" : "3ea390b135f3f494cd6d6f07b37531d6"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Whole-Antarctica.csv",
+    "filesize" : "302428",
+    "MD5" : "184be8aaf4a625c6640355c44dc01775"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/CPSrecons/recon_nested_PAGES2013method_NB_infilled_posr_Wilkes-Land-Coast.csv",
+    "filesize" : "223055",
+    "MD5" : "c1d79f1bc0ea3c9cbb701dcfb9e3712b"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_07-PAGESAnt2k-DML_Ice_divide_traverse_L.txt",
+    "filesize" : "5599",
+    "MD5" : "a234e2dd021ec82edb5c60ec4cfd8438"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.07-PAGESAnt2k-DML_Ice_divide_traverse_L.xlsx",
+    "filesize" : "138207",
+    "MD5" : "82c529c22aaef29bebed73f1a1f010be"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_08-accum-DML_Plateau_FB96DML01.txt",
+    "filesize" : "6722",
+    "MD5" : "c1275375f65cf6bd0e8db26e3fcfa06a"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_08-PAGESAnt2k-DML_Plateau_FB96DML01.txt",
+    "filesize" : "6962",
+    "MD5" : "7fe677959983d02784768ff322160cb6"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.08-PAGESAnt2k-DML_Plateau_FB96DML01.xlsx",
+    "filesize" : "134239",
+    "MD5" : "2cccc8787807498b6ed27b6cf26cc169"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_11-accum-DML_Plateau_FB97DML04.txt",
+    "filesize" : "6631",
+    "MD5" : "263fae4d7d8f04aa28e37af8e9eafead"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_11-PAGESAnt2k-DML_Plateau_FB97DML04.txt",
+    "filesize" : "6845",
+    "MD5" : "1d7ec31e21ad8d5d15edfea918121d11"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.11-PAGESAnt2k-DML_Plateau_FB97DML04.xlsx",
+    "filesize" : "140534",
+    "MD5" : "79fcfbe8603f9c3af671340a96fc9c11"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_13-accum-DML_Plateau_FB97DML06.txt",
+    "filesize" : "6712",
+    "MD5" : "b672c79086bcd3a80076ad857bd2855f"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_13-PAGESAnt2k-DML_Plateau_FB97DML06.txt",
+    "filesize" : "6928",
+    "MD5" : "68fcdbf7138cc5a1609814cbe52dcdb9"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.13-PAGESAnt2k-DML_Plateau_FB97DML06.xlsx",
+    "filesize" : "140566",
+    "MD5" : "9ab48b51e9dff1cd7bb19139b7a11058"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_15-accum-DML_Plateau_FB97DML08.txt",
+    "filesize" : "6475",
+    "MD5" : "42ac6b9d52fd3bfbf831d9372ef8dbca"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_15-PAGESAnt2k-DML_Plateau_FB97DML08.txt",
+    "filesize" : "6640",
+    "MD5" : "6ae91afde2c4b743b075eb4e3132d304"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.15-PAGESAnt2k-DML_Plateau_FB97DML08.xlsx",
+    "filesize" : "139876",
+    "MD5" : "8d116313077f6247bae43f06674bf319"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_16-accum-DML_Plateau_FB97DML09.txt",
+    "filesize" : "6737",
+    "MD5" : "9c68e24e97d06b470002fccb6a1342c3"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_16-PAGESAnt2k-DML_Plateau_FB97DML09.txt",
+    "filesize" : "6955",
+    "MD5" : "be68ceb38efdb7f4ea3f68eab60949c1"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.16-PAGESAnt2k-DML_Plateau_FB97DML09.xlsx",
+    "filesize" : "140627",
+    "MD5" : "2e34c57c27be5c53d195610d690536b5"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_17-accum-DML_Plateau_FB97DML10.txt",
+    "filesize" : "6690",
+    "MD5" : "7f781e111f2c64a77a4c4f13897a7710"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_17-PAGESAnt2k-DML_Plateau_FB97DML10.txt",
+    "filesize" : "6913",
+    "MD5" : "1b34bbca249d93fd95304938ed424b87"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.17-PAGESAnt2k-DML_Plateau_FB97DML10.xlsx",
+    "filesize" : "140600",
+    "MD5" : "94bdb138555e5b0088a4b68aae830954"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_27-accum-DML_Plateau_FB9813.txt",
+    "filesize" : "9661",
+    "MD5" : "866e4e494be50a800bbb40154dd9e2d8"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1_27-PAGESAnte2k-DML_Plateau_FB9813.txt",
+    "filesize" : "10054",
+    "MD5" : "03d934660f9c3ff18ee70bb85b54d55a"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site1.27-PAGESAnte2k-DML_Plateau_FB9813.xlsx",
+    "filesize" : "144396",
+    "MD5" : "28a72d14a8285e05dcd6d752d6bbedc1"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_09-accum-DML_Fimbulisen_S20.txt",
+    "filesize" : "5509",
+    "MD5" : "76756be4b2f9056e536fa260782217d1"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_09-PAGESAnt2k-DML_Fimbulisen_S20.txt",
+    "filesize" : "5643",
+    "MD5" : "475604f8e6b80ed06c1aca73bba44cf5"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7.09-PAGESAnt2k-DML_Fimbulisen_S20.xlsx",
+    "filesize" : "140209",
+    "MD5" : "dad1071ca51930db02be83bcd3485fdb"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_11-accum-DML_Fimbulisen_S100.txt",
+    "filesize" : "7889",
+    "MD5" : "8f4fa012f4e2cf2505eb817ef7c3d3a6"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_11-PAGESAnt2k-DML_Fimbulisen_S100.txt",
+    "filesize" : "8588",
+    "MD5" : "84e623141e1f0e1e39a4999b96e111fc"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7.11-PAGESAnt2k-DML_Fimbulisen_S100.xlsx",
+    "filesize" : "145203",
+    "MD5" : "2702d52fbbebc356eefad7d963a4a4b8"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_16-accum-DML_Ritscherflya_E91.txt",
+    "filesize" : "5810",
+    "MD5" : "8f47046746a30c76224108e5e6c50d94"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_16-PAGESAnt2k-DML_Ritscherflya_E91.txt",
+    "filesize" : "6020",
+    "MD5" : "bbe7ee8b49535e7566363e709747a574"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7.16-PAGESAnt2k-DML_Ritscherflya_E91.xlsx",
+    "filesize" : "140313",
+    "MD5" : "6c95603325a167655f554f9282c7a239"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_20-accum-DML_Ekstroem_B04.txt",
+    "filesize" : "7128",
+    "MD5" : "602b5581c02679b6d79c8846767b0bca"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_20-PAGESAnt2k-DML_Ekstroem_B04.txt",
+    "filesize" : "6935",
+    "MD5" : "86b84146c886331f0af6722bc8693bb3"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7.20-PAGESAnt2k-DML_Ekstroem_B04.xlsx",
+    "filesize" : "142365",
+    "MD5" : "15b8adac108d53e2011b9f91774e99a5"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_33-accum-DML_Plateau_FB9802.txt",
+    "filesize" : "8798",
+    "MD5" : "ed710c98bbb078f173052942be1db3ab"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_33-PAGESAnt2k-DML_Plateau_FB9802.txt",
+    "filesize" : "8940",
+    "MD5" : "3e65cc4c0722fe3327e5df3e8659235d"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7.33-PAGESAnt2k-DML_Plateau_FB9802.xlsx",
+    "filesize" : "143494",
+    "MD5" : "5a3b91f819fa066df02e882a90022e3e"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/readme_CPS_files.txt",
+    "filesize" : "2003",
+    "MD5" : "07758992ed53d80b01a1227db140a279"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/readme-stenni2017ant2k.txt",
+    "filesize" : "8937",
+    "MD5" : "560482622f5c9d7bb60d7db077a3c181"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig2aR5d-unweighted-stats.txt",
+    "filesize" : "13070",
+    "MD5" : "0d19208249d744f564da5d2bba67bfa8"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig2aR5d-unweighted.txt",
+    "filesize" : "3197",
+    "MD5" : "c60a918e4639d2fbe3731c9dbe8aa287"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig2bR5d-NB2014weight.txt",
+    "filesize" : "4346",
+    "MD5" : "068fee05efae553621b6ec1dcf2526af"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig2cR5d-ECHAMisoweight.txt",
+    "filesize" : "4288",
+    "MD5" : "256f59965806cd894310f1c5a1030b19"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig3aR10d-unweighted-stats.txt",
+    "filesize" : "48430",
+    "MD5" : "ecccdf7d89c1e6554d56fe46e2225d68"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig3aR10d-unweighted.txt",
+    "filesize" : "12932",
+    "MD5" : "f66436e16c9e37cb967e3a5f1e4e68a0"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig3bR10d-NB2014weight.txt",
+    "filesize" : "17269",
+    "MD5" : "2d0753016f82da5c28f15d320a615151"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig3cR10d-ECHAMisoweight.txt",
+    "filesize" : "17428",
+    "MD5" : "d49ff4f87f6ebf6e17d811ba010e8d76"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig4aR5T-ECHscaling.txt",
+    "filesize" : "4538",
+    "MD5" : "f139d8f6c2b746109cae17b923e7c82a"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig4bR5T-NBscaling.txt",
+    "filesize" : "5650",
+    "MD5" : "553d6c8e31b415c37b3d6c807117eefa"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig4cR5T-Borehscaling.txt",
+    "filesize" : "4694",
+    "MD5" : "facd74cf93334b9dad58717f3c52b1ed"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig5-8aR10T-ECHscaling.txt",
+    "filesize" : "17456",
+    "MD5" : "e31d03dbc24710ee267b19638fcfb955"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig5-8bR10T-NBscaling.txt",
+    "filesize" : "17509",
+    "MD5" : "a2db378992001247679863b4d47916b2"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig5-8cBorehscaling.txt",
+    "filesize" : "17593",
+    "MD5" : "1e9f68c7547e231ae40b608fa90a6c9f"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig6slopestat.txt",
+    "filesize" : "3819",
+    "MD5" : "f357068f71a2b6b6337e4ca2090f3432"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017fig8dR10Tcps.txt",
+    "filesize" : "22874",
+    "MD5" : "950512dd700ff09593e95b96eab2a77b"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017NB2014regionalmean.txt",
+    "filesize" : "4744",
+    "MD5" : "d2d12ccbb6dcafb1903b59f8fb8362de"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017NB2014siteextraction.txt",
+    "filesize" : "43252",
+    "MD5" : "3d408c01c742546f004dfce8f2292844"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017suppl2dR5d-ECHAMTweight.txt",
+    "filesize" : "4327",
+    "MD5" : "8d17528e2a9767a1f0a3f57fdbd36664"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/stenni2017suppl3dR10d-ECHAMTweight.txt",
+    "filesize" : "17348",
+    "MD5" : "4dc655bd7675068b38fcb0382b2b6184"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/TableS1.txt",
+    "filesize" : "13860",
+    "MD5" : "ca082e3c979b9597b2388141568e835a"
+  }, {
+    "path" : "data/pub/data/paleo/pages2k/stenni2017antarctica/TableS1.xlsx",
+    "filesize" : "22350",
+    "MD5" : "5584fb5084a47b32813c8453eeacaacb"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019d1biso.txt",
+    "filesize" : "49842",
+    "MD5" : "f5f7a2bcaf2760c35347a6c0901abfdb"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019iso-sst.txt",
+    "filesize" : "22085",
+    "MD5" : "c6acd883adb5e8aede311484337a24b2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019log10.txt",
+    "filesize" : "8028",
+    "MD5" : "1042657d1b6cfecf6c52cb112dc91ea0"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019d1bchem.txt",
+    "filesize" : "17476",
+    "MD5" : "44ccb99d5842453947e238516d62514e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019d1.txt",
+    "filesize" : "45293",
+    "MD5" : "02cd5ed7d1169aee4e7f3805d8c57268"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/papua/papua2019d1-3h.txt",
+    "filesize" : "6986",
+    "MD5" : "6d4057fac606f20ea8d1fd0dec3eda85"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/puruogangri/puruogangri2006.txt",
+    "filesize" : "91807",
+    "MD5" : "c1660838f789446ffac83df2efd31a02"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017efc.txt",
+    "filesize" : "30111",
+    "MD5" : "f512e567149d5e62a85872bd634c1a32"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017elem.txt",
+    "filesize" : "36090",
+    "MD5" : "be5d9cc2a7c745a1cd39536337a7f29b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017efc5yr.txt",
+    "filesize" : "11471",
+    "MD5" : "94db2becdcb7aa8b350d5a601be02bf9"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017elem5yr.txt",
+    "filesize" : "12575",
+    "MD5" : "2550dbcd421ed5e55bb064ac9b913d2f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/q83cor1.txt",
+    "filesize" : "94835",
+    "MD5" : "f915b8b3e98ecacac0db381a00c38930"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/q83summ.txt",
+    "filesize" : "88885",
+    "MD5" : "af52feb4773e7b52b13292f216651a8d"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel76b.txt",
+    "filesize" : "32536",
+    "MD5" : "880dd6bf7af57a7aa7626f81e366ae24"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel76c.txt",
+    "filesize" : "30468",
+    "MD5" : "94a21ed44af4c287d30bcdac55f50fff"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel77a.txt",
+    "filesize" : "5698",
+    "MD5" : "68bd26fc61ca976ce26aa59ed9c9fde4"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel77c.txt",
+    "filesize" : "6524",
+    "MD5" : "8a4f2086853d8c9381469faccf2a1bd2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel78a.txt",
+    "filesize" : "7888",
+    "MD5" : "02b1872d27f06630d9f22062db03288d"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel78b.txt",
+    "filesize" : "8987",
+    "MD5" : "8a7946a9f630bb4a28b945dbc3a0f670"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel78c.txt",
+    "filesize" : "8797",
+    "MD5" : "90b0058e5419cf08db00e27c0393af92"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel76a.txt",
+    "filesize" : "28706",
+    "MD5" : "bcc6f14f7a6d4c4d81c8c0961f7a53d6"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel77b.txt",
+    "filesize" : "6036",
+    "MD5" : "4aaabd317b825f798d7a1a63c814ee76"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcdry.txt",
+    "filesize" : "17527",
+    "MD5" : "76173bc6455cc9dd32b1b4782d00f98a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcmed.txt",
+    "filesize" : "30930",
+    "MD5" : "8b29478b24c9b5f162e95cf110d0549c"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcwet.txt",
+    "filesize" : "17692",
+    "MD5" : "c6f71dfc215e43e8ca336300b31b6fc3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrmedflux.txt",
+    "filesize" : "44182",
+    "MD5" : "88683a311e0c76fec1a293f7809b82b9"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yravg.txt",
+    "filesize" : "35503",
+    "MD5" : "7371462b052621e9764ffee66e36f0b3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yravgflux.txt",
+    "filesize" : "44441",
+    "MD5" : "932f65990cd68bc52ee148f1769e842b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrmed.txt",
+    "filesize" : "34871",
+    "MD5" : "e9bc520a673c3ed448aca8ad1f5c2b12"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcavg.txt",
+    "filesize" : "31043",
+    "MD5" : "6ee2e9b5fe08c44ae853c83444814d62"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013.txt",
+    "filesize" : "133298",
+    "MD5" : "154f941185791525751b5fabb2831d98"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013sd-decadal.txt",
+    "filesize" : "20490",
+    "MD5" : "337d41d9300ce63d4502d1fdca442cb2"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013layer-thickness.txt",
+    "filesize" : "17031",
+    "MD5" : "75381fc2f380083038b5ee5a7942a8b8"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013huas.txt",
+    "filesize" : "10681",
+    "MD5" : "85b2bac4a9452c7a8838a843c129e076"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013nd-decadal.txt",
+    "filesize" : "9598",
+    "MD5" : "37666cbb8ae460bc161a42734c79c46a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013nino4sst.txt",
+    "filesize" : "9123",
+    "MD5" : "b13a6736f5e7d9b9e63f78bb4d7fbb8c"
+  }, {
+    "path" : "data/pub/data/paleo/reconstructions/pages2k/lotred-sa2k/Quelccaya-accum.txt",
+    "filesize" : "21814",
+    "MD5" : "c46c9a7eb1162329c5393eac7e0c44a3"
+  }, {
+    "path" : "data/pub/data/paleo/reconstructions/pages2k/lotred-sa2k/Quelccaya-d18O.txt",
+    "filesize" : "23813",
+    "MD5" : "b839b561f9ce73303c7cc01512a429b6"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/sajama/sajama_gas.txt",
+    "filesize" : "7177",
+    "MD5" : "82f2f0f14fd2ba5d61df215d201ddf21"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/sajama/sc12-5m.txt",
+    "filesize" : "14503",
+    "MD5" : "1301100af67b37f06fef3c95de3d2161"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/sajama/sc1-100a.txt",
+    "filesize" : "23252",
+    "MD5" : "fed4640d45ba5e81e95833f30e47935d"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/sajama/sc1-acc.txt",
+    "filesize" : "10190",
+    "MD5" : "172751bcad68bef679456aaee9cb9aaf"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/scarisoara/scarisoara2017age.txt",
+    "filesize" : "118668",
+    "MD5" : "e8766a024ea342e1e07cd37d8c30a94a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/scarisoara/scarisoara2017iso.txt",
+    "filesize" : "32228",
+    "MD5" : "ac8f4767a2895bc67bbdd7688790a0a3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/fieldcon.txt",
+    "filesize" : "4410",
+    "MD5" : "88c80a723a968b20436fe81705c1265a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel76.txt",
+    "filesize" : "120042",
+    "MD5" : "1fb05f92079e1ada7ee5b7508bba4370"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel77.txt",
+    "filesize" : "20655",
+    "MD5" : "714e1e1902d0750d00a5bd46fda8390e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quel78.txt",
+    "filesize" : "30618",
+    "MD5" : "a21e7854488fe982ba8d1511bbe38430"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya1992.xls",
+    "filesize" : "649728",
+    "MD5" : "38bd86b3ec5b63efa30ad0184f949362"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013.xlsx",
+    "filesize" : "258675",
+    "MD5" : "4f5a4898d0d90272d1a6b281c39c3f66"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015.xlsx",
+    "filesize" : "439892",
+    "MD5" : "22214128d86a92b4dbc2b6ba435ba0cf"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1976d18o.txt",
+    "filesize" : "8183",
+    "MD5" : "bfbe03899767fceb088e2d879dca7cda"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1979d18o.txt",
+    "filesize" : "7500",
+    "MD5" : "e8ea27dd5330742569b6391f5dfefd67"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983d18oann.txt",
+    "filesize" : "6856",
+    "MD5" : "9d4511016a4922a89ffdda7be651548a"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983d18o.txt",
+    "filesize" : "7141",
+    "MD5" : "12a24e6b5fdef937cb95b1ba450b130e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983deepd18o.txt",
+    "filesize" : "12256",
+    "MD5" : "4bb09921b266c3fb11a6841adbb4da91"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983deepdens.txt",
+    "filesize" : "5996",
+    "MD5" : "e50c6b0162af9359eb6698be8f82e225"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1991d18o.txt",
+    "filesize" : "7202",
+    "MD5" : "cd708873bf9b41c8e5c42474fbc66d1c"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic2003d18oann.txt",
+    "filesize" : "7095",
+    "MD5" : "068dfa9886fcdb88b5fe59e717d3222b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic2003d18o.txt",
+    "filesize" : "16920",
+    "MD5" : "dd817c4b9a9508a3c1e63ef2a7f324ed"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic2003dens.txt",
+    "filesize" : "6027",
+    "MD5" : "67c4b642e3eed5e634920dffbb4604ab"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic2016d18o.txt",
+    "filesize" : "7085",
+    "MD5" : "6f19606e74f66fe572448badbdc6636f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017.xlsx",
+    "filesize" : "217966",
+    "MD5" : "ad385cc1c26042fd08ffde398c099d35"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/quelccaya-info.txt",
+    "filesize" : "2373",
+    "MD5" : "5dd0f4432787e01b68173b01e8388284"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/readme_quelccaya_pit.txt",
+    "filesize" : "6541",
+    "MD5" : "d5587052edd55ecb6afe765887583b0f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/quelccaya/readme_quelccaya.txt",
+    "filesize" : "2725",
+    "MD5" : "0ea6a8136f9bf8fb587da3870b77373e"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/age.txt",
+    "filesize" : "19332",
+    "MD5" : "859982cf248d8f2a24f30b978da0f9aa"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/huascaran2017hs1991d18o.txt",
+    "filesize" : "7453",
+    "MD5" : "4a6718e02d56507d590ff5c8c854441f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/huascaran2017hs1993d18o.txt",
+    "filesize" : "7480",
+    "MD5" : "10b822b3b81bec2589df174144b7bd81"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/huascaran2017hs2016d18o.txt",
+    "filesize" : "7064",
+    "MD5" : "1cd4262b681572b2d2aae7af35972802"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/huascaran-info.txt",
+    "filesize" : "2299",
+    "MD5" : "b44f72699e006bee612ca353b202129b"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/huascaran/readme_huascaran.txt",
+    "filesize" : "7107",
+    "MD5" : "bca08f8d72642dbde01b46c679e4fc85"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/weissfluhjoch/weissfluhjoch2017snowpit.txt",
+    "filesize" : "32434",
+    "MD5" : "3ab69f952c8d1641a2ae246719815f88"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2004.txt",
+    "filesize" : "213670",
+    "MD5" : "25dd469fc1e411db26979a7c9fc65519"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2005firn.txt",
+    "filesize" : "23497",
+    "MD5" : "9ec9a18ecb32abac3e15271965430ccd"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit1.txt",
+    "filesize" : "7959",
+    "MD5" : "8d0936714abd97fa16b108aa1c65ab5f"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit2.txt",
+    "filesize" : "7949",
+    "MD5" : "55b29c752a1356af11408b36e8404ee3"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit3.txt",
+    "filesize" : "7960",
+    "MD5" : "b991f3e2bbb7af5c2560c550ee744402"
+  }, {
+    "path" : "data/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit4.txt",
+    "filesize" : "7942",
+    "MD5" : "ce571b3127752197612b545ddc350d98"
+  } ],
+  "params" : {
+    "maxLat" : "60.0",
+    "minLat" : "-60.0",
+    "dataPublisher" : "NOAA",
+    "dataTypeId" : "7"
+  },
+  "matches" : [ {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-recon-22315.json",
+    "studyName" : "2000 Year Tropical Rainfall Reconstructions",
+    "sites" : [ {
+      "siteName" : "Tropics",
+      "files" : [ {
+        "fileName" : "2000 Year Tropical Rainfall Reconstructions",
+        "description" : "Formatted Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/lechleitner2017/lechleitner2017precip.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-12885.json",
+    "studyName" : "Altai, Siberia 750 Year Ice Core d18O and Temperature Reconstruction ",
+    "sites" : [ {
+      "siteName" : "Belukha Glacier",
+      "files" : [ {
+        "fileName" : "belukha2009.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2009.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-20367.json",
+    "studyName" : "Alto dell'Ortles Glacier Ice Core Age Models",
+    "sites" : [ {
+      "siteName" : "Alto dell'Ortles",
+      "files" : [ {
+        "fileName" : "Alto dell'Ortles Glacier Core 2 Age Model",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016age-core2.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Core 3 Age Model",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016age-core3.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier RGB Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016rgb.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Beta Emissions",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016beta.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Density",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016dens.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Flow Model Results",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016flow.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Radionuclides Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016h3.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Borehole Inclination",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016incl.txt"
+      }, {
+        "fileName" : "Alto dell'Ortles Glacier Core 1 Age Model",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/ortles/ortles2016age.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-18455.json",
+    "studyName" : "Belukha Glacier, Siberian Altai 300 Year Ice Core Heavy Metals Data",
+    "sites" : [ {
+      "siteName" : "Belukha Glacier",
+      "files" : [ {
+        "fileName" : "Belukha Glacier Ice Core Heavy Metals Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2014metals.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-12951.json",
+    "studyName" : "Belukha Glacier, Siberian Altai 300Yr Pb Concentration and Isotope Data ",
+    "sites" : [ {
+      "siteName" : "Belukha Glacier",
+      "files" : [ {
+        "fileName" : "belukha2012pb.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2012pb.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-12950.json",
+    "studyName" : "Belukha Glacier, Siberian Altai 750 Year Major Ions Data ",
+    "sites" : [ {
+      "siteName" : "Belukha Glacier",
+      "files" : [ {
+        "fileName" : "belukha2009ions.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2009ions.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-recon-8409.json",
+    "studyName" : "Braganza et al. 2009 Multiproxy ENSO Reconstructions",
+    "sites" : [ {
+      "siteName" : "Tropical Pacific",
+      "files" : [ {
+        "fileName" : "braganza2009enso.txt",
+        "description" : "Original Data and Full Metadata",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/braganza2009/braganza2009enso.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-29492.json",
+    "studyName" : "Col du Dome Glacier, France 110 Year Ice Core Heavy Metals Data",
+    "sites" : [ {
+      "siteName" : "Col du Dome glacier",
+      "files" : [ {
+        "fileName" : "Col du Dome Glacier Heavy Metals Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/col-du-dome/col-du-dome2020metals.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-26390.json",
+    "studyName" : "Colle Gnifetti 275 Year Ice Core Black Carbon and Chemical Data",
+    "sites" : [ {
+      "siteName" : "Colle Gnifetti",
+      "files" : [ {
+        "fileName" : "Colle Gnifetti Black Carbon and Chemical Data Discrete Samples",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018samples01a.txt"
+      }, {
+        "fileName" : "Colle Gnifetti Discrete Samples with Below Detection Limit Sample Values Estimated",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018samples01b.txt"
+      }, {
+        "fileName" : "Annualized Colle Gnifetti Black Carbon and Chemical Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/gnifetti/gnifetti2018ann.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-11180.json",
+    "studyName" : "Dasuopu Ice Core 1000 Year d18O, Dust, Anion and Accumulation Data ",
+    "sites" : [ {
+      "siteName" : "Dasuopu Glacier",
+      "files" : [ {
+        "fileName" : "dasuopu2000.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2000.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-28510.json",
+    "studyName" : "Dasuopu, China 500 Year Ice Core Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Dasuopu Glacier",
+      "files" : [ {
+        "fileName" : "Dasuopu Ice Core Sub-Annual Trace Element Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem.txt"
+      }, {
+        "fileName" : "Dasuopu Ice Core 10 Year Average Trace Element Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr.txt"
+      }, {
+        "fileName" : "Dasuopu Ice Core 10 Year Median Crustal Enrichment Factor",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr-efc.txt"
+      }, {
+        "fileName" : "Dasuopu Ice Core 10 Year Trace Element Flux",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr-flux.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2480.json",
+    "studyName" : "Dunde Ice Cap, Guliya Ice Cap, Dasuopu Glacier - Decadally Averaged Oxygen Isotope Data",
+    "sites" : [ {
+      "siteName" : "Guliya Ice Cap",
+      "files" : [ {
+        "fileName" : "guliya-d18o.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya-d18o.txt"
+      } ]
+    }, {
+      "siteName" : "Dasuopu Glacier",
+      "files" : [ {
+        "fileName" : "dasuopu-d18o.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu-d18o.txt"
+      } ]
+    }, {
+      "siteName" : "Dunde Ice Cap",
+      "files" : [ {
+        "fileName" : "dunde-d18o.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dunde/dunde-d18o.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-12942.json",
+    "studyName" : "Dunde Ice Core 1500 Year d18O, Dust, Anion, and Accumulation Data",
+    "sites" : [ {
+      "siteName" : "Dunde Ice Cap",
+      "files" : [ {
+        "fileName" : "dunde2006.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dunde/dunde2006.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-6180.json",
+    "studyName" : "East Rongbuk Glacier - 1,000 Year Geochemical Data",
+    "sites" : [ {
+      "siteName" : "East Rongbuk Glacier",
+      "files" : [ {
+        "fileName" : "rongbuk2007.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk2007.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-8613.json",
+    "studyName" : "East Rongbuk Glacier - 50-Year Black Carbon Data",
+    "sites" : [ {
+      "siteName" : "East Rongbuk Glacier",
+      "files" : [ {
+        "fileName" : "rongbuk2008bc.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk2008bc.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2469.json",
+    "studyName" : "East Rongbuk Glacier - Oxygen Isotope and Major Ion Data",
+    "sites" : [ {
+      "siteName" : "East Rongbuk Glacier",
+      "files" : [ {
+        "fileName" : "rongbuk.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-11822.json",
+    "studyName" : "East Rongbuk Glacier 350 Year Trace Element Data",
+    "sites" : [ {
+      "siteName" : "East Rongbuk Glacier",
+      "files" : [ {
+        "fileName" : "rongbuk2009.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk2009.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-11916.json",
+    "studyName" : "Fedchenko Glacier, Tajikistan Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Fedchenko Glacier",
+      "files" : [ {
+        "fileName" : "fedchenko2009.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fedchenko/fedchenko2009.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2409.json",
+    "studyName" : "Fremont Glacier - Major Ions Data",
+    "sites" : [ {
+      "siteName" : "Fremont Glacier",
+      "files" : [ {
+        "fileName" : "fremont1998-ions.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1998-ions.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2459.json",
+    "studyName" : "Fremont Glacier - Mercury Data and Description",
+    "sites" : [ {
+      "siteName" : "Fremont Glacier",
+      "files" : [ {
+        "fileName" : "fremont_hg.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont_hg.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2462.json",
+    "studyName" : "Fremont Glacier - Oxygen Isotope and Conductivity Data",
+    "sites" : [ {
+      "siteName" : "Fremont Glacier",
+      "files" : [ {
+        "fileName" : "fremont1991-tritium.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1991-tritium.txt"
+      }, {
+        "fileName" : "fremont_ecm.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont_ecm.txt"
+      }, {
+        "fileName" : "fremont1991-ions.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1991-ions.txt"
+      }, {
+        "fileName" : "fremont1991-age.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1991-age.txt"
+      }, {
+        "fileName" : "fremont1991-d18o.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1991-d18o.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2410.json",
+    "studyName" : "Fremont Glacier - Oxygen Isotope and Tritium Data",
+    "sites" : [ {
+      "siteName" : "Fremont Glacier",
+      "files" : [ {
+        "fileName" : "fremont1998-d18o-tritium.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/fremont/fremont1998-d18o-tritium.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-27890.json",
+    "studyName" : "Grenzgletscher, Swiss Alps 1980-1994 Ice Core Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Grenzgletscher",
+      "files" : [ {
+        "fileName" : "Grenzgletscher Ice Core Trace Element Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/grenzgletscher/grenzgletscher2018elem.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-13604.json",
+    "studyName" : "Grigorieva Ice Cap 12,650 Year Ice Core Isotope and Major Ions Data",
+    "sites" : [ {
+      "siteName" : "Grigorieva Ice Cap",
+      "files" : [ {
+        "fileName" : "grigorieva2011.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/grigorieva/grigorieva2011.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-25130.json",
+    "studyName" : "Guliya Ice Cap Ice Thickness Data",
+    "sites" : [ {
+      "siteName" : "Guliya Summit",
+      "files" : [ {
+        "fileName" : "Guliya Summit Ice Thickness Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018summit-thickness.txt"
+      } ]
+    }, {
+      "siteName" : "Guliya Plateau",
+      "files" : [ {
+        "fileName" : "Guliya Plateau Ice Thickness Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018plateau-thickness.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-12426.json",
+    "studyName" : "Guliya Ice Core 132 KYr Isotope, Dust, Anion, and Accumulation Data",
+    "sites" : [ {
+      "siteName" : "Guliya Ice Cap",
+      "files" : [ {
+        "fileName" : "guliya1997.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya1997.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-28352.json",
+    "studyName" : "Guliya Ice Core, Tibet 340 Year Trace Elements Data",
+    "sites" : [ {
+      "siteName" : "Guliya Ice Cap",
+      "files" : [ {
+        "fileName" : "Guliya Ice Core Trace Elements Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guliya/guliya2018element.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-11818.json",
+    "studyName" : "Guoqu Glacier Ice Core, Tibet 70 Year Major Ions Data",
+    "sites" : [ {
+      "siteName" : "Guoqu Glacier",
+      "files" : [ {
+        "fileName" : "guoqu2009.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/guoqu/guoqu2009.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-18057.json",
+    "studyName" : "Illimani Ice Core 1,600 Year Ammonium Data and Amazon Temperature Reconstruction",
+    "sites" : [ {
+      "siteName" : "Illimani",
+      "files" : [ {
+        "fileName" : "Illimani 10-Year Average NH4+ Data and Amazon Basin Temperature Reconstruction",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2010nh4-10yr.txt"
+      }, {
+        "fileName" : "Illimani Annual NH4+ Data and Amazon BAsin Temperature Reconstruction",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2010nh4ann.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-18056.json",
+    "studyName" : "Illimani Ice Core 2000 Year Pb Concentration and Pb Isotope Data",
+    "sites" : [ {
+      "siteName" : "Illimani",
+      "files" : [ {
+        "fileName" : "Illimani Pb Isotope 50-Year Averages",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2015pbiso50yr.txt"
+      }, {
+        "fileName" : "Illimani Pb Isotope 10-Year Averages",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2015pbiso10yr.txt"
+      }, {
+        "fileName" : "Illimani Pb and Ce Concentration Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2015pb.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-26490.json",
+    "studyName" : "Illimani, Bolivia Holocene Ice Core Black Carbon Data",
+    "sites" : [ {
+      "siteName" : "Illimani",
+      "files" : [ {
+        "fileName" : "Illimani Holocene Ice Core Black Carbon Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/illimani/illimani2019rbc.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2458.json",
+    "studyName" : "Inilchek Glacier - Isotope, Ion, and Rare Earth Element Data",
+    "sites" : [ {
+      "siteName" : "Inilchek Glacier",
+      "files" : [ {
+        "fileName" : "inilchek98_iso_ion.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/inilchek/inilchek98_iso_ion.txt"
+      }, {
+        "fileName" : "inilchek98_ree.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/inilchek/inilchek98_ree.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2466.json",
+    "studyName" : "Kilimanjaro - Oxygen Isotope, Ion, and Dust Data and Description",
+    "sites" : [ {
+      "siteName" : "Kilimanjaro",
+      "files" : [ {
+        "fileName" : "kilimanjaro.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/kilimanjaro/kilimanjaro.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2434.json",
+    "studyName" : "Lewis Glacier - Microparticle Data",
+    "sites" : [ {
+      "siteName" : "Lewis Glacier",
+      "files" : [ {
+        "fileName" : "lewisa.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/lewis/lewisa.txt"
+      }, {
+        "fileName" : "lewisc.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/lewis/lewisc.txt"
+      }, {
+        "fileName" : "lewisb.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/lewis/lewisb.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2447.json",
+    "studyName" : "Nevado Huascarán - Oxygen Isotope, NO3, Layer Thickness, and Particle Data",
+    "sites" : [ {
+      "siteName" : "Nevado Huascarán",
+      "files" : [ {
+        "fileName" : "anions.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/anions.txt"
+      }, {
+        "fileName" : "all-mo.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/all-mo.txt"
+      }, {
+        "fileName" : "hs12-5m.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/hs12-5m.txt"
+      }, {
+        "fileName" : "hs1layer.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/hs1layer.txt"
+      }, {
+        "fileName" : "hs2-100a.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/hs2-100a.txt"
+      }, {
+        "fileName" : "hs2layer.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/hs2layer.txt"
+      }, {
+        "fileName" : "annualc.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/annualc.txt"
+      }, {
+        "fileName" : "annualt.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/annualt.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-recon-22589.json",
+    "studyName" : "PAGES Antarctica2k Temperature Reconstructions",
+    "sites" : [ {
+      "siteName" : "PAGES Antarctica 2k",
+      "files" : [ {
+        "fileName" : "Antarctic PAGES2k Data",
+        "description" : "Data Folder",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-24351.json",
+    "studyName" : "Papua, Indonesia Ice Core Isotope and Chemical Data",
+    "sites" : [ {
+      "siteName" : "Puncak Jaya",
+      "files" : [ {
+        "fileName" : "Papua Ice Core D1B Isotope and Dust Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019d1biso.txt"
+      }, {
+        "fileName" : "Papua Ice Core d18O Data and NINO3 SST",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019iso-sst.txt"
+      }, {
+        "fileName" : "Papua Ice Core log-transformed Dust and Chemistry Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019log10.txt"
+      }, {
+        "fileName" : "Papua Ice Core D1B Chemistry Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019d1bchem.txt"
+      }, {
+        "fileName" : "Papua Ice Core D1 Isotope, Dust, and Chemistry Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019d1.txt"
+      }, {
+        "fileName" : "Papua Ice Core D1 Tritium Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/papua/papua2019d1-3h.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-11929.json",
+    "studyName" : "Puruogangri Ice Cap 7000 Year Isotope and Geochemical Data",
+    "sites" : [ {
+      "siteName" : "Puruogangri Ice Cap",
+      "files" : [ {
+        "fileName" : "puruogangri2006.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2006.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-22214.json",
+    "studyName" : "Puruogangri Ice Cap, China 500 Year Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Puruogangri Ice Cap",
+      "files" : [ {
+        "fileName" : "Puruogangri Ice Cap Trace Element Enrichment Factor",
+        "description" : "Formatted Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017efc.txt"
+      }, {
+        "fileName" : "Puruogangri Ice Cap Trace Element Data",
+        "description" : "Formatted Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017elem.txt"
+      }, {
+        "fileName" : "Puruogangri Ice Cap Trace Element Enrichment Factor 5 Year Averages",
+        "description" : "Formatted Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017efc5yr.txt"
+      }, {
+        "fileName" : "Puruogangri Ice Cap Trace Element Data 5 Year Averages",
+        "description" : "Formatted Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/puruogangri/puruogangri2017elem5yr.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2435.json",
+    "studyName" : "Quelccaya Ice Cap - Particle, d18O, and Accumulation Data",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "Quelccaya Core 1 Particles, d18O, Conductivity, and Accumulation Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/q83cor1.txt"
+      }, {
+        "fileName" : "Quelccaya Summit Core Particles, d18O, Conductivity, and Accumulation Data",
+        "description" : "Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/q83summ.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2444.json",
+    "studyName" : "Quelccaya Ice Cap - Snow Pit Microparticle Data",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "quel76b.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel76b.txt"
+      }, {
+        "fileName" : "quel76c.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel76c.txt"
+      }, {
+        "fileName" : "quel77a.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel77a.txt"
+      }, {
+        "fileName" : "quel77c.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel77c.txt"
+      }, {
+        "fileName" : "quel78a.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel78a.txt"
+      }, {
+        "fileName" : "quel78b.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel78b.txt"
+      }, {
+        "fileName" : "quel78c.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel78c.txt"
+      }, {
+        "fileName" : "quel76a.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel76a.txt"
+      }, {
+        "fileName" : "quel77b.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quel77b.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-17418.json",
+    "studyName" : "Quelccaya Ice Cap, Peru 1200 Year Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Quelccaya North Dome",
+      "files" : [ {
+        "fileName" : "Quelccaya North Dome 5-Year Median Trace Element Dry Season Crustal Enrichment Factor Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcdry.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Median Trace Element Crustal Enrichment Factor Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcmed.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Median Trace Element Wet Season Crustal Enrichment Factor Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcwet.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Median Trace Element Flux Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrmedflux.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Average Trace Element Concentration Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yravg.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Average Trace Element Flux Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yravgflux.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Median Trace Element Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrmed.txt"
+      }, {
+        "fileName" : "Quelccaya North Dome 5-Year Average Trace Element Crustal Enrichment Factor Data",
+        "description" : "Text Data File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2015elem5yrefcavg.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-14174.json",
+    "studyName" : "Quelccaya Ice Cap, Peru 1800 Year Oxygen Isotope, Dust, and Major Ions Data",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "quelccaya2013.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013.txt"
+      }, {
+        "fileName" : "quelccaya2013sd-decadal.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013sd-decadal.txt"
+      }, {
+        "fileName" : "quelccaya2013layer-thickness.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013layer-thickness.txt"
+      }, {
+        "fileName" : "quelccaya2013huas.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013huas.txt"
+      }, {
+        "fileName" : "quelccaya2013nd-decadal.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013nd-decadal.txt"
+      }, {
+        "fileName" : "quelccaya2013nino4sst.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2013nino4sst.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-1003959.json",
+    "studyName" : "Quelccaya Ice core Accumulation, PAGES LOTRED-SA Version",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "Quelccaya-accum.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/pages2k/lotred-sa2k/Quelccaya-accum.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-1003960.json",
+    "studyName" : "Quelccaya Ice core d18O, PAGES LOTRED-SA Version",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "Quelccaya-d18O.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/pages2k/lotred-sa2k/Quelccaya-d18O.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2452.json",
+    "studyName" : "Sajama - Atmospheric Gas Composition Data",
+    "sites" : [ {
+      "siteName" : "Sajama",
+      "files" : [ {
+        "fileName" : "sajama_gas.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/sajama/sajama_gas.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-2448.json",
+    "studyName" : "Sajama - Oxygen Isotope, Ion, and Particle Data",
+    "sites" : [ {
+      "siteName" : "Sajama",
+      "files" : [ {
+        "fileName" : "sc12-5m.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/sajama/sc12-5m.txt"
+      }, {
+        "fileName" : "sc1-100a.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/sajama/sc1-100a.txt"
+      }, {
+        "fileName" : "sc1-acc.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/sajama/sc1-acc.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-29353.json",
+    "studyName" : "Scarisoara Ice Cave, Romania Holocene Stable Isotope Data",
+    "sites" : [ {
+      "siteName" : "Scarisoara Ice Cave",
+      "files" : [ {
+        "fileName" : "Scarisoara Ice Cave Age Model",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/scarisoara/scarisoara2017age.txt"
+      }, {
+        "fileName" : "Scarisoara Ice Cave Stable Isotope Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/scarisoara/scarisoara2017iso.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-22251.json",
+    "studyName" : "Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data",
+    "sites" : [ {
+      "siteName" : "Quelccaya Ice Cap",
+      "files" : [ {
+        "fileName" : "Quelccaya Ice Core and Snowpit d18O Data",
+        "description" : "Data Folder",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/"
+      } ]
+    }, {
+      "siteName" : "Nevado Huascarán",
+      "files" : [ {
+        "fileName" : "Huascarán Ice Core and Snowpit d18O Data",
+        "description" : "Data Folder",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/huascaran/"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-26750.json",
+    "studyName" : "Weissfluhjoch, Swiss Alps 2017 Snowpit Major Ions and Trace Element Data",
+    "sites" : [ {
+      "siteName" : "Weissfluhjoch",
+      "files" : [ {
+        "fileName" : "Weissfluhjoch Snowpit Major Ions and Trace Element Data",
+        "description" : "NOAA Template File",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/weissfluhjoch/weissfluhjoch2017snowpit.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-13605.json",
+    "studyName" : "West Belukha Plateau 12,800 Year Ice Core Isotope and Major Ions Data",
+    "sites" : [ {
+      "siteName" : "West Belukha Plateau",
+      "files" : [ {
+        "fileName" : "belukha2004.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2004.txt"
+      } ]
+    } ]
+  }, {
+    "download" : "Y",
+    "metadataFile" : "metadata/noaa-icecore-13606.json",
+    "studyName" : "West Belukha Plateau Firn Core/Snowpit Isotope and Major Ions Data",
+    "sites" : [ {
+      "siteName" : "West Belukha Plateau Firn",
+      "files" : [ {
+        "fileName" : "belukha2005firn.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005firn.txt"
+      }, {
+        "fileName" : "belukha2005snowpit1.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit1.txt"
+      }, {
+        "fileName" : "belukha2005snowpit2.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit2.txt"
+      }, {
+        "fileName" : "belukha2005snowpit3.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit3.txt"
+      }, {
+        "fileName" : "belukha2005snowpit4.txt",
+        "description" : "Data",
+        "URL" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/belukha/belukha2005snowpit4.txt"
+      } ]
+    } ]
+  } ],
+  "info" : {
+    "downloadCreateDate" : "2020-09-15T11:39:00.904Z",
+    "details" : "See the included README.txt for details of the sections in this manifest."
+  }
+}

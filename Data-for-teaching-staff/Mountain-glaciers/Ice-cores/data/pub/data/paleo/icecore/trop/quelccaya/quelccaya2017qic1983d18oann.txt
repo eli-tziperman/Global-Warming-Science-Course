@@ -1,0 +1,219 @@
+# Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22251 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/quelccaya/quelccaya2017qic1983d18oann.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Cores
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: oxygen isotopes, geochemistry, physical properties 
+#--------------------
+# Contribution_Date
+#	Date: 2017-09-07
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2017-09-07
+#--------------------
+# Title
+#	Study_Name: Tropical Peruvian Ice Core 50 Year Oxygen Isotope Data
+#--------------------
+# Investigators
+#	Investigators: Thompson, L.G.; Davis, M.E.; Mosley-Thompson, E.; Beaudon, E.; Porter, S.E.; Kutuzov, S.; Lin, P.-N.; Mikhalenko, V.N.; Mountain, K.R.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Ice core and snow pit oxygen isotope (d18O) data, at sub-annual resolution for recent decades, from two ice core locations in tropical Peru 
+#	(Quelccaya and Huascarán), plus ice density and geochemical measurements made on some samples. 
+#	Individual data sets are as follows: 
+#	
+#	Figure 2 data:
+#	Individual d18O sample values for Quelccaya (QIC) summit dome cores drilled in 1976, 1979, 1983, 1991, 2003, 2016, plotted by depth to 16 meter maximum
+#	Individual d18O sample values for Huascarán (HS) col cores drilled in 1991, 1993, 2016, plotted by depth to 16 meter maximum
+#	
+#	Figure 3 data:
+#	Individual d18O sample values from the 2003 QIC Summit deep core (top ~60 meters)
+#	Individual d18O sample values from the 1983 QIC Summit deep core (4.46 to 60 meters)
+#	Individual d18O sample values from 1983 QIC Summit pit (0 to 2.5 meters) and shallow core (2.6 to 4.5 meters) drilled at bottom of pit
+#	Discrete density values from the 1983 QIC Summit cores (0-32 meters)
+#	Discrete density values from the 2003 QIC Summit core (0-~40 meters)
+#	QIC 2003 d18O time series (thermal years) from 1900 to 2003
+#	QIC 1983 d18O time series (thermal years) from 1900 to 1984 (includes the 1984 pit)
+#	
+#	Figure 4 QIC data:
+#	Individual sample d18O values for each TY1 in the QIC summit between 1973/74 and 2015/16
+#	TY1 annual d18O, layer thicknesses, densities, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O for pits, cores and averages of multiple data sets where applicable
+#	
+#	Figure 4 HS data
+#	Individual sample d18O values for each TY in HS col from 1973/74 to 1992/93 (from the 1993 deep core) and 2012/13 to 2015/2016 (from the 2016 shallow core)
+#	TY annual averages of d18O, NSA (the net sum of accumulation over the previous year), and standard deviation of d18O
+#	
+#	Figure S1 data
+#	Individual d18O values from pit and core samples from the summit of the QIC between TY1973/74 to TY2015/16, plotted by depth to a maximum of 16 meters
+#	
+#	Figure S2 data
+#	2016 QIC summit dome core and Huascarán col shallow core data
+#	Individual d18O sample values, and insoluble dust and nitrate concentrations (3-sample running means)
+#	
+#	Figure S4 data
+#	Density  (kg/m3) of each 2016 QIC summit dome pit sample 
+#	
+#--------------------
+# Publication 
+#	Authors: Thompson, L.G. M.E, Davis, E. Mosley-Thompson, E. Beaudon, S.E. Porter, S. Kutuzov, P-N. Lin, V.N. Mikhalenko, K.R. Mountain
+#	Published_Date_or_Year: 2017 in press 
+#	Published_Title: Impacts of recent warming and the 2015/16 El Nino on tropical Peruvian ice fields
+#	Journal_Name: Journal of Geophysical Research Atmospheres
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 
+#	Online_Resource: 
+#	Full_Citation: 
+#	Abstract: 
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: 
+#	Grant: 
+#------------------
+# Site_Information 
+#       Site_Name: Quelccaya 
+#       Location: South America>Peru
+#	Country: Peru
+#	Northernmost_Latitude: -13.93
+# 	Southernmost_Latitude: -13.93
+# 	Easternmost_Longitude: -70.83
+# 	Westernmost_Longitude: -70.83
+# 	Elevation: 5670 m 
+#------------------
+# Data_Collection   
+#	Collection_Name: QIC1983d18Oann
+#	Earliest_Year: 1900
+#	Most_Recent_Year: 1984
+#	Time_Unit: AD
+#	Core_Length: 
+#	Notes: 1984 value from pit 
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age_AD	age, , , AD, , , thermal year, ,N,
+## d18O	delta18O, ice, , per mil, ,ice core, ,isotope ratio mass spectrometry,N, 
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age_AD	d18O
+1984	-19.93
+1983	-14.11
+1982	-19.99
+1981	-17.58
+1980	-15.65
+1979	-17.42
+1978	-17.36
+1977	-17.89
+1976	-17.82
+1975	-18.76
+1974	-18.99
+1973	-19.49
+1972	-18.8
+1971	-19.15
+1970	-19.13
+1969	-16.43
+1968	-15.74
+1967	-16.44
+1966	-16.17
+1965	-16.28
+1964	-16.46
+1963	-16.95
+1962	-18.05
+1961	-17.87
+1960	-17.15
+1959	-18.25
+1958	-15.74
+1957	-16.23
+1956	-16.12
+1955	-17.73
+1954	-18.65
+1953	-19.77
+1952	-18.76
+1951	-18.99
+1950	-19.08
+1949	-18.52
+1948	-17.96
+1947	-16.77
+1946	-18.38
+1945	-18.55
+1944	-15.48
+1943	-17.26
+1942	-15.9
+1941	-15.46
+1940	-14.27
+1939	-15.53
+1938	-16
+1937	-15.56
+1936	-15.48
+1935	-16.48
+1934	-18.46
+1933	-19.03
+1932	-19.07
+1931	-18.92
+1930	-17.54
+1929	-18.02
+1928	-16.9
+1927	-17.47
+1926	-16.11
+1925	-15.96
+1924	-16.94
+1923	-17.14
+1922	-18.78
+1921	-20.19
+1920	-19.58
+1919	-17.85
+1918	-18.28
+1917	-19.09
+1916	-18.6
+1915	-17.29
+1914	-15.78
+1913	-17.33
+1912	-16.74
+1911	-18.04
+1910	-20
+1909	-19.33
+1908	-19.7
+1907	-18.24
+1906	-15.2
+1905	-14.82
+1904	-18.7
+1903	-19.03
+1902	-17.22
+1901	-15.33
+1900	-16.59

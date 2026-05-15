@@ -1,0 +1,193 @@
+{
+  "xmlId" : "2207",
+  "NOAAStudyId" : "6180",
+  "studyName" : "East Rongbuk Glacier - 1,000 Year Geochemical Data",
+  "doi" : null,
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "ICE CORES",
+  "investigators" : "Kaspari, S.; Mayewski, P.A.; Kang, S.; Sneed, S.; Hou, S.; Hooke, R.; Kreutz, K.J.; Introne, D.S.; Handley, M.; Maasch, K.A.; Qin, D.; Ren, J.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "ATM 0139491"
+  }, {
+    "fundingAgency" : "US NOAA",
+    "fundingGrant" : "NA05OAR4311109"
+  }, {
+    "fundingAgency" : "National Natural Science Foundation China",
+    "fundingGrant" : "90411003, 40401054"
+  }, {
+    "fundingAgency" : "Chinese Academy of Sciences",
+    "fundingGrant" : "KZCX3-SW-339/344"
+  } ],
+  "studyNotes" : "High resolution (5 year) Ca, Cl and dD data from the 2002 Mt. Everest \nEast Rongbuk Glacier col ice core.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/6180",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-icecore-6180.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-icecore-6180.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/ice-core",
+  "studyCode" : null,
+  "scienceKeywords" : [ "Monsoon" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2008-09-01",
+  "entryId" : "noaa-icecore-6180",
+  "earliestYearBP" : 953,
+  "mostRecentYearBP" : -47,
+  "earliestYearCE" : 997,
+  "mostRecentYearCE" : 1997,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2007,
+    "title" : "Reduction in northward incursions of the South Asian monsoon since ~1400 AD inferred from a Mt. Everest ice core",
+    "journal" : "Geophysical Research Letters",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Kaspari, S., P. Mayewski, S. Kang, S. Sneed, S. Hou, R. Hooke, K. Kreutz, D. Introne, M. Handley, K. Maasch, D. Qin, and J. Ren. 2007. Reduction in northward incursions of the South Asian monsoon since ~1400 AD inferred from a Mt. Everest ice core. Geophys. Res. Lett., 34, L16701, doi:10.1029/2007GL030440.",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2007GL030440",
+      "url" : "http://dx.doi.org/10.1029/2007GL030440"
+    },
+    "abstract" : "A highly resolved Mt. Everest ice core reveals a decrease in marine and increase in continental air masses related to relatively high summer surface pressure over Mongolia, and reduction in northward incursions of the summer South Asian monsoon since ~1400 AD. Previously published proxy records from lower sites south of theHimalayas indicate strengthening of the monsoon since this time. These regional differences are consistent with a southnorth seesaw in convective activity in the Asian monsoon region, and reflect a southward shift in the mean summer position of the monsoon trough since~1400 AD. The change in monsoonal circulation at 1400 AD is synchronous with a reduction in solar irradiance and the onset of the LIA. This demonstrates a hemispheric scale circulation reorganization at this time, and the potential for future large shifts in monsoonal circulation.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "20004",
+    "siteName" : "East Rongbuk Glacier",
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Southcentral Asia>Nepal",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "27.98", "86.92" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "27.98",
+        "northernmostLatitude" : "27.98",
+        "westernmostLongitude" : "86.92",
+        "easternmostLongitude" : "86.92",
+        "minElevationMeters" : "6500",
+        "maxElevationMeters" : "6500"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Col",
+      "NOAADataTableId" : "9480",
+      "earliestYear" : 997,
+      "mostRecentYear" : 1997,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 953,
+      "mostRecentYearBP" : -47,
+      "earliestYearCE" : 997,
+      "mostRecentYearCE" : 1997,
+      "coreLengthMeters" : 80,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk2007.txt",
+        "urlDescription" : "Data",
+        "linkText" : "rongbuk2007.txt",
+        "variables" : [ {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "age variable>age>ice age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>meter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>calcium",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>microgram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>chlorine>chloride",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "mass density unit>microgram per liter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 2H",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil SMOW",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "ICE CORES",
+          "cvWhat" : "chemical composition>element or single-element molecule>chlorine>chloride",
+          "cvMaterial" : "hydrologic material>bulk ice",
+          "cvError" : null,
+          "cvUnit" : "unspecified unit",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "marine",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>hydrogen isotopes" ]
+      }, {
+        "fileUrl" : "https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/everest/rongbuk2007.xls",
+        "urlDescription" : "Data",
+        "linkText" : "rongbuk2007.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>ice core>chemistry", "earth science>paleoclimate>ice core>hydrogen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

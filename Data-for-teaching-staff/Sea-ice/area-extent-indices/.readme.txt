@@ -1,0 +1,15 @@
+202401
+
+Sea ice Data files
+
+N_*_extent_v3.0.csv
+S_*_extent_v3.0.csv
+
+are from
+https://noaadata.apps.nsidc.org/NOAA/G02135/north/monthly/data/
+and from
+https://noaadata.apps.nsidc.org/NOAA/G02135/south/monthly/data/
+
+Following Ian's advice, I linearly interpolated missing values for 12/1987 and 1/1988
+
+According to Ian, these time series don't fill the unobserved hole in the north pole area but fill the extent there.

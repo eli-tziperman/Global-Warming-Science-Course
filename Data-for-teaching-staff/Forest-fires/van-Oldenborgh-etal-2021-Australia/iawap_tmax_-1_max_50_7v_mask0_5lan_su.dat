@@ -1,0 +1,134 @@
+# scripturl01 :: https://climexp.knmi.nl/getindices.cgi?NPERYEAR=1&STATION=AWAP_Tmax&TYPE=i&WMO=SEAustralia/awap_tmax_-1_max_50_7v_mask0_5lan_su&id=$id
+# cutting out region defined by mask data/mask_mask47_awap_tmax_-1_max_50_7v_trend_mask47_land_su.nc
+# minimal_valid_fraction ::  30.00
+# using only 100% land points from land/sea mask in BOMData/lsmask_025.nc
+# operating on AWAP precipitation analysis, Bureau of Meteorology  averaged over  5x 5 grid boxes
+# <a href=http://climexp.knmi.nl/select.cgi?field=data/awap_tmax_-1_max_50_7v_trend.ec8907341dfc63c526d08e36d06b7ed8.info>climexp.knmi.nl/select.cgi?field=data/awap_tmax_-1_max_50_7v_trend.ec8907341dfc63c526d08e36d06b7ed8.info</a>
+# file :: data/awap_tmax_-1_max_50_7v_trend.nc
+# title :: spatial statistic of AWAP precipitation analysis, Bureau of Meteorology  averaged over  5x 5 grid boxes
+# source_field :: https://climexp.knmi.nl/select.cgi?field=awap_tmax
+# cdi :: Climate Data Interface version 1.6.9 (http://mpimet.mpg.de/cdi)
+# institution :: KNMI Climate Explorer
+# cdo :: Climate Data Operators version 1.6.9 (http://mpimet.mpg.de/cdo)
+# geospatial_lat_max ::    -10.0
+# geospatial_lon_min ::    112.0
+# geospatial_lon_units :: degrees_east
+# geospatial_lon_resolution ::      0.2
+# time_coverage_start :: 1910-01-01
+# time_coverage_end :: 2020-12-31
+# nco :: 4.7.2
+# scripturl01 :: https://climexp.knmi.nl/fielddaily2longer.cgi?EMAIL=$id&NPERYEAR=366&addoption=add_trend&field=awap_tmax&minfac=50&nperyearnew=-1&oper=max&sum=7
+# mask :: data/mask_mask47_awap_tmax_-1_max_50_7v_trend_mask47_land_su.nc
+# scripturl02 :: https://climexp.knmi.nl/get_index.cgi?email=$id&field=data/awap_tmax_-1_max_50_7v_trend.$id.info&gridpoints=false&intertype=nearest&lat1=-45&lat2=-10&lon1=110&lon2=155&maskmetadata=data/mask47.$id.poly&masktype=land&minfac=30&standardunits=standardunits
+# history ::  2020-02-13 12:30:13 bin/get_index data/awap_tmax_-1_max_50_7v_trend.nc mask data/mask_mask47_awap_tmax_-1_max_50_7v_trend_mask47_land_su.nc minfac 30 nearest lsmask BOMData/lsmask_025.nc land standardunits awap_tmax_-1_max_50_7v_trend_mask47_land_su\n 2020-02-13 12:20:11 ./bin/daily2longerfield BOMData/awaptmax_025.nc -1 max minfac 50 ave 7 add_trend data/awap_tmax_-1_max_50_7v_trend.nc\nThu Feb 13 10:27:24 2020: ncatted -a units,tmax,m,c,Celsius awaptmax_025.nc\nThu Feb 13 10:27:00 2020: ncrename -v prcp,tmax awaptmax_025.nc\nWed Feb 12 14:03:47 2020: cdo -f nc4 -z zip copy awaptmax1910_25.nc awaptmax1911_25.nc awaptmax1912_25.nc awaptmax1913_25.nc awaptmax1914_25.nc awaptmax1915_25.nc awaptmax1916_25.nc awaptmax1917_25.nc awaptmax1918_25.nc awaptmax1919_25.nc awaptmax1920_25.nc awaptmax1921_25.nc awaptmax1922_25.nc awaptmax1923_25.nc awaptmax1924_25.nc awaptmax1925_25.nc awaptmax1926_25.nc awaptmax1927_25.nc awaptmax1928_25.nc awaptmax1929_25.nc awaptmax1930_25.nc awaptmax1931_25.nc awaptmax1932_25.nc awaptmax1933_25.nc awaptmax1934_25.nc awaptmax1935_25.nc awaptmax1936_25.nc awaptmax1937_25.nc awaptmax1938_25.nc awaptmax1939_25.nc awaptmax1940_25.nc awaptmax1941_25.nc awaptmax1942_25.nc awaptmax1943_25.nc awaptmax1944_25.nc awaptmax1945_25.nc awaptmax1946_25.nc awaptmax1947_25.nc awaptmax1948_25.nc awaptmax1949_25.nc awaptmax1950_25.nc awaptmax1951_25.nc awaptmax1952_25.nc awaptmax1953_25.nc awaptmax1954_25.nc awaptmax1955_25.nc awaptmax1956_25.nc awaptmax1957_25.nc awaptmax1958_25.nc awaptmax1959_25.nc awaptmax1960_25.nc awaptmax1961_25.nc\nuser oldenbor 2020-02-11 17:14:34 averagefieldspace awaptmax1910.nc 5 5 awaptmax1910_25.nc\nuser oldenbor 2020-02-11 17:14:15 ./grid2nc 1910 awaptmax1910/1910010119100101.grid awaptmax1910/191
+# max_tmax [Celsius] annual maximum of 7-daily precipitation
+ 1910   30.06534    
+ 1911   33.08083    
+ 1912   32.39693    
+ 1913   34.46413    
+ 1914   33.56344    
+ 1915   32.95244    
+ 1916   31.77381    
+ 1917   30.93812    
+ 1918   32.85725    
+ 1919   32.16394    
+ 1920   32.29344    
+ 1921   31.88363    
+ 1922   33.09772    
+ 1923   32.88164    
+ 1924   30.96097    
+ 1925   33.39792    
+ 1926   32.31083    
+ 1927   30.46762    
+ 1928   33.52256    
+ 1929   31.95873    
+ 1930   31.64122    
+ 1931   34.39487    
+ 1932   32.13138    
+ 1933   32.13946    
+ 1934   30.61598    
+ 1935   33.01836    
+ 1936   30.95290    
+ 1937   32.61797    
+ 1938   37.29916    
+ 1939   35.41232    
+ 1940   30.86434    
+ 1941   33.92623    
+ 1942   33.63290    
+ 1943   31.67028    
+ 1944   33.34375    
+ 1945   33.89690    
+ 1946   33.83014    
+ 1947   31.08826    
+ 1948   32.08512    
+ 1949   31.54054    
+ 1950   30.96667    
+ 1951   35.05759    
+ 1952   30.82274    
+ 1953   33.29741    
+ 1954   32.03127    
+ 1955   31.82324    
+ 1956   32.40512    
+ 1957   33.57486    
+ 1958   33.33612    
+ 1959   33.22533    
+ 1960   32.88573    
+ 1961   29.88309    
+ 1962   31.24271    
+ 1963   33.51986    
+ 1964   34.07053    
+ 1965   32.92505    
+ 1966   32.14547    
+ 1967   33.44275    
+ 1968   33.14745    
+ 1969   31.53018    
+ 1970   31.36816    
+ 1971   29.45631    
+ 1972   34.80897    
+ 1973   30.09717    
+ 1974   32.64057    
+ 1975   32.50985    
+ 1976   33.11386    
+ 1977   32.29145    
+ 1978   34.78867    
+ 1979   33.51847    
+ 1980   33.89377    
+ 1981   33.15014    
+ 1982   33.99509    
+ 1983   31.47909    
+ 1984   32.35918    
+ 1985   31.20203    
+ 1986   32.10299    
+ 1987   33.85995    
+ 1988   31.65596    
+ 1989   32.51394    
+ 1990   34.29077    
+ 1991   31.04612    
+ 1992   32.96670    
+ 1993   32.90524    
+ 1994   33.78959    
+ 1995   30.41465    
+ 1996   32.39161    
+ 1997   34.21988    
+ 1998   32.80854    
+ 1999   32.32208    
+ 2000   34.48670    
+ 2001   31.42406    
+ 2002   34.29280    
+ 2003   35.01636    
+ 2004   32.14804    
+ 2005   35.01328    
+ 2006   33.76770    
+ 2007   31.89953    
+ 2008   35.42938    
+ 2009   34.62440    
+ 2010   33.78622    
+ 2011   30.31435    
+ 2012   34.83249    
+ 2013   35.55170    
+ 2014   32.75756    
+ 2015   33.32713    
+ 2016   34.61266    
+ 2017   34.84505    
+ 2018   36.44443    
+ 2019   35.86752    

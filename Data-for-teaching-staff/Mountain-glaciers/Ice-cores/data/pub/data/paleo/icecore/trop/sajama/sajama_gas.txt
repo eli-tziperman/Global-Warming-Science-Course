@@ -1,0 +1,167 @@
+Sajama Ice Core Gas Composition Data: Readme file
+---------------------------------------------------------------------
+              World Data Center for Paleoclimatology, Boulder
+                                and 
+                   NOAA Paleoclimatology Program
+---------------------------------------------------------------------
+NOTE: PLEASE CITE ORIGINAL REFERENCE WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Sajama Ice Core Gas Composition Data
+LAST UPDATE: 9/2001 (Original receipt by WDC Paleo)
+
+CONTRIBUTORS: Todd Sowers and Richard K. Campen, 
+Pennsylvania State University
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2001-062
+
+SUGGESTED DATA CITATION: Sowers, T.A. and Campen, R.K., 2001,
+Sajama Ice Core Gas Composition Data, 
+IGBP PAGES/World Data Center A for Paleoclimatology 
+Data Contribution Series #2001-062. 
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA. 
+
+ORIGINAL REFERENCES:  
+Campen, R. K., 2000, Measurements of gasses trapped in a South American 
+ice core: Paleoatmospheric composition and inferred microbial activity,  
+Master's Thesis, Pennsylvania State University, Completed May 2000, 146pp.
+
+Thompson, L.G., M.E.Davis, E.M.Thompson, T.A.Sowers, K.A.Henderson, 
+V.S.Zagorodnov, P.N.Lin, V.N. Mikhalenko, R.K.Campen, J.F.Bolzan, 
+J.Cole-Dai and B.Francou. 1998. 
+A 25,000 year tropical climate history from Bolivian ice cores. 
+Science, 282(5295), 1858-1864. 
+
+
+FUNDING SOURCE: US National Science Foundation 
+(Grant# ATM-9618067 to Todd Sowers/PSU)
+
+GEOGRAPHIC REGION: South America, Bolivian Altiplano
+
+PERIOD OF RECORD: 25 KYrBP-Present
+
+LIST OF FILES: Readme_Sajama_Gas.txt (this file),
+sajama_gas.xls (Microsoft Excel format)
+sajama_gas.txt (ASCII text format) 
+                
+
+DESCRIPTION:
+Sajama Ice Core, Bolivia
+· Latitude 18o 06'S
+· Longitude 68o 53'W
+· Elevation : 6542masl
+· Variable names : Depth; Gas Age; d15N ; Atm d18O; d(32/28) ; dAr/N2; dCO2/N2; CH4
+· Variable units (meters below surface), (years before present), (‰ with respect to present), 
+(‰ with respect to present), (‰with respect to present), (‰with respect to present), 
+(‰ with respect to present), (ppbV)
+
+· Data precision (± 0.01m), (± 5-1,000 years), (±0.03‰), (±0.06‰), (±0.3‰), (±0.3‰), (±100‰), ,
+ (± 30 ppbV))
+
+
+
+General Information about the Sajama Ice Cores
+
+Site Description and Analysis
+	In June-July 1997, two ice cores to bedrock were recovered from the summit 
+of the extinct Sajama volcano, Bolivia (18øS, 69øW, elevation 6540 m) and were 
+subsequently transported back in a frozen state to the cold room facility at the 
+Byrd Polar Research Center (BPRC).  Core 1 (SjC1, 132.4 m) was sectioned in the 
+BPRC laboratory into 5063 samples decreasing in thickness from ~15 cm at the top 
+to ~1-2 cm at the base.  Core 2 (SjC2, 132.8 m), drilled just 3m from the SjC1 site, 
+was sampled more coarsely, only 803 samples collected from its length.  
+Borehole temperatures ranged from -11.3 to -9.5øC and indicate that the glacier 
+remains frozen to the bed.
+
+Sajama Results from Richard, K. Campen's Master's Thesis.
+"Measurements of gasses trapped in a South American ice core: 
+Paleoatmospheric composition and inferred microbial activity."
+Pennsylvania State University, 
+MS thesis completed in May of 2000, 146 pages
+
+"d18Oatm data was included in: Thompson, L. G., M. E. Davis, 
+E. Mosley-Thompson, T. A. Sowers, K. A. Henderson, V. S. Zagorodnov, 
+P.-N. LIn, V. N. Mikhalenko, R. D. Campen, J. F. Bolzan, J. Cole-Dai, 
+and B. Francou, 'A 25,000 year tropical climate history from Bolivian ice cores', 
+in Science, Vol 282, pg 1858-1865, 1998."							
+
+
+Depth (mbs)	Gas Age (yrs BP)	d15N 	Atm d18O	d(32/28)	dAr/N2	dCO2/N2	CH4
+37.00	2.7	0.13	0.06	0.8	7.6	24.2	1755
+39.60	2.9	0.04	0.10	-1.7	2.5	-4.7	1732
+44.05	16.9	0.11	0.11	-0.5	1.5	46.3	1359
+47.89	37.8	0.30	0.19	1.6	3.6	4036.0	1228
+47.89	37.8	0.10	0.11	-0.2	0.4	673.6	1202
+49.04	44.1	0.06	0.18	-6.0	0.4	104.1	1089
+51.56	57.8	-0.01	0.05	-3.9	-1.8	378.7	1069
+56.19	83.1	-0.07	0.17	-9.2	-3.7	1525.9	963
+58.34	94.8	-0.03	0.11	-10.8	-3.9	764.0	1010
+61.03	162.9	-0.01	0.37	-27.6	-2.5	2189.4	
+61.11	165.8	-0.03	0.13	-6.4	-1.3	722.8	
+66.61	303.3	-0.01	0.10	-12.8	-5.6	470.2	761
+68.44	573.9	0.04	0.26	16.6	38.3	4178.4	792
+72.28	1290.9	-0.14	0.50	48.3	89.6	10923.0	1030
+72.36	1304.6	-0.21	0.62	5.3	22.4	6754.6	831
+73.46	1493.5	-0.01	0.08	-6.1	-1.2	2517.3	1020
+73.54	1507.2	-0.06	0.16	-1.9	1.4	2252.8	951
+78.02	2276.3	0.05	-0.41	-28.8	-2.9	1331.3	826
+80.17	2445.3	-0.07	0.25	2.8	10.6	1731.7	805
+82.14	2593.0	-0.05	0.25	-11.1	3.1	2241.5	902
+82.22	2599.0	-0.03	0.15	-16.0	-4.3	2076.6	882
+86.52	2921.5	0.00	0.25	-10.6	9.7	3640.9	961
+90.59	3226.8	-0.11	0.65	-31.9	9.1	4804.7	1191
+91.79	3316.8	-0.09	0.42	-9.3	18.6	4632.4	1210
+94.60	3992.9	-0.06	0.23	-0.1	18.1	4199.6	1101
+96.94	4604.1	0.08	-0.02	-15.5	-7.9	-2.7	816
+97.02	4625.0	-0.05	0.14	-2.3	11.2	3474.3	935
+99.86	5366.7	0.02	-0.03	-15.7	1.5	3126.9	1248
+101.06	8235.7	0.15	-0.25	-31.9	-17.4	40.2	1901
+101.14	8701.0	-0.02	-0.07	-18.1	-0.7	3637.1	1042
+103.95	10308.3	-0.05	0.27	-22.2	-4.4	3745.8	1116
+105.33	10845.0	-0.03	0.72	-15.6	-3.6	3006.6	1133
+105.46	10895.6	0.15	0.54	-26.9	-12.8	9.9	1215
+106.95	11475.0	0.19	0.27	-28.4	-29.0	94.0	877
+107.03	11506.1	0.02	0.50	-13.9	-5.6	1272.8	600
+107.47	11677.2	0.02	0.32	-14.0	-3.8	1539.1	757
+107.90	11844.4	0.10	0.66	-31.3	-24.5	-2.9	829
+107.98	11875.6	-0.03	0.68	-13.7	-4.0	2015.6	716
+108.45	12058.3	0.00	0.77	-13.3	-6.0	1558.2	807
+108.98	12264.4	-0.03	0.57	-13.7	-5.5	2672.8	692
+109.06	12295.6	0.11	0.54	-27.3	-21.1	11.5	1012
+110.03	12672.8	0.16	0.28	-32.7	-31.4	34.9	927
+110.11	12703.9	0.00	0.54	-14.1	-6.0	2384.0	863
+110.80	12972.2	0.04	0.01	-34.2	-13.7	65.1	1618
+110.88	13003.3	-0.06	0.38	-23.7	-5.2	4620.3	1122
+111.35	13186.1	0.26	0.12	-48.9	-12.6	50.8	1370
+111.42	13213.3	-0.09	0.99	-30.6	43.1	18611.1	2287
+111.57	13271.7	0.31	0.15	-38.3	83.9	21251.7	2371
+112.62	13680.0	-0.12	0.99	-50.6	6.0	13343.0	2571
+113.06	13851.1	-0.07	1.44	-19.4	-3.7	5396.5	1064
+113.83	14150.6	0.16	0.46	-33.5	-12.8	22.3	837
+113.91	14181.7	0.00	0.57	-28.2	-4.9	7237.6	1008
+114.01	14220.6	0.33	0.10	-30.0	14.5	69.3	3004
+114.11	14259.4	0.37	0.01	-32.1	15.1	91.5	3898
+114.30	14333.3	0.22	0.13	-47.6	-31.9	39.3	1193
+114.38	14364.4	-0.06	0.77	-27.4	-1.9	7991.2	1889
+115.20	14683.3	0.14	0.83	-31.6	-33.4	10.5	941
+115.28	14714.4	-0.04	1.09	-11.6	-6.1	3513.3	817
+116.80	15305.6	0.23	0.64	-41.3	-45.6	100.4	992
+116.88	15336.7	0.00	0.98	-12.3	-4.0	4083.8	843
+117.77	15682.8	0.11	0.77	-8.4	-2.4	1117.2	877
+118.82	16091.1	0.15	0.85	-20.1	-15.7	10.0	879
+118.90	16122.2	0.12	0.71	-7.5	-2.2	4651.1	1084
+119.49	16351.7	-0.04	1.04	-8.1	-2.2	3079.6	752
+119.51	16359.4	0.07	0.84	-7.9	-3.3	3494.4	744
+121.07	16966.1	0.13	0.89	-10.5	-1.8	-14.1	668
+121.17	17005.0	0.13	0.88	-12.2	-4.1	-11.7	683
+121.47	17121.7	0.00	0.90	-12.4	-5.1	3253.3	663
+122.32	17452.2	0.13	0.76	-18.6	-5.7	703.1	768
+124.31	18226.1	-0.05	1.17	-22.0	-5.3	3434.6	693
+125.96	18867.8	0.07	0.84	-14.4	-1.4	3954.6	715
+126.04	18898.9	-0.02	0.93	-14.2	-2.7	3838.5	742
+128.19	19735.0	-0.01	0.89	-15.8	-6.1	4056.9	701
+128.92	20018.9	-0.04	0.98	-16.2	-8.3	4594.9	706
+129.97	20427.2	-0.02	0.96	-10.7	-1.6	4006.7	799
+130.05	20458.3	0.00	0.93	-16.2	-7.3	4285.2	812
+							
+							
+							

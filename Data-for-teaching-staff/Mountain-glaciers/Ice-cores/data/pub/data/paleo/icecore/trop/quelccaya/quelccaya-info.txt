@@ -1,0 +1,35 @@
+Quelccaya is located at 13°56'S; 70°50'W and has a summit elevation of 5670m a.s.l. Ice cores to bedrock were drilled in 1983 
+using the first solar - powered drill. The cores were dated precisely (+/- 2 years at A.D. 1500) using a combination of seasonally 
+varying dust concentrations and 18O, visible dust layers deposited each year during the dry season, and identification of ash 
+from the A.D. 1600 eruption of Huaynaputina. Numerous paleoenvironmental records for this remote region have been extracted 
+from these cores as reflected in the selected references below. The delta18O record from a core drilled at the summit in 1976 
+is compared with that from one drilled in 1991 and reveals that the isotopic seasonal signal is no longer preserved and that 
+the isotopic average is enriched by 2o/oo.
+
+Thompson, L.G., E. Mosley-Thompson, P. Grootes, and M. Pourchet. 1984. 
+Tropical glaciers: potential for paleoclimatic reconstruction. 
+Journal of Geophysical Research, 89 (D3), 4638-4646.
+
+Thompson, L.G., E. Mosley-Thompson and Benjamin Morales Arnao. 1984. 
+Major El Niño/Southern Oscillation events recorded in stratigraphy of the tropical Quelccaya Ice Cap. 
+Science, 226 (4670), 50-52.
+
+Thompson, L. G., E. Mosley-Thompson, J. F. Bolzan and B. R. Koci. 1985. 
+A 1500 year record of tropical precipitation recorded in ice cores from the Quelccaya Ice Cap, Peru. 
+Science, 229(4717), 971-973.
+
+Thompson, L.G. and E. Mosley-Thompson. 1987. 
+Evidence of abrupt climatic change during the last 1,500 years recorded in ice cores from the tropical Quelccaya ice cap, Peru. 
+Abrupt Climatic Change - Evidence and Implications, NATO/NSF Workshop volume. D. Reidel Publishing Co., 99-110.
+
+Shimada, I., C.B. Schaaf, L.G. Thompson and E. Mosley-Thompson. 1991. 
+Cultural impacts of severe droughts in the prehistoric Andes: Application of a 1,500-year ice core precipitation record. 
+World Archaeology: Archaeology and Arid Environment, 22(3), 247-270.
+
+Brecher, H.H. and Thompson, L.G. 1993. 
+Measurement of the retreat of Qori Kalis in the tropical Andes of Peru by Terrestrial Photogrammertry. 
+Photogrammetric Engineering and Remote Sensing, 59(6), 1017-1022.
+
+Thompson, L.G., M.E. Davis and E. Mosley-Thompson. 1994. 
+Glacial records of global climate: A 1500-year tropical ice core record of climate. 
+Human Ecology, 22(1), 83-95. 

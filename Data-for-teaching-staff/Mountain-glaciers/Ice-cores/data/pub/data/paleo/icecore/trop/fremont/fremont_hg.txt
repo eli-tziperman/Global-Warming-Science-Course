@@ -1,0 +1,175 @@
+             Fremont Glacier Atmospheric Mercury Data
+-----------------------------------------------------------------------
+               World Data Center for Paleoclimatology, Boulder
+                                  and
+                     NOAA Paleoclimatology Program
+-----------------------------------------------------------------------
+NOTE: PLEASE CITE CONTRIBUTORS WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Fremont Glacier Atmospheric Mercury Data
+LAST UPDATE: 6/2002 (Original Receipt by WDC Paleo)
+
+CONTRIBUTOR: Paul Schuster, USGS
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2002-038
+
+SUGGESTED DATA CITATION: Schuster, P.F., et al., 2002,
+Fremont Glacier Atmospheric Mercury Data, 
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2002-038.
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
+
+
+ORIGINAL REFERENCE: Schuster, P.F., D.P. Krabbenhoft, D.L. Naftz, L.D. Cecil,
+M.L. Olson, J.F. Dewild, D.D. Susong, J.R. Green, and M.L. Abbott, 2002,   
+Atmospheric Mercury Deposition during the Last 270 Years: 
+A Glacial Ice Core Record of Natural and Anthropogenic Sources 
+Environmental Science and Technology, Volume 36, No. 11, pp. 2303-2310.
+
+
+GEOGRAPHIC REGION: Wyoming, USA 
+
+PERIOD OF RECORD: 1720-1993 AD.
+
+LIST OF FILES: 
+Fremont_Hg.xls (Microsoft Excel format),
+Fremont_Hg.txt (tab-delimited text format).
+
+
+
+DESCRIPTION:
+Schuster et al. Fremont Glacier Atmospheric Mercury Data.
+270-year record of atmospheric mercury deposition from a 
+high resolution ice core from the Fremont Glacier, 
+Wyoming, USA (43°07'N, 109°37'W)
+
+
+ABSTRACT:
+Mercury (Hg) contamination of aquatic ecosystems and subsequent methylmercury 
+bioaccumulation are significant environmental problems of global extent. 
+At regional to global scales, the primary mechanism of Hg contamination is 
+atmospheric Hg transport. Thus, a better understanding of the long-term history 
+of atmospheric Hg cycling and quantification of the sources is critical for 
+assessing the regional and global impact of anthropogenic Hg emissions. 
+Ice cores collected from the Upper Fremont Glacier (UFG), Wyoming, contain 
+a high-resolution record of total atmospheric Hg deposition (ca. 1720-1993). 
+Total Hg in 97 ice-core samples was determined with trace-metal clean handling 
+methods and low-level analytical procedures to reconstruct the first and 
+most comprehensive atmospheric Hg deposition record of its kind yet available 
+from North America. The record indicates major atmospheric releases of both 
+natural and anthropogenic Hg from regional and global sources. Integrated over 
+the past 270-year ice-core history, anthropogenic inputs contributed 52%, 
+volcanic events 6%, and background sources 42%. More significantly, 
+during the last 100 years, anthropogenic sources contributed 70% of the total 
+Hg input. Unlike the 2-7-fold increase observed from preindustrial times 
+(before 1840) to the mid-1980s in sediment-core records, the UFG record indicates 
+a 20-fold increase for the same period. The sediment-core records, however, 
+are in agreement with the last 10 years of this ice-core record, 
+indicating declines in atmospheric Hg deposition. 
+
+
+
+
+DATA:
+
+
+Core sample ID	Depth	Total Hg	Age
+	meters	ng/L	years
+			
+UFG 98-3	3.8	14.23	1993.8
+UFG 98-3	4.4	12.75	1993.0
+UFG 98-3	5.7	14.97	1991.5
+UFG 98-3	7.1	12.50	1990.0
+UFG 98-3	9.1	11.04	1987.7
+UFG 98-3	10.5	15.03	1986.0
+UFG 98-3	12.0	23.85	1984.3
+UFG 98-3	13.6	22.85	1982.6
+UFG 98-3	15.0	20.73	1980.9
+UFG 98-3	16.5	22.63	1979.3
+UFG 98-3	17.2	31.25	1978.4
+UFG 98-3	18.0	34.97	1977.5
+UFG 98-3	19.5	24.22	1975.8
+UFG 98-3	21.1	19.82	1974.0
+UFG 98-3	22.5	19.26	1972.4
+UFG 98-3	23.6	19.3	1971.2
+UFG 98-3	23.8	18.3	1970.9
+UFG 98-3	24.1	18.9	1970.6
+UFG 98-3	24.3	17.1	1970.3
+UFG 98-3	24.5	18.9	1970.1
+UFG 98-3	24.8	17.0	1969.8
+UFG 98-3	25.1	17.9	1969.4
+UFG 98-3	25.3	17.1	1969.2
+UFG 98-3	25.5	16.8	1968.9
+UFG 98-3	27.0	15.8	1967.2
+UFG 98-3	28.5	15.88	1965.5
+UFG 98-3	30.1	14.85	1963.7
+UFG 98-3	31.5	16.50	1962.1
+UFG 98-3	33.0	11.13	1960.3
+UFG 98-3	34.6	10.70	1958.6
+UFG 98-3	36.1	11.66	1956.9
+UFG 98-3	37.5	11.89	1955.2
+UFG 98-3	39.0	8.45	1953.5
+UFG 98-3	40.5	8.46	1951.8
+UFG 98-3	42.0	8.66	1950.1
+UFG 98-3	43.5	11.41	1948.4
+UFG 98-3	45.0	5.43	1946.7
+UFG 98-3	46.4	6.81	1945.0
+UFG 98-3	48.1	5.62	1943.2
+UFG 98-3	49.4	4.56	1941.6
+UFG 91 FRE	50.0	7.91	1944.8
+UFG 91 FRE	51.0	7.57	1943.5
+UFG 91 FRE	51.7	8.75	1942.6
+UFG 91 FRE	54.8	8.69	1938.3
+UFG 91 FRE	60.4	8.75	1930.4
+UFG 91 FRE	63.4	5.26	1926.0
+UFG 91 FRE	65.0	5.05	1930.0
+UFG 91 FRE	70.7	6.45	1914.7
+UFG 91 FRE	75.6	5.69	1906.8
+UFG 91 FRE	76.1	5.20	1905.8
+UFG 91 FRE	82.5	6.05	1894.8
+UFG 91 FRE	83.0	6.73	1894.0
+UFG 91 FRE	84.0	19.90	1892.2
+UFG 91 FRE	85.0	25.44	1890.4
+UFG 91 FRE	85.7	9.36	1889.1
+UFG 91 FRE	88.0	2.54	1883.0
+UFG 91 FRE	88.3	3.04	1884.4
+UFG 91 FRE	89.0	3.22	1883.1
+UFG 91 FRE	90.0	3.26	1881.2
+UFG 91 FRE	91.0	3.11	1879.3
+UFG 91 FRE	91.5	7.00	1878.3
+UFG 91 FRE	93.0	11.20	1875.5
+UFG 91 FRE	94.0	13.95	1873.5
+UFG 91 FRE	95.0	16.49	1871.6
+UFG 91 FRE	96.0	16.15	1869.6
+UFG 91 FRE	97.0	12.19	1867.6
+UFG 91 FRE	98.0	12.44	1865.6
+UFG 91 FRE	99.0	8.02	1863.6
+UFG 91 FRE	100.0	7.73	1861.6
+UFG 91 FRE	101.0	8.95	1859.6
+UFG 91 FRE	102.0	8.66	1857.5
+UFG 91 FRE	102.9	9.02	1855.5
+UFG 91 FRE	104.0	9.85	1853.3
+UFG 91 FRE	104.8	16.93	1851.5
+UFG 91 FRE	106.0	13.02	1849.1
+UFG 91 FRE	107.0	8.92	1847.0
+UFG 91 FRE	108.0	2.08	1844.9
+UFG 91 FRE	109.0	2.50	1842.7
+UFG 91 FRE	110.0	5.20	1840.5
+UFG 91 FRE	110.9	1.57	1838.4
+UFG 91 FRE	112.0	1.94	1836.0
+UFG 91 FRE	113.0	1.69	1833.9
+UFG 91 FRE	114.0	1.21	1831.7
+UFG 91 FRE	123.0	2.51	1815.0
+UFG 91 FRE	124.9	14.11	1806.2
+UFG 91 FRE	125.9	5.05	1804.0
+UFG 91 FRE	131.7	2.80	1789.7
+UFG 91 FRE	132.0	1.58	1770.0
+UFG 91 FRE	132.5	2.60	1787.5
+UFG 91 FRE	133.9	2.53	1784.1
+UFG 91 FRE	151.1	3.29	1738.4
+UFG 91 FRE	152.0	2.75	1735.8
+UFG 91 FRE	152.8	3.13	1733.5
+UFG 91 FRE	155.0	1.96	1727.4
+UFG 91 FRE	155.6	2.70	1725.5
+UFG 91 FRE	156.7	3.26	1722.6
+UFG 91 FRE	158.1	1.41	1718.5

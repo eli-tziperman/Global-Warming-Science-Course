@@ -1,0 +1,356 @@
+# Fimbulisen Core S100 Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data from 1737-1999 CE
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/23232
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_11-accum-DML_Fimbulisen_S100.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-14
+#---------------------------------------
+# Title
+#    Study_Name: Fimbulisen Core S100 Dronning Maud Land, Antarctica oxygen isotope and accumulation rate data from 1737-1999 CE
+#---------------------------------------
+# Investigators
+#      Investigators: Kaczmarska, Marzena; Isaksson, Elisabeth; Karlöf, Lars; Winther, Jan-Gunnar; Kohler, Jack; Godtliebsen, Fred; Ringstad Olsen, Lena; Hofstede, Coen M.; Van Den Broeke, Michiel R.; Van De Wal, Roderik S. W.; Gundestrup, Niels
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors: Kaczmarska, Marzena; Isaksson, Elisabeth; Karlöf, Lars; Winther, Jan-Gunnar; Kohler, Jack; Godtliebsen, Fred; Ringstad Olsen, Lena; Hofstede, Coen M.; Van Den Broeke, Michiel R.; Van De Wal, Roderik S.W.; and Gundestrup, Niels
+# Published_Date_or_Year: 2004
+# Published_Title: Accumulation variability derived from an ice core from coastal Dronning Maud Land, Antarctica
+# Journal_Name: Annals of Glaciology
+# Volume: 39
+# Edition: 
+# Issue: 1
+# Pages: 339-345
+# Report Number: 
+# DOI: 10.3189/172756404781814186
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: A 100 m long ice core was retrieved from the coastal area of Dronning Maud Land (DML), Antarctica, in the 2000/01 austral summer. The core was dated to AD 1737 by identification of volcanic horizons in dielectrical profiling and electrical conductivity measurement records in combination with seasonal layer counting from high-resolution oxygen isotope (δ18O) data. A mean long-term accumulation rate of 0.29 ma–1w.e. was derived from the high-resolution δ18O record as well as accumulation rates during periods in between the identified volcanic horizons. A statistically significant decrease in accumulation was found from about 1920 to the present. A comparison with other coastal ice cores from DML suggests that this is a regional pattern.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: European Science Foundation/European Commission
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: S100 Fimbulisen Dronning Maud Land
+# Location: Antarctica 
+# Country: 
+# Northernmost_Latitude: -70.2439
+# Southernmost_Latitude: -70.2439
+# Easternmost_Longitude: 4.8
+# Westernmost_Longitude: 4.8
+# Elevation: 48
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: S100 accum Kaczmarska2004
+#   First_Year: 1737
+#   Last_Year: 1999
+#   Time_Unit: AD
+#   Core_Length: 100
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age,,,years CE,,ice core,,,N,annual counting by dO18, dielectric profiling, electrical conductivity, volcanic tuning
+## accum  accumulation rate,snow,,kg/m2/yr,,ice core,,,N,calculated using dating by seasonal variations of d18O and volcanic markers
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+year	accum
+1999	323	
+1998	290	
+1997	248	
+1996	231	
+1995	153	
+1994	205	
+1993	197	
+1992	347	
+1991	304	
+1990	262	
+1989	188	
+1988	300	
+1987	286	
+1986	226	
+1985	319	
+1984	158	
+1983	217	
+1982	195	
+1981	198	
+1980	262	
+1979	259	
+1978	232	
+1977	150	
+1976	224	
+1975	240	
+1974	337	
+1973	183	
+1972	299	
+1971	421	
+1970	247	
+1969	154	
+1968	493	
+1967	309	
+1966	224	
+1965	212	
+1964	163	
+1963	254	
+1962	155	
+1961	219	
+1960	187	
+1959	467	
+1958	348	
+1957	519	
+1956	328	
+1955	198	
+1954	251	
+1953	285	
+1952	325	
+1951	394	
+1950	363	
+1949	404	
+1948	166	
+1947	234	
+1946	236	
+1945	345	
+1944	214	
+1943	212	
+1942	243	
+1941	131	
+1940	265	
+1939	305	
+1938	342	
+1937	240	
+1936	208	
+1935	243	
+1934	340	
+1933	306	
+1932	244	
+1931	249	
+1930	461	
+1929	141	
+1928	279	
+1927	281	
+1926	358	
+1925	401	
+1924	183	
+1923	511	
+1922	254	
+1921	328	
+1920	219	
+1919	362	
+1918	400	
+1917	439	
+1916	258	
+1915	325	
+1914	219	
+1913	256	
+1912	329	
+1911	269	
+1910	371	
+1909	444	
+1908	452	
+1907	306	
+1906	567	
+1905	385	
+1904	315	
+1903	193	
+1902	267	
+1901	380	
+1900	385	
+1899	270	
+1898	310	
+1897	387	
+1896	267	
+1895	311	
+1894	235	
+1893	274	
+1892	274	
+1891	353	
+1890	237	
+1889	356	
+1888	237	
+1887	322	
+1886	208	
+1885	241	
+1884	317	
+1883	517	
+1882	321	
+1881	285	
+1880	319	
+1879	400	
+1878	242	
+1877	201	
+1876	448	
+1875	194	
+1874	283	
+1873	336	
+1872	192	
+1871	162	
+1870	372	
+1869	211	
+1868	299	
+1867	370	
+1866	243	
+1865	121	
+1864	419	
+1863	289	
+1862	414	
+1861	373	
+1860	248	
+1859	327	
+1858	289	
+1857	289	
+1856	254	
+1855	502	
+1854	528	
+1853	261	
+1852	438	
+1851	323	
+1850	168	
+1849	296	
+1848	254	
+1847	218	
+1846	505	
+1845	344	
+1844	378	
+1843	256	
+1842	181	
+1841	378	
+1840	171	
+1839	213	
+1838	258	
+1837	217	
+1836	128	
+1835	258	
+1834	347	
+1833	225	
+1832	293	
+1831	171	
+1830	302	
+1829	343	
+1828	342	
+1827	269	
+1826	425	
+1825	215	
+1824	132	
+1823	218	
+1822	306	
+1821	217	
+1820	228	
+1819	507	
+1818	389	
+1817	392	
+1816	342	
+1815	262	
+1814	480	
+1813	303	
+1812	393	
+1811	349	
+1810	212	
+1809	133	
+1808	174	
+1807	310	
+1806	185	
+1805	253	
+1804	221	
+1803	311	
+1802	212	
+1801	172	
+1800	387	
+1799	438	
+1798	306	
+1797	306	
+1796	352	
+1795	219	
+1794	218	
+1793	176	
+1792	175	
+1791	177	
+1790	177	
+1789	185	
+1788	229	
+1787	202	
+1786	356	
+1785	308	
+1784	309	
+1783	360	
+1782	348	
+1781	395	
+1780	346	
+1779	313	
+1778	265	
+1777	177	
+1776	313	
+1775	178	
+1774	319	
+1773	340	
+1772	391	
+1771	583	
+1770	223	
+1769	178	
+1768	224	
+1767	223	
+1766	353	
+1765	310	
+1764	264	
+1763	356	
+1762	528	
+1761	353	
+1760	87	
+1759	223	
+1758	332	
+1757	332	
+1756	225	
+1755	227	
+1754	415	
+1753	106	
+1752	215	
+1751	219	
+1750	319	
+1749	205	
+1748	411	
+1747	271	
+1746	260	
+1745	133	
+1744	348	
+1743	142	
+1742	305	
+1741	151	
+1740	137	
+1739	341	
+1738	267	
+1737	166	

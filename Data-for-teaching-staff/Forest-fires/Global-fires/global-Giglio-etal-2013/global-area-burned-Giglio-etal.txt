@@ -1,0 +1,10 @@
+# Downloaded from "Global Fire Emissions Database"
+# http://www.globalfiredata.org/downloads/chart_5f304d3a50585.txt
+# 
+# Relevant paper is: Giglio, L., Randerson, J. T. & van der Werf, G. R. Analysis of
+# daily, monthly, and annual burned area using the fourth generation global fire
+# emissions database (GFED4). J. Geophys. Res. 118, 317–328 (2013).
+# 
+# Annual Burned Area: Area 1 (global! units: km^2)
+1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+4514475.31, 5020995.49, 4781560.38, 4545818.98, 5034085.47, 4941444.88, 4355034.09, 4611681.82, 4526586.42, 4324727.15, 4582222.2, 4239908.37, 3955882.18, 4125870.24, 4569328.28, 4494884.74, 3683401.03, 3921418.78, 3885788.83, 3672931.25

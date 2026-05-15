@@ -1,0 +1,177 @@
+# Dasuopu, China 500 Year Ice Core Trace Element Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/28510 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/icecore/trop/dasuopu/dasuopu2020elem-10yr.txt 
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Ice Core
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: chemistry 
+#--------------------
+# Contribution_Date
+#	Date: 2020-02-10
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2020-02-10
+#--------------------
+# Title
+#	Study_Name: Dasuopu, China 500 Year Ice Core Trace Element Data 
+#--------------------
+# Investigators
+#	Investigators: Gabrielli, P; Wegner, A.; Sierra-Hernandez, R.M.; Beaudon, E.; Davis, M.; Barker, J.D.; Thompson, L.G. 
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: Trace element data from ice cores collected in Dasuopu, China. Raw concentration data are at annual or decadal resolution from Dasuopu 1997 core #3 for the past 500 years, and are based on freshly cut ice samples.
+#	Included are also 10-year median concentrations, 10-year fluxes of trace elements, and 10-year median crustal enrichment factors (EFc).
+#	10-year median concentrations and EFc are calculated from the individual corresponding sample values as computed in Beaudon et al. Sci. Total Environ. 601-602:1349-1363.
+#	10 year fluxes are calculated in the ice (1499-1950 AD) as: 10-year median of annual fluxes. Annual fluxes are obtained by using reconstructed annual snow accumulation and average annual trace element concentrations from continous ice samples. 
+#	10 year fluxes are calculated in firn (1950-1992 AD) using 10-year median of the reconstructed annual snow accumulation and 10 year-median of discrete trace element concentrations.
+#	Time scale and reconstructed annual snow accumulation records are from Thompson et al. (2000) Science, 289, 1916-1919. 
+#--------------------
+# Publication 
+#	Authors: Paolo Gabrielli, Anna Wegner, M. Roxana Sierra-Hernández, Emilie Beaudon, Mary Davis, Joel D. Barker, and Lonnie G. Thompson
+#	Published_Date_or_Year: 2020-02-10    
+#	Published_Title: Early atmospheric contamination on the top of the Himalayas since the onset of the European Industrial Revolution
+#	Journal_Name: Proceedings of the National Academy of Sciences
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 10.1073/pnas.1910485117
+#	Online_Resource: https://www.pnas.org/content/early/2020/02/04/1910485117
+#	Full_Citation: 
+#	Abstract: Because few ice core records from the Himalayas exist, understanding of the onset and timing of the human impact on the atmosphere of the "roof of the world" remains poorly constrained. We report a continuous 500-y trace metal ice core record from the Dasuopu glacier (7,200 m, central Himalayas), the highest drilling site on Earth. We show that an early contamination from toxic trace metals, particularly Cd, Cr, Mo, Ni, Sb, and Zn, emerged at high elevation in the Himalayas at the onset of the European Industrial Revolution (~1780 AD). This was amplified by the intensification of the snow accumulation (+50% at Dasuopu) likely linked to the meridional displacement of the winter westerlies from 1810 until 1880 AD. During this period, the flux and crustal enrichment factors of the toxic trace metals were augmented by factors of 2 to 4 and 2 to 6, respectively. We suggest this contamination was the consequence of the long-range transport and wet deposition of fly ash from the combustion of coal (likely from Western Europe where it was almost entirely produced and used during the 19th century) with a possible contribution from the synchronous increase in biomass burning emissions from deforestation in the Northern Hemisphere. The snow accumulation decreased and dry winters were reestablished in Dasuopu after 1880 AD when lower than expected toxic metal levels were recorded. This indicates that contamination on the top of the Himalayas depended primarily on multidecadal changes in atmospheric circulation and secondarily on variations in emission sources during the last 200 y.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation 
+#	Grant: ACP-1149239, MRI-0820779
+#------------------
+# Site_Information 
+#	Site_Name: Dasuopu
+#	Location: Asia>Eastern Asia>China
+#	Country: China
+#	Northernmost_Latitude: 28.3833
+# 	Southernmost_Latitude: 28.3833
+# 	Easternmost_Longitude: 85.7167
+# 	Westernmost_Longitude: 85.7167
+# 	Elevation: 7200 
+#------------------
+# Data_Collection   
+#	Collection_Name: Dasuopu2020elem-10yr
+#	Earliest_Year: 1510
+#	Most_Recent_Year: 1990
+#	Time_Unit:  Year CE
+#	Core_Length: 143.1
+#	Notes: Dasuopu 1997 core #3: 10 year median trace element concentrations calculated between 1499 and 1992 AD 
+#------------------
+# Chronology_Information
+#	Chronology: 
+#	The Dasupu core was dated by layer counting during the last 560 years through the distinct seasonal cycles in delta18O, dust, and NO-3.
+# 	The annual layer counting was confirmed at 42.2 m depth by the 1963 beta radioactivity signature from the 1962 atmospheric thermonuclear tests.
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## age_CE	age, , , year Common Era, ,ice cores,,,N, thermal year 
+## Al	Aluminum, ice, , picogram per gram, ,ice cores,,,N, 
+## As	Arsenic, ice, , picogram per gram, ,ice cores,,,N, 
+## Ba	Barium, ice, , picogram per gram, ,ice cores,,,N, 
+## Bi	Bismuth, ice, , picogram per gram, ,ice cores,,,N, 
+## Cd	Cadmium, ice, , picogram per gram, ,ice cores,,,N, 
+## Co	Cobalt, ice, , picogram per gram, ,ice cores,,,N, 
+## Cr	Chromium, ice, , picogram per gram, ,ice cores,,,N, 
+## Cs	Cesium, ice, , picogram per gram, ,ice cores,,,N, 
+## Fe	Iron, ice, , picogram per gram, ,ice cores,,,N, 
+## Ga	Gallium, ice, , picogram per gram, ,ice cores,,,N, 
+## Mg	Magnesium, ice, , picogram per gram, ,ice cores,,,N, 
+## Mn	Manganese, ice, , picogram per gram, ,ice cores,,,N, 
+## Mo	Molybdenum, ice, , picogram per gram, ,ice cores,,,N, 
+## Nb	Niobium, ice, , picogram per gram, ,ice cores,,,N, 
+## Ni	Nickel, ice, , picogram per gram, ,ice cores,,,N, 
+## Pb	Lead, ice, , picogram per gram, ,ice cores,,,N, 
+## Rb	Rubidium, ice, , picogram per gram, ,ice cores,,,N, 
+## Sb	Antimony, ice, , picogram per gram, ,ice cores,,,N, 
+## Ti	Titanium, ice, , picogram per gram, ,ice cores,,,N, 
+## Tl	Thallium, ice, , picogram per gram, ,ice cores,,,N, 
+## U	Uranium, ice, , picogram per gram, ,ice cores,,,N, 
+## V	Vanadium, ice, , picogram per gram, ,ice cores,,,N, 
+## Zn	Zinc, ice, , picogram per gram, ,ice cores,,,N, 
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  
+#
+age_CE	Al	As	Ba	Bi	Cd	Co	Cr	Cs	Fe	Ga	Mg	Mn	Mo	Nb	Ni	Pb	Rb	Sb	Ti	Tl	U	V	Zn
+1990	1906	6.7	25.2	0.11	0.72	1.9	15.9	2.3	21493	3.6	1038	126	1.42	2.27	22.4	8.5	53	1.07	204	0.14	0.41	6.6	206
+1980	75796	55.3	587.1	4.13	1.82	42.3	151.6	42.4	83378	35.8	38737	1753	1.86	31.29	108.5	224.1	425	4.35	9474	3.16	11.24	169.6	1004
+1970	5337	15.1	26.7	0.18	0.16	2.6	17.0	3.0	4749	2.8	1961	74	0.69	1.71	21.9	11.8	23	0.71	382	0.15	0.52	10.5	150
+1960	17633	18.1	155.6	1.05	1.12	10.7	37.5	13.5	19985	7.3	7730	466	3.29	7.75	27.4	43.7	101	1.38	1739	0.68	2.27	35.1	169
+1950	13847	15.4	112.6	0.63	1.53	11.0	39.3	8.1	18436	6.2	10548	484	1.37	5.58	63.6	31.0	62	1.18	862	0.37	1.38	30.6	376
+1940	3619	4.4	40.0	0.22	0.65	3.5	18.7	3.3	4050	3.9	2919	135	0.77	1.72	20.4	6.8	30	0.93	281	0.20	0.46	9.8	179
+1930	3212	4.1	42.2	0.19	0.34	2.9	13.2	2.8	3056	3.4	2561	129	0.60	1.52	11.7	4.8	25	0.57	249	0.15	0.43	7.9	88
+1920	2847	4.5	27.9	0.18	0.25	3.1	13.5	3.1	3203	2.3	2583	154	0.46	1.24	9.8	6.1	19	0.46	250	0.16	0.56	7.2	64
+1910	7661	6.4	55.6	0.27	0.30	5.2	17.3	4.6	6666	4.4	3601	268	0.63	2.21	16.1	10.8	31	0.56	417	0.22	0.86	12.2	111
+1900	3815	3.3	26.3	0.21	0.25	3.2	13.2	2.9	3978	2.4	2654	114	0.51	1.65	9.8	6.3	19	0.48	222	0.14	0.43	8.0	78
+1890	5679	6.6	43.4	0.32	0.31	4.0	21.0	3.8	6003	3.7	4004	207	0.59	2.32	13.5	6.1	28	0.68	343	0.20	0.59	12.6	100
+1880	5353	5.3	35.6	0.30	0.31	3.2	19.7	4.1	4607	4.0	2733	175	0.61	1.51	13.7	6.4	27	0.67	266	0.19	0.62	10.2	91
+1870	3320	3.6	23.3	0.17	0.28	2.3	15.5	2.3	3107	2.7	2524	121	0.50	1.97	8.9	4.1	18	0.52	261	0.15	0.34	7.9	96
+1860	2982	4.6	27.5	0.19	0.23	2.2	13.4	2.4	2868	2.6	1951	108	0.43	1.27	10.5	4.7	20	0.57	188	0.13	0.40	6.1	68
+1850	3018	2.5	13.0	0.19	0.24	2.4	12.5	1.6	1924	2.1	1378	82	0.49	1.13	9.4	6.3	14	0.52	101	0.11	0.33	5.5	110
+1840	4489	5.2	24.8	0.29	0.26	2.8	16.1	3.4	3277	2.5	2332	127	0.45	1.89	11.2	8.1	24	0.66	249	0.16	0.62	8.3	70
+1830	6340	7.3	44.8	0.42	0.28	4.4	20.4	3.9	6661	2.7	5326	229	0.54	1.22	14.2	9.4	26	0.88	309	0.23	0.82	9.7	124
+1820	3852	4.9	23.8	0.17	0.31	2.2	12.5	2.8	2885	3.6	1721	103	0.57	1.50	10.0	5.2	24	0.54	187	0.14	0.41	6.9	79
+1810	6258	5.1	34.5	0.24	0.29	5.7	21.3	4.1	4962	3.9	2785	146	0.55	1.38	11.0	6.4	28	0.69	350	0.23	0.65	9.8	83
+1800	7887	9.8	60.6	0.57	0.30	6.6	20.9	7.1	8647	3.1	5253	257	0.47	1.60	24.7	14.5	34	0.81	470	0.26	1.00	14.1	105
+1790	4439	4.9	31.1	0.28	0.21	2.7	13.2	3.7	5270	1.5	3500	174	0.28	0.94	10.8	6.8	19	0.47	301	0.16	0.47	7.5	49
+1780	5147	6.2	42.4	0.27	0.20	3.3	15.3	3.6	6040	1.8	3909	189	0.36	1.06	12.9	8.6	22	0.53	281	0.17	0.59	8.3	59
+1770	10276	8.7	77.9	0.26	0.31	4.6	14.9	5.1	8529	4.3	5238	205	0.56	1.97	12.4	8.4	36	0.67	463	0.20	0.93	17.3	39
+1760	14163	11.4	114.2	0.58	0.41	7.0	19.1	7.7	13182	5.5	7408	341	0.60	3.61	17.8	16.7	49	0.67	852	0.31	1.66	22.6	50
+1750	14317	12.7	114.0	0.43	0.41	7.8	22.9	10.0	14957	6.1	8753	432	0.65	2.94	21.3	16.7	50	0.95	711	0.29	1.54	24.8	49
+1740	6797	8.3	59.8	0.25	0.37	4.8	14.6	4.8	7741	4.6	4887	175	0.47	1.79	14.0	8.7	31	0.64	369	0.22	0.95	14.6	32
+1730	16048	13.5	113.2	0.45	0.33	7.7	24.0	9.0	16709	6.7	8802	362	0.66	2.77	20.0	16.2	57	0.76	933	0.35	1.54	25.2	52
+1720	9303	8.8	68.3	0.27	0.37	5.0	13.4	6.1	9364	4.1	5048	206	0.45	2.25	13.3	8.7	33	0.43	520	0.20	0.98	17.0	30
+1710	15912	13.0	119.6	0.53	0.30	9.2	27.4	8.8	18609	6.2	9341	394	0.69	2.81	24.2	18.9	52	0.88	803	0.34	1.57	27.4	62
+1700	13320	11.4	115.4	0.50	0.45	7.6	22.3	7.2	14268	6.4	7667	348	0.75	2.53	21.0	13.5	51	0.80	754	0.30	1.52	23.5	46
+1690	12463	10.0	93.3	0.64	0.35	6.0	22.6	7.0	14197	6.2	7002	300	0.63	3.32	16.6	12.1	48	0.85	668	0.32	1.53	23.2	56
+1680	14092	9.6	104.1	0.48	0.41	7.9	24.8	8.8	16712	5.1	7403	336	0.61	3.13	20.5	16.3	53	0.89	814	0.33	1.60	27.2	57
+1670	10564	10.6	80.9	0.34	0.35	6.6	19.5	6.4	10759	5.4	6433	288	0.58	1.83	16.5	14.4	36	0.85	496	0.24	1.17	18.2	46
+1660	18598	13.3	146.1	0.55	0.43	9.9	33.7	9.6	19077	7.9	8380	397	0.77	2.88	29.0	19.8	60	1.22	869	0.36	1.60	28.4	70
+1650	21564	15.4	148.4	0.49	0.37	9.3	32.6	9.8	20723	8.1	11645	444	0.90	3.20	27.3	26.0	65	1.02	994	0.39	1.58	35.3	68
+1640	16859	11.6	119.7	0.50	0.41	8.4	23.0	9.4	16163	6.1	8534	399	0.67	2.85	20.9	20.4	49	0.97	829	0.30	1.55	26.4	59
+1630	18707	14.8	133.1	0.67	0.47	9.4	25.7	10.8	19019	6.9	8952	458	0.72	3.81	23.2	22.4	59	0.90	947	0.38	2.12	29.8	57
+1620	13945	10.6	111.9	0.35	0.38	6.0	19.0	7.3	12610	5.9	6273	250	0.68	2.98	15.7	11.4	50	0.74	693	0.29	1.47	23.3	40
+1610	10998	10.4	98.2	0.38	0.37	5.9	16.0	6.1	10354	5.0	6232	265	0.57	2.36	16.0	13.0	39	0.57	469	0.23	1.26	17.9	37
+1600	12460	13.6	108.3	0.46	0.46	7.8	22.3	8.1	14990	6.0	8698	366	0.67	2.58	19.9	18.1	50	0.70	667	0.30	1.67	20.9	59
+1590	16281	13.6	119.7	0.67	0.48	8.2	23.7	8.8	19801	5.4	9259	416	0.88	2.65	22.6	18.6	56	0.94	765	0.38	1.79	23.8	58
+1580	21418	13.9	175.5	0.68	0.58	10.8	33.2	11.0	24967	9.7	12335	522	0.97	3.68	31.7	18.9	76	0.98	1055	0.46	2.12	40.1	76
+1570	11455	10.6	93.0	0.43	0.43	7.6	21.4	7.5	12763	5.9	8850	344	0.67	2.80	19.3	14.7	51	0.62	761	0.31	1.48	21.1	67
+1560	11274	10.0	90.2	0.49	0.34	6.6	20.5	7.5	13199	5.3	6298	299	0.55	2.63	17.7	13.2	48	0.73	700	0.29	1.47	20.7	47
+1550	20198	19.4	147.6	0.73	0.45	9.4	32.1	13.2	21648	8.1	9600	456	0.81	3.80	28.4	23.2	79	0.91	1093	0.50	2.62	34.3	68
+1540	24430	19.4	183.6	0.81	0.51	11.3	34.3	12.9	22507	8.7	11820	557	0.89	3.47	31.4	25.9	79	1.24	1120	0.49	2.80	35.0	84
+1530	15424	12.6	128.6	0.64	0.46	8.0	25.3	9.1	16930	6.9	8240	387	0.79	3.82	21.0	15.8	67	0.79	1047	0.40	1.76	28.1	52
+1520	12359	9.2	86.8	0.36	0.34	6.2	18.6	6.6	11924	5.6	5888	261	0.54	2.47	16.7	11.6	45	0.52	606	0.26	1.21	21.6	43
+1510	15299	10.5	115.0	0.41	0.33	6.6	22.7	7.7	14073	6.1	7261	307	0.68	2.64	18.1	14.2	50	0.62	782	0.29	1.72	22.8	47

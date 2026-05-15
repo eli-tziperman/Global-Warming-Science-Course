@@ -1,0 +1,197 @@
+# PAGES 2000 year oxygen isotope and accumulation rate data from Dronning Maud Land, Antarctica
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/
+#      Description: NOAA Landing Page
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/stenni2017antarctica/DMLicecore/Site7_20-PAGESAnt2k-DML_Ekstroem_B04.txt
+#      Description: NOAA location of the template
+#
+# Archive: Ice Cores
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, accumulation 
+#---------------------------------------
+# Contribution_Date
+#    Date: 2017-12-13
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2017-12-13
+#---------------------------------------
+# Title
+#    Study_Name: PAGES 2000 year oxygen isotope and accumulation rate data from Dronning Maud Land, Antarctica
+#---------------------------------------
+# Investigators
+#      Investigators: Schlosser, Elisabeth; Oerter, Hans; Graf, Wolfgang
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: DML data contributed to the PAGES 2k project. Data is also available at DOI:10.1594/PANGAEA.690380
+#         Provided Keywords: oxygen isotope of water, temperature proxy, accumulation rate
+#---------------------------------------
+# Publication
+# Authors: Schlosser, Elisabeth; Oerter, Hans; Graf, Wolfgang
+# Published_Date_or_Year: 1999
+# Published_Title: Snow accumulation on Ekströmisen, Antarctica, 1980-1996 
+# Journal_Name: Reports on Polar Research, Alfred Wegener Institute for Polar and Marine Research, Bremerhaven
+# Volume: 
+# Edition: 
+# Issue: 
+# Pages: 137 pp
+# Report Number: 313
+# DOI: 10.2312/BzP_0313_1999
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: 
+#---------------------------------------
+# Publication
+# Authors: Schlosser, Elisabeth; Oerter, Hans
+# Published_Date_or_Year: 2002
+# Published_Title: Shallow firn cones from Neumayer, Ekströmisen, Antartica: a comparison of accumulation rates and stable-isotope ratios.
+# Journal_Name: Annals of Glaciology
+# Volume: 35
+# Edition: 
+# Issue: 1
+# Pages: 91-96
+# Report Number: 
+# DOI: 10.3189/172756402781816915
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: At the German wintering base Neumayer, an intensive glacio-meteorological programme has been carried out during the last two decades. A complete meteorological dataset and data from surface snow samples, snow pits, firn cores and weekly accumulation measurements from a stake array are available. We first investigated the attenuation of the seasonal ?18O signal due to water-vapour diffusion in the snowpack. A comparison of surface snow samples and firn cores of different ages shows that only onethird of the seasonal ?18O signal of the surface snow samples remains in the cores after the first year. No further significant change in the amplitude of the seasonal ?18O signal is found later. Changes in the seasonal distribution of accumulation can lead to a bias in ice-core properties. This is studied on a short time-scale, using high-time-resolution data of accumulation, stable-isotope ratios and air temperature. Mean annual ?18O values from firn cores are not well correlated to annual mean air temperatures. However, the correlation is improved considerably by calculating an annual mean air temperature using monthly mean temperatures weighted by monthly accumulation. At Neumayer, it is mainly the cyclonic activity in late winter/early spring that determines whether and how the core data are biased.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Alfred Wegener Institute for Polar and Marine Research
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: B04 Georg-von-Neumayer Station Dronning Maud Land
+# Location: Antarctica 
+# Country: 
+# Northernmost_Latitude: -70.6167
+# Southernmost_Latitude: -70.6167
+# Easternmost_Longitude: -8.3667
+# Westernmost_Longitude: -8.3667
+# Elevation: 28
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: B04 d18O Schlosser2002
+#   First_Year: 1892
+#   Last_Year: 1981
+#   Time_Unit: AD
+#   Core_Length: 51.7
+#   Notes: B04 (NM01C82_04)
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+# 
+# Ant2k volcanic event peak date (CE)	Depth of volcanic peak in cores (m) 	
+# 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## year	age,,,years CE,,ice core,,d180 layer counting, tritium content, dielectric profiling,,
+## d18O	delta 18O,ice,,per mil SMOW,,ice core,,isotope ratio mass spectrometry,N,mean annual values
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NaN 
+1981	-21.1	
+1980	-18.16	
+1979	-20.13	
+1978	-18.1	
+1977	-17.11	
+1976	-22.86	
+1975	-19.15	
+1974	-18.75	
+1973	-19.26	
+1972	-18.94	
+1971	-20.36	
+1970	-17.3	
+1969	-17.78	
+1968	-22.08	
+1967	-23.36	
+1966	-19.74	
+1965	-16.51	
+1964	-17.89	
+1963	-19.55	
+1962	-19.32	
+1961	-20.32	
+1960	-20.54	
+1959	-21.31	
+1958	-20.57	
+1957	-20.22	
+1956	-20.7	
+1955	-20.02	
+1954	-19.77	
+1953	-19.6	
+1952	-19.28	
+1951	-22.99	
+1950	-23.94	
+1949	-22.15	
+1948	-20.49	
+1947	-21.6	
+1946	-20.76	
+1945	-19.76	
+1944	-21.14	
+1943	-19.34	
+1942	-20.24	
+1941	-21.93	
+1940	-20.39	
+1939	-20.6	
+1938	-20.31	
+1937	-22.19	
+1936	-25.03	
+1935	-22.43	
+1934	-20.78	
+1933	-20.5	
+1932	-20.82	
+1931	-19.07	
+1930	-20.81	
+1929	-23.54	
+1928	-20.99	
+1927	-23.16	
+1926	-21.02	
+1925	-19.64	
+1924	-21.7	
+1923	-21.71	
+1922	-20.01	
+1921	-18.74	
+1920	-20.18	
+1919	-20.26	
+1918	-21.26	
+1917	-19.92	
+1916	-19.91	
+1915	-22.54	
+1914	-21.07	
+1913	-21.24	
+1912	-21.41	
+1911	-21.49	
+1910	-22.56	
+1909	-22.38	
+1908	-21.19	
+1907	-22.59	
+1906	-19.6	
+1905	-19.72	
+1904	-19.73	
+1903	-18.02	
+1902	-19.57	
+1901	-21.04	
+1900	-23.4	
+1899	-24.17	
+1898	-22.55	
+1897	-22.79	
+1896	-23.12	
+1895	-21.36	
+1894	-21.37	
+1893	-21.05	
+1892	-21.48	

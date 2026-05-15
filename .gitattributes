@@ -15,3 +15,5 @@ Sources/Droughts/droughts_slides.key filter=lfs diff=lfs merge=lfs -text
 Sources/Sea-level/sea_level_slides.key filter=lfs diff=lfs merge=lfs -text
 Sources/Acidification/acidification_slides.key filter=lfs diff=lfs merge=lfs -text
 Sources/Mountain-glaciers/mountain_glaciers_slides.key filter=lfs diff=lfs merge=lfs -text
+/Data-for-teaching-staff/Heat-waves/Output/to-pickle/heat_waves_weekly_averages_TREFHTMX.npy filter=lfs diff=lfs merge=lfs -text
+/Data-for-teaching-staff/Heat-waves/Output/to-pickle/heat_waves_weekly_averages_Z500.npy filter=lfs diff=lfs merge=lfs -text

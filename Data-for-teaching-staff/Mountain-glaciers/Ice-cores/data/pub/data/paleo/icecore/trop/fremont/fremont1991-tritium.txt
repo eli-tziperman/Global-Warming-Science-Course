@@ -1,0 +1,220 @@
+Fremont Glacier 1991 Core Tritium Data
+-----------------------------------------------------------------------
+             NOAA Paleoclimatology Program  
+                         and
+        World Data Center for Paleoclimatology, Boulder         
+-----------------------------------------------------------------------
+NOTE: PLEASE CITE CONTRIBUTORS WHEN USING THIS DATA!!!!!
+
+NAME OF DATA SET: Fremont Glacier 1991 Core Tritium Data
+LAST UPDATE: 11/2004 (Original Receipt by WDC Paleo)
+
+CONTRIBUTOR: Paul Schuster, USGS
+
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2004-079
+
+SUGGESTED DATA CITATION: Schuster, P.F., et al., 2004,
+Fremont Glacier 1991 Core Tritium Data. 
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2004-079.
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
+
+
+ORIGINAL REFERENCE: 
+Schuster, P.F., D.E. White, D.L., Naftz, and L.D. Cecil.  2000. 
+Chronological refinement of an ice core record at 
+upper Fremont Glacier in south central North America. 
+Journal of Geophysical Research, Vol. 105, p. 4657-4666. 
+
+
+ABSTRACT:
+The potential to use ice cores from alpine glaciers in the midlatitudes 
+to reconstruct paleoclimatic records has not been widely recognized. 
+Although excellent paleoclimatic records exist for the polar regions, 
+paleoclimatic ice core records are not common from midlatitude locations. 
+An ice core removed from the Upper Fremont Glacier in Wyoming provides 
+evidence for abrupt climate change during the mid-1800s. Volcanic events 
+(Krakatau and Tambora) identified from electrical conductivity measurements 
+(ECM) and isotopic and chemical data from the Upper Fremont Glacier were 
+reexamined to confirm and refine previous chronological estimates of the 
+ice core. At a depth of 152 m the refined age-depth profile shows good 
+agreement (1736 +/- 10 A.D.) with the 14C age date (1729 +/- 95 A.D.). 
+The d18O profile of the Upper Fremont Glacier (UFG) ice core indicates 
+a change in climate known as the Little Ice Age (LIA). However, the 
+sampling interval for d18O is sufficiently large (20 cm) such that it is 
+difficult to pinpoint the LIA termination on the basis of d18O data alone. 
+Other research has shown that changes in the d18O variance are generally 
+coincident with changes in ECM variance. The ECM data set contains over 
+125,000 data points at a resolution of 1 data point per millimeter of 
+ice core. A 999-point running average of the ECM data set and results 
+from f tests indicates that the variance of the ECM data decreases 
+significantly at about 108 m. At this depth, the age-depth profile 
+predicts an age of 1845 A.D. Results indicate the termination of the 
+LIA was abrupt with a major climatic shift to warmer temperatures 
+around 1845 A.D. and continuing to present day. Prediction limits 
+(error bars) calculated for the profile ages are +/- 10 years 
+(90% confidence level). Thus a conservative estimate for the time 
+taken to complete the LIA climatic shift to present-day climate is 
+about 10 years, suggesting the LIA termination in alpine regions of 
+central North America may have occurred on a relatively short 
+(decadal) timescale.
+
+
+
+GEOGRAPHIC REGION: Wyoming, USA 
+
+PERIOD OF RECORD: 1717-1991 AD.
+
+DESCRIPTION:
+Fremont Glacier 1991 Core Tritium Data
+
+
+
+DATA:
+
+Depth m.   Tritium (TU)
+    0.25       6
+    1.88       7
+   2.275       7
+   2.925      17
+   4.085      12
+    6.48      14
+    7.96      16
+   9.465      22
+   11.56      22
+  13.765      28
+  14.425      38
+   14.99      19
+   15.86      19
+   17.12      32
+   18.04      49
+  19.025      33
+  19.485      55
+   20.17      58
+  20.605      49
+  21.585      35
+  21.965      37
+  22.205      47
+   22.41      40
+   22.59      43
+   22.76      38
+  23.015     103
+  23.425      78
+    23.7     101
+  23.935      78
+  24.145      83
+   24.34      89
+   24.54      95
+ 24.7525      91
+ 25.0525     231
+  25.335     146
+   25.55     128
+  25.785     165
+   26.08     263
+   26.34     264
+   26.53     317
+   26.77     294
+  27.025     241
+   27.24     137
+   27.42     115
+  27.615     148
+   27.81     175
+      28     166
+   28.18     187
+   28.35     194
+  28.565     241
+ 28.7875     121
+ 28.9725     106
+  29.145     159
+   29.32     365
+ 29.5025     232
+  29.685     181
+ 29.8825     230
+  30.095     205
+   30.29     179
+  30.505     140
+   30.71     129
+   30.95     139
+ 31.2025     196
+ 31.3775      96
+ 31.5725      93
+   31.82     143
+ 32.1175     147
+ 32.3675     136
+ 32.5375     136
+   32.74     156
+ 32.9775     191
+ 33.1975      75
+  33.435      86
+ 33.6925     116
+ 33.9325     122
+ 34.1475     155
+   34.39     138
+ 34.6125     143
+  34.955     198
+ 35.1725     303
+  35.385      41
+ 35.6075      44
+   35.84      55
+  36.045      33
+ 36.2275      21
+ 36.4225     101
+ 36.6175     104
+ 36.8325      78
+  37.055      77
+  37.275      65
+   37.55      72
+  37.835      64
+ 38.0575      69
+ 38.2625      71
+   38.47      54
+  38.675      -5
+ 38.9025      49
+ 39.1175      64
+  39.305      67
+   39.49      83
+ 39.6775     105
+ 39.8725     108
+ 40.0675     125
+ 40.2775     138
+   40.48     133
+  40.675     143
+ 40.8775     164
+   41.12     179
+   41.39     176
+   41.64     169
+  41.845     191
+   42.03     144
+ 42.2225      83
+ 42.4225      33
+  42.635      37
+  42.855      11
+  43.055      25
+ 43.2325       9
+ 43.4325       1
+  43.645       2
+   43.87      15
+  44.065      24
+ 44.2475      29
+  44.465      42
+  44.685      46
+ 44.8925      34
+  45.085      45
+ 45.3525      27
+ 47.7975      12
+  51.105      12
+   51.31      17
+  51.495      41
+  54.715      12
+ 65.6425       3
+   76.43       0
+   87.79       0
+  96.955       3
+107.2475      -1
+ 116.875      -2
+126.5375      -1
+136.9275       1
+  146.32       1
+156.3625       1
+ 158.355       0
+

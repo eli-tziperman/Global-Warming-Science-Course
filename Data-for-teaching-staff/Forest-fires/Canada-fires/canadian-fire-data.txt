@@ -1,0 +1,4 @@
+Source:
+http://nfdp.ccfm.org/en/data/fires.php
+
+20260427: Downloaded a tableau workbook file with both number and area from https://public.tableau.com/app/profile/susy.domenicano/viz/3-LandingPageFiresbyareaandnumber/3_EN

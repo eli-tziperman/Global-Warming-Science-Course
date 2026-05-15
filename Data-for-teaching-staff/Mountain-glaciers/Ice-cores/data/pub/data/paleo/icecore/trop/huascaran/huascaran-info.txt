@@ -1,0 +1,28 @@
+In July-August 1993, two ice cores to bedrock were recovered from the col 
+between the north and south peaks of Nevado Huascaran, Peru (9S, 77deg30'W, col 
+elevation 6050 m) and were subsequently transported back to the cold room facility at the 
+Byrd Polar Research Center (BPRC).  Core 1 (HSC1, 160.40 m) was sectioned in the 
+field into 2677 samples decreasing in thickness from 13 cm at the top to 3 cm at the base, 
+which were then melted and poured into 2 or 4 oz. plastic (HDPE) bottles, and sealed 
+with wax.  Core 2 (HSC2, 166.08 m), drilled approximately 100 m from the HSC1 site, 
+was returned frozen in 1 m sections.  Ice motion vectors determined from stake 
+movements from 1991-93 indicate that the drill sites are proximal to the divide between 
+ice flow towards the east and west outlets of the col.  Visible observations and borehole 
+temperatures indicate that the glacier is 'polar' type, i.e., it remains frozen to the bed 
+(Thompson et al., Science, v.269, 1995, p. 46-50).
+	Each ice sample from HSC2 was prepared in a Class 100 clean room 
+environment, and analyzed for major anion concentrations (Cl-, NO3-, and SO42-) on a 
+Dionex 2010i ion chromatograph, d18O on a Finnigan Mat mass spectrometer (Craig, 
+1957), and for particulate concentration and size distribution using a Coulter TA-II 
+particle counter (Thompson, OSU IPS Report 46, 1973).  A complete d18O profile was 
+also produced from the bottled samples from HSC1.  Contamination during field 
+preparation and transport of these samples precluded the development of a second 
+complete record of particles and anion concentrations.
+	For display purposes, variable averaging on the core depth scale was utilized to 
+show the major large-scale events in the record without the confusion of the large annual 
+variations superimposed upon the upper portion.  Hence, for HSC2, 5-m integrated 
+averages were calculated for between the surface and 140 meters depth and then 50-cm 
+averages were generated between 140 and 160 meters.  Between 160 and 166 meters, 
+every sample value was plotted.  A similar scheme was used for HSC1 (all values plotted 
+for 155-160.4 m).  These data are included in hs12-5m.txt in this data archive, and the 
+graph can be seen in Thompson et al., 1995 (Fig. 3).

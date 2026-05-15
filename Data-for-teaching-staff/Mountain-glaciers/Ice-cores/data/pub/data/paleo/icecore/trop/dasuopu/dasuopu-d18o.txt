@@ -1,0 +1,209 @@
+Dasuopu, China Ice Core Oxygen Isotope Data
+-----------------------------------------------------------------------
+               World Data Center for Paleoclimatology, Boulder
+                                  and
+                     NOAA Paleoclimatology Program
+-----------------------------------------------------------------------
+NOTE: PLEASE CITE CONTRIBUTORS WHEN USING THIS DATA!!!!!
+
+
+NAME OF DATA SET: Dasuopu, China Ice Core Oxygen Isotope Data
+LAST UPDATE: 9/2004 (Original receipt by WDC Paleo)
+CONTRIBUTOR:  Ellen Mosley-Thompson, The Ohio State University
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2004-058
+
+
+SUGGESTED DATA CITATION: Thompson, L.G., et al.. 2004. 
+Dasuopu, China Ice Core Oxygen Isotope Data.
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2004-058.
+NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
+
+
+ORIGINAL REFERENCES:  
+Thompson, L.G., T. Yao, E. Mosley-Thompson, M.E. Davis, K.A. Henderson, 
+and P.-N. Lin. 2000. A high-resolution millennial record of the 
+South Asian Monsoon from Himalayan ice cores. 
+Science, 289, 1916-1919. 
+
+
+Thompson, L.G., E. Mosley-Thompson, M.E. Davis, P.-N. Lin, K. Henderson, 
+and T.A. Mashiotta. 2003. 
+Tropical glacier and ice core evidence of climate change on annual to 
+millennial time scales. 
+Climatic Change, 59, 137-155.
+
+
+
+ABSTRACT (Thompson et al. 2000):
+A high-resolution ice core record from Dasuopu, Tibet, reveals that this site 
+is sensitive to fluctuations in the intensity of the South Asian Monsoon. 
+Reductions in monsoonal intensity are recorded by dust and chloride concentrations. 
+The deeper, older sections of the Dasuopu cores suggest many other periods of 
+drought in this region, but none have been of greater intensity than the greatest 
+recorded drought, during 1790 to 1796 A.D. of the last millennium. The 20th century 
+increase in anthropogenic activity in India and Nepal, upwind from this site, is 
+recorded by a doubling of chloride concentrations and a fourfold increase in dust. 
+Like other ice cores from the Tibetan Plateau, Dasuopu suggests a large-scale, 
+plateau-wide 20th-century warming trend that appears to be amplified at higher 
+elevations. 
+
+
+
+ABSTRACT (Thompson et al. 2003):
+This paper examines the potential of the stable isotopic ratios, 18O/16O 
+(d18Oice) and 2H/1H (dDice), preserved in mid to low latitude glaciers 
+as a tool for paleoclimate reconstruction. Ice cores are particularly valuable 
+as they contain additional data, such as dust concentrations, aerosol chemistry, 
+and accumulation rates, that can be combined with the isotopic information to 
+assist with inferences about the regional climate conditions prevailing at the 
+time of deposition. We use a collection of multi-proxy ice core histories to 
+explore the d18O-climate relationship over the last 25,000 years that includes 
+both Late Glacial Stage (LGS) and Holocene climate conditions. These results 
+suggest that on centennial to millennial time scales atmospheric temperature 
+is the principal control on the d18Oice of the snowfall that sustains these 
+high mountain ice fields. Decadally averaged d18Oice records from three Andean 
+and three Tibetan ice cores are composited to produce a low latitude d18Oice 
+history for the last millennium. Comparison of this ice core composite with 
+the Northern Hemisphere proxy record (1000–2000 A.D.) reconstructed by 
+Mann et al. (1999) and measured temperatures (1856–2000) reported by 
+Jones et al. (1999) suggests the ice cores have captured the decadal scale 
+variability in the global temperature trends. These ice cores show a 20th 
+century isotopic enrichment that suggests a large scale warming is underway 
+at low latitudes. The rate of this isotopically inferred warming is amplified 
+at higher elevations over the Tibetan Plateau while amplification in the Andes 
+is latitude dependent with enrichment (warming) increasing equatorward. 
+In concert with this apparent warming, in situ observations reveal that 
+tropical glaciers are currently disappearing. A brief overview of the loss 
+of these tropical data archives over the last 30 years is presented along 
+with evaluation of recent changes in mean d18Oice composition. The isotopic 
+composition of precipitation should be viewed not only as a powerful proxy 
+indicator of climate change, but also as an additional parameter to aid our 
+understanding of the linkages between changes in the hydrologic cycle and 
+global climate.
+
+
+GEOGRAPHIC REGION: Southwest China
+PERIOD OF RECORD:  1997 - 1000 A.D.
+
+
+DESCRIPTION: 
+Decadally averaged d18O (1990 - 1000 A.D.) from figure 5 of Thompson et al. 2003.
+
+
+Core location: 
+Dasuopu glacier (28°23'N, 85°43'E, 7000 m.) 
+
+
+
+
+Data:
+
+Decadal averages
+oxygen isotopic ratio
+
+Dasuopu     d18O
+date at 
+top of     
+interval 
+A.D.
+    1997  -17.34
+    1990  -18.58
+    1980  -17.67
+    1970  -17.97
+    1960  -17.91
+    1950  -17.14
+    1940  -18.41
+    1930  -19.01
+    1920  -19.78
+    1910  -18.58
+    1900  -20.24
+    1890  -18.65
+    1880  -18.65
+    1870  -20.20
+    1860  -18.98
+    1850  -19.72
+    1840  -19.97
+    1830  -19.35
+    1820  -20.67
+    1810  -19.63
+    1800  -18.67
+    1790  -21.52
+    1780  -21.04
+    1770  -21.08
+    1760  -19.63
+    1750  -19.29
+    1740  -21.99
+    1730  -19.77
+    1720  -20.68
+    1710  -19.93
+    1700  -19.42
+    1690  -19.58
+    1680  -19.28
+    1670  -20.63
+    1660  -20.72
+    1650  -19.95
+    1640  -20.04
+    1630  -20.84
+    1620  -21.29
+    1610  -20.78
+    1600  -21.10
+    1590  -20.83
+    1580  -20.53
+    1570  -20.71
+    1560  -20.69
+    1550  -19.98
+    1540  -20.56
+    1530  -20.71
+    1520  -21.33
+    1510  -20.56
+    1500  -19.93
+    1490  -20.34
+    1480  -20.58
+    1470  -20.77
+    1460  -20.24
+    1450  -21.29
+    1440  -20.60
+    1430  -21.38
+    1420  -20.79
+    1410  -21.09
+    1400  -20.46
+    1390  -19.81
+    1380  -20.60
+    1370  -20.71
+    1360  -20.27
+    1350  -20.36
+    1340  -20.69
+    1330  -21.03
+    1320  -20.41
+    1310  -21.12
+    1300  -20.35
+    1290  -20.42
+    1280  -21.00
+    1270  -20.24
+    1260  -20.44
+    1250  -21.12
+    1240  -19.67
+    1230  -20.89
+    1220  -21.30
+    1210  -20.69
+    1200  -21.34
+    1190  -20.78
+    1180  -21.08
+    1170  -20.98
+    1160  -20.77
+    1150  -20.50
+    1140  -20.67
+    1130  -21.94
+    1120  -21.38
+    1110  -20.89
+    1100  -21.48
+    1090  -21.22
+    1080  -21.73
+    1070  -20.56
+    1060  -20.71
+    1050  -21.93
+    1040  -21.71
+    1030  -21.52
+    1020  -21.47
+    1010  -22.18
