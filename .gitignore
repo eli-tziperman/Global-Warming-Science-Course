@@ -181,15 +181,12 @@ cython_debug/
 .cursorindexingignore
 
 
-code-for-students/
-Data-for-teaching-staff/
-20*spring/
 *.pickle
 *.zip
-development-of-course/
+20*spring/
+Course-notes/
 EPS101-Cheyenne/
 Publishing/
+code-for-students/
+development-of-course/
 summer-and-j-term/
-Course-notes/
-# Data-for-teaching-staff/
-# Sources/
