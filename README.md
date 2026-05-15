@@ -1,6 +1,6 @@
 # Global-Warming-Science-Course
 
-Resources for instructors using "Global Warming Science: A Quantitative Introduction to Climate Change and Its Consequences." Princeton University Press, 2022.
+Resources for instructors using "Global Warming Science: A Quantitative Introduction to Climate Change and Its Consequences." Princeton University Press, 2022. More [here](https://courses.seas.harvard.edu/climate/eli/Courses/EPS101/textbook.html).
 
 Included are Python scripts for the course that prepare and can be used to update the data and code for students. The scripts retrieve either data or CMIP climate model data—mostly from the cloud using Pangeo—no manual data downloads are required).
 
