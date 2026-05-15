@@ -1,0 +1,19 @@
+Eli, 20191230
+
+Following Xiaoting's selection of files, I downloaded the historical and rcp8.5 sea level (zos) files for NCASR/CCSM4 from https://www.earthsystemgrid.org/dataset/ucar.cgd.ccsm4.cmip5.output.html
+
+Using the two wget scripts here, using the -p option which ignores error checking and therefore avoids an infinite loop in which the data files are downloaded repeatedly.
+
+I then created the annual averaged files here using:
+
+ncra --mro -O -d time,0,,12,12 zos_Omon_CCSM4_rcp85_r5i1p1_200601-210012.nc zos_rcp85.nc
+ncra --mro -O -d time,0,,12,12 zos_Omon_CCSM4_historical_r1i1p1_185001-200512.nc zos_historical.nc
+
+I also created annual averaged ocean temperature files from the ones downloaded by Xiaoting:
+
+ncra --mro -O -d time,0,,12,12 thetao_Omon_CCSM4_historical_r6i1p1_first_year.nc thetao_historical.nc
+ncra --mro -O -d time,0,,12,12 thetao_Omon_CCSM4_rcp85_r6i1p1_last_year.nc thetao_rcp85.nc
+
+and discarded the large original downloaded files.
+
+It turns out that the zos (sea level above geoid) variable has a zero spatial mean at all times. So we also downloaded the global mean zos variables separately.

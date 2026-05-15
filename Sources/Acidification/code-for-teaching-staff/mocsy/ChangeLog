@@ -1,0 +1,120 @@
+ChangeLog
+
+version 2.4.0, 2018-11-11
+	-----------------------------------
+	- improved README, adding References and pointing to Doc and Examples
+	- added new jupyter notebook for demonstrating use of errors routine
+
+version 2.3.9, 2018-06-07
+	-----------------------------------
+	- modified !f2py statement for errors.f90 to  properly set defaults in python
+
+version 2.3.8, 2018-06-01
+	-----------------------------------
+	- errors: removed .NOT. in PRESENT clause for optS
+	- errors & test_errors: changed default uncertainties for epK & eBt
+	- modified f2py directives for real arrays in many routines (mocsy now compiles)
+
+version 2.3.7, 2017-12-08
+-----------------------------------
+	- cleaned PRESENT clauses & set some f2py defaults
+	- fixed PRESENT clauses (not recognized by f2py)
+	- buffesm - fixed inconsistencies in optional args
+	- created notebooks dir, with 3 .ipynb files from Emilio Mayorga
+
+version 2.3.6, 2017-10-21
+-----------------------------------
+	- postpended precision indicator "_rx" to input data in test_mocsy.f90
+	- added 'verbose' option to vars.f90, following code from J. Kasting
+
+version 2.3.5, 2017-10-20
+-----------------------------------
+	- derivnum: use absolute dx (denominator of partials) rather than value relative to input
+	- errors: corrected setting of default ebt=0.01
+	- gsw_mod_saar_data: reduced cases where too many continuation lines (for ifort) to one long line
+
+version 2.3.4, 2017-10-06
+-----------------------------------
+	- added option to allow use of TEOS-10 std (conservative T, absolute S); old EOS-80 std remains the default
+	- moved ebt (Bt error) from the epK input vector to a separate input argument
+
+version 2.3.3, 2016-12-20
+-----------------------------------
+	- changed 'intent(OUT)' to 'intent(IN) to some variables in 2 subroutines in gasx.f90
+	- fixed bug in buffesm.f90 (caused contrib from SiT to be neglected)
+	- added Method of moments to errors.f90  (adds covariance term between input pair)
+	- added uncertainty from total boron to error propgation
+
+version 2.3.2, 2016-08-15
+-----------------------------------
+	- new routines to compute K'(kprime)  and K0 (kzero); phizero revised
+	- modified setup.py & __init__.py ; renamed .travis.yml to travis.yml
+	- moved __init.py to main directory
+
+version 2.3.1, 2016-08-08
+-----------------------------------
+	- fixed packaging_boilerplate files
+	- 'import mocsy' fails due to mocsy/__init__.py file ; thus, moved it to mocsy/tmp directory
+	
+version 2.3, 2016-08-08
+-----------------------------------
+- Addded ability to propagate uncertianties (errors) & compute buffer factors (derivnum & derivauto)
+
+version 2.2.1, 2016-08-06
+-----------------------------------
+- Streamlined directory structure with hope to eventually provide mocsy as a conda package
+- Closely followed efforts of Filipe Fernades (ocepaf on gitub)
+- Other notable changes:
+  * renamed makefile to Makefile and modified it accordingly
+  * added examples in python and fortran; a Juypter Notebook is added thanks to Emilio Mayorga
+
+
+version 2.2, 2016-08-05
+-----------------------------------
+- Added 'solgas' subroutine to compute solubilities (Phi0) of CFC-11, CFC-12, SF6, CO2, and N20
+- Fixed previous small errors in gasex.f90 that prevented compilation
+
+version 2.1.3, 2016-01-19
+-----------------------------------
+- Updated scco2 (Schmidt  number Sc for CO2) to use Wanninkhof (2014) formulationc's of O2
+- Added functions to compute Sc's of O2, CFC11, CFC12, SF6 (sco2, sccfc11, ...)
+
+version 2.1.2, 2016-01-19
+-----------------------------------
+- Added _r4 to some remaining constants in vars.f90
+
+version 2.1.1, 2015-11-20
+-----------------------------------
+- Added _r4 to single-precision temperature-scale conversion constants
+
+version 2.1, 2015-11-20
+-----------------------------------
+- Added Waters et al. (2014) formulation for K1 and K2 (fix to Millero, 2010)
+
+version 2.0.1, 2015-09-15
+-----------------------------------
+- Added ChangeLog file
+- Fixed typo in vars.f90 : "Kf = aKs(1)" ->  "Kf = aKf(1)" ; very small impact (mocsy uses the total H+ scale)
+
+version 2.0, 2015-03-09 (published paper)
+-----------------------------------
+- Version described in Orr et al. (2015)
+- includes fast and accurate pH solver routines from Munhoven
+- uses accurate numerical algorithm for Revelle factor, replacing analytical solution (ignores nutrient alkalinity)
+
+version 1.0, 2014-05-05 (published discussion paper)
+-----------------------------------
+- Version described in Orr et al. (2014)
+
+
+REFERENCES
+
+Millero, F. J.: Carbonate constants for estuarine waters, Mar. Freshwater
+Res., 61, 139–142, doi:10.1071/MF09254, 2010.
+
+Orr, J. C. and Epitalon, J.-M.: Improved routines to model the ocean carbonate system: mocsy 2.0, Geosci. Model Dev., 8, 485-499, doi:10.5194/gmd-8-485-2015, 2015.  
+
+Orr, J. C. and Epitalon, J.-M.: Improved routines to model the ocean carbonate system: mocsy 1.0, Geosci. Model Dev. Discuss., 7, 2877-2902, doi:10.5194/gmdd-7-2877-2014, 2014.  
+
+Waters, J., F. J. Millero, and R. J. Woosley. Corrigendum to “The free proton concentration scale for seawater pH”,[MARCHE: 149 (2013) 8–22]. Marine Chemistry 165 (2014): 66-67.  
+

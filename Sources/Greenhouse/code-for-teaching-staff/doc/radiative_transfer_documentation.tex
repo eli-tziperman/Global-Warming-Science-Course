@@ -1,0 +1,55 @@
+%**start of header
+\documentclass[pdftex,twoside,authoryear,round,12pt]{article}
+\usepackage{color}
+\usepackage{datetime}
+\usepackage{natbib}
+\usepackage[pdftex]{graphicx}
+\usepackage{commath}
+\usepackage[bookmarks,colorlinks=true,plainpages=false, 
+citecolor=black,urlcolor=blue,linkcolor=blue,filecolor=blue]{hyperref} % usage: \href{URL}{text}
+\usepackage{amssymb,amsfonts,amsmath}
+\usepackage{floatrow}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{wasysym,gensymb,bm} % various symbols, including \permil, and bold math
+\usepackage{verbatim} % allows the use of \begin{comment} ... \end{comment}
+\renewcommand{\baselinestretch}{1.0}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+\setlength{\topmargin}{0.0in}
+\usepackage{tocloft}
+\usepackage{enumitem}
+\usepackage{subcaption}
+\renewcommand{\cftbeforesecskip}{3pt}
+
+\begin{document}
+%**end of header
+
+\begin{center}
+  {\Large Documentation for radiative transfer code}\\
+  (Camille Hankel, updated: \today, \currenttime)
+\end{center}
+
+The goal of the radiative transfer code is to calculate the outgoing longwave radiation of Earth using line-by-line spectroscopy and real-gas theory. 
+
+\section{Assumptions}
+
+This code is a simplified radiative transfer model in several ways. First, it uses a fixed temperature profile in the atmosphere that does NOT dynamically adjust to radiative inbalance. It does not take into account absorption of shortwave radiation. It does not have any feedbacks, nor the effect of clouds. It only calculates what the outgoing longwave radiation would be given a fixed temperature profile and fixed atmospheric concentrations of greenhouse gases. The concentration of CO2 can be updated but is a constant value throughout the atmosphere. The concentration of the other three greenhouse gases (H20, 03, CH4) are fixed based on profiles from Anderson et al (1986) which change with atmospheric height. The vertical integration (more on this later) uses 36 atmospheric levels up to a height of 50km. Broadened spectral lines are cutoff 25 cm$^{-1}$ from the line center to prevent tails of broadening lines from interfering non-locally. Natural broadening is ignored as it is very small at these partial pressures, but pressure and doppler broadening of the lines are implemented. The spectral resolution of the grid can be adjusted, but it is recommended to use a resolution of .1 cm$^{-1}$ or less. 
+
+\section{Implementation}
+
+At the heart of the radiative transfer calculation is the real-gas two stream equations for calculating outoing longwave radiation. That equation can be written as:  
+\[\mathcal{F}_+(\bar{\tau}_{\infty}) = \mathcal{F}_+(0)\mathcal{T}(0,\bar{\tau}_{\infty}) + \pi \int_{\mathcal{T}(0,\bar{\tau}_{\infty})}^1 B_{k}d\mathcal{T}(\tau,\bar{\tau}_{\infty})\]
+where $B_k$ is the planck function and $\mathcal{T}$ is the transmission function: $\mathcal{T} = e^{-\tau}$. It is easy to see that in order to do this integration we need to first know $\tau$ (optical depth) at every level of the atmosphere. The function get\_tau in the code integrates up the atmosphere calculating the optical depth of each atmospheric level by multiplying the absorption cross-section at that level by the mass column of that level \textit{for a specfic gas}. Once $\tau$ at every level at every wavenumber has been calculated for every gas, we sum $\tau$ over all the gases. 
+
+Calculating the absorption cross-section at each level is where we must read in the HITRAN data for each gas, which gives us a list of spectral line centers and other gas-specific information. The HITRAN website (https://hitran.org/docs/definitions-and-units/) gives most of the formulas needed to calculate the absorption cross-section from the data they provide. They include the formulas for Doppler broadening and pressure broadening separately--  note that we convolve these two formulas to get the Voigt profile, which is the line profile that arises from combining both effects. Note that on the HITRAN webpage they use $\nu$ to indicate wavenumber, rather than frequency. The final formula they give is for the absorption coefficient; we must convert this from units of (1/molecule cm$^{-2}$) to m$^2$/kg to give us the absorption cross-section. 
+
+To conclude, the overall structure of the radiative transfer code is this: 
+\begin{enumerate}
+\item Read in HITRAN data
+\item Integrate once up the atmosphere to calculate the absorption cross-section and subsequently $\tau$ at each atmospheric level. This of course is done over the entire wavenumber range at each level. Most of the computation time is in this step.
+\item Now that we have all the $\tau$'s including $\tau_\infty$, we integrate up the atmosphere a second time, this time calculating the longwave emission at each level, and ultimately giving us the outgoing longwave emission at the top of the atmosphere.
+\end{enumerate}
+\end{document}

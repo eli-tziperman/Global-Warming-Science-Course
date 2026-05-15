@@ -17,3 +17,12 @@ Sources/Acidification/acidification_slides.key filter=lfs diff=lfs merge=lfs -te
 Sources/Mountain-glaciers/mountain_glaciers_slides.key filter=lfs diff=lfs merge=lfs -text
 /Data-for-teaching-staff/Heat-waves/Output/to-pickle/heat_waves_weekly_averages_TREFHTMX.npy filter=lfs diff=lfs merge=lfs -text
 /Data-for-teaching-staff/Heat-waves/Output/to-pickle/heat_waves_weekly_averages_Z500.npy filter=lfs diff=lfs merge=lfs -text
+/Sources/Clouds/clouds_slides.pdf filter=lfs diff=lfs merge=lfs -text
+/Sources/Droughts/droughts_slides.pdf filter=lfs diff=lfs merge=lfs -text
+/Sources/Forest-fires/code-for-students/Forest-fires.zip filter=lfs diff=lfs merge=lfs -text
+/Sources/Heat-waves/code-for-students/Heat-waves.zip filter=lfs diff=lfs merge=lfs -text
+/Sources/Heat-waves/heat_waves_slides.key filter=lfs diff=lfs merge=lfs -text
+/Sources/Hurricanes/hurricanes_slides.pdf filter=lfs diff=lfs merge=lfs -text
+/Sources/Mountain-glaciers/mountain_glaciers_slides.pdf filter=lfs diff=lfs merge=lfs -text
+/Sources/Ocean-circulation/ocean_circulation_slides.key filter=lfs diff=lfs merge=lfs -text
+/Sources/Sea-level/sea_level_slides.pdf filter=lfs diff=lfs merge=lfs -text

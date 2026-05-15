@@ -1,0 +1,21 @@
+Eli: getting tree-ring data
+20190831
+
+Main NOAA tree ring data webpage:
+https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/tree-ring
+
+Interactive map for identifying data for a particular location:
+https://gis.ncdc.noaa.gov/maps/ncei/paleo?layers=0000000000000001
+
+One specific data file is from:
+https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca662.rwl
+
+Explanation of data this particular data file is in:
+https://www.ncdc.noaa.gov/paleo-search/study/8562?siteId=22849
+
+
+I downloaded all California/usa files using:
+wget --no-parent -m -A ca* -pk -e robots=off  www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/
+
+Then I find the files that are from Bernardino county and are for 'bigcone Douglas-fir' trees using:
+grep -lZ 'Bernardino' * | xargs -0 grep -l 'bigcone Douglas-fir'

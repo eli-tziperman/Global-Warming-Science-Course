@@ -1,0 +1,15 @@
+See figure 2.8 in
+
+@techreport{Crimmins-Avery-Easterling-et-al-2023:fifth,
+  title =	 {Fifth national climate assessment},
+  author =	 {Crimmins, Allison R and Avery, Christopher W and
+                  Easterling, David R and Kunkel, Kenneth E and
+                  Stewart, Brooke C and Maycock, Thomas K},
+  doi =		 {https://doi.org/10.7930/NCA5.2023},
+  institution =	 {NOAA},
+  year =	 2023
+}
+
+download from:
+https://repository.library.noaa.gov/view/noaa/61592/noaa_61592_DS1.pdf
+
