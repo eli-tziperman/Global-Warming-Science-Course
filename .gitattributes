@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # add files larger than 90M to LFS storage instead of regular Github
 # using the following bash command:
 # cd ~/Courses/EPS101
