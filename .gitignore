@@ -181,13 +181,16 @@ cython_debug/
 .cursorindexingignore
 
 
+*.ipynb_checkpoints
 *.pickle
+*.virtual_documents
 *.zip
 20*spring/
-Course-notes/
 Course-notes
+Course-notes/
 EPS101-Cheyenne/
 Publishing/
-code-for-students/
+code-for-students/*_workshop_solution.ipynb
+code-for-students/*_workshop_solution.pdf
 development-of-course/
 summer-and-j-term/
