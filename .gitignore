@@ -77,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.virtual_documents
 
 # IPython
 profile_default/
@@ -185,6 +186,7 @@ cython_debug/
 *.pickle
 *.virtual_documents/
 *.zip
+.DS_Store
 20*spring/
 Course-notes
 Course-notes/
