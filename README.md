@@ -2,7 +2,12 @@
 
 Resources for instructors using "Global Warming Science: A Quantitative Introduction to Climate Change and Its Consequences" by Eli Tziperman. Princeton University Press, 2022. More about the textbook [here](https://courses.seas.harvard.edu/climate/eli/Courses/EPS101/textbook.html).
 
-Included are Python scripts that prepare and can be used to update the data and code for students. The scripts retrieve either observations or CMIP climate output, mostly from the cloud, e.g., using Pangeo, minimizing manual data downloads when possible.
+Included are:
+* Jupyter notebooks for in-class work for students.
+* Data (pickle files) to accompany the student notebooks.
+* Slides (Keynote and PDF) for instructors.
+* Python scripts that prepare and can be used to update the data and code for students. The scripts retrieve either observations or CMIP climate output, mostly from the cloud, e.g., using Pangeo, minimizing manual data downloads when possible.
+* Solutions for the Jupyter notebooks are available as explained [here](https://courses.seas.harvard.edu/climate/eli/Courses/EPS101/index.html).
 
 ## Course website
 
