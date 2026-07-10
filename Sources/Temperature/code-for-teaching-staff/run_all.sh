@@ -14,7 +14,7 @@ python read_Mann_etal_hockeystick_temperature_timeseries_ascii_write_npy.py
 
 jupyter nbconvert --to notebook --inplace --execute prepeare_temperature_data_for_students.ipynb
 
-prepare_data_for_fingerprinting.py
+python prepare_data_for_fingerprinting.py
 
 # pickle variables for students:
 python pickle_vars_for_students.py
