@@ -95,37 +95,7 @@ kilometers.
 
 Xiao et al. (2026) specify the two central processing steps for Fig. 17: forming monthly 0.05-degree SCF averages from cells with at least five clear-sky observations and then averaging four constituent pixels onto the 0.1-degree ERA5-Land grid. They do not, however, provide enough implementation detail to reproduce the plotted SCFG curve exactly. The paper does not state the precise SCA integration formula, how a target cell is treated when only one to three of its four AVHRR constituents are valid, which land-water mask is used, whether changing monthly valid area is normalized or restricted to a fixed spatial domain, or the exact anomaly convention and treatment of months with missing daily files. Neither the paper nor its supplement provides the 45 plotted SCFG values or the analysis code. Here we use a spherical area-weighted sum of fractional SCFG, the ERA5-Land finite-cell mask, every target cell with at least one valid constituent, and anomalies relative to the complete 1979-2023 March mean. Tests using the native AVHRR land mask or requiring all four constituents did not improve agreement with the digitized Fig. 17a curve, while a simple valid-area normalization produced only a small improvement. The remaining mismatch therefore likely reflects one or more undocumented processing choices, or a difference between the public data and the version used to prepare the figure.
 
-## Seasonal anomalies
-
-The monthly Northern Hemisphere snow-covered area is resampled into seasonal means using quarters starting in December:
-
-`QS-DEC`
-
-This gives:
-
-- DJF: December-February
-- MAM: March-May
-- JJA: June-August
-- SON: September-November
-
-Seasons are retained only when all three monthly values are present so partial seasons at the beginning or end of the record do not affect the regression.
-
-For each season, the script subtracts that season's 1979-2023 mean snow-covered area from every seasonal value. The plotted series and fitted linear trend are therefore seasonal SCA anomalies in million km², analogous to the March Northern Hemisphere SCA anomalies shown in Fig. 17 of Xiao et al. (2026), but extended here to DJF, MAM, JJA, and SON. Each panel's legend reports the trend in million km² per decade and its $R^2$.
-
-The seasonal dictionary saved for students is:
-
-`Output/to-pickle/snow_extent_north_hemisphere.npy`
-
-Each season contains:
-
-- `time`: season timestamp
-- `area`: seasonal mean monthly SCFG snow-covered area in million km²
-- `anomaly`: seasonal SCA anomaly in million km²
-
-The seasonal figure is saved as:
-
-`Output/snow-cover-seasonal-timeseries.pdf`
-
+## 
 ## Monthly and March anomalies
 
 For each calendar month, the script subtracts that month's 1979-2023 mean from its 45 annual values and fits an ordinary least-squares linear trend. The 12-panel legend reports the trend in million km² per decade and its $R^2$. The monthly figure is saved as:

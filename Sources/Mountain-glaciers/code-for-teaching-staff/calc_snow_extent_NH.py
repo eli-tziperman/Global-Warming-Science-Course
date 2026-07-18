@@ -1,4 +1,4 @@
-# Calculate seasonal Northern Hemisphere snow-covered-area anomalies from
+# Calculate monthly Northern Hemisphere snow-covered-area anomalies from
 # AVHRR10C1.V4 fractional snow cover.
 #
 # Xiao, X., Naegeli, K., Premier, V., Li, S., Neuhaus, C., Wiesmann, A.,
@@ -37,7 +37,6 @@ END_DATE = pd.Timestamp("2023-12-31")
 STUDY_MONTHS = pd.date_range(START_DATE, END_DATE, freq="MS")
 
 OUTPUT_DIR = Path("Output/to-pickle")
-SEASONAL_FIGURE = Path("Output/mountain-glaciers-seasonal-snow-extent-timeseries-NH.pdf")
 MONTHLY_FIGURE = Path("Output/snow-cover-monthly-timeseries.pdf")
 MARCH_FIGURE = Path("Output/snow-cover-march-scfg-anomaly-xiao17a-aspect.pdf")
 
@@ -348,52 +347,6 @@ def finish_figure(fig, path):
     log(f"Saved figure: {path}")
 
 
-def plot_seasonal_anomalies(monthly_area):
-    area = monthly_area_series(monthly_area)
-    seasonal = pd.DataFrame(
-        {
-            "area": area.resample("QS-DEC").mean(),
-            "count": area.resample("QS-DEC").count(),
-        }
-    )
-    seasons = [
-        (12, "DJF", "Winter (Dec-Feb)"),
-        (3, "MAM", "Spring (Mar-May)"),
-        (6, "JJA", "Summer (Jun-Aug)"),
-        (9, "SON", "Autumn (Sep-Nov)"),
-    ]
-
-    fig, axes = plt.subplots(2, 2, figsize=(8, 6))
-    snow_area_north_hemisphere = {}
-
-    for i, (ax, (start_month, season, season_name)) in enumerate(zip(axes.flat, seasons)):
-        season_data = seasonal.loc[
-            (seasonal.index.month == start_month) & (seasonal["count"] == 3), "area"
-        ]
-        df, regression = anomaly_dataframe(season_data)
-        snow_area_north_hemisphere[season] = {name: df[name] for name in ("time", "area", "anomaly")}
-        plot_anomaly_lines(
-            ax,
-            df,
-            "SCFG SCA anomaly",
-            f"Trend: ${regression.slope * 10:.2f}$ M km$^2/$dec; $R^2={regression.rvalue**2:.2f}$",
-            linewidth=1.5,
-        )
-        ax.set_title(season_name, fontsize=12)
-        ax.set_ylabel("SCA anomaly ($10^6$ km$^2$)")
-        if i in (2, 3):
-            ax.set_xlabel("Year")
-        ax.set_xlim(START_DATE, pd.Timestamp("2025-01-01"))
-        ax.grid(True, linestyle=":", alpha=0.6)
-        ax.legend(loc="best")
-        format_year_axis(ax)
-
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    np.save(OUTPUT_DIR / "snow_extent_north_hemisphere.npy", snow_area_north_hemisphere)
-
-    fig.tight_layout()
-    finish_figure(fig, SEASONAL_FIGURE)
-
 
 def plot_monthly_anomalies(monthly_area):
     area = monthly_area_series(monthly_area)
@@ -467,7 +420,6 @@ def main():
         log(f"Monthly cache still lacks {len(missing_months)} months; skipping figures until it is complete.")
         return
 
-    plot_seasonal_anomalies(monthly_area)
     plot_monthly_anomalies(monthly_area)
     plot_march_anomaly_xiao_style(monthly_area)
 
