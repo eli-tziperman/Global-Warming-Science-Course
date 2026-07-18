@@ -110,7 +110,7 @@ This gives:
 
 Seasons are retained only when all three monthly values are present so partial seasons at the beginning or end of the record do not affect the regression.
 
-For each season, the script subtracts that season's 1979-2023 mean snow-covered area from every seasonal value. The plotted series and fitted linear trend are therefore seasonal SCA anomalies in million km², analogous to the March Northern Hemisphere SCA anomalies shown in Fig. 17 of Xiao et al. (2026), but extended here to DJF, MAM, JJA, and SON.
+For each season, the script subtracts that season's 1979-2023 mean snow-covered area from every seasonal value. The plotted series and fitted linear trend are therefore seasonal SCA anomalies in million km², analogous to the March Northern Hemisphere SCA anomalies shown in Fig. 17 of Xiao et al. (2026), but extended here to DJF, MAM, JJA, and SON. Each panel's legend reports the trend in million km² per decade and its $R^2$.
 
 The seasonal dictionary saved for students is:
 

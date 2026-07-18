@@ -37,7 +37,7 @@ END_DATE = pd.Timestamp("2023-12-31")
 STUDY_MONTHS = pd.date_range(START_DATE, END_DATE, freq="MS")
 
 OUTPUT_DIR = Path("Output/to-pickle")
-SEASONAL_FIGURE = Path("Output/snow-cover-seasonal-timeseries.pdf")
+SEASONAL_FIGURE = Path("Output/mountain-glaciers-seasonal-snow-extent-timeseries-NH.pdf")
 MONTHLY_FIGURE = Path("Output/snow-cover-monthly-timeseries.pdf")
 MARCH_FIGURE = Path("Output/snow-cover-march-scfg-anomaly-xiao17a-aspect.pdf")
 
@@ -376,7 +376,7 @@ def plot_seasonal_anomalies(monthly_area):
             ax,
             df,
             "SCFG SCA anomaly",
-            f"Trend: ${regression.slope * 10:.2f}$ M km$^2/$dec",
+            f"Trend: ${regression.slope * 10:.2f}$ M km$^2/$dec; $R^2={regression.rvalue**2:.2f}$",
             linewidth=1.5,
         )
         ax.set_title(season_name, fontsize=12)
