@@ -19,7 +19,9 @@ import re
 import subprocess
 import time
 
+import cartopy.crs as ccrs
 import matplotlib.dates as mdates
+import matplotlib.path as mpath
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -39,6 +41,8 @@ STUDY_MONTHS = pd.date_range(START_DATE, END_DATE, freq="MS")
 OUTPUT_DIR = Path("Output/to-pickle")
 MONTHLY_FIGURE = Path("Output/snow-cover-monthly-timeseries.pdf")
 MARCH_FIGURE = Path("Output/snow-cover-march-scfg-anomaly-xiao17a-aspect.pdf")
+MARCH_MAP_FIGURE = Path("Output/snow-cover-march-scfg-decadal-maps.pdf")
+OCTOBER_MAP_FIGURE = Path("Output/snow-cover-october-scfg-decadal-maps.pdf")
 
 DATA_DIR = Path.home() / "Downloads" / "snow-cover-data"
 ARCHIVE_DIR = DATA_DIR / "archives"
@@ -47,6 +51,7 @@ PROCESSING_VERSION = "xiao_fig17a_era5land_0p1_v1"
 MONTHLY_AREA_CACHE = DATA_DIR / f"monthly_nh_scfg_area_{PROCESSING_VERSION}_mkm2.csv"
 TIFF_INDEX_CACHE = DATA_DIR / "avhrr10c1_v4_scfg_tiff_index_1979_2023.csv"
 ERA5_LAND_MASK_SOURCE = DATA_DIR / "era5_land_snow_cover_197903_mask_source.nc"
+DECADAL_MAP_CACHE = DATA_DIR / f"nh_scfg_decadal_maps_{PROCESSING_VERSION}_0p5.npz"
 
 ZENODO_RECORD_API = "https://zenodo.org/api/records/16746237"
 REQUEST_TIMEOUT = 60
@@ -54,6 +59,10 @@ DOWNLOAD_RETRIES = 3
 EARTH_RADIUS_KM = 6371.0088
 ERA5_GRID_SPACING_DEGREES = 0.1
 MIN_VALID_OBSERVATIONS_PER_PIXEL = 5
+FIRST_DECADE = range(1979, 1989)
+LAST_DECADE = range(2014, 2024)
+SCA_LONGITUDE = np.linspace(-179.8, 179.7, 720, dtype=np.float32)
+SCA_LATITUDE = np.linspace(89.7, 0.2, 180, dtype=np.float32)
 XIAO_FIG17A_PANEL_ASPECT = 1010 / 487
 XIAO_FIG17A_XLIM = (pd.Timestamp("1976-12-17 10:48:00"), pd.Timestamp("2025-05-12 13:12:00"))
 XIAO_FIG17A_YLIM = (-7, 7)
@@ -224,7 +233,8 @@ def aggregate_scfg_to_era5_land(monthly_scfg_fraction, valid, era5_land_mask):
     return coarse_scfg_fraction, comparison_domain
 
 
-def snow_area_from_month_files(paths, era5_land_mask):
+def monthly_scfg_from_files(paths, era5_land_mask):
+    """Return monthly fractional SCFG and its valid domain on the 0.1-degree grid."""
     scfg_sum = np.zeros((1801, 7200), dtype=np.float32)
     valid_count = np.zeros((1801, 7200), dtype=np.uint8)
 
@@ -243,9 +253,13 @@ def snow_area_from_month_files(paths, era5_land_mask):
         where=enough_observations,
     )
 
-    coarse_scfg_fraction, comparison_domain = aggregate_scfg_to_era5_land(
+    return aggregate_scfg_to_era5_land(
         monthly_scfg_fraction, enough_observations, era5_land_mask
     )
+
+
+def snow_area_from_month_files(paths, era5_land_mask):
+    coarse_scfg_fraction, comparison_domain = monthly_scfg_from_files(paths, era5_land_mask)
     row_areas = era5_land_northern_hemisphere_row_areas()
     valid_area_mkm2 = float(np.dot(comparison_domain.sum(axis=1), row_areas) / 1e6)
     if valid_area_mkm2 == 0.0:
@@ -314,6 +328,163 @@ def build_monthly_area_series():
     return monthly_area.sort_values("time")
 
 
+def aggregate_scfg_to_half_degree(scfg_fraction):
+    """Area-average a masked 0.1-degree SCFG field onto a 0.5-degree grid."""
+    valid = np.isfinite(scfg_fraction)
+    weights = valid * era5_land_northern_hemisphere_row_areas()[:, None]
+    weighted_sum = (np.where(valid, scfg_fraction, 0.0) * weights).reshape(180, 5, 720, 5).sum(axis=(1, 3))
+    weight_sum = weights.reshape(180, 5, 720, 5).sum(axis=(1, 3))
+    return np.divide(
+        weighted_sum,
+        weight_sum,
+        out=np.full((180, 720), np.nan, dtype=np.float32),
+        where=weight_sum > 0,
+    )
+
+
+def mean_scfg_map(tiff_index, era5_land_mask, month, years):
+    """Average one calendar month's 0.5-degree SCFG fields over the requested years."""
+    scfg_sum = np.zeros((180, 720), dtype=np.float64)
+    valid_years = np.zeros((180, 720), dtype=np.uint8)
+
+    for year in years:
+        paths = tiff_index.loc[
+            (tiff_index["time"].dt.year == year) & (tiff_index["time"].dt.month == month), "path"
+        ].tolist()
+        scfg_fraction, valid_domain = monthly_scfg_from_files(paths, era5_land_mask)
+        half_degree_scfg = aggregate_scfg_to_half_degree(np.where(valid_domain, scfg_fraction, np.nan))
+        valid = np.isfinite(half_degree_scfg)
+        scfg_sum += np.where(valid, half_degree_scfg, 0.0)
+        valid_years += valid
+        log(f"    {year}: {len(paths)} daily files")
+
+    return np.divide(
+        scfg_sum,
+        valid_years,
+        out=np.full((180, 720), np.nan, dtype=np.float32),
+        where=valid_years > 0,
+    )
+
+
+def build_decadal_scfg_maps():
+    """Return cached 0.5-degree March and October SCFG means for the first and last decades."""
+    if DECADAL_MAP_CACHE.exists():
+        log(f"Using cached decadal SCFG maps: {DECADAL_MAP_CACHE}")
+        with np.load(DECADAL_MAP_CACHE) as cache:
+            return {name: cache[name] for name in cache.files}
+
+    tiff_index = load_tiff_index()
+    era5_land_mask = era5_land_northern_hemisphere_mask()
+    maps = {}
+    for month, month_name in ((3, "march"), (10, "october")):
+        for period_name, years in (("first", FIRST_DECADE), ("last", LAST_DECADE)):
+            log(f"Calculating {month_name.title()} {period_name}-decade mean SCFG")
+            maps[f"{month_name}_{period_name}"] = mean_scfg_map(tiff_index, era5_land_mask, month, years)
+
+    DECADAL_MAP_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    np.savez_compressed(DECADAL_MAP_CACHE, **maps)
+    log(f"Saved decadal SCFG map cache: {DECADAL_MAP_CACHE}")
+    return maps
+
+
+def save_decadal_scfg_fields(maps):
+    """Save the four plotted 0.5-degree mean SCFG fields and their coordinates."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    fields = (
+        ("March", "march_first", FIRST_DECADE),
+        ("March", "march_last", LAST_DECADE),
+        ("October", "october_first", FIRST_DECADE),
+        ("October", "october_last", LAST_DECADE),
+    )
+    for month_name, map_name, years in fields:
+        filename = f"SCA_{month_name}_{years.start}_{years.stop - 1}.npy"
+        np.save(OUTPUT_DIR / filename, maps[map_name] * 100)
+
+    np.save(OUTPUT_DIR / "SCA_longitude.npy", SCA_LONGITUDE)
+    np.save(OUTPUT_DIR / "SCA_latitude.npy", SCA_LATITUDE)
+    log(f"Saved four decadal SCA fields and their coordinates to {OUTPUT_DIR}")
+
+
+def polar_map_axis(ax):
+    """Format one circular Northern Hemisphere polar-map axis."""
+    angle = np.linspace(0, 2 * np.pi, 200)
+    circle = mpath.Path(np.column_stack((np.sin(angle), np.cos(angle))) * 0.5 + 0.5)
+    ax.set_extent([-180, 180, 0, 90], crs=ccrs.PlateCarree())
+    ax.set_boundary(circle, transform=ax.transAxes)
+    ax.coastlines(resolution="50m", linewidth=0.5, color="0.25")
+    ax.gridlines(
+        crs=ccrs.PlateCarree(),
+        xlocs=np.arange(-180, 181, 45),
+        ylocs=np.arange(0, 91, 30),
+        linewidth=0.4,
+        color="0.45",
+        linestyle=":",
+    )
+
+
+def plot_decadal_scfg_maps(maps, month_name, path):
+    """Plot first-decade mean, last-decade mean, and their difference."""
+    first = maps[f"{month_name.lower()}_first"] * 100
+    last = maps[f"{month_name.lower()}_last"] * 100
+    difference = last - first
+    difference_limit = max(10, 5 * np.ceil(np.nanpercentile(np.abs(difference), 99) / 5))
+
+    longitude_edges = np.append(SCA_LONGITUDE - 0.25, SCA_LONGITUDE[-1] + 0.25)
+    latitude_edges = np.append(SCA_LATITUDE + 0.25, SCA_LATITUDE[-1] - 0.25)
+    fields = (first, last, difference)
+    titles = ("1979-1988", "2014-2023", "2014-2023 minus 1979-1988")
+
+    fig, axes = plt.subplots(
+        1,
+        3,
+        figsize=(11, 4.2),
+        subplot_kw={"projection": ccrs.NorthPolarStereo()},
+    )
+    for ax, field, title in zip(axes, fields, titles):
+        if ax is axes[2]:
+            difference_step = 10 if difference_limit >= 40 else 5
+            ticks = np.arange(-difference_limit, difference_limit + difference_step, difference_step)
+            cmap = "PiYG"
+            label = "SCFG change (percentage points)"
+            extend = "both"
+            limits = (-difference_limit, difference_limit)
+        else:
+            ticks = np.arange(0, 101, 20)
+            cmap = "Blues"
+            label = "Mean SCFG (%)"
+            extend = "neither"
+            limits = (0, 100)
+
+        pixels = ax.pcolormesh(
+            longitude_edges,
+            latitude_edges,
+            field,
+            cmap=cmap,
+            vmin=limits[0],
+            vmax=limits[1],
+            shading="flat",
+            antialiased=False,
+            rasterized=True,
+            transform=ccrs.PlateCarree(),
+        )
+        polar_map_axis(ax)
+        ax.set_title(title, fontsize=11)
+        fig.colorbar(
+            pixels,
+            ax=ax,
+            orientation="horizontal",
+            pad=0.04,
+            shrink=0.88,
+            ticks=ticks,
+            extend=extend,
+            label=label,
+        )
+
+    fig.suptitle(f"{month_name} snow cover: 10-year mean SCFG at 0.5-degree resolution", fontsize=13)
+    fig.tight_layout()
+    finish_figure(fig, path)
+
+
 def monthly_area_series(monthly_area):
     """Return the cached area values as a time-indexed pandas series."""
     return monthly_area.set_index("time")["area"].sort_index().loc[START_DATE:END_DATE]
@@ -377,7 +548,7 @@ def plot_monthly_anomalies(monthly_area):
         format_year_axis(ax)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    np.save(OUTPUT_DIR / "snow_area_monthly_north_hemisphere.npy", monthly_snow_area)
+    np.save(OUTPUT_DIR / "SCA_NH_monthly.npy", monthly_snow_area)
 
     fig.tight_layout()
     finish_figure(fig, MONTHLY_FIGURE)
@@ -422,6 +593,10 @@ def main():
 
     plot_monthly_anomalies(monthly_area)
     plot_march_anomaly_xiao_style(monthly_area)
+    decadal_maps = build_decadal_scfg_maps()
+    save_decadal_scfg_fields(decadal_maps)
+    plot_decadal_scfg_maps(decadal_maps, "March", MARCH_MAP_FIGURE)
+    plot_decadal_scfg_maps(decadal_maps, "October", OCTOBER_MAP_FIGURE)
 
 
 if __name__ == "__main__":

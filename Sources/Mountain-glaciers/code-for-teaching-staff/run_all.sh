@@ -11,6 +11,6 @@ jupyter nbconvert --to notebook --inplace --execute Quelccaya_ice_core.ipynb
 
 jupyter nbconvert --to notebook --inplace --execute WGMS.ipynb
 
-python calc_snow_extent_NH.py
+python calc_snow_area_NH.py
 
 python pickle_vars_for_students.py

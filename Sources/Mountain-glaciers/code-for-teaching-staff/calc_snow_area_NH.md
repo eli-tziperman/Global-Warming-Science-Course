@@ -1,6 +1,6 @@
-# Northern Hemisphere Snow Cover Calculation
+# Northern Hemisphere Snow-Covered Area Calculation
 
-This note describes the calculation implemented in `calc_snow_extent_NH.py`.
+This note describes the calculation implemented in `calc_snow_area_NH.py`.
 
 ## Input data
 
@@ -95,7 +95,6 @@ kilometers.
 
 Xiao et al. (2026) specify the two central processing steps for Fig. 17: forming monthly 0.05-degree SCF averages from cells with at least five clear-sky observations and then averaging four constituent pixels onto the 0.1-degree ERA5-Land grid. They do not, however, provide enough implementation detail to reproduce the plotted SCFG curve exactly. The paper does not state the precise SCA integration formula, how a target cell is treated when only one to three of its four AVHRR constituents are valid, which land-water mask is used, whether changing monthly valid area is normalized or restricted to a fixed spatial domain, or the exact anomaly convention and treatment of months with missing daily files. Neither the paper nor its supplement provides the 45 plotted SCFG values or the analysis code. Here we use a spherical area-weighted sum of fractional SCFG, the ERA5-Land finite-cell mask, every target cell with at least one valid constituent, and anomalies relative to the complete 1979-2023 March mean. Tests using the native AVHRR land mask or requiring all four constituents did not improve agreement with the digitized Fig. 17a curve, while a simple valid-area normalization produced only a small improvement. The remaining mismatch therefore likely reflects one or more undocumented processing choices, or a difference between the public data and the version used to prepare the figure.
 
-## 
 ## Monthly and March anomalies
 
 For each calendar month, the script subtracts that month's 1979-2023 mean from its 45 annual values and fits an ordinary least-squares linear trend. The 12-panel legend reports the trend in million km² per decade and its $R^2$. The monthly figure is saved as:
@@ -110,24 +109,39 @@ Its plotting box uses the measured Fig. 17a panel aspect ratio from Xiao et al. 
 
 The monthly dictionary saved for students is:
 
-`Output/to-pickle/snow_area_monthly_north_hemisphere.npy`
+`Output/to-pickle/SCA_NH_monthly.npy`
 
 Each calendar month contains `time`, `area`, and `anomaly` series.
+
+## March and October decadal maps
+
+For March and October, the script constructs monthly SCFG fields for the first 10 years (1979-1988) and last 10 years (2014-2023) of the record. Each 0.1-degree monthly field is area-averaged over 5 by 5 cells to a true 0.5-degree grid before the 10 annual fields are averaged. The maps render these 0.5-degree grid cells directly and show continuous mean SCFG in percent, rather than applying an arbitrary threshold to make binary snow/no-snow extent. The difference panel is the 2014-2023 mean minus the 1979-1988 mean, in percentage points; pink denotes a decrease and green an increase.
+
+The four decadal mean fields are cached at:
+
+`~/Downloads/snow-cover-data/nh_scfg_decadal_maps_xiao_fig17a_era5land_0p1_v1_0p5.npz`
+
+The Northern Hemisphere polar figures are saved as:
+
+- `Output/snow-cover-march-scfg-decadal-maps.pdf`
+- `Output/snow-cover-october-scfg-decadal-maps.pdf`
+
+The four plotted decadal means are also saved as NumPy arrays under `Output/to-pickle`: `SCA_March_1979_1988.npy`, `SCA_March_2014_2023.npy`, `SCA_October_1979_1988.npy`, and `SCA_October_2014_2023.npy`. Their values are mean SCFG in percent. The matching grid-center coordinates, in degrees east and degrees north, are saved as `SCA_longitude.npy` and `SCA_latitude.npy`.
 
 ## Reproducing the calculation
 
 Run:
 
 ```bash
-python calc_snow_extent_NH.py
+python calc_snow_area_NH.py
 ```
 
-If the monthly cache is incomplete and the ERA5-Land mask source is absent, the run also requires `cdsapi` and configured Copernicus CDS credentials in `~/.cdsapirc`.
+The map figures require `cartopy`. If the monthly cache is incomplete and the ERA5-Land mask source is absent, the run also requires `cdsapi` and configured Copernicus CDS credentials in `~/.cdsapirc`.
 
 For a short test run after the archives have been downloaded and extracted:
 
 ```bash
-SNOW_CCI_MAX_MONTHS=3 python calc_snow_extent_NH.py
+SNOW_CCI_MAX_MONTHS=3 python calc_snow_area_NH.py
 ```
 
 The partial monthly results are cached, but figures are not written until all
