@@ -34,6 +34,7 @@ plt.rcParams["font.size"] = 10
 
 START_DATE = pd.Timestamp("1979-01-01")
 END_DATE = pd.Timestamp("2023-12-31")
+STUDY_MONTHS = pd.date_range(START_DATE, END_DATE, freq="MS")
 
 OUTPUT_DIR = Path("Output/to-pickle")
 SEASONAL_FIGURE = Path("Output/snow-cover-seasonal-timeseries.pdf")
@@ -63,19 +64,17 @@ def log(message):
     print(message, flush=True)
 
 
-def download_file(url, destination, expected_size=None):
+def download_file(url, destination, expected_size):
     destination.parent.mkdir(parents=True, exist_ok=True)
     partial_destination = destination.with_suffix(destination.suffix + ".part")
 
-    if destination.exists() and (expected_size is None or destination.stat().st_size == expected_size):
+    if destination.exists() and destination.stat().st_size == expected_size:
         log(f"Using existing file: {destination}")
         return
 
-    if partial_destination.exists():
-        partial_destination.unlink()
+    partial_destination.unlink(missing_ok=True)
 
-    last_error = None
-    for attempt in range(1, DOWNLOAD_RETRIES + 1):
+    for attempt in range(DOWNLOAD_RETRIES):
         try:
             with requests.get(url, stream=True, timeout=REQUEST_TIMEOUT) as response:
                 response.raise_for_status()
@@ -86,37 +85,27 @@ def download_file(url, destination, expected_size=None):
             partial_destination.replace(destination)
             return
         except requests.exceptions.RequestException as error:
-            last_error = error
-            if attempt < DOWNLOAD_RETRIES:
-                wait_seconds = 2 ** (attempt - 1)
-                log(f"Download failed ({error}); retrying in {wait_seconds} s...")
-                time.sleep(wait_seconds)
-
-    raise last_error
-
-
-def zenodo_files():
-    response = requests.get(ZENODO_RECORD_API, timeout=REQUEST_TIMEOUT)
-    response.raise_for_status()
-    return {item["key"]: item for item in response.json()["files"]}
+            if attempt == DOWNLOAD_RETRIES - 1:
+                raise
+            wait_seconds = 2**attempt
+            log(f"Download failed ({error}); retrying in {wait_seconds} s...")
+            time.sleep(wait_seconds)
 
 
 def download_and_extract_archives():
     archive_names = ["1979-1989.7z", "1990-1999.7z", "2000-2009.7z", "2010-2023.7z"]
-    missing_data_path = DATA_DIR / "Dates List of Missing Data.xlsx"
+    missing_archives = [name for name in archive_names if not (GEOTIFF_DIR / f".{name}.extracted").exists()]
 
-    if all((GEOTIFF_DIR / f".{name}.extracted").exists() for name in archive_names) and missing_data_path.exists():
+    if not missing_archives:
         log("All AVHRR archives are already extracted; no download is needed.")
         return
 
-    files = zenodo_files()
+    response = requests.get(ZENODO_RECORD_API, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    files = {item["key"]: item for item in response.json()["files"]}
 
-    for archive_name in archive_names:
+    for archive_name in missing_archives:
         marker_path = GEOTIFF_DIR / f".{archive_name}.extracted"
-        if marker_path.exists():
-            log(f"Already extracted; skipping archive download: {archive_name}")
-            continue
-
         archive = files[archive_name]
         archive_path = ARCHIVE_DIR / archive_name
         log(f"Archive {archive_name} ({archive['size'] / 1e9:.1f} GB)")
@@ -127,39 +116,27 @@ def download_and_extract_archives():
         subprocess.run(["bsdtar", "-xf", str(archive_path), "-C", str(GEOTIFF_DIR)], check=True)
         marker_path.write_text("ok\n")
 
-    missing_file = files.get("Dates List of Missing Data.xlsx")
-    if missing_file is not None and not missing_data_path.exists():
-        download_file(
-            missing_file["links"]["self"],
-            missing_data_path,
-            expected_size=missing_file["size"],
-        )
 
-
-def date_from_name(path):
-    if match := re.search(r"(?:19|20)\d{6}", path.name):
-        return pd.to_datetime(match.group(0), format="%Y%m%d")
-    return None
-
-
-def build_tiff_index():
+def load_tiff_index():
     if TIFF_INDEX_CACHE.exists():
         tiff_index = pd.read_csv(TIFF_INDEX_CACHE, parse_dates=["time"])
-        if not tiff_index.empty and tiff_index["path"].map(lambda p: Path(p).exists()).all():
-            log(f"Using cached GeoTIFF index: {TIFF_INDEX_CACHE}")
-            return tiff_index
+        log(f"Using cached GeoTIFF index: {TIFF_INDEX_CACHE}")
+        return tiff_index
 
+    download_and_extract_archives()
     log(f"Indexing SCFG GeoTIFF files under {GEOTIFF_DIR}")
     rows = []
     for path in GEOTIFF_DIR.rglob("*.tif*"):
-        file_date = date_from_name(path)
-        if "SCFG" in path.name.upper() and file_date is not None and START_DATE <= file_date <= END_DATE:
-            rows.append({"time": file_date, "path": str(path)})
+        match = re.search(r"(?:19|20)\d{6}", path.name)
+        if "SCFG" in path.name.upper() and match:
+            file_date = pd.to_datetime(match.group(), format="%Y%m%d")
+            if START_DATE <= file_date <= END_DATE:
+                rows.append({"time": file_date, "path": str(path)})
 
-    tiff_index = pd.DataFrame(rows).sort_values("time")
-    if tiff_index.empty:
+    if not rows:
         raise RuntimeError(f"No SCFG GeoTIFF files found under {GEOTIFF_DIR}")
 
+    tiff_index = pd.DataFrame(rows).sort_values("time")
     TIFF_INDEX_CACHE.parent.mkdir(parents=True, exist_ok=True)
     tiff_index.to_csv(TIFF_INDEX_CACHE, index=False)
     log(f"Indexed {len(tiff_index)} SCFG GeoTIFF files: {TIFF_INDEX_CACHE}")
@@ -167,10 +144,10 @@ def build_tiff_index():
 
 
 def era5_land_northern_hemisphere_mask():
-    """Return the ERA5-Land valid-land mask on 90N..0N, -180..179.9."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    """Return the ERA5-Land valid-land mask on 89.9N..0N, -180..179.9."""
 
     if not ERA5_LAND_MASK_SOURCE.exists():
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
         log(f"Downloading ERA5-Land mask source: {ERA5_LAND_MASK_SOURCE}")
         try:
             import cdsapi
@@ -180,8 +157,7 @@ def era5_land_northern_hemisphere_mask():
             ) from error
 
         partial_path = ERA5_LAND_MASK_SOURCE.with_suffix(ERA5_LAND_MASK_SOURCE.suffix + ".part")
-        if partial_path.exists():
-            partial_path.unlink()
+        partial_path.unlink(missing_ok=True)
 
         cdsapi.Client().retrieve(
             "reanalysis-era5-land-monthly-means",
@@ -199,22 +175,8 @@ def era5_land_northern_hemisphere_mask():
         partial_path.replace(ERA5_LAND_MASK_SOURCE)
 
     with xr.open_dataset(ERA5_LAND_MASK_SOURCE) as era5_ds:
-        snow_cover = era5_ds["snowc"].squeeze(drop=True)
-        latitude = np.asarray(snow_cover["latitude"])
-        longitude = np.asarray(snow_cover["longitude"])
-        expected_latitude = np.linspace(90.0, -90.0, 1801)
-        expected_longitude = np.arange(3600) * ERA5_GRID_SPACING_DEGREES
-        if (
-            latitude.shape != expected_latitude.shape
-            or longitude.shape != expected_longitude.shape
-            or not np.allclose(latitude, expected_latitude)
-            or not np.allclose(longitude, expected_longitude)
-        ):
-            raise RuntimeError(
-                "Unexpected ERA5-Land grid; expected latitude 90..-90 and longitude 0..359.9 at 0.1 degrees"
-            )
-
-        mask_zero_to_360 = np.isfinite(np.asarray(snow_cover))[:901, :]
+        snow_cover = era5_ds["snowc"].squeeze(drop=True).sel(latitude=slice(89.9, 0.0))
+        mask_zero_to_360 = np.isfinite(snow_cover.to_numpy())
 
     # Put longitude in -180..179.9 order, matching the AVHRR raster.
     mask_minus180_to_180 = np.roll(mask_zero_to_360, 1800, axis=1)
@@ -226,9 +188,9 @@ def era5_land_northern_hemisphere_mask():
 
 
 def era5_land_northern_hemisphere_row_areas():
-    """Area of one 0.1-degree longitude cell in each ERA5-Land NH row."""
-    latitude_centers = np.arange(90.0, -0.01, -ERA5_GRID_SPACING_DEGREES)
-    north_edges = np.minimum(90.0, latitude_centers + ERA5_GRID_SPACING_DEGREES / 2)
+    """Area of one 0.1-degree longitude cell in each valid ERA5-Land NH row."""
+    latitude_centers = np.arange(89.9, -0.01, -ERA5_GRID_SPACING_DEGREES)
+    north_edges = latitude_centers + ERA5_GRID_SPACING_DEGREES / 2
     south_edges = latitude_centers - ERA5_GRID_SPACING_DEGREES / 2
     lon_width = np.deg2rad(ERA5_GRID_SPACING_DEGREES)
     return EARTH_RADIUS_KM**2 * np.abs(np.sin(np.deg2rad(north_edges)) - np.sin(np.deg2rad(south_edges))) * lon_width
@@ -237,8 +199,6 @@ def era5_land_northern_hemisphere_row_areas():
 def read_northern_hemisphere_scfg(path):
     with Image.open(path) as image:
         data = np.asarray(image)
-    if data.shape != (3600, 7200):
-        raise RuntimeError(f"Unexpected AVHRR grid shape {data.shape} in {path}")
     # Include the first Southern Hemisphere row so the ERA5-Land cell
     # centered on 0 degrees can average source pixels centered at +/-0.025.
     return data[:1801]
@@ -246,29 +206,14 @@ def read_northern_hemisphere_scfg(path):
 
 def aggregate_scfg_to_era5_land(monthly_scfg_fraction, valid, era5_land_mask):
     """Average 0.05-degree AVHRR cells within aligned 0.1-degree ERA5 cells."""
-    if monthly_scfg_fraction.shape != (1801, 7200) or valid.shape != monthly_scfg_fraction.shape:
-        raise RuntimeError(
-            f"Expected matching AVHRR arrays with shape (1801, 7200), got {monthly_scfg_fraction.shape} and {valid.shape}"
-        )
-    if era5_land_mask.shape != (901, 3600):
-        raise RuntimeError(f"Expected ERA5-Land NH mask shape (901, 3600), got {era5_land_mask.shape}")
-
     # ERA5 longitude 0.0 is centered on the AVHRR pixels at -0.025 and
     # +0.025 degrees. Rolling puts the dateline pair first on a -180..179.9
     # target grid; each subsequent adjacent pair is centered on 0.1 degrees.
-    scfg = np.roll(monthly_scfg_fraction, 1, axis=1)
-    source_valid = np.roll(valid, 1, axis=1)
-
-    coarse_sum = np.zeros((901, 3600), dtype=np.float32)
-    coarse_count = np.zeros((901, 3600), dtype=np.uint8)
-
-    # The 90-degree ERA5 row is a half cell and has no valid ERA5-Land
-    # points, but populate it consistently from the single AVHRR latitude row.
-    coarse_sum[0] = scfg[0, 0::2] + scfg[0, 1::2]
-    coarse_count[0] = source_valid[0, 0::2] + source_valid[0, 1::2]
-
-    coarse_sum[1:] = scfg[1:].reshape(900, 2, 3600, 2).sum(axis=(1, 3))
-    coarse_count[1:] = source_valid[1:].reshape(900, 2, 3600, 2).sum(axis=(1, 3))
+    # The unused 90-degree ERA5 row is omitted; it contains no valid land.
+    scfg = np.roll(monthly_scfg_fraction[1:], 1, axis=1).reshape(900, 2, 3600, 2)
+    source_valid = np.roll(valid[1:], 1, axis=1).reshape(900, 2, 3600, 2)
+    coarse_sum = scfg.sum(axis=(1, 3), dtype=np.float32)
+    coarse_count = source_valid.sum(axis=(1, 3), dtype=np.uint8)
 
     coarse_scfg_fraction = np.divide(
         coarse_sum,
@@ -281,15 +226,12 @@ def aggregate_scfg_to_era5_land(monthly_scfg_fraction, valid, era5_land_mask):
 
 
 def snow_area_from_month_files(paths, era5_land_mask):
-    if len(paths) < MIN_VALID_OBSERVATIONS_PER_PIXEL:
-        return np.nan, 0.0
-
     scfg_sum = np.zeros((1801, 7200), dtype=np.float32)
-    valid_count = np.zeros((1801, 7200), dtype=np.uint16)
+    valid_count = np.zeros((1801, 7200), dtype=np.uint8)
 
     for path in paths:
         nh_data = read_northern_hemisphere_scfg(path)
-        valid = (nh_data >= 0) & (nh_data <= 100)
+        valid = nh_data <= 100
 
         scfg_sum += np.where(valid, nh_data, 0).astype(np.float32)
         valid_count += valid
@@ -315,67 +257,52 @@ def snow_area_from_month_files(paths, era5_land_mask):
     return snow_area_mkm2, valid_area_mkm2
 
 
-def build_monthly_area_series(tiff_index, era5_land_mask):
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    tiff_index = tiff_index.assign(month=tiff_index["time"].dt.to_period("M").dt.to_timestamp())
-
+def build_monthly_area_series():
+    columns = ["time", "area", "valid_area", "daily_files"]
     if MONTHLY_AREA_CACHE.exists():
-        monthly_area = pd.read_csv(
-            MONTHLY_AREA_CACHE, parse_dates=["time"], usecols=["time", "area", "valid_area", "daily_files"]
-        )
-        completed_months = set(monthly_area["time"])
+        monthly_area = pd.read_csv(MONTHLY_AREA_CACHE, parse_dates=["time"], usecols=columns)
         log(f"Loaded {len(monthly_area)} cached monthly areas from {MONTHLY_AREA_CACHE}")
     else:
-        monthly_area = pd.DataFrame(columns=["time", "area", "valid_area", "daily_files"])
-        completed_months = set()
+        monthly_area = pd.DataFrame(columns=columns)
         log(f"New monthly cache will be written to {MONTHLY_AREA_CACHE}")
 
+    missing_months = set(STUDY_MONTHS) - set(monthly_area["time"])
+    if not missing_months:
+        return monthly_area.sort_values("time")
+
+    tiff_index = load_tiff_index()
+    tiff_index["month"] = tiff_index["time"].dt.to_period("M").dt.to_timestamp()
     remaining = [
-        (month, group) for month, group in tiff_index.groupby("month", sort=True) if month not in completed_months
+        (month, group) for month, group in tiff_index.groupby("month", sort=True) if month in missing_months
     ]
     max_months = os.environ.get("SNOW_CCI_MAX_MONTHS")
     if max_months:
         remaining = remaining[: int(max_months)]
 
     if not remaining:
-        log("All indexed months are already cached.")
-        return monthly_area.sort_values("time")
+        raise RuntimeError("The monthly cache is incomplete, but the GeoTIFF index contains none of the missing months.")
 
+    era5_land_mask = era5_land_northern_hemisphere_mask()
     log(f"Processing {len(remaining)} AVHRR10C1.V4 monthly SCFG fields")
     log(
         "For each pixel, monthly SCFG is the mean of valid daily values "
         f"when at least {MIN_VALID_OBSERVATIONS_PER_PIXEL} valid observations exist"
     )
-    new_rows = []
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     run_start = time.perf_counter()
-
-    def save_new_rows():
-        nonlocal monthly_area, new_rows
-        if not new_rows:
-            return
-        new_monthly_area = pd.DataFrame(new_rows)
-        monthly_area = (
-            new_monthly_area
-            if monthly_area.empty
-            else pd.concat([monthly_area, new_monthly_area], ignore_index=True)
-        )
-        monthly_area.sort_values("time", inplace=True)
-        monthly_area.to_csv(MONTHLY_AREA_CACHE, index=False)
-        log(f"    saved {len(monthly_area)} cached monthly areas to {MONTHLY_AREA_CACHE}")
-        new_rows.clear()
 
     for n, (month, group) in enumerate(remaining, start=1):
         month_start = time.perf_counter()
         paths = group.sort_values("time")["path"].tolist()
         area, valid_area = snow_area_from_month_files(paths, era5_land_mask)
-        new_rows.append(
-            {
-                "time": month,
-                "area": area,
-                "valid_area": valid_area,
-                "daily_files": len(paths),
-            }
-        )
+        monthly_area.loc[len(monthly_area)] = {
+            "time": month,
+            "area": area,
+            "valid_area": valid_area,
+            "daily_files": len(paths),
+        }
+        monthly_area.sort_values("time", inplace=True, ignore_index=True)
+        monthly_area.to_csv(MONTHLY_AREA_CACHE, index=False)
 
         elapsed = time.perf_counter() - run_start
         eta_hours = elapsed / n * (len(remaining) - n) / 3600
@@ -385,20 +312,17 @@ def build_monthly_area_series(tiff_index, era5_land_mask):
             f"files={len(paths)}; month={time.perf_counter() - month_start:.1f} s; ETA={eta_hours:.1f} h"
         )
 
-        if n % 12 == 0:
-            save_new_rows()
-
-    save_new_rows()
     return monthly_area.sort_values("time")
 
 
-def monthly_area_dataarray(monthly_area):
-    return xr.DataArray(monthly_area["area"], coords={"time": pd.to_datetime(monthly_area["time"])}, dims="time")
+def monthly_area_series(monthly_area):
+    """Return the cached area values as a time-indexed pandas series."""
+    return monthly_area.set_index("time")["area"].sort_index().loc[START_DATE:END_DATE]
 
 
 def anomaly_dataframe(data):
     """Return area, anomaly, and linear trend columns for a time series."""
-    frame = pd.DataFrame({"time": pd.to_datetime(data["time"].to_numpy()), "area": data.to_numpy()})
+    frame = data.rename("area").rename_axis("time").reset_index()
     frame["anomaly"] = frame["area"] - frame["area"].mean()
     frame["decimal_year"] = frame["time"].dt.year + frame["time"].dt.dayofyear / 365.25
     regression = stats.linregress(frame["decimal_year"], frame["anomaly"])
@@ -425,31 +349,27 @@ def finish_figure(fig, path):
 
 
 def plot_seasonal_anomalies(monthly_area):
-    total_area_mkm2 = monthly_area_dataarray(monthly_area)
-
-    seasonal_ds = total_area_mkm2.resample(time="QS-DEC").mean(dim="time")
-    seasonal_counts = total_area_mkm2.resample(time="QS-DEC").count(dim="time")
-
-    season_names = {
-        "DJF": "Winter (Dec-Feb)",
-        "MAM": "Spring (Mar-May)",
-        "JJA": "Summer (Jun-Aug)",
-        "SON": "Autumn (Sep-Nov)",
-    }
+    area = monthly_area_series(monthly_area)
+    seasonal = pd.DataFrame(
+        {
+            "area": area.resample("QS-DEC").mean(),
+            "count": area.resample("QS-DEC").count(),
+        }
+    )
+    seasons = [
+        (12, "DJF", "Winter (Dec-Feb)"),
+        (3, "MAM", "Spring (Mar-May)"),
+        (6, "JJA", "Summer (Jun-Aug)"),
+        (9, "SON", "Autumn (Sep-Nov)"),
+    ]
 
     fig, axes = plt.subplots(2, 2, figsize=(8, 6))
     snow_area_north_hemisphere = {}
 
-    for i, (ax, (season, season_name)) in enumerate(zip(axes.flat, season_names.items())):
-        season_data = seasonal_ds.sel(time=seasonal_ds.time.dt.season == season)
-        season_count = seasonal_counts.sel(time=seasonal_counts.time.dt.season == season)
-        season_data = season_data.sel(time=slice(START_DATE, END_DATE))
-        season_count = season_count.sel(time=slice(START_DATE, END_DATE))
-        season_data = season_data.where(season_count == 3).dropna(dim="time")
-
-        if season_data.size == 0:
-            continue
-
+    for i, (ax, (start_month, season, season_name)) in enumerate(zip(axes.flat, seasons)):
+        season_data = seasonal.loc[
+            (seasonal.index.month == start_month) & (seasonal["count"] == 3), "area"
+        ]
         df, regression = anomaly_dataframe(season_data)
         snow_area_north_hemisphere[season] = {name: df[name] for name in ("time", "area", "anomaly")}
         plot_anomaly_lines(
@@ -476,20 +396,14 @@ def plot_seasonal_anomalies(monthly_area):
 
 
 def plot_monthly_anomalies(monthly_area):
-    monthly_ds = monthly_area_dataarray(monthly_area)
+    area = monthly_area_series(monthly_area)
     month_names = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
     fig, axes = plt.subplots(4, 3, figsize=(9, 10), sharex=True)
     monthly_snow_area = {}
 
     for month, ax in enumerate(axes.flat, start=1):
-        month_data = monthly_ds.sel(time=monthly_ds.time.dt.month == month).sel(time=slice(START_DATE, END_DATE))
-        month_data = month_data.dropna("time")
-
-        if month_data.size == 0:
-            ax.set_title(month_names[month - 1], fontsize=11)
-            continue
-
+        month_data = area[area.index.month == month].dropna()
         df, regression = anomaly_dataframe(month_data)
 
         monthly_snow_area[month_names[month - 1]] = {name: df[name] for name in ("time", "area", "anomaly")}
@@ -517,12 +431,8 @@ def plot_monthly_anomalies(monthly_area):
 
 
 def plot_march_anomaly_xiao_style(monthly_area):
-    monthly_ds = monthly_area_dataarray(monthly_area)
-    march_data = monthly_ds.sel(time=monthly_ds.time.dt.month == 3).sel(time=slice(START_DATE, END_DATE)).dropna("time")
-
-    if march_data.size == 0:
-        raise RuntimeError("No March AVHRR10C1.V4 SCFG monthly areas are available to plot.")
-
+    area = monthly_area_series(monthly_area)
+    march_data = area[area.index.month == 3].dropna()
     df, regression = anomaly_dataframe(march_data)
 
     fig, ax = plt.subplots(figsize=(7.2, 4.0))
@@ -551,13 +461,11 @@ def plot_march_anomaly_xiao_style(monthly_area):
 
 
 def main():
-    era5_land_mask = era5_land_northern_hemisphere_mask()
-    download_and_extract_archives()
-    tiff_index = build_tiff_index()
-    monthly_area = build_monthly_area_series(tiff_index, era5_land_mask)
-
-    if monthly_area.empty:
-        raise RuntimeError("No AVHRR10C1.V4 SCFG monthly fields were processed.")
+    monthly_area = build_monthly_area_series()
+    missing_months = set(STUDY_MONTHS) - set(monthly_area["time"])
+    if missing_months:
+        log(f"Monthly cache still lacks {len(missing_months)} months; skipping figures until it is complete.")
+        return
 
     plot_seasonal_anomalies(monthly_area)
     plot_monthly_anomalies(monthly_area)
