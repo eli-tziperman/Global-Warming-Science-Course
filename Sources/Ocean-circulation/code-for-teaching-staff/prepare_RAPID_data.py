@@ -20,8 +20,8 @@ def sine_fit_cost(x):
 # ----------
 filename='../../../Data-for-teaching-staff/Ocean-circulation/RAPID/RAPID_moc_transports.nc';
 ncfile = Dataset(filename, 'r');
-RAPID_AMOC_data = np.array(ncfile.variables['moc_mar_hc10'][:])
-RAPID_time = np.array(ncfile.variables['time'][:])
+RAPID_AMOC_data = np.array(ncfile.variables['amoc_depth_5d'][:])
+RAPID_time = np.array(ncfile.variables['time_5d'][:])
 
 
 # use only unmasked data values and smooth data:
@@ -32,9 +32,9 @@ RAPID_AMOC_data = RAPID_AMOC_data[RAPID_AMOC_data>-1000.0]
 
 # get an array of dates for the time axis:
 # ----------------------------------------
-# time:units = "days since 2004-4-1 00:00:00"
+# time_5d:units = "days since 1950-01-01"
 # translate time to days since 2004-01-01:
-RAPID_time=RAPID_time+91.
+RAPID_time=RAPID_time-19723.
 # get an array of dates for the time axis
 dates=[]
 for i in range(0,len(RAPID_time)):
@@ -43,7 +43,7 @@ for i in range(0,len(RAPID_time)):
     
 # smooth data:
 # ------------
-N=59 # use an odd number
+N=7 # odd window spanning 30 days between first and last samples
 RAPID_AMOC_data_smooth = np.convolve(RAPID_AMOC_data, np.ones((N,))/N, mode='valid')
 RAPID_time_smooth=RAPID_time[int(np.floor(N/2)):-int(np.floor(N/2))]
 RAPID_dates_smooth=dates[int(np.floor(N/2)):-int(np.floor(N/2))]
