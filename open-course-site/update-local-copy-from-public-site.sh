@@ -6,4 +6,4 @@ set -o verbose
 set -e
 
 dir=/Users/eli/public_html/eli/Courses/EPS101
-myrsync dry-run $dir/index.html $dir/lecture-outline.html $dir/image-credits.html $dir/textbook.html $dir/images $dir/js $dir/css ~/Courses/EPS101/open-course-site/
+myrsync dry-run --checksum --omit-dir-times $dir/index.html $dir/lecture-outline.html $dir/image-credits.html $dir/textbook.html $dir/images $dir/js $dir/css ~/Courses/EPS101/open-course-site/
